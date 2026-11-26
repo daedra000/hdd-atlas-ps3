@@ -1,0 +1,652 @@
+# HDD Atlas in Russian: "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	Это нужно webMAN, чтобы смонтировать игру с диска NTFS.
+A disc image's decryption key: webMAN needs it to mount it.	Ключ расшифровки образа диска: он нужен webMAN для монтирования.
+Installed games: delete them from the XMB (it keeps their icons).	Установленные игры: удаляйте их через XMB (он хранит их значки).
+Music, video and photos: delete them from the XMB (it keeps a list of them).	Музыка, видео и фото: удаляйте их через XMB (он ведёт их список).
+Saves, trophies and licences: delete them from the XMB.	Сохранения, призы и лицензии: удаляйте их через XMB.
+The system's own: never deleted.	Принадлежит системе: никогда не удаляется.
+TB	ТБ
+GB	ГБ
+MB	МБ
+KB	КБ
+B	Б
+reallocated sectors	переназначенных секторов
+sectors waiting to be reallocated	секторов, ждущих переназначения
+uncorrectable sectors	неисправимых секторов
+reported uncorrectable errors	сообщённых неисправимых ошибок
+reallocation events	переназначений
+Life left	Остаток ресурса
+Wear levelling count	Выравнивание износа
+Used reserve blocks	Использованные резервные блоки
+Unused reserve blocks	Свободные резервные блоки
+Media wearout	Износ носителя
+Reserved space left	Остаток резерва
+Total written	Всего записано
+Read error rate	Частота ошибок чтения
+Throughput performance	Производительность передачи
+Spin-up time	Время раскрутки
+Start/stop count	Запуски и остановки
+Reallocated sectors	Переназначенные секторы
+Seek error rate	Частота ошибок позиционирования
+Seek time performance	Производительность позиционирования
+Power-on hours	Часы работы
+Spin retry count	Повторы раскрутки
+Calibration retries	Повторы калибровки
+Power cycles	Циклы включения
+Program fails	Ошибки программирования
+Erase fails	Ошибки стирания
+Unexpected power losses	Внезапные отключения питания
+Wear range delta	Разброс износа
+Interface downshifts	Снижения скорости интерфейса
+End-to-end errors	Сквозные ошибки
+Reported uncorrectable	Сообщённые неисправимые
+Command timeouts	Тайм-ауты команд
+High fly writes	Запись на завышенной высоте
+Airflow temperature	Температура воздуха
+G-sense errors	Ошибки от ударов
+Power-off retracts	Парковки при выключении
+Load cycles	Циклы загрузки
+Temperature	Температура
+ECC recovered	Исправлено ECC
+Reallocation events	Переназначения
+Pending sectors	Ожидающие секторы
+Uncorrectable sectors	Неисправимые секторы
+Interface CRC errors	Ошибки CRC интерфейса
+Write error rate	Частота ошибок записи
+Disk shift	Смещение пластин
+Loaded hours	Часы с загруженными головками
+Load retries	Повторы загрузки
+Load friction	Трение при загрузке
+Load-in time	Время загрузки
+Head flying hours	Часы полёта головок
+Total read	Всего прочитано
+Free fall events	Замеченные падения
+Vendor specific	Специфичный для производителя
+Games & game data	Игры и данные игр
+Disc game backups	Копии дисков с играми
+Saves, trophies & licences	Сохранения, призы и лицензии
+Themes	Темы
+Music, video & photos	Музыка, видео и фото
+Packages, tmp & caches	Пакеты, tmp и кэш
+System & other folders	Система и прочие папки
+System partitions	Системные разделы
+Unaccounted	Неучтённое
+Games	Игры
+Backups	Копии
+Saves	Сохранения
+Media	Медиа
+Packages	Пакеты
+System	Система
+Partitions	Разделы
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	%s перестал отвечать во время сканирования, и все диски NTFS ждут его: перезапустите консоль, чтобы снова ими пользоваться.
+%s stopped answering during its scan: restart the console to use it again.	%s перестал отвечать во время сканирования: перезапустите консоль, чтобы снова им пользоваться.
+Emptied %d old entries from the recycle bin: %s freed.	Окончательно удалено старых записей из корзины: %d, освобождено %s.
+No scan can start till the console restarts: %s stopped answering during its scan.	Сканирование не начнётся, пока консоль не перезапущена: %s перестал отвечать во время сканирования.
+A scan of %s is running: one at a time.	%s уже сканируется: по одному.
+Drive health found this drive wearing out: back up what matters first.	Состояние диска показывает износ: сначала сделайте копию важного.
+Scanning: things may be slow until it's done. The menu's back after it.	Идёт сканирование: до конца всё может работать медленно. Меню вернётся после.
+The scan couldn't start (see the log).	Не удалось начать сканирование (см. журнал).
+Rescanning %s; the rest stays as it was.	Пересканирую %s; остальное остаётся как было.
+Internal HDD	Внутренний HDD
+Scan of %s finished in %.1f s.	Сканирование %s завершено за %.1f с.
+Scan stopped. The last scan is shown.	Сканирование остановлено. Показано последнее сканирование.
+The scan didn't finish (see the log).	Сканирование не завершилось (см. журнал).
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	Части диска вне раздела, который сканирует HDD Atlas: кэш игр на 2 ГБ, системная флеш-память на большинстве моделей и записи файловой системы о каждом файле (несколько процентов диска). Ничего из этого освободить нельзя.
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	Занятое место, которое не объясняет ни один файл. Большая часть — то, что файловая система держит свободным для себя: 8 процентов диска с завода, 1 процент после unlockhdd в webMAN. Остальное — последние блоки файлов, округлённые вверх. Ничего из этого отсюда освободить нельзя.
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	Здесь файлы в сумме больше занятого места: некоторые посчитаны дважды. webMAN может связывать файлы игры между GAMES и game: одна копия на диске считается за две.
+Press Circle again to quit.	Нажмите Круг ещё раз, чтобы выйти.
+Press X again to quit.	Нажмите X ещё раз, чтобы выйти.
+The menu opens once the scan's done.	Меню откроется, когда сканирование закончится.
+Not scanned yet	Ещё не сканировано
+Free space has dropped by %s since this scan	Свободное место уменьшилось на %s с этого сканирования
+Free space has grown by %s since this scan	Свободное место увеличилось на %s с этого сканирования
+Scanned %s  ·  1 delete since	Сканировано %s  ·  с тех пор удалений: 1
+Scanned %s  ·  %u deletes since	Сканировано %s  ·  с тех пор удалений: %u
+Scanned %s  ·  took %.0f s	Сканировано %s  ·  заняло %.0f с
+%s used of %s	Занято %s из %s
+%s used of %s  ·  %s	Занято %s из %s  ·  %s
+%s files in %s folders	%s файлов в %s папках
+  ·  %llu couldn't be read (skipped)	  ·  %llu не прочитано (пропущено)
+%s free	Свободно %s
+%s free  ·  drive size unknown	Свободно %s  ·  размер диска неизвестен
+%s  ·  %u item	%s  ·  элементов: %u
+%s  ·  %u items	%s  ·  элементов: %u
+No scan of %s yet. Press Triangle to scan it.	%s ещё не сканировался. Нажмите Треугольник, чтобы сканировать.
+(%s is being scanned: one at a time.)	(%s сканируется: по одному.)
+Scanning %s	Сканирую %s
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s из %s  ·  %s файлов
+%s  ·  %s files	%s  ·  %s файлов
+The first scan of a full HDD can take a few minutes.	Первое сканирование заполненного диска может занять несколько минут.
+Scanning  %d%%	Сканирую  %d%%
+Scanning %s  %d%%  ·  %s files	Сканирую %s  %d%%  ·  %s файлов
+%s files	файлов: %s
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	%s выдаёт ошибки чтения, поэтому сканирование пропустило то, что не смогло прочитать. Обычно это признак повреждённых секторов.
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	%s выдаёт ошибки чтения, поэтому сканирование не смогло завершиться. Обычно это признак повреждённых секторов.
+Drive health shows whether the drive has bad sectors, and what to do if it has.	Состояние диска покажет, есть ли на диске плохие секторы и что тогда делать.
+Some of the drive couldn't be read	Часть диска не читается
+The scan didn't finish	Сканирование не завершилось
+OK	OK
+Drive health	Состояние диска
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	%s не отвечал 5 минут, поэтому сканирование прервано. Обычно это диск не может прочитать данные здесь:
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	Отправьте hddatlas_log.txt из /dev_hdd0/game/HDAT00001/USRDIR на ps3.world/contact (hddatlas_log_prev.txt, если HDD Atlas с тех пор запускался снова). Новое сканирование может не начаться до перезагрузки консоли.
+The scan got stuck	Сканирование зависло
+Check this drive's health on a PC (its SMART data) before trusting it with more.	Проверьте состояние этого диска на ПК (его SMART), прежде чем доверять ему больше.
+Overview	Обзор
+Open	Открыть
+What's this	Что это
+Largest	Крупнейшие
+Largest items	Крупнейшие элементы
+Rescan	Пересканировать
+Scan	Сканировать
+Stop scan	Остановить
+Back	Назад
+Menu	Меню
+Music off	Выключить музыку
+Music on	Включить музыку
+Drive	Диск
+Deleting is off.	Удаление выключено.
+Deleting is off: turn it on in Settings (START on the overview).	Удаление выключено: включите его в Настройках (START в обзоре).
+This NTFS drive is read-only: Windows didn't close it cleanly.	Этот диск NTFS только для чтения: Windows не закрыла его корректно.
+This can't be deleted here.	Это нельзя удалить здесь.
+A package is being installed: delete this once that's done.	Идёт установка пакета: удалите это, когда она закончится.
+Wait for the scan to finish, then delete.	Дождитесь конца сканирования, потом удаляйте.
+The recycle bin's empty.	Корзина пуста.
+The recycle bin	Корзина
+Not deleted	Не удалено
+No memory to start.	Не хватает памяти, чтобы начать.
+Deleted	Удалено
+Stopped part way	Остановлено на полпути
+Not deleted: it isn't the same as %s, byte for byte.	Не удалено: он не совпадает с %s байт в байт.
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	Не удалено: оно ещё меняется, возможно, туда пишет установка. Попробуйте позже.
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	Не удалено: установка писала туда за последние сутки и, возможно, ещё нуждается в этом. Попробуйте завтра.
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	Не удалено: другой копии (%s) больше нет, так что эта последняя.
+In the recycle bin	В корзине
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	Перемещено в корзину (%s). Место освободится, когда корзину очистят: Корзина в меню.
+Deleted: %s freed.	Удалено: освобождено %s.
+Stopped part way: %s freed, the rest is still there.	Остановлено на полпути: освобождено %s, остальное на месте.
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	Удалено, но осталось %u элементов (ссылки или то, что не удалилось): освобождено %s.
+Not deleted: error 0x%08x at %s. %s freed.	Не удалено: ошибка 0x%08x на %s. Освобождено %s.
+Deleting is on: START on a row that can go.	Удаление включено: START на строке, которую можно удалить.
+Allow deleting?	Разрешить удаление?
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	HDD Atlas сможет удалять образы дисков (PS3ISO, PS2ISO...), копии папок в GAMES, оставшиеся пакеты, ROM и кэш webMAN: по одной строке, каждую только после удержания X. Удалённое не вернуть.
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	HDD Atlas сможет удалять образы дисков (PS3ISO, PS2ISO...), копии папок в GAMES, оставшиеся пакеты, ROM и кэш webMAN: по одной строке, каждую только после удержания Круга. Удалённое не вернуть.
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	Установленные игры, сохранения, призы, музыка, видео и фото остаются за XMB (он ведёт их список). Системные папки не трогаются никогда. В Настройках это можно снова выключить.
+Allow deleting	Разрешить удаление
+Cancel	Отмена
+Delete this disc image?	Удалить этот образ диска?
+Delete this folder backup?	Удалить эту копию папки?
+Delete this package?	Удалить этот пакет?
+Delete this ROM?	Удалить этот ROM?
+Delete this webMAN cache file?	Удалить этот файл кэша webMAN?
+Delete this leftover install?	Удалить эту незавершённую установку?
+Delete it for good?	Удалить навсегда?
+Delete this system update?	Удалить это обновление системы?
+Empty the recycle bin?	Очистить корзину?
+Move it to the recycle bin?	Переместить в корзину?
+Deleting...	Удаление...
+and %s with it	и %s вместе с ним
+Nothing's freed till the recycle bin's emptied.	Ничего не освободится, пока корзина не очищена.
+Free: %s  →  about %s	Свободно: %s  →  около %s
+If it was a game update, install that update again afterwards.	Если это было обновление игры, потом установите его заново.
+It can't be undone.	Это нельзя отменить.
+It waits in the recycle bin for %d days first.	Сначала полежит в корзине дней: %d.
+It waits in the recycle bin till that's emptied.	Лежит в корзине, пока её не очистят.
+Delete	Удалить
+Hold to delete	Удерживайте для удаления
+Back to Cancel	Назад к Отмене
+Pick Delete	Выбрать Удалить
+Checking it's the same as the other copy: %s of %s	Проверка, что он совпадает с другой копией: %s из %s
+Stopping...	Остановка...
+Stop	Стоп
+%s of %s files  ·  %s	%s из %s файлов  ·  %s
+%s went from %lld to %lld since %s.	%s: было %lld, стало %lld с %s.
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	Не удалось записать журнал в USRDIR, поэтому диск не опрашивался.
+lv2 wouldn't open the drive (0x%08x).	lv2 не смог открыть диск (0x%08x).
+The drive didn't answer IDENTIFY (0x%08x).	Диск не ответил на IDENTIFY (0x%08x).
+The drive didn't give its SMART data (0x%08x).	Диск не выдал данные SMART (0x%08x).
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	Диск ответил, но ничем, что читается как IDENTIFY (так делает эмулятор).
+No memory for the reading.	Не хватает памяти для показания.
+GOOD	ХОРОШО
+CAUTION	ВНИМАНИЕ
+FAILING	ОТКАЗЫВАЕТ
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	%s на уровне %d, на пороге %d или ниже: диск сообщает о неисправности.
+%s is at %d, at or below its threshold of %d.	%s на уровне %d, на пороге %d или ниже.
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s: флеш-память изнашивается. Сделайте копию важного.
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s: поверхность изнашивается. Сделайте копию важного.
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	Остаток ресурса: %d%%. Флеш-память почти изношена. Сделайте копию важного.
+Running hot (%d °C). Check the console's vents.	Сильный нагрев (%d °C). Проверьте вентиляционные отверстия консоли.
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	Нет переназначенных, ожидающих или неисправимых секторов, и ничего ниже порога.
+SSD	SSD
+%d rpm	%d об/мин
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  прошивка %s  ·  серийный номер %s
+internal drive	внутренний накопитель
+internal HDD	внутренний HDD
+  ·  (the data's checksum is off)	  ·  (контрольная сумма данных не сходится)
+Powered on	Включён
+Reallocated	Переназначено
+Pending	Ожидают
+Uncorrectable	Неисправимо
+%s h	%s ч
+%lld days	%lld дн.
+sectors	секторов
+Read on	Прочитано
+No readings kept yet.	Сохранённых показаний пока нет.
+Attribute	Атрибут
+Value	Значение
+Worst	Худшее
+Thresh.	Порог
+Threshold	Порог
+Raw	Сырое
+pre-fail	до сбоя
+The verdict	Вердикт
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	Хорошо: нет изношенных секторов, ни один атрибут не на пороге, и диск не перегревается. Внимание: диск работает, но часть секторов износилась, атрибут старения перешёл порог или температура выше 55 °C: сохраните копию важного. Отказывает: атрибут «до сбоя» на пороге или ниже, то есть сам диск ждёт скорого отказа: скопируйте то, что хотите сохранить.
+The six figures	Шесть показателей
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	Температура: ниже 50 °C — нормально; выше 55 °C проверьте вентиляцию и пыль в консоли. Включён: сколько часов диск проработал за всю жизнь. Циклы включения: сколько раз его включали.
+Bad sectors	Плохие сектора
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	Переназначено: сектора, которые испортились и были заменены резервными. Ожидают: сектора, которые диск не смог прочитать; они ждут перезаписи или замены. Неисправимо: чтения, которые не удались даже после коррекции ошибок, так что их содержимое могло пропасть. У здорового диска все три равны 0. Несколько — не страшно, но число, которое всё растёт, — самый верный признак, что диск доживает своё.
+The table	Таблица
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	Диск оценивает каждый атрибут. Значение — оценка сейчас (у нового обычно 100 или 200; чем ниже, тем хуже), Худшее — самая низкая за всё время, а Порог — предел производителя: на нём или ниже атрибут считается отказавшим. Сырое — собственный счётчик диска за оценкой (часы, сектора, градусы). Его смысл у разных производителей разный, поэтому сравнивайте диск с его же прежними показаниями, а не с другим диском.
+Pre-fail and old-age	До сбоя и старение
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	Диск помечает каждый атрибут как тот или другой. Атрибуты «до сбоя» (помечены «до сбоя» в таблице) следят за неполадками, которые предшествуют поломке: плохие сектора, медленная раскрутка, ошибки позиционирования. Если один из них на пороге или ниже, диск ждёт скорого отказа. Остальные — атрибуты старения: они следят за обычным износом за годы, как часы и циклы включения. Если один из них перешёл порог, диск изношен, но это не значит, что он вот-вот остановится.
+SSDs	SSD
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	SSD показывает остаток ресурса вместо числа включений: собственную оценку того, сколько расчётного износа его флеш-памяти ещё осталось, у нового 100%. При 10% и ниже оценка — Внимание. На SSD переназначенные секторы — это изношенные блоки флеш-памяти, заменённые резервными, а порог нагрева — 70 °C, так как SSD греются сильнее. Неисправный SSD может просто перестать отвечать вместо того, чтобы сообщать об ошибках: если сканирование каждый раз зависает в одном и том же месте, подозревайте накопитель, даже если SMART в порядке.
+History	История
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	Каждое показание сохраняется: Квадрат показывает их, новые сверху. Число переназначенных, ожидающих или неисправимых секторов, выросшее с прошлого показания, выделено жёлтым. Читайте диск время от времени (Треугольник), чтобы было с чем сравнить.
+It only reads	Только чтение
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART — собственный журнал диска: HDD Atlas только запрашивает его, и на диске ничего не меняется. Изношенный диск он не починит: если диск отказывает, выход — резервная копия и новый диск.
+1. Copy what matters first	1. Сначала скопируйте важное
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	Ваши сохранения лежат в /dev_hdd0/home: скопируйте их на USB-накопитель или ПК через FTP webMAN или multiMAN. В Apollo Save Tool экспортируйте также лицензии (RAP), act.dat и трофеи. Храните всё это вне консоли.
+2. Delete what you don't need	2. Удалите ненужное
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	Старые образы дисков, оставшиеся пакеты, кэши: тогда меньше копировать и меньше читать с отказывающего диска. Удаление файла почти не читает его.
+3. Don't scan again and again	3. Не сканируйте снова и снова
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	Сканирование читает каждую папку диска. Там, где диск не может прочитать, сканирование может встать (HDD Atlas сдаётся через 5 минут), а диск, который без конца повторяет попытки, изнашивается быстрее.
+4. Replace the drive	4. Замените диск
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	Изношенный диск не починить, он будет только хуже. «Резервное копирование» PS3 — лишь запасная страховка: трофеи оно не сохраняет, идёт часами и может споткнуться о повреждённый файл. Скопировать диск на ПК не выйдет: он зашифрован под эту консоль. Вся замена по шагам: ps3.world/upgrade-storage
+If the drive is wearing out	Если диск изнашивается
+What it means	Что это значит
+SMART, read at %s	SMART, прочитано в %s
+Scroll	Прокрутка
+Read the internal HDD's health?	Прочитать состояние внутреннего HDD?
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	HDD Atlas запросит у диска данные SMART: его собственный счёт часов, ошибок и изношенных секторов. Только чтение: на диске ничего не меняется.\n\nЗапрос идёт через системные вызовы хранилища PS3, которые проверены не на всех консолях. Если эта консоль когда-нибудь зависнет, HDD Atlas заметит это при следующем запуске и больше не будет спрашивать.
+Reading the drive's health...	Читаю состояние диска...
+Asking the drive for its SMART data.	Запрашиваю у диска данные SMART.
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	Чтение состояния диска в прошлый раз завесило эту консоль (на «%s»), поэтому HDD Atlas больше не будет спрашивать диск.\n\nЧтобы всё же попробовать, удалите smart_journal.txt в /dev_hdd0/game/HDAT00001/USRDIR.
+Not read: it froze the console before	Не прочитано: консоль раньше зависала
+The drive's health couldn't be read	Не удалось прочитать состояние диска
+Read	Прочитать
+What to do	Что делать
+Try again	Повторить
+Read again	Прочитать снова
+Attributes	Атрибуты
+version %s	версия %s
+Once the scan's done.	Когда сканирование закончится.
+Scan this drive first.	Сначала отсканируйте этот диск.
+Last scanned %s	Последнее сканирование: %s
+%s used of %s  ·  %s free	Занято %s из %s  ·  свободно %s
+Last time: %u min	В прошлый раз: %u мин.
+Last time: %u s	В прошлый раз: %u с
+Last scan	Результаты
+Tools	Инструменты
+Settings	Настройки
+Go through every folder on the drive and add up what's there.	Обходит каждую папку на диске и подсчитывает, что там есть.
+What the last scan found, straight away.	То, что нашло последнее сканирование, сразу.
+Free up space, duplicates, the map, drive health and more.	Освободить место, дубликаты, карта, состояние диска и другое.
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	Язык, музыка, звуки, размеры, сканирование, затемнение, удаление.
+What's using your PS3's space, drive by drive, down to the last file.	Что занимает место на вашей PS3, диск за диском, вплоть до последнего файла.
+Choose	Выбрать
+Quit	Выход
+Blue	Синий
+Teal	Бирюзовый
+Purple	Фиолетовый
+Pink	Розовый
+Orange	Оранжевый
+Green	Зелёный
+High contrast	Высокий контраст
+Largest first	Сначала крупные
+Smallest first	Сначала мелкие
+A-Z	A-Z
+Bookmark removed.	Закладка убрана.
+There are 64 bookmarks already: remove one first.	Закладок уже 64: сначала уберите одну.
+Bookmarked: it's in the menu's Bookmarks.	Закладка добавлена: она в меню, в Закладках.
+It's suggested again.	Снова будет предлагаться.
+There are 512 kept already: unkeep one first.	Уже оставлено 512: сначала снимите отметку с одного.
+Kept: it won't be suggested again (Square here undoes it).	Оставлено: больше не будет предлагаться (Квадрат здесь отменяет).
+Disc images	Образы дисков
+Disc images and data	Образы дисков и данные
+Disc image track lists	Списки дорожек образов дисков
+Licensed game data	Лицензионные данные игр
+Programs	Программы
+Game archives	Архивы игр
+Game data	Данные игры
+Music	Музыка
+Video	Видео
+Pictures	Изображения
+Licences	Лицензии
+Save and game info	Сведения о сохранениях и играх
+Trophies	Призы
+Text and settings	Текст и настройки
+Databases	Базы данных
+Archives	Архивы
+ROMs	ROM
+No extension	Без расширения
+Everything else	Всё остальное
+Recycle bin	Корзина
+SingStar songs	Песни SingStar
+IRISMAN's cache	Кэш IRISMAN
+Apollo's cache	Кэш Apollo
+multiMAN's covers	Обложки multiMAN
+Firmware update	Обновление системы
+(more items)	(другие элементы)
+Newest first	Сначала новые
+Oldest first	Сначала старые
+Where it was wasn't saved: it can't be put back, only deleted for good.	Место не сохранилось: восстановить нельзя, можно только удалить навсегда.
+The recycle bin's being tidied: try again in a moment.	Корзина сейчас приводится в порядок: попробуйте чуть позже.
+Put back, but not its .cue/.bin: that's still in the recycle bin.	Восстановлено, но без .cue/.bin: он ещё в корзине.
+Put back where it was. Its size counts again after the next scan.	Восстановлено на место. Размер снова учтётся после следующего сканирования.
+Something's where it was now: not put back.	На его месте теперь что-то другое: не восстановлено.
+It couldn't be put back (see the log).	Не удалось восстановить (см. журнал).
+It's gone since the scan before.	Пропал с прошлого сканирования.
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	Сверх 50 000 элементов сканирования: их папки не показываются по одной.
+Search by name	Поиск по имени
+It isn't there any more.	Его больше нет.
+It's the only copy left: it isn't deleted from here.	Это последняя копия: отсюда она не удаляется.
+Game	Игра
+Disc game	Игра с диска
+Save	Сохранение
+App	Приложение
+PS2 game	Игра PS2
+PS1 game	Игра PS1
+PSP game	Игра PSP
+Minis	Minis
+Home	Home
+Network	Сеть
+%s  ·  %s file	%s  ·  файлов: %s
+%u couldn't be read	%u не прочитано
+New	Новое
+Gone	Пропало
+%s file	файлов: %s
+  ·  %s folder	  ·  папок: %s
+  ·  %s folders	  ·  папок: %s
+New since the scan: rescan for its size	Новая с момента сканирования: пересканируйте для размера
+Past the folders a scan keeps sizes for	За пределами папок, чей размер хранит сканирование
+Installed %s	Установлено %s
+Backup %s	Копия %s
+Saves %s	Сохранения %s
+Trophies %s	Призы %s
+Kept	Оставлено
+%d copy	Копий: %d
+%d copies	Копий: %d
+Game data %s	Данные игры %s
+Also on %s (%s)	Также на %s (%s)
+never	никогда
+today	сегодня
+%d days ago	%d дн. назад
+%d months ago	%d мес. назад
+%d years ago	%d г. назад
+Last played %s (its newest save)	Последняя игра %s (самое новое сохранение)
+Last changed %s	Последнее изменение %s
+Leftover package (already installed)	Оставшийся пакет (уже установлен)
+webMAN's cache (made again when needed)	Кэш webMAN (создаётся заново, когда нужно)
+Temporary files	Временные файлы
+Extra copy of a game held more than once	Лишняя копия игры, которая есть несколько раз
+Update for a game that isn't here (keep it if you play the disc)	Обновление игры, которой нет (оставьте, если играете с диска)
+Save for a game that isn't here (keep it if you play the disc)	Сохранение игры, которой нет (оставьте, если играете с диска)
+Left by an install or a delete the system didn't finish	Осталось от установки или удаления, которое система не завершила
+No PARAM.SFO: a broken install, or another app's data (check it first)	Нет PARAM.SFO: сломанная установка или чужие данные (проверьте)
+Downloaded, not installed yet: install or delete it from the XMB	Загружено, не установлено: установите или удалите через XMB
+Waiting to be installed: install or delete it from the XMB	Ждёт установки: установите или удалите через XMB
+A package that isn't installed: install it, or delete it if it's not needed	Пакет не установлен: установите или удалите, если не нужен
+An app's cache: clear it in that app (it makes it again)	Кэш приложения: очистите его в приложении (оно создаст заново)
+A system update: not for HEN or CFW (installing it removes them)	Обновление системы: не для HEN и CFW (установка удалит их)
+Can be deleted	Можно удалить
+From the XMB	Через XMB
+.%s files	Файлы .%s
+Goes for good tomorrow	Удалится навсегда завтра
+Goes for good in %d days	Удалится навсегда через дней: %d
+Till the bin's emptied	Пока корзину не очистят
+Where it was isn't known  ·  deleted %s	Место неизвестно  ·  удалено %s
+Was in %s  ·  deleted %s	Было в %s  ·  удалено %s
+%s each  ·  in %s	По %s  ·  в %s
+What %s is made of	Из чего состоит %s
+The game (with its updates)	Игра (с обновлениями)
+Updates and game data	Обновления и данные игры
+DLC and add-ons	DLC и дополнения
+Disc backups	Копии дисков
+All of it: %s	Всего: %s
+Adding up its folders... %s so far	Подсчёт папок... пока %s
+%s  ·  %s item	%s  ·  элементов: %s
+%s  ·  %s items	%s  ·  элементов: %s
+Games, all together	Игры целиком
+%d games	Игр: %d
+Duplicates	Дубликаты
+Up to %s could be freed	Можно освободить до %s
+Free up space	Освободить место
+Up to %s	До %s
+%s  ·  %d deleted	%s  ·  удалено: %d
+Any age	Любой возраст
+Untouched 6 months or more	Не трогали 6 месяцев и дольше
+Untouched a year or more	Не трогали год и дольше
+Untouched 2 years or more	Не трогали 2 года и дольше
+Untouched 3 years or more	Не трогали 3 года и дольше
+Size filter	Фильтр по размеру
+Over %s	Больше %s
+Any size	Любой размер
+In the last week	За последнюю неделю
+In the last month	За последний месяц
+In the last 3 months	За последние 3 месяца
+In the last year	За последний год
+Recently added	Недавно добавленное
+Identical files	Одинаковые файлы
+Largest folders	Крупнейшие папки
+The %d largest, at any depth	%d крупнейших, на любой глубине
+Not played lately	Давно не запускались
+Bookmarks	Закладки
+%d on %s	%d на %s
+File types	Типы файлов
+%d types	Типов: %d
+Largest files	Крупнейшие файлы
+The largest .%s files	Самые большие файлы .%s
+The %d largest files on the drive	%d крупнейших файлов на диске
+Every category	Все категории
+Changes since last scan	Что изменилось
+−%s in files since the scan before	−%s в файлах с прошлого сканирования
++%s in files since the scan before	+%s в файлах с прошлого сканирования
+%s  ·  %s entry	%s  ·  записей: %s
+%s  ·  %s entries	%s  ·  записей: %s
+  ·  search: "%s"	  ·  поиск: «%s»
+All	Все
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	Удалённое ждёт здесь: X восстанавливает, START удаляет навсегда, Квадрат очищает корзину.
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	Всё больше заданного размера, что давно не трогали: L1/R1 меняют размер, Квадрат срок.
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	Одинаковые файлы в ваших папках (кроме установленных игр и сохранений): X показывает их.
+The same file in each place: X opens its folder, START deletes one.	Один и тот же файл в каждом месте: X открывает его папку, START удаляет один.
+What was added or changed lately, newest first: Square changes how far back.	Что недавно добавлено или изменено, сначала новое: Квадрат меняет период.
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	Удалённое ждёт здесь: Круг восстанавливает, START удаляет навсегда, Квадрат очищает корзину.
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	Одинаковые файлы в ваших папках (кроме установленных игр и сохранений): Круг показывает их.
+The same file in each place: Circle opens its folder, START deletes one.	Один и тот же файл в каждом месте: Круг открывает его папку, START удаляет один.
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	Просмотрено файлов от 1 МБ: %u, в %s, прервано (Квадрат: ещё раз)
+%u files of 1 MB or more looked at, at %s (Square: again)	Просмотрено файлов от 1 МБ: %u, в %s (Квадрат: ещё раз)
+Each game's installed data, backups, saves and trophies, added up.	Установленные данные, копии, сохранения и призы каждой игры, вместе.
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	Повторяющиеся игры: установлены и скопированы, скопированы дважды или на другом диске.
+Likely safe to clear: check each one. START deletes those that can go (Settings).	Скорее всего можно удалить: проверьте каждое. START удаляет то, что можно (Настройки).
+Everything of this game's on the drive: X opens one, START deletes one that can go.	Всё от этой игры на диске: X открывает, START удаляет то, что можно.
+Where the space really is: a folder that's nearly all one folder is left for that one.	Где на самом деле место: если папка почти целиком состоит из одной папки, показана та.
+Games here, the longest unplayed first: when their newest save (or file) was written.	Игры здесь, давно не запускавшиеся первыми: по самому новому сохранению (или файлу).
+Square in a folder bookmarks it; here, Square removes one.	Квадрат в папке добавляет закладку; здесь Квадрат убирает её.
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	Всё от этой игры на диске: Круг открывает, START удаляет то, что можно.
+The scan of %s against the one of %s; 1 MB or more	Сканирование от %s в сравнении с %s; от 1 МБ
+Reading the folder...	Читаю папку...
+This folder couldn't be read (0x%08x).	Не удалось прочитать эту папку (0x%08x).
+Comparing files of the same size: %u of %u...	Сравнение файлов одного размера: %u из %u...
+Looking for identical files: %u of 1 MB or more so far...	Поиск одинаковых файлов: пока файлов от 1 МБ: %u...
+Nothing was added or changed in that time: Square goes further back.	За это время ничего не добавлено и не изменено: Квадрат расширит период.
+Nothing's that big and that old: L1/R1 or Square widen it.	Нет ничего такого большого и старого: L1/R1 или Квадрат расширят поиск.
+No identical files found.	Одинаковых файлов не найдено.
+Nothing matches the search. Press Circle to clear it.	Ничего не найдено. Нажмите Круг, чтобы сбросить поиск.
+Nothing matches the search. Press X to clear it.	Ничего не найдено. Нажмите X, чтобы сбросить поиск.
+This folder is empty.	Эта папка пуста.
+Nothing changed by 1 MB or more.	Ничего не изменилось на 1 МБ и больше.
+No game is here more than once.	Ни одной игры нет в нескольких экземплярах.
+Nothing obvious to clear.	Ничего очевидного для очистки.
+No bookmarks on this drive yet: Square in a folder adds one.	На этом диске пока нет закладок: Квадрат в папке добавит.
+Nothing here.	Здесь ничего нет.
+Only the first 100,000 entries are listed.	Показаны только первые 100 000 записей.
+Some of this folder couldn't be read.	Часть этой папки не удалось прочитать.
+Put back	Восстановить
+Size	Размер
+Empty the bin	Очистить корзину
+How long	Как давно
+How far back	Период
+Look again	Искать снова
+What it's made of	Из чего состоит
+Items	Элементы
+Files	Файлы
+Rescan this	Пересканировать
+Unbookmark	Убрать закладку
+Bookmark	В закладки
+Remove	Убрать
+Unkeep	Не оставлять
+Keep	Оставить
+Search	Поиск
+Delete for good	Удалить навсегда
+Clear search	Сбросить поиск
+Up	Вверх
+Files here	Файлы здесь
+Smaller folders	Мелкие папки
+Map of the drive	Карта диска
+  ·  %s file	  ·  файлов: %s
+  ·  %s files	  ·  файлов: %s
+Go in	Войти
+Pick a box	Выбрать блок
+Music on: Relaxing music by Piotr Witowski, from Pixabay	Музыка включена: Piotr Witowski, с Pixabay
+No memory to write the report.	Не хватает памяти, чтобы записать отчёт.
+Writing the report...	Записываю отчёт...
+Report saved: %s (and .csv)	Отчёт сохранён: %s (и .csv)
+The report couldn't be written (see the log).	Не удалось записать отчёт (см. журнал).
+%d game	Игр: %d
+%d bookmark	Закладок: %d
+%d bookmarks	Закладок: %d
+%d scan	Сканирований: %d
+%d scans	Сканирований: %d
+%s used	Занято %s
+%s in 30 days	%s за 30 дней
+Space over time	Место со временем
+Export a report	Экспорт отчёта
+Buttons	Кнопки
+About	О программе
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	Что, вероятно, можно удалить: оставшиеся пакеты, кэш, лишние копии игр, незавершённые установки.
+Games held more than once, here or on another drive, and what removing the extra copies would free.	Игры, которые есть несколько раз, здесь или на другом диске, и сколько освободит удаление лишних копий.
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	Файлы, одинаковые байт в байт, там, где вы храните вещи: образы дисков, медиа, пакеты, ваши папки.
+Games here, the longest unplayed first: good ones to clear if you're done with them.	Игры здесь, давно не запускавшиеся первыми: хорошие кандидаты, если вы с ними закончили.
+The folders holding the most, at any depth.	Папки, которые занимают больше всего, на любой глубине.
+Everything over a size, untouched for a while.	Всё больше заданного размера, что давно не трогали.
+The drive's files by type: disc images, packages, video, saves...	Файлы диска по типам: образы дисков, пакеты, видео, сохранения...
+The drive as boxes sized by the space they take: X goes into one.	Диск в виде блоков размером с занимаемое место: X входит в блок.
+Folders you've bookmarked (Square in a folder).	Папки в закладках (Квадрат в папке).
+What grew, shrank, appeared or went since the scan before.	Что выросло, уменьшилось, появилось или пропало с прошлого сканирования.
+Used space scan by scan, by category.	Занятое место от сканирования к сканированию, по категориям.
+What's been added or changed lately, newest first: what's taken your space.	Что недавно добавлено или изменено, сначала новое: что заняло место.
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	Сканирование как текстовый файл и таблица (CSV), на HDD или USB-накопителе.
+The internal HDD's own record of its wear (SMART).	Собственная запись износа внутреннего HDD (SMART).
+What's been deleted, waiting to go for good: put it back, or empty the bin.	Удалённое, которое ждёт окончательного удаления: восстановите его или очистите корзину.
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	Язык, музыка, звуки, размеры, цвет, сканирование, затемнение, удаление.
+What every button does, screen by screen.	Что делает каждая кнопка, экран за экраном.
+Version, credits and licences.	Версия, благодарности и лицензии.
+Explore	Просмотр
+The drive as boxes sized by the space they take: Circle goes into one.	Диск в виде блоков размером с занимаемое место: Круг входит в блок.
+After the next scan of this drive.	После следующего сканирования этого диска.
+The internal HDD only.	Только внутренний HDD.
+Move	Перемещение
+Close	Закрыть
+Only one scan so far: the chart grows with each scan.	Пока одно сканирование: график растёт с каждым сканированием.
+No scans kept yet.	Сохранённых сканирований пока нет.
+−%s used since %s	−%s занято с %s
++%s used since %s	+%s занято с %s
+(%s rescanned)	(%s пересканировано)
+Choose a scan	Выбрать сканирование
+Start screen	Начальный экран
+Pick Scan, Last scan, Tools or Settings	Выбор: Сканировать, Результаты, Инструменты или Настройки
+Change drive (when a USB drive is plugged in)	Сменить диск (когда подключён USB-накопитель)
+Twice: quit	Дважды: выход
+Pick a category (its part of the ring stands out)	Выбрать категорию (её часть кольца выделяется)
+Open the category's items	Открыть элементы категории
+The largest items on the drive	Крупнейшие элементы на диске
+Scan the drive again	Пересканировать диск
+The menu (not while scanning)	Меню (не во время сканирования)
+Stop a scan, or back to the start screen	Остановить сканирование или вернуться на начальный экран
+Lists	Списки
+A page at a time (or Left and Right)	По странице (или Влево и Вправо)
+Open: a folder, a game's parts, the files of a type	Открыть: папку, части игры, файлы одного типа
+Sort: largest, smallest, A-Z	Сортировка: крупные, мелкие, A-Z
+Change tab	Сменить вкладку
+A category's list: scan just that category again. Largest: items or files	В списке категории: пересканировать только её. В крупнейших: элементы или файлы
+Delete the row (when deleting is allowed in Settings)	Удалить строку (если удаление разрешено в Настройках)
+Back (a search is cleared first; in a folder, up one)	Назад (сначала сбрасывается поиск; в папке — на уровень вверх)
+Deleting	Удаление
+Pick Delete or Cancel	Выбрать Удалить или Отмену
+Hold on Delete for 2 seconds to delete	Удерживать на Удалить 2 секунды для удаления
+Cancel, or stop between files	Отмена или остановка между файлами
+Drive health and Settings	Состояние диска и Настройки
+Read the drive's health again	Прочитать состояние диска снова
+Drive health: its readings over time	Состояние диска: показания со временем
+Drive health: what it all means	Состояние диска: что всё это значит
+Change a setting	Изменить настройку
+Keeping, the bin, filters	Оставить, корзина, фильтры
+Free up space, Duplicates: keep a row off them (or back on)	Освободить место, Дубликаты: исключить строку (или вернуть)
+A game's screen: what it's made of	Экран игры: из чего она состоит
+Recycle bin: put it back (Square there empties the bin)	Корзина: восстановить (Квадрат там очищает её)
+Size filter: the size (Square there: how long)	Фильтр по размеру: размер (Квадрат там: как давно)
+Recently added: how far back	Недавно добавленное: период
+Folders, Map, Space over time	Папки, Карта, Место со временем
+In a folder: bookmark it (or remove the bookmark)	В папке: добавить в закладки (или убрать)
+Map: go into the box picked	Карта: войти в выбранный блок
+Map: pick a box. Space over time: pick a scan	Карта: выбрать блок. Место со временем: выбрать сканирование
+Anywhere	Где угодно
+Music off or on	Выключить или включить музыку
+When the screen's dimmed: any button wakes it	Когда экран затемнён: любая кнопка его будит
+When HDD Atlas starts	При запуске HDD Atlas
+Held: the 4:3 layout on a widescreen TV	Удерживать: раскладка 4:3 на широкоэкранном ТВ
+Held: drawn by the CPU instead of the graphics chip	Удерживать: отрисовка процессором вместо графического чипа
+Save the report where?	Куда сохранить отчёт?
+On the HDD, in HDD Atlas's folder	На HDD, в папке HDD Atlas
+On %s	На %s
+Language	Язык
+Sound effects	Звуковые эффекты
+Sizes	Размеры
+Accent colour	Цвет выделения
+Rescan at start	Сканировать при запуске
+Scan USB drives	Сканировать USB-накопители
+Dim the screen	Затемнять экран
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	«Автоматически» следует языку PS3. Переводы сделаны HDD Atlas и ещё не проверены носителями языка.
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	Громкость фоновой музыки под щелчками. R3 выключает или включает её где угодно.
+The clicks when you move and press.	Щелчки при перемещении и нажатиях.
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024 — так считает XMB (931 ГБ у диска на 1 ТБ); 1000 — так считают на коробках (1 ТБ).
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	Цвет выбранного. Высокий контраст делает его жёлтым, а серый текст светлее.
+When the free space has moved since the last scan, scan again by itself at start.	Если свободное место изменилось с последнего сканирования, сканировать заново при запуске.
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	Сканировать USB-накопитель при подключении (если не идёт другое сканирование).
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	Через это время без нажатий экран темнеет (любая кнопка его будит): бережёт плазменные и OLED-телевизоры.
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	Позволяет START удалять строку в списках: образы дисков, копии папок, оставшиеся пакеты, ROM и кэш webMAN.
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	Удалённое столько ждёт в корзине на своём диске (Корзина в меню), чтобы его можно было восстановить. Выкл. удаляет сразу.
+Automatic: %s	Автоматически: %s
+Off	Выкл.
+On	Вкл.
+1 GB = 1000 MB (as on the box)	1 ГБ = 1000 МБ (как на коробке)
+1 GB = 1024 MB (as the XMB)	1 ГБ = 1024 МБ (как в XMB)
+When free space has moved	Если изменилось свободное место
+When plugged in	При подключении
+After %d minutes	Через %d мин.
+Keep %d days	Хранить %d дн.
+Until it's emptied	Пока не очистят
+Off: delete at once	Выкл.: удалять сразу
+Change	Изменить
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	Шрифты: Poppins (SIL Open Font License) и DejaVu Sans.
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	Изображения кнопок: Kenney (CC0). Флаги: flag-icons (MIT).
+The hard disk icon: "Internal Clear" by Rick Patrick.	Значок жёсткого диска: «Internal Clear», автор Rick Patrick.
+Menu icons: Tanah Basah, from Flaticon.	Значки меню: Tanah Basah, с Flaticon.
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	Музыка: «Relaxing Music (Part 1)» — Piotr Witowski, с Pixabay.
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	Изображения, шрифты и музыка декодируются stb_image, stb_truetype и stb_vorbis (общественное достояние).
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	Диски NTFS: libntfs_ext от Estwald, на основе NTFS-3G (GPL-2.0).
+Built with PSL1GHT and the ps3toolchain.	Собрано с PSL1GHT и ps3toolchain.
+Made by	Авторы
+Thanks to	Благодарности
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas — свободное ПО под GPL-2.0. Лицензии лежат в USRDIR/data/licenses.

@@ -1,0 +1,652 @@
+# HDD Atlas in Arabic: "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	يحتاج webMAN إلى هذا لتشغيل لعبة من محرك NTFS.
+A disc image's decryption key: webMAN needs it to mount it.	مفتاح فك تشفير صورة قرص: يحتاجه webMAN لتشغيلها.
+Installed games: delete them from the XMB (it keeps their icons).	الألعاب المثبتة: احذفها من XMB (فهو يحتفظ بأيقوناتها).
+Music, video and photos: delete them from the XMB (it keeps a list of them).	الموسيقى والفيديو والصور: احذفها من XMB (فهو يحتفظ بقائمة بها).
+Saves, trophies and licences: delete them from the XMB.	الحفظ والجوائز والتراخيص: احذفها من XMB.
+The system's own: never deleted.	تابع للنظام: لا يُحذف أبدًا.
+TB	TB
+GB	GB
+MB	MB
+KB	KB
+B	B
+reallocated sectors	قطاعات أُعيد تخصيصها
+sectors waiting to be reallocated	قطاعات تنتظر إعادة التخصيص
+uncorrectable sectors	قطاعات غير قابلة للتصحيح
+reported uncorrectable errors	أخطاء غير قابلة للتصحيح مُبلغ عنها
+reallocation events	عمليات إعادة تخصيص
+Life left	العمر المتبقي
+Wear levelling count	عدد موازنة التآكل
+Used reserve blocks	كتل احتياطية مستخدمة
+Unused reserve blocks	كتل احتياطية متاحة
+Media wearout	تآكل الوسيط
+Reserved space left	المساحة الاحتياطية المتبقية
+Total written	إجمالي المكتوب
+Read error rate	معدل أخطاء القراءة
+Throughput performance	أداء النقل
+Spin-up time	زمن بدء الدوران
+Start/stop count	عدد مرات التشغيل والإيقاف
+Reallocated sectors	القطاعات المعاد تخصيصها
+Seek error rate	معدل أخطاء البحث
+Seek time performance	أداء البحث
+Power-on hours	ساعات التشغيل
+Spin retry count	محاولات إعادة الدوران
+Calibration retries	محاولات إعادة المعايرة
+Power cycles	دورات التشغيل
+Program fails	إخفاقات البرمجة
+Erase fails	إخفاقات المسح
+Unexpected power losses	انقطاعات تيار مفاجئة
+Wear range delta	فرق التآكل
+Interface downshifts	خفض سرعة الواجهة
+End-to-end errors	أخطاء من طرف إلى طرف
+Reported uncorrectable	غير قابلة للتصحيح مُبلغ عنها
+Command timeouts	انتهاء مهلة الأوامر
+High fly writes	كتابة على ارتفاع زائد
+Airflow temperature	حرارة الهواء
+G-sense errors	أخطاء الصدمات
+Power-off retracts	السحب عند الإطفاء
+Load cycles	دورات التحميل
+Temperature	الحرارة
+ECC recovered	صُحح بواسطة ECC
+Reallocation events	عمليات إعادة التخصيص
+Pending sectors	القطاعات المعلقة
+Uncorrectable sectors	القطاعات غير القابلة للتصحيح
+Interface CRC errors	أخطاء CRC في الواجهة
+Write error rate	معدل أخطاء الكتابة
+Disk shift	إزاحة القرص
+Loaded hours	ساعات تحميل الرؤوس
+Load retries	محاولات إعادة التحميل
+Load friction	احتكاك التحميل
+Load-in time	زمن التحميل
+Head flying hours	ساعات طيران الرؤوس
+Total read	إجمالي المقروء
+Free fall events	حالات سقوط مكتشفة
+Vendor specific	خاص بالمصنّع
+Games & game data	الألعاب وبيانات الألعاب
+Disc game backups	نسخ أقراص الألعاب
+Saves, trophies & licences	الحفظ والجوائز والتراخيص
+Themes	السمات
+Music, video & photos	الموسيقى والفيديو والصور
+Packages, tmp & caches	الحزم وtmp وذاكرة التخزين المؤقت
+System & other folders	النظام ومجلدات أخرى
+System partitions	أقسام النظام
+Unaccounted	غير محسوب
+Games	الألعاب
+Backups	النسخ
+Saves	الحفظ
+Media	الوسائط
+Packages	الحزم
+System	النظام
+Partitions	الأقسام
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	توقف %s عن الاستجابة أثناء فحصه، وكل محركات NTFS تنتظره: أعد تشغيل الجهاز لاستخدامها مجددًا.
+%s stopped answering during its scan: restart the console to use it again.	توقف %s عن الاستجابة أثناء فحصه: أعد تشغيل الجهاز لاستخدامه مجددًا.
+Emptied %d old entries from the recycle bin: %s freed.	عناصر قديمة حُذفت نهائياً من سلة المحذوفات: %d، وتحرر %s.
+No scan can start till the console restarts: %s stopped answering during its scan.	لا يمكن بدء أي فحص حتى يُعاد تشغيل الجهاز: توقف %s عن الاستجابة أثناء فحصه.
+A scan of %s is running: one at a time.	يجري فحص %s بالفعل: واحد في كل مرة.
+Drive health found this drive wearing out: back up what matters first.	تُظهر صحة القرص أن هذا القرص يتآكل: احتفظ بنسخة مما يهمك أولًا.
+Scanning: things may be slow until it's done. The menu's back after it.	جارٍ الفحص: قد يكون التطبيق بطيئاً حتى ينتهي. تعود القائمة بعده.
+The scan couldn't start (see the log).	تعذر بدء الفحص (راجع السجل).
+Rescanning %s; the rest stays as it was.	إعادة فحص %s؛ يبقى الباقي كما كان.
+Internal HDD	القرص الصلب الداخلي
+Scan of %s finished in %.1f s.	انتهى فحص %s في %.1f ث.
+Scan stopped. The last scan is shown.	توقف الفحص. يُعرض آخر فحص.
+The scan didn't finish (see the log).	لم يكتمل الفحص (راجع السجل).
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	أجزاء القرص خارج المحرك الذي يفحصه HDD Atlas: ذاكرة مؤقتة للألعاب بحجم 2 GB، وذاكرة فلاش النظام في معظم الطرازات، وسجلات نظام الملفات لكل ملف (بضعة بالمئة من القرص). لا يمكن تحرير شيء منها.
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	مساحة مستخدمة لا يفسرها أي ملف. معظمها ما يحتفظ به نظام الملفات فارغًا لنفسه: 8 بالمئة من المحرك كما يُباع، و1 بالمئة بعد unlockhdd في webMAN. والباقي هو آخر كتل الملفات مقرّبة. لا يمكن تحرير شيء منها من هنا.
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	هنا مجموع الملفات أكبر من المساحة المستخدمة: بعضها محسوب مرتين. يمكن لـ webMAN ربط ملفات لعبة بين GAMES وgame: نسخة واحدة على القرص تُحسب مرتين.
+Press Circle again to quit.	اضغط زر الرجوع مرة أخرى للخروج.
+Press X again to quit.	اضغط زر الرجوع مرة أخرى للخروج.
+The menu opens once the scan's done.	تُفتح القائمة عند انتهاء الفحص.
+Not scanned yet	لم يُفحص بعد
+Free space has dropped by %s since this scan	انخفضت المساحة الحرة بمقدار %s منذ هذا الفحص
+Free space has grown by %s since this scan	زادت المساحة الحرة بمقدار %s منذ هذا الفحص
+Scanned %s  ·  1 delete since	فُحص %s  ·  حذف واحد منذ ذلك الحين
+Scanned %s  ·  %u deletes since	فُحص %s  ·  عمليات حذف منذ ذلك الحين: %u
+Scanned %s  ·  took %.0f s	فُحص في %s  ·  استغرق %.0f ث
+%s used of %s	مستخدم %s من %s
+%s used of %s  ·  %s	مستخدم %s من %s  ·  %s
+%s files in %s folders	%s ملف في %s مجلد
+  ·  %llu couldn't be read (skipped)	  ·  تعذرت قراءة %llu (تم تخطيها)
+%s free	%s حرة
+%s free  ·  drive size unknown	%s حرة  ·  حجم القرص غير معروف
+%s  ·  %u item	%s  ·  %u عنصر
+%s  ·  %u items	%s  ·  عناصر: %u
+No scan of %s yet. Press Triangle to scan it.	لا يوجد فحص لـ %s بعد. اضغط المثلث لفحصه.
+(%s is being scanned: one at a time.)	(يجري فحص %s: واحد في كل مرة.)
+Scanning %s	جارٍ فحص %s
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s من %s  ·  %s ملف
+%s  ·  %s files	%s  ·  %s ملف
+The first scan of a full HDD can take a few minutes.	قد يستغرق الفحص الأول لقرص ممتلئ بضع دقائق.
+Scanning  %d%%	جارٍ الفحص  %d%%
+Scanning %s  %d%%  ·  %s files	جارٍ فحص %s  %d%%  ·  %s ملف
+%s files	ملفات: %s
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	أعطى %s أخطاء قراءة، فتخطى الفحص ما لم يستطع قراءته. هذه عادةً علامة على قطاعات تالفة.
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	أعطى %s أخطاء قراءة، فلم يستطع الفحص أن يكتمل. هذه عادةً علامة على قطاعات تالفة.
+Drive health shows whether the drive has bad sectors, and what to do if it has.	تُظهر صحة القرص إن كانت فيه قطاعات تالفة، وما الذي تفعله إن وُجدت.
+Some of the drive couldn't be read	تعذّرت قراءة جزء من القرص
+The scan didn't finish	لم يكتمل الفحص
+OK	موافق
+Drive health	صحة القرص
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	لم يستجب %s لمدة 5 دقائق، لذلك تم التخلي عن الفحص. غالبًا ما يكون القرص عاجزًا عن القراءة هنا:
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	يُرجى إرسال hddatlas_log.txt من /dev_hdd0/game/HDAT00001/USRDIR إلى ps3.world/contact (أو hddatlas_log_prev.txt إذا شُغّل HDD Atlas مجددًا منذ ذلك الحين). قد لا يبدأ فحص آخر حتى تتم إعادة تشغيل الجهاز.
+The scan got stuck	علِق الفحص
+Check this drive's health on a PC (its SMART data) before trusting it with more.	افحص صحة هذا القرص على حاسوب (بيانات SMART) قبل أن تأتمنه على المزيد.
+Overview	نظرة عامة
+Open	فتح
+What's this	ما هذا
+Largest	الأكبر
+Largest items	أكبر العناصر
+Rescan	إعادة الفحص
+Scan	فحص
+Stop scan	إيقاف الفحص
+Back	رجوع
+Menu	القائمة
+Music off	إيقاف الموسيقى
+Music on	تشغيل الموسيقى
+Drive	القرص
+Deleting is off.	الحذف متوقف.
+Deleting is off: turn it on in Settings (START on the overview).	الحذف متوقف: شغّله من الإعدادات (START في النظرة العامة).
+This NTFS drive is read-only: Windows didn't close it cleanly.	محرك NTFS هذا للقراءة فقط: لم يغلقه Windows بشكل سليم.
+This can't be deleted here.	لا يمكن حذف هذا هنا.
+A package is being installed: delete this once that's done.	يجري تثبيت حزمة: احذف هذا بعد انتهائه.
+Wait for the scan to finish, then delete.	انتظر انتهاء الفحص ثم احذف.
+The recycle bin's empty.	سلة المحذوفات فارغة.
+The recycle bin	سلة المحذوفات
+Not deleted	لم يُحذف
+No memory to start.	لا توجد ذاكرة كافية للبدء.
+Deleted	حُذف
+Stopped part way	توقف في المنتصف
+Not deleted: it isn't the same as %s, byte for byte.	لم يُحذف: ليس مطابقًا لـ %s بايتًا ببايت.
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	لم يُحذف: ما زال يتغيّر، فربما يكتب فيه تثبيت ما. حاول لاحقًا.
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	لم يُحذف: كتب فيه تثبيت خلال اليوم الأخير وقد يحتاجه بعد. حاول غدًا.
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	لم يُحذف: النسخة الأخرى (%s) لم تعد موجودة، فهذه هي الأخيرة.
+In the recycle bin	في سلة المحذوفات
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	نُقل إلى سلة المحذوفات (%s). تتحرر المساحة عند إفراغ السلة: سلة المحذوفات في القائمة.
+Deleted: %s freed.	حُذف: تم تحرير %s.
+Stopped part way: %s freed, the rest is still there.	توقف في المنتصف: تم تحرير %s، والباقي ما زال موجودًا.
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	حُذف، لكن بقي %u عنصر (روابط أو عناصر لم تُحذف): تم تحرير %s.
+Not deleted: error 0x%08x at %s. %s freed.	لم يُحذف: الخطأ 0x%08x عند %s. تم تحرير %s.
+Deleting is on: START on a row that can go.	الحذف مفعّل: START على صف يمكن حذفه.
+Allow deleting?	السماح بالحذف؟
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	سيتمكن HDD Atlas من حذف صور الأقراص (PS3ISO وPS2ISO...) ونسخ المجلدات في GAMES والحزم المتبقية وملفات ROM وذاكرة webMAN المؤقتة: صفًا واحدًا في كل مرة، كل صف بعد الضغط المطوّل على X للتأكيد. الملفات المحذوفة لا تعود.
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	سيتمكن HDD Atlas من حذف صور الأقراص (PS3ISO وPS2ISO...) ونسخ المجلدات في GAMES والحزم المتبقية وملفات ROM وذاكرة webMAN المؤقتة: صفًا واحدًا في كل مرة، كل صف بعد الضغط المطوّل على الدائرة للتأكيد. الملفات المحذوفة لا تعود.
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	تبقى الألعاب المثبتة والحفظ والجوائز والموسيقى والفيديو والصور تحت إدارة XMB (فهو يحتفظ بقائمة بها). لا تُلمس مجلدات النظام أبدًا. يمكن إيقاف هذا من الإعدادات مجددًا.
+Allow deleting	السماح بالحذف
+Cancel	إلغاء
+Delete this disc image?	حذف صورة القرص هذه؟
+Delete this folder backup?	حذف نسخة المجلد هذه؟
+Delete this package?	حذف هذه الحزمة؟
+Delete this ROM?	حذف ملف ROM هذا؟
+Delete this webMAN cache file?	حذف ملف ذاكرة webMAN المؤقتة هذا؟
+Delete this leftover install?	حذف هذا التثبيت غير المكتمل؟
+Delete it for good?	حذفه نهائياً؟
+Delete this system update?	حذف تحديث النظام هذا؟
+Empty the recycle bin?	إفراغ سلة المحذوفات؟
+Move it to the recycle bin?	نقله إلى سلة المحذوفات؟
+Deleting...	جارٍ الحذف...
+and %s with it	و%s معه
+Nothing's freed till the recycle bin's emptied.	لا يتحرر شيء حتى تُفرغ سلة المحذوفات.
+Free: %s  →  about %s	الحرة: %s  →  نحو %s
+If it was a game update, install that update again afterwards.	إن كان تحديثًا للعبة، فثبّت ذلك التحديث مجددًا بعد ذلك.
+It can't be undone.	لا يمكن التراجع عن هذا.
+It waits in the recycle bin for %d days first.	أيام الانتظار في سلة المحذوفات أولاً: %d.
+It waits in the recycle bin till that's emptied.	ينتظر في سلة المحذوفات حتى تُفرغ.
+Delete	حذف
+Hold to delete	اضغط مطولًا للحذف
+Back to Cancel	العودة إلى الإلغاء
+Pick Delete	اختيار الحذف
+Checking it's the same as the other copy: %s of %s	جارٍ التحقق من مطابقته للنسخة الأخرى: %s من %s
+Stopping...	جارٍ الإيقاف...
+Stop	إيقاف
+%s of %s files  ·  %s	%s من %s ملف  ·  %s
+%s went from %lld to %lld since %s.	%s ارتفع من %lld إلى %lld منذ %s.
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	تعذرت كتابة السجل في USRDIR، لذلك لم يُسأل القرص.
+lv2 wouldn't open the drive (0x%08x).	تعذر على lv2 فتح القرص (0x%08x).
+The drive didn't answer IDENTIFY (0x%08x).	لم يستجب القرص لأمر IDENTIFY (0x%08x).
+The drive didn't give its SMART data (0x%08x).	لم يقدّم القرص بيانات SMART الخاصة به (0x%08x).
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	استجاب القرص، لكن بشيء لا يُقرأ كـ IDENTIFY (المحاكي يفعل ذلك).
+No memory for the reading.	لا توجد ذاكرة كافية للقراءة.
+GOOD	جيد
+CAUTION	تنبيه
+FAILING	يتعطل
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	قيمة %s هي %d، عند حدها %d أو أقل: القرص يقول إنه يتعطل.
+%s is at %d, at or below its threshold of %d.	قيمة %s هي %d، عند حدها %d أو أقل.
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s: ذاكرة الفلاش تتآكل. احتفظ بنسخة مما يهمك.
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s: السطح يتآكل. احتفظ بنسخة مما يهمك.
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	العمر المتبقي: %d%%. ذاكرة الفلاش على وشك النفاد. احتفظ بنسخة مما يهمك.
+Running hot (%d °C). Check the console's vents.	حرارة عالية (%d °C). افحص فتحات تهوية الجهاز.
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	لا قطاعات معاد تخصيصها أو معلقة أو غير قابلة للتصحيح، ولا شيء تحت حده.
+SSD	SSD
+%d rpm	%d دورة/دقيقة
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  البرنامج الثابت %s  ·  الرقم التسلسلي %s
+internal drive	القرص الداخلي
+internal HDD	القرص الصلب الداخلي
+  ·  (the data's checksum is off)	  ·  (المجموع الاختباري للبيانات غير مطابق)
+Powered on	مدة التشغيل
+Reallocated	معاد تخصيصها
+Pending	معلقة
+Uncorrectable	غير قابلة للتصحيح
+%s h	%s س
+%lld days	%lld يوم
+sectors	قطاعات
+Read on	قُرئ في
+No readings kept yet.	لا توجد قراءات محفوظة بعد.
+Attribute	السمة
+Value	القيمة
+Worst	الأسوأ
+Thresh.	الحد
+Threshold	الحد
+Raw	الخام
+pre-fail	قبل العطل
+The verdict	الحكم
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	جيد: لا قطاعات مهترئة، ولا سمة عند حدها، ولا حرارة زائدة. تنبيه: القرص يعمل، لكن بعض القطاعات اهترأت، أو تجاوزت سمة تقادم حدها، أو تجاوزت حرارته 55 °C: احتفظ بنسخة مما يهمك. يتعطل: سمة من نوع قبل العطل عند حدها أو دونه، أي أن القرص نفسه يتوقع أن يتعطل قريباً: انسخ ما تريد الاحتفاظ به.
+The six figures	الأرقام الستة
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	الحرارة: ما دون 50 °C مريح؛ وفوق 55 °C افحص فتحات التهوية والغبار في الجهاز. مدة التشغيل: الساعات التي عمل فيها القرص طوال عمره. دورات التشغيل: عدد مرات تشغيله.
+Bad sectors	القطاعات التالفة
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	معاد تخصيصها: قطاعات تلفت فاستُبدلت بقطاعات احتياطية. معلقة: قطاعات لم يستطع القرص قراءتها، تنتظر إعادة كتابتها أو استبدالها. غير قابلة للتصحيح: قراءات فشلت حتى بعد تصحيح الأخطاء، فقد يكون ما فيها قد ضاع. في القرص السليم تكون الثلاثة 0. القليل منها ليس قاتلاً، لكن العدد الذي يستمر في الازدياد هو أوضح علامة على أن القرص يقترب من نهايته.
+The table	الجدول
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	يمنح القرص كل سمة درجة. القيمة هي الدرجة الآن (عادة 100 أو 200 حين يكون جديداً؛ والأقل أسوأ)، والأسوأ هي أدنى ما بلغته، والحد هو حد الشركة المصنّعة: عنده أو دونه تكون تلك السمة قد فشلت. الخام هو عدّ القرص نفسه خلف الدرجة (ساعات، قطاعات، درجات حرارة). ويختلف معناه من مصنّع لآخر، لذا قارن القرص بقراءاته السابقة، لا بقرص آخر.
+Pre-fail and old-age	قبل العطل والتقادم
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	يصنّف القرص كل سمة على أنها هذه أو تلك. سمات قبل العطل (المعلَّمة بـ قبل العطل في الجدول) تراقب المشكلات التي تسبق الانهيار: القطاعات التالفة، وبطء الدوران عند البدء، وأخطاء البحث. إذا كانت إحداها عند حدها أو دونه فالقرص يتوقع أن يتعطل قريباً. والباقي سمات تقادم: تتابع الاهتراء العادي عبر السنين، مثل الساعات ودورات التشغيل. إذا تجاوزت إحداها حدها فالقرص مهترئ، لا أنه على وشك التوقف.
+SSDs	أقراص SSD
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	يعرض قرص SSD عمره المتبقي بدلًا من دورات التشغيل: تقديره الخاص لما تبقى من التآكل المقدّر لذاكرة الفلاش فيه، 100% وهو جديد. عند 10% أو أقل يصبح التقييم تنبيه. في قرص SSD، القطاعات المعاد تخصيصها هي كتل فلاش بالية استُبدلت باحتياطية، ولا يُعدّ القرص ساخنًا قبل 70 °C لأن أقراص SSD أدفأ. قد يتوقف قرص SSD المعطوب عن الاستجابة بدلًا من الإبلاغ عن أخطاء: إذا تجمد الفحص في المكان نفسه كل مرة فاشتبه في القرص حتى لو بدا SMART سليمًا.
+History	السجل
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	تُحفظ كل قراءة: المربع يعرضها، الأحدث أولاً. يظهر بالأصفر أي عدد للقطاعات المعاد تخصيصها أو المعلقة أو غير القابلة للتصحيح زاد منذ القراءة السابقة. اقرأ القرص من حين لآخر (المثلث) ليكون هناك ما تقارن به.
+It only reads	قراءة فقط
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART هو سجل القرص نفسه: HDD Atlas يطلبه فقط، ولا يتغير شيء على القرص. ولا يمكنه إصلاح قرص مهترئ: إن كان يتعطل، فالحل نسخة احتياطية وقرص جديد.
+1. Copy what matters first	1. انسخ ما يهمك أولًا
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	حفظ ألعابك موجود في /dev_hdd0/home: انسخه إلى قرص USB أو حاسوب عبر FTP في webMAN أو عبر multiMAN. وبأداة Apollo Save Tool صدّر أيضًا تراخيصك (RAP) وملف act.dat والجوائز. احفظ كل ذلك خارج الجهاز.
+2. Delete what you don't need	2. احذف ما لا تحتاج إليه
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	صور الأقراص القديمة والحزم المتبقية والذاكرات المؤقتة: فيقل ما يجب نسخه وما يُقرأ من قرص يتعطل. حذف الملف لا يكاد يقرؤه.
+3. Don't scan again and again	3. لا تفحص مرة بعد مرة
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	يقرأ الفحص كل مجلد في القرص. حيث يعجز القرص عن القراءة قد يتوقف الفحص (يتوقف HDD Atlas بعد 5 دقائق)، والقرص الذي يكرر المحاولة يتآكل أسرع.
+4. Replace the drive	4. استبدل القرص
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	القرص المتآكل لا يُصلح ولا يزداد إلا سوءًا. أداة النسخ الاحتياطي في PS3 مجرد شبكة أمان ثانية: لا تحفظ الجوائز وتستغرق ساعات وقد تفشل عند ملف تالف. نسخ القرص على حاسوب لا ينفع: فهو مشفّر لهذا الجهاز. خطوات الاستبدال كاملة: ps3.world/upgrade-storage
+If the drive is wearing out	إذا كان القرص يتآكل
+What it means	ماذا يعني ذلك
+SMART, read at %s	SMART، قُرئ عند %s
+Scroll	تمرير
+Read the internal HDD's health?	قراءة صحة القرص الصلب الداخلي؟
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	سيطلب HDD Atlas من القرص بيانات SMART: عدّه الخاص للساعات والأخطاء والقطاعات المتآكلة. يقرأ فقط: لا يتغير شيء على القرص.\n\nيتم الطلب عبر استدعاءات التخزين في PS3، ولم تُجرّب على كل جهاز. إذا تجمد هذا الجهاز يومًا، سيلاحظ HDD Atlas ذلك عند التشغيل التالي ولن يسأل القرص مجددًا.
+Reading the drive's health...	جارٍ قراءة صحة القرص...
+Asking the drive for its SMART data.	جارٍ طلب بيانات SMART من القرص.
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	تسببت قراءة صحة القرص في تجمد هذا الجهاز في المرة الأخيرة (عند "%s")، لذلك لن يسأل HDD Atlas القرص مجددًا.\n\nللمحاولة على أي حال، احذف smart_journal.txt من /dev_hdd0/game/HDAT00001/USRDIR.
+Not read: it froze the console before	لم تُقرأ: تجمد الجهاز من قبل
+The drive's health couldn't be read	تعذرت قراءة صحة القرص
+Read	قراءة
+What to do	ماذا تفعل
+Try again	إعادة المحاولة
+Read again	قراءة مجددًا
+Attributes	السمات
+version %s	الإصدار %s
+Once the scan's done.	عند انتهاء الفحص.
+Scan this drive first.	افحص هذا القرص أولًا.
+Last scanned %s	آخر فحص: %s
+%s used of %s  ·  %s free	%s مستخدم من %s  ·  %s متاح
+Last time: %u min	آخر مرة: %u دقيقة
+Last time: %u s	آخر مرة: %u ثانية
+Last scan	آخر فحص
+Tools	أدوات
+Settings	الإعدادات
+Go through every folder on the drive and add up what's there.	يمر على كل مجلد في القرص ويجمع ما فيه.
+What the last scan found, straight away.	ما وجده آخر فحص، فوراً.
+Free up space, duplicates, the map, drive health and more.	تحرير مساحة، المكررات، الخريطة، صحة القرص والمزيد.
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	اللغة، الموسيقى، الأصوات، الأحجام، الفحص، التعتيم، الحذف.
+What's using your PS3's space, drive by drive, down to the last file.	ما الذي يشغل مساحة PS3 لديك، قرصًا قرصًا، حتى آخر ملف.
+Choose	اختيار
+Quit	خروج
+Blue	أزرق
+Teal	أزرق مخضر
+Purple	بنفسجي
+Pink	وردي
+Orange	برتقالي
+Green	أخضر
+High contrast	تباين عالٍ
+Largest first	الأكبر أولًا
+Smallest first	الأصغر أولًا
+A-Z	A-Z
+Bookmark removed.	أُزيلت الإشارة المرجعية.
+There are 64 bookmarks already: remove one first.	توجد 64 إشارة مرجعية بالفعل: أزل واحدة أولاً.
+Bookmarked: it's in the menu's Bookmarks.	أُضيفت إشارة مرجعية: تجدها في الإشارات المرجعية في القائمة.
+It's suggested again.	سيُقترح مجدداً.
+There are 512 kept already: unkeep one first.	هناك 512 عنصراً مستبقى بالفعل: ألغِ إبقاء واحد أولاً.
+Kept: it won't be suggested again (Square here undoes it).	مستبقى: لن يُقترح مجدداً (المربع هنا يتراجع).
+Disc images	صور الأقراص
+Disc images and data	صور الأقراص والبيانات
+Disc image track lists	قوائم مسارات صور الأقراص
+Licensed game data	بيانات ألعاب مرخصة
+Programs	البرامج
+Game archives	أرشيفات الألعاب
+Game data	بيانات لعبة
+Music	الموسيقى
+Video	الفيديو
+Pictures	الصور
+Licences	التراخيص
+Save and game info	معلومات الحفظ والألعاب
+Trophies	الجوائز
+Text and settings	النصوص والإعدادات
+Databases	قواعد البيانات
+Archives	الأرشيفات
+ROMs	ملفات ROM
+No extension	بلا امتداد
+Everything else	كل ما عدا ذلك
+Recycle bin	سلة المحذوفات
+SingStar songs	أغاني SingStar
+IRISMAN's cache	ذاكرة IRISMAN المؤقتة
+Apollo's cache	ذاكرة Apollo المؤقتة
+multiMAN's covers	أغلفة multiMAN
+Firmware update	تحديث النظام
+(more items)	(عناصر أخرى)
+Newest first	الأحدث أولاً
+Oldest first	الأقدم أولاً
+Where it was wasn't saved: it can't be put back, only deleted for good.	لم يُحفظ مكانه: لا يمكن استعادته، يمكن حذفه نهائياً فقط.
+The recycle bin's being tidied: try again in a moment.	يجري ترتيب سلة المحذوفات: حاول مرة أخرى بعد لحظة.
+Put back, but not its .cue/.bin: that's still in the recycle bin.	استُعيد، لكن دون ملف .cue/.bin الخاص به: ما زال في سلة المحذوفات.
+Put back where it was. Its size counts again after the next scan.	استُعيد إلى مكانه. يُحتسب حجمه مجدداً بعد الفحص التالي.
+Something's where it was now: not put back.	يوجد شيء في مكانه الآن: لم يُستعد.
+It couldn't be put back (see the log).	تعذرت استعادته (راجع السجل).
+It's gone since the scan before.	اختفى منذ الفحص السابق.
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	تتجاوز 50,000 عنصر يحتفظ بها الفحص منفصلة: لا تُعرض مجلداتها واحدًا واحدًا.
+Search by name	البحث بالاسم
+It isn't there any more.	لم يعد موجودًا.
+It's the only copy left: it isn't deleted from here.	هذه آخر نسخة متبقية: لا تُحذف من هنا.
+Game	لعبة
+Disc game	لعبة قرص
+Save	حفظ
+App	تطبيق
+PS2 game	لعبة PS2
+PS1 game	لعبة PS1
+PSP game	لعبة PSP
+Minis	Minis
+Home	Home
+Network	الشبكة
+%s  ·  %s file	%s  ·  %s ملف
+%u couldn't be read	تعذرت قراءة %u
+New	جديد
+Gone	اختفى
+%s file	%s ملف
+  ·  %s folder	  ·  %s مجلد
+  ·  %s folders	  ·  مجلدات: %s
+New since the scan: rescan for its size	جديد منذ الفحص: أعد الفحص لمعرفة حجمه
+Past the folders a scan keeps sizes for	خارج المجلدات التي يحفظ الفحص أحجامها
+Installed %s	مثبت %s
+Backup %s	نسخة %s
+Saves %s	الحفظ %s
+Trophies %s	الجوائز %s
+Kept	مستبقى
+%d copy	%d نسخة
+%d copies	%d نسخ
+Game data %s	بيانات لعبة %s
+Also on %s (%s)	موجود أيضاً على %s (%s)
+never	أبداً
+today	اليوم
+%d days ago	منذ %d يوم
+%d months ago	منذ %d شهر
+%d years ago	منذ %d سنة
+Last played %s (its newest save)	آخر لعب %s (أحدث حفظ له)
+Last changed %s	آخر تغيير %s
+Leftover package (already installed)	حزمة متبقية (مثبتة بالفعل)
+webMAN's cache (made again when needed)	ذاكرة webMAN المؤقتة (تُنشأ من جديد عند الحاجة)
+Temporary files	ملفات مؤقتة
+Extra copy of a game held more than once	نسخة زائدة من لعبة موجودة أكثر من مرة
+Update for a game that isn't here (keep it if you play the disc)	تحديث للعبة غير موجودة هنا (احتفظ به إن كنت تلعب من القرص)
+Save for a game that isn't here (keep it if you play the disc)	حفظ للعبة غير موجودة هنا (احتفظ به إن كنت تلعب من القرص)
+Left by an install or a delete the system didn't finish	تركه تثبيت أو حذف لم يكمله النظام
+No PARAM.SFO: a broken install, or another app's data (check it first)	لا يوجد PARAM.SFO: تثبيت معطوب أو بيانات تطبيق آخر (تحقق أولاً)
+Downloaded, not installed yet: install or delete it from the XMB	تم تنزيله ولم يُثبّت بعد: ثبّته أو احذفه من XMB
+Waiting to be installed: install or delete it from the XMB	بانتظار التثبيت: ثبّته أو احذفه من XMB
+A package that isn't installed: install it, or delete it if it's not needed	حزمة غير مثبتة: ثبّتها أو احذفها إن لم تكن بحاجة إليها
+An app's cache: clear it in that app (it makes it again)	ذاكرة مؤقتة لتطبيق: امسحها من التطبيق نفسه (يعيد إنشاءها)
+A system update: not for HEN or CFW (installing it removes them)	تحديث النظام: ليس لـ HEN أو CFW (تثبيته يزيلهما)
+Can be deleted	يمكن حذفه
+From the XMB	من XMB
+.%s files	ملفات .%s
+Goes for good tomorrow	يُحذف نهائياً غداً
+Goes for good in %d days	يُحذف نهائياً بعد أيام عددها %d
+Till the bin's emptied	حتى تُفرغ السلة
+Where it was isn't known  ·  deleted %s	المكان غير معروف  ·  حُذف %s
+Was in %s  ·  deleted %s	كان في %s  ·  حُذف %s
+%s each  ·  in %s	%s لكل منها  ·  في %s
+What %s is made of	مما يتكون %s
+The game (with its updates)	اللعبة (مع تحديثاتها)
+Updates and game data	التحديثات وبيانات اللعبة
+DLC and add-ons	المحتوى الإضافي والإضافات
+Disc backups	نسخ الأقراص
+All of it: %s	الكل: %s
+Adding up its folders... %s so far	جمع مجلداته... %s حتى الآن
+%s  ·  %s item	%s  ·  %s عنصر
+%s  ·  %s items	%s  ·  عناصر: %s
+Games, all together	الألعاب مجتمعة
+%d games	%d لعبة
+Duplicates	المكررات
+Up to %s could be freed	يمكن تحرير حتى %s
+Free up space	تحرير مساحة
+Up to %s	حتى %s
+%s  ·  %d deleted	%s  ·  %d محذوف
+Any age	أي عمر
+Untouched 6 months or more	لم يُلمس منذ 6 أشهر أو أكثر
+Untouched a year or more	لم يُلمس منذ سنة أو أكثر
+Untouched 2 years or more	لم يُلمس منذ سنتين أو أكثر
+Untouched 3 years or more	لم يُلمس منذ 3 سنوات أو أكثر
+Size filter	مرشّح الحجم
+Over %s	أكبر من %s
+Any size	أي حجم
+In the last week	خلال الأسبوع الماضي
+In the last month	خلال الشهر الماضي
+In the last 3 months	خلال الأشهر الثلاثة الماضية
+In the last year	خلال السنة الماضية
+Recently added	المضاف مؤخراً
+Identical files	ملفات متطابقة
+Largest folders	أكبر المجلدات
+The %d largest, at any depth	أكبر %d، على أي عمق
+Not played lately	لم تُلعب منذ مدة
+Bookmarks	الإشارات المرجعية
+%d on %s	%d على %s
+File types	أنواع الملفات
+%d types	%d نوع
+Largest files	أكبر الملفات
+The largest .%s files	أكبر ملفات .%s
+The %d largest files on the drive	أكبر %d ملف على القرص
+Every category	كل الفئات
+Changes since last scan	التغييرات منذ آخر فحص
+−%s in files since the scan before	−%s في الملفات منذ الفحص السابق
++%s in files since the scan before	+%s في الملفات منذ الفحص السابق
+%s  ·  %s entry	%s  ·  %s إدخال
+%s  ·  %s entries	%s  ·  إدخالات: %s
+  ·  search: "%s"	  ·  البحث: "%s"
+All	الكل
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	المحذوف ينتظر هنا: X يستعيده، START يحذفه نهائياً، المربع يفرغ السلة.
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	كل ما يتجاوز حجماً ولم يُلمس منذ مدة: L1/R1 يغيّران الحجم، والمربع المدة.
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	ملفات متطابقة بايتاً ببايت حيث تحتفظ بأشيائك (باستثناء الألعاب المثبتة وملفات الحفظ): X يعرضها.
+The same file in each place: X opens its folder, START deletes one.	الملف نفسه في كل مكان: X يفتح مجلده، START يحذف واحداً.
+What was added or changed lately, newest first: Square changes how far back.	ما أُضيف أو تغيّر مؤخراً، الأحدث أولاً: المربع يغيّر المدة.
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	المحذوف ينتظر هنا: الدائرة تستعيده، START يحذفه نهائياً، المربع يفرغ السلة.
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	ملفات متطابقة بايتاً ببايت حيث تحتفظ بأشيائك (باستثناء الألعاب المثبتة وملفات الحفظ): الدائرة تعرضها.
+The same file in each place: Circle opens its folder, START deletes one.	الملف نفسه في كل مكان: الدائرة تفتح مجلده، START يحذف واحداً.
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	الملفات المفحوصة بحجم 1 ميغابايت أو أكثر: %u، الساعة %s، توقف قبل الإكمال (المربع: مجدداً)
+%u files of 1 MB or more looked at, at %s (Square: again)	الملفات المفحوصة بحجم 1 ميغابايت أو أكثر: %u، الساعة %s (المربع: مجدداً)
+Each game's installed data, backups, saves and trophies, added up.	البيانات المثبتة والنسخ والحفظ والجوائز لكل لعبة، مجموعة.
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	ألعاب موجودة أكثر من مرة: مثبتة ومنسوخة احتياطياً، أو منسوخة مرتين، أو موجودة أيضاً على قرص آخر.
+Likely safe to clear: check each one. START deletes those that can go (Settings).	آمن غالبًا للحذف: افحص كل واحد. START يحذف ما يمكن حذفه (الإعدادات).
+Everything of this game's on the drive: X opens one, START deletes one that can go.	كل ما يخص هذه اللعبة على القرص: X يفتح واحدًا، START يحذف ما يمكن حذفه.
+Where the space really is: a folder that's nearly all one folder is left for that one.	أين المساحة حقاً: المجلد الذي يكاد يكون كله مجلداً واحداً يُترك لذلك المجلد.
+Games here, the longest unplayed first: when their newest save (or file) was written.	الألعاب هنا، الأطول دون لعب أولاً: متى كُتب أحدث حفظ (أو ملف) لها.
+Square in a folder bookmarks it; here, Square removes one.	المربع في مجلد يضيف إشارة مرجعية؛ وهنا يزيل المربع واحدة.
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	كل ما يخص هذه اللعبة على القرص: الدائرة تفتح واحدًا، START يحذف ما يمكن حذفه.
+The scan of %s against the one of %s; 1 MB or more	فحص %s مقارنةً بفحص %s؛ 1 MB أو أكثر
+Reading the folder...	جارٍ قراءة المجلد...
+This folder couldn't be read (0x%08x).	تعذرت قراءة هذا المجلد (0x%08x).
+Comparing files of the same size: %u of %u...	مقارنة الملفات بالحجم نفسه: %u من %u...
+Looking for identical files: %u of 1 MB or more so far...	البحث عن ملفات متطابقة: %u بحجم 1 ميغابايت أو أكثر حتى الآن...
+Nothing was added or changed in that time: Square goes further back.	لم يُضف أو يتغيّر شيء خلال هذه المدة: المربع يعود أبعد.
+Nothing's that big and that old: L1/R1 or Square widen it.	لا شيء بهذا الحجم وهذا القدم: L1/R1 أو المربع يوسّعانه.
+No identical files found.	لم يُعثر على ملفات متطابقة.
+Nothing matches the search. Press Circle to clear it.	لا شيء يطابق البحث. اضغط زر الرجوع لمسحه.
+Nothing matches the search. Press X to clear it.	لا شيء يطابق البحث. اضغط زر الرجوع لمسحه.
+This folder is empty.	هذا المجلد فارغ.
+Nothing changed by 1 MB or more.	لم يتغير شيء بمقدار 1 MB أو أكثر.
+No game is here more than once.	لا توجد لعبة موجودة أكثر من مرة.
+Nothing obvious to clear.	لا شيء واضح للتنظيف.
+No bookmarks on this drive yet: Square in a folder adds one.	لا توجد إشارات مرجعية على هذا القرص بعد: المربع في مجلد يضيف واحدة.
+Nothing here.	لا شيء هنا.
+Only the first 100,000 entries are listed.	تُعرض أول 100,000 عنصر فقط.
+Some of this folder couldn't be read.	تعذرت قراءة جزء من هذا المجلد.
+Put back	استعادة
+Size	الحجم
+Empty the bin	إفراغ السلة
+How long	منذ متى
+How far back	المدة
+Look again	البحث مجدداً
+What it's made of	مما يتكون
+Items	العناصر
+Files	الملفات
+Rescan this	إعادة الفحص
+Unbookmark	إزالة الإشارة
+Bookmark	إضافة إشارة
+Remove	إزالة
+Unkeep	إلغاء الإبقاء
+Keep	إبقاء
+Search	بحث
+Delete for good	حذف نهائي
+Clear search	مسح البحث
+Up	لأعلى
+Files here	الملفات هنا
+Smaller folders	مجلدات أصغر
+Map of the drive	خريطة القرص
+  ·  %s file	  ·  %s ملف
+  ·  %s files	  ·  ملفات: %s
+Go in	ادخل
+Pick a box	اختر مربعاً
+Music on: Relaxing music by Piotr Witowski, from Pixabay	الموسيقى مفعّلة: Piotr Witowski، من Pixabay
+No memory to write the report.	لا توجد ذاكرة كافية لكتابة التقرير.
+Writing the report...	جارٍ كتابة التقرير...
+Report saved: %s (and .csv)	حُفظ التقرير: %s (و.csv)
+The report couldn't be written (see the log).	تعذرت كتابة التقرير (راجع السجل).
+%d game	%d لعبة
+%d bookmark	%d إشارة مرجعية
+%d bookmarks	%d إشارة مرجعية
+%d scan	%d فحص
+%d scans	%d فحص
+%s used	%s مستخدم
+%s in 30 days	%s خلال 30 يوماً
+Space over time	المساحة عبر الوقت
+Export a report	تصدير تقرير
+Buttons	الأزرار
+About	حول
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	ما يمكن حذفه غالباً: حزم متبقية، ذاكرة مؤقتة، نسخ زائدة من الألعاب، تثبيتات غير مكتملة.
+Games held more than once, here or on another drive, and what removing the extra copies would free.	ألعاب موجودة أكثر من مرة، هنا أو على قرص آخر، وما سيحرره حذف النسخ الزائدة.
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	ملفات متطابقة بايتاً ببايت حيث تحتفظ بأشيائك: صور الأقراص، الوسائط، الحزم، مجلداتك.
+Games here, the longest unplayed first: good ones to clear if you're done with them.	الألعاب هنا، الأطول دون لعب أولاً: مرشحة جيدة للحذف إن انتهيت منها.
+The folders holding the most, at any depth.	المجلدات التي تشغل أكبر مساحة، على أي عمق.
+Everything over a size, untouched for a while.	كل ما يتجاوز حجماً ولم يُلمس منذ مدة.
+The drive's files by type: disc images, packages, video, saves...	ملفات القرص حسب النوع: صور الأقراص والحزم والفيديو والحفظ...
+The drive as boxes sized by the space they take: X goes into one.	القرص كمربعات بحجم المساحة التي تشغلها: X يدخل إلى أحدها.
+Folders you've bookmarked (Square in a folder).	المجلدات التي أضفت لها إشارة مرجعية (المربع في مجلد).
+What grew, shrank, appeared or went since the scan before.	ما كبر أو صغر أو ظهر أو اختفى منذ الفحص السابق.
+Used space scan by scan, by category.	المساحة المستخدمة فحصاً بعد فحص، حسب الفئة.
+What's been added or changed lately, newest first: what's taken your space.	ما أُضيف أو تغيّر مؤخراً، الأحدث أولاً: ما شغل مساحتك.
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	الفحص كملف نصي وجدول بيانات (CSV) على القرص الصلب أو على USB.
+The internal HDD's own record of its wear (SMART).	سجل التآكل الخاص بالقرص الصلب الداخلي (SMART).
+What's been deleted, waiting to go for good: put it back, or empty the bin.	ما حُذف وينتظر الحذف النهائي: استعده أو أفرغ السلة.
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	اللغة، الموسيقى، الأصوات، الأحجام، اللون، الفحص، التعتيم، الحذف.
+What every button does, screen by screen.	ما يفعله كل زر، شاشة بشاشة.
+Version, credits and licences.	الإصدار والشكر والتراخيص.
+Explore	استكشاف
+The drive as boxes sized by the space they take: Circle goes into one.	القرص كمربعات بحجم المساحة التي تشغلها: الدائرة تدخل إلى أحدها.
+After the next scan of this drive.	بعد الفحص التالي لهذا القرص.
+The internal HDD only.	القرص الصلب الداخلي فقط.
+Move	التنقل
+Close	إغلاق
+Only one scan so far: the chart grows with each scan.	فحص واحد فقط حتى الآن: يكبر الرسم مع كل فحص.
+No scans kept yet.	لا توجد عمليات فحص محفوظة بعد.
+−%s used since %s	−%s مستخدم منذ %s
++%s used since %s	+%s مستخدم منذ %s
+(%s rescanned)	(أُعيد فحص %s)
+Choose a scan	اختر فحصاً
+Start screen	شاشة البدء
+Pick Scan, Last scan, Tools or Settings	اختر فحص أو آخر فحص أو الأدوات أو الإعدادات
+Change drive (when a USB drive is plugged in)	بدّل القرص (عند توصيل قرص USB)
+Twice: quit	مرتين: خروج
+Pick a category (its part of the ring stands out)	اختر فئة (يبرز جزؤها من الحلقة)
+Open the category's items	افتح عناصر الفئة
+The largest items on the drive	أكبر العناصر على القرص
+Scan the drive again	أعد فحص القرص
+The menu (not while scanning)	القائمة (ليس أثناء الفحص)
+Stop a scan, or back to the start screen	إيقاف الفحص، أو العودة إلى شاشة البدء
+Lists	القوائم
+A page at a time (or Left and Right)	صفحة في كل مرة (أو يسار ويمين)
+Open: a folder, a game's parts, the files of a type	افتح: مجلدًا، أو أجزاء لعبة، أو ملفات نوع
+Sort: largest, smallest, A-Z	الترتيب: الأكبر، الأصغر، A-Z
+Change tab	بدّل التبويب
+A category's list: scan just that category again. Largest: items or files	في قائمة الفئة: أعد فحص هذه الفئة وحدها. في الأكبر: العناصر أو الملفات
+Delete the row (when deleting is allowed in Settings)	احذف الصف (إذا كان الحذف مسموحًا في الإعدادات)
+Back (a search is cleared first; in a folder, up one)	رجوع (يُمسح البحث أولًا؛ في المجلد، للأعلى)
+Deleting	الحذف
+Pick Delete or Cancel	اختر حذف أو إلغاء
+Hold on Delete for 2 seconds to delete	اضغط مطولًا على حذف لمدة ثانيتين للحذف
+Cancel, or stop between files	إلغاء، أو التوقف بين الملفات
+Drive health and Settings	صحة القرص والإعدادات
+Read the drive's health again	اقرأ صحة القرص مجددًا
+Drive health: its readings over time	صحة القرص: قراءاته عبر الوقت
+Drive health: what it all means	صحة القرص: ماذا يعني كل ذلك
+Change a setting	غيّر إعدادًا
+Keeping, the bin, filters	الإبقاء، السلة، المرشحات
+Free up space, Duplicates: keep a row off them (or back on)	تحرير مساحة، المكررات: إبقاء صف خارجها (أو إعادته)
+A game's screen: what it's made of	شاشة لعبة: مما تتكون
+Recycle bin: put it back (Square there empties the bin)	سلة المحذوفات: استعادة (المربع هناك يفرغها)
+Size filter: the size (Square there: how long)	مرشّح الحجم: الحجم (المربع هناك: المدة)
+Recently added: how far back	المضاف مؤخراً: المدة
+Folders, Map, Space over time	المجلدات، الخريطة، المساحة عبر الوقت
+In a folder: bookmark it (or remove the bookmark)	في مجلد: أضف إشارة مرجعية (أو أزلها)
+Map: go into the box picked	الخريطة: ادخل إلى المربع المختار
+Map: pick a box. Space over time: pick a scan	الخريطة: اختر مربعاً. المساحة عبر الوقت: اختر فحصاً
+Anywhere	في أي مكان
+Music off or on	إيقاف الموسيقى أو تشغيلها
+When the screen's dimmed: any button wakes it	عندما تكون الشاشة معتمة: أي زر يوقظها
+When HDD Atlas starts	عند بدء HDD Atlas
+Held: the 4:3 layout on a widescreen TV	مضغوط: تخطيط 4:3 على تلفاز عريض
+Held: drawn by the CPU instead of the graphics chip	مضغوط: الرسم بالمعالج بدل شريحة الرسوميات
+Save the report where?	أين يُحفظ التقرير؟
+On the HDD, in HDD Atlas's folder	على القرص الصلب، في مجلد HDD Atlas
+On %s	على %s
+Language	اللغة
+Sound effects	المؤثرات الصوتية
+Sizes	الأحجام
+Accent colour	لون التمييز
+Rescan at start	الفحص عند البدء
+Scan USB drives	فحص أقراص USB
+Dim the screen	تعتيم الشاشة
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	"تلقائي" يتبع لغة PS3. الترجمات من HDD Atlas ولم يراجعها متحدثون أصليون بعد.
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	مستوى صوت الموسيقى الخلفية تحت النقرات. R3 يوقفها أو يشغلها من أي مكان.
+The clicks when you move and press.	النقرات عند التنقل والضغط.
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024 هي طريقة عدّ XMB (931 GB لقرص 1 TB)، و1000 هي طريقة عدّ علب الأقراص (1 TB).
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	لون المحدد. التباين العالي يجعله أصفر ويفتّح النص الرمادي.
+When the free space has moved since the last scan, scan again by itself at start.	إذا تغيرت المساحة الحرة منذ آخر فحص، يُعاد الفحص تلقائيًا عند البدء.
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	فحص قرص USB تلقائيًا عند توصيله (إذا لم يكن هناك فحص آخر).
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	بعد هذه المدة دون ضغط أي زر تُعتم الشاشة (أي زر يوقظها): مفيد لتلفزيونات البلازما وOLED.
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	يسمح لـ START بحذف صف في القوائم: صور الأقراص ونسخ المجلدات والحزم المتبقية وملفات ROM وذاكرة webMAN المؤقتة.
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	ينتظر المحذوف في سلة المحذوفات على قرصه (سلة المحذوفات في القائمة) هذه المدة ليمكن استعادته. الإيقاف يحذف فوراً.
+Automatic: %s	تلقائي: %s
+Off	متوقف
+On	مفعّل
+1 GB = 1000 MB (as on the box)	1 GB = 1000 MB (كما على العلبة)
+1 GB = 1024 MB (as the XMB)	1 GB = 1024 MB (كما في XMB)
+When free space has moved	عند تغير المساحة الحرة
+When plugged in	عند التوصيل
+After %d minutes	بعد %d دقيقة
+Keep %d days	أيام الاحتفاظ: %d
+Until it's emptied	حتى تُفرغ
+Off: delete at once	متوقف: حذف فوري
+Change	تغيير
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	الخطوط: Poppins (SIL Open Font License) وDejaVu Sans.
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	صور الأزرار: Kenney (CC0). الأعلام: flag-icons (MIT).
+The hard disk icon: "Internal Clear" by Rick Patrick.	أيقونة القرص الصلب: "Internal Clear" من تصميم Rick Patrick.
+Menu icons: Tanah Basah, from Flaticon.	أيقونات القائمة: Tanah Basah، من Flaticon.
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	الموسيقى: "Relaxing Music (Part 1)" — Piotr Witowski، من Pixabay.
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	تُفك الصور والخطوط والموسيقى بواسطة stb_image وstb_truetype وstb_vorbis (ملكية عامة).
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	محركات NTFS: libntfs_ext من Estwald، مبنية على NTFS-3G (GPL-2.0).
+Built with PSL1GHT and the ps3toolchain.	صُنع باستخدام PSL1GHT وps3toolchain.
+Made by	من صنع
+Thanks to	شكر لـ
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas برنامج حر بموجب GPL-2.0. التراخيص في USRDIR/data/licenses.

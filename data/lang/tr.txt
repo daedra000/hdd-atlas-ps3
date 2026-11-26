@@ -1,0 +1,652 @@
+# HDD Atlas in Turkish: "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	webMAN, NTFS sürücüden bir oyunu bağlamak için buna ihtiyaç duyar.
+A disc image's decryption key: webMAN needs it to mount it.	Bir disk kalıbının şifre çözme anahtarı: webMAN onu bağlamak için kullanır.
+Installed games: delete them from the XMB (it keeps their icons).	Yüklü oyunlar: XMB'den silin (simgelerini o tutar).
+Music, video and photos: delete them from the XMB (it keeps a list of them).	Müzik, video ve fotoğraflar: XMB'den silin (onların listesini o tutar).
+Saves, trophies and licences: delete them from the XMB.	Kayıtlar, kupalar ve lisanslar: XMB'den silin.
+The system's own: never deleted.	Sisteme ait: asla silinmez.
+TB	TB
+GB	GB
+MB	MB
+KB	KB
+B	B
+reallocated sectors	yeniden atanmış sektör
+sectors waiting to be reallocated	yeniden atanmayı bekleyen sektör
+uncorrectable sectors	düzeltilemeyen sektör
+reported uncorrectable errors	bildirilen düzeltilemeyen hata
+reallocation events	yeniden atama
+Life left	Kalan ömür
+Wear levelling count	Aşınma dengeleme sayısı
+Used reserve blocks	Kullanılan yedek bloklar
+Unused reserve blocks	Boş yedek bloklar
+Media wearout	Ortam aşınması
+Reserved space left	Kalan yedek alan
+Total written	Toplam yazılan
+Read error rate	Okuma hatası oranı
+Throughput performance	Aktarım performansı
+Spin-up time	Dönmeye başlama süresi
+Start/stop count	Başlatma/durdurma sayısı
+Reallocated sectors	Yeniden atanmış sektörler
+Seek error rate	Arama hatası oranı
+Seek time performance	Arama performansı
+Power-on hours	Çalışma saati
+Spin retry count	Dönme yeniden denemeleri
+Calibration retries	Kalibrasyon yeniden denemeleri
+Power cycles	Güç döngüleri
+Program fails	Programlama hataları
+Erase fails	Silme hataları
+Unexpected power losses	Beklenmedik güç kesintileri
+Wear range delta	Aşınma aralığı farkı
+Interface downshifts	Arayüz hız düşürmeleri
+End-to-end errors	Uçtan uca hatalar
+Reported uncorrectable	Bildirilen düzeltilemeyenler
+Command timeouts	Komut zaman aşımları
+High fly writes	Fazla yüksek yazmalar
+Airflow temperature	Hava sıcaklığı
+G-sense errors	Darbe hataları
+Power-off retracts	Kapanışta geri çekmeler
+Load cycles	Yükleme döngüleri
+Temperature	Sıcaklık
+ECC recovered	ECC ile düzeltilen
+Reallocation events	Yeniden atamalar
+Pending sectors	Bekleyen sektörler
+Uncorrectable sectors	Düzeltilemeyen sektörler
+Interface CRC errors	Arayüz CRC hataları
+Write error rate	Yazma hatası oranı
+Disk shift	Disk kayması
+Loaded hours	Kafaların yüklü olduğu saatler
+Load retries	Yükleme yeniden denemeleri
+Load friction	Yükleme sürtünmesi
+Load-in time	Yükleme süresi
+Head flying hours	Kafa uçuş saatleri
+Total read	Toplam okunan
+Free fall events	Algılanan düşmeler
+Vendor specific	Üreticiye özel
+Games & game data	Oyunlar ve oyun verileri
+Disc game backups	Disk oyun yedekleri
+Saves, trophies & licences	Kayıtlar, kupalar ve lisanslar
+Themes	Temalar
+Music, video & photos	Müzik, video ve fotoğraflar
+Packages, tmp & caches	Paketler, tmp ve önbellekler
+System & other folders	Sistem ve diğer klasörler
+System partitions	Sistem bölümleri
+Unaccounted	Açıklanamayan
+Games	Oyunlar
+Backups	Yedekler
+Saves	Kayıtlar
+Media	Medya
+Packages	Paketler
+System	Sistem
+Partitions	Bölümler
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	%s taraması sırasında yanıt vermeyi bıraktı ve tüm NTFS sürücüleri onu bekliyor: yeniden kullanmak için konsolu yeniden başlatın.
+%s stopped answering during its scan: restart the console to use it again.	%s taraması sırasında yanıt vermeyi bıraktı: yeniden kullanmak için konsolu yeniden başlatın.
+Emptied %d old entries from the recycle bin: %s freed.	Geri dönüşüm kutusundan %d eski öğe kalıcı olarak silindi: %s yer açıldı.
+No scan can start till the console restarts: %s stopped answering during its scan.	Konsol yeniden başlatılana kadar tarama başlayamaz: %s taraması sırasında yanıt vermeyi bıraktı.
+A scan of %s is running: one at a time.	%s zaten taranıyor: her seferinde bir tane.
+Drive health found this drive wearing out: back up what matters first.	Sürücü sağlığı bu sürücünün aşındığını gösteriyor: önce önemli olanları yedekleyin.
+Scanning: things may be slow until it's done. The menu's back after it.	Taranıyor: bitene kadar yavaş olabilir. Menü sonra geri gelir.
+The scan couldn't start (see the log).	Tarama başlatılamadı (günlüğe bakın).
+Rescanning %s; the rest stays as it was.	%s yeniden taranıyor; gerisi olduğu gibi kalıyor.
+Internal HDD	Dahili HDD
+Scan of %s finished in %.1f s.	%s taraması %.1f sn'de bitti.
+Scan stopped. The last scan is shown.	Tarama durduruldu. Son tarama gösteriliyor.
+The scan didn't finish (see the log).	Tarama bitmedi (günlüğe bakın).
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	Diskte HDD Atlas'ın taradığı sürücünün dışında kalan bölümler: 2 GB'lık bir oyun önbelleği, çoğu modelde sistemin flash belleği ve dosya sisteminin her dosya için tuttuğu kayıtlar (diskin yüzde birkaçı). Hiçbiri boşaltılamaz.
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	Hiçbir dosyanın açıklamadığı kullanılmış alan. Çoğu, dosya sisteminin kendisi için boş tuttuğu alandır: fabrika ayarında sürücünün yüzde 8'i, webMAN'in unlockhdd'sinden sonra yüzde 1'i. Kalanı, dosyaların yukarı yuvarlanmış son bloklarıdır. Hiçbiri buradan boşaltılamaz.
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	Burada dosyaların toplamı kullanılan alanı aşıyor: bazıları iki kez sayılıyor. webMAN bir oyunun dosyalarını GAMES ile game arasında bağlayabilir: diskteki tek kopya iki kez sayılır.
+Press Circle again to quit.	Çıkmak için Daire'ye tekrar basın.
+Press X again to quit.	Çıkmak için X'e tekrar basın.
+The menu opens once the scan's done.	Menü tarama bitince açılır.
+Not scanned yet	Henüz taranmadı
+Free space has dropped by %s since this scan	Boş alan bu taramadan beri %s azaldı
+Free space has grown by %s since this scan	Boş alan bu taramadan beri %s arttı
+Scanned %s  ·  1 delete since	%s tarihinde tarandı  ·  o zamandan beri 1 silme
+Scanned %s  ·  %u deletes since	%s tarihinde tarandı  ·  o zamandan beri %u silme
+Scanned %s  ·  took %.0f s	%s tarihinde tarandı  ·  %.0f sn sürdü
+%s used of %s	%s / %s kullanılıyor
+%s used of %s  ·  %s	%s / %s kullanılıyor  ·  %s
+%s files in %s folders	%s dosya, %s klasörde
+  ·  %llu couldn't be read (skipped)	  ·  %llu okunamadı (atlandı)
+%s free	%s boş
+%s free  ·  drive size unknown	%s boş  ·  sürücü boyutu bilinmiyor
+%s  ·  %u item	%s  ·  %u öğe
+%s  ·  %u items	%s  ·  %u öğe
+No scan of %s yet. Press Triangle to scan it.	%s henüz taranmadı. Taramak için Üçgen'e basın.
+(%s is being scanned: one at a time.)	(%s taranıyor: her seferinde bir tane.)
+Scanning %s	%s taranıyor
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s / %s  ·  %s dosya
+%s  ·  %s files	%s  ·  %s dosya
+The first scan of a full HDD can take a few minutes.	Dolu bir HDD'nin ilk taraması birkaç dakika sürebilir.
+Scanning  %d%%	Taranıyor  %d%%
+Scanning %s  %d%%  ·  %s files	%s taranıyor  %d%%  ·  %s dosya
+%s files	%s dosya
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	%s okuma hataları verdi, bu yüzden tarama okuyamadıklarını atladı. Bu genellikle bozuk sektörlerin işaretidir.
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	%s okuma hataları verdi, bu yüzden tarama bitemedi. Bu genellikle bozuk sektörlerin işaretidir.
+Drive health shows whether the drive has bad sectors, and what to do if it has.	Sürücü sağlığı, sürücüde bozuk sektör olup olmadığını ve varsa ne yapılacağını gösterir.
+Some of the drive couldn't be read	Sürücünün bir kısmı okunamadı
+The scan didn't finish	Tarama bitmedi
+OK	Tamam
+Drive health	Sürücü sağlığı
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	%s 5 dakika yanıt vermedi, bu yüzden tarama bırakıldı. Genelde sürücü burayı okuyamıyordur:
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	Lütfen /dev_hdd0/game/HDAT00001/USRDIR içindeki hddatlas_log.txt dosyasını ps3.world/contact adresine gönderin (HDD Atlas o zamandan beri yeniden açıldıysa hddatlas_log_prev.txt). Konsol yeniden başlatılana kadar başka bir tarama başlamayabilir.
+The scan got stuck	Tarama takıldı
+Check this drive's health on a PC (its SMART data) before trusting it with more.	Daha fazlasını emanet etmeden önce bu sürücünün sağlığını bir PC'de (SMART verileri) kontrol edin.
+Overview	Genel bakış
+Open	Aç
+What's this	Bu nedir
+Largest	En büyükler
+Largest items	En büyük öğeler
+Rescan	Yeniden tara
+Scan	Tara
+Stop scan	Taramayı durdur
+Back	Geri
+Menu	Menü
+Music off	Müziği kapat
+Music on	Müziği aç
+Drive	Sürücü
+Deleting is off.	Silme kapalı.
+Deleting is off: turn it on in Settings (START on the overview).	Silme kapalı: Ayarlar'dan açın (genel bakışta START).
+This NTFS drive is read-only: Windows didn't close it cleanly.	Bu NTFS sürücü salt okunur: Windows onu düzgün kapatmadı.
+This can't be deleted here.	Bu burada silinemez.
+A package is being installed: delete this once that's done.	Bir paket kuruluyor: bu bitince bunu silin.
+Wait for the scan to finish, then delete.	Taramanın bitmesini bekleyin, sonra silin.
+The recycle bin's empty.	Geri dönüşüm kutusu boş.
+The recycle bin	Geri dönüşüm kutusu
+Not deleted	Silinmedi
+No memory to start.	Başlamak için bellek yok.
+Deleted	Silindi
+Stopped part way	Yarıda durduruldu
+Not deleted: it isn't the same as %s, byte for byte.	Silinmedi: %s ile bayt bayt aynı değil.
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	Silinmedi: hâlâ değişiyor, belki bir kurulum ona yazıyor. Daha sonra yeniden deneyin.
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	Silinmedi: bir kurulum son bir gün içinde ona yazdı ve hâlâ ona ihtiyaç duyabilir. Yarın yeniden deneyin.
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	Silinmedi: diğer kopya (%s) artık yok, yani bu sonuncusu.
+In the recycle bin	Geri dönüşüm kutusunda
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	Geri dönüşüm kutusuna taşındı (%s). Kutu boşaltılınca yer açılır: menüdeki Geri dönüşüm kutusu.
+Deleted: %s freed.	Silindi: %s boşaldı.
+Stopped part way: %s freed, the rest is still there.	Yarıda durduruldu: %s boşaldı, gerisi hâlâ orada.
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	Silindi, ama %u öğe kaldı (bağlantılar ya da silinmeyenler): %s boşaldı.
+Not deleted: error 0x%08x at %s. %s freed.	Silinmedi: 0x%08x hatası (%s). %s boşaldı.
+Deleting is on: START on a row that can go.	Silme açık: silinebilen bir satırda START.
+Allow deleting?	Silmeye izin verilsin mi?
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	HDD Atlas disk görüntülerini (PS3ISO, PS2ISO...), GAMES içindeki klasör yedeklerini, kalan paketleri, ROM'ları ve webMAN önbelleğini silebilecek: her seferinde bir satır, her biri X basılı tutularak onaylandıktan sonra. Silinenler geri gelmez.
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	HDD Atlas disk görüntülerini (PS3ISO, PS2ISO...), GAMES içindeki klasör yedeklerini, kalan paketleri, ROM'ları ve webMAN önbelleğini silebilecek: her seferinde bir satır, her biri Daire basılı tutularak onaylandıktan sonra. Silinenler geri gelmez.
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	Yüklü oyunlar, kayıtlar, kupalar, müzik, video ve fotoğraflar XMB'de kalır (listelerini o tutar). Sistem klasörlerine asla dokunulmaz. Ayarlar bunu yine kapatır.
+Allow deleting	Silmeye izin ver
+Cancel	İptal
+Delete this disc image?	Bu disk görüntüsü silinsin mi?
+Delete this folder backup?	Bu klasör yedeği silinsin mi?
+Delete this package?	Bu paket silinsin mi?
+Delete this ROM?	Bu ROM silinsin mi?
+Delete this webMAN cache file?	Bu webMAN önbellek dosyası silinsin mi?
+Delete this leftover install?	Bu yarım kalmış kurulum silinsin mi?
+Delete it for good?	Kalıcı olarak silinsin mi?
+Delete this system update?	Bu sistem güncellemesi silinsin mi?
+Empty the recycle bin?	Geri dönüşüm kutusu boşaltılsın mı?
+Move it to the recycle bin?	Geri dönüşüm kutusuna taşınsın mı?
+Deleting...	Siliniyor...
+and %s with it	ve onunla birlikte %s
+Nothing's freed till the recycle bin's emptied.	Kutu boşaltılana kadar yer açılmaz.
+Free: %s  →  about %s	Boş: %s  →  yaklaşık %s
+If it was a game update, install that update again afterwards.	Bir oyun güncellemesiyse, o güncellemeyi sonra yeniden kurun.
+It can't be undone.	Geri alınamaz.
+It waits in the recycle bin for %d days first.	Önce %d gün geri dönüşüm kutusunda bekler.
+It waits in the recycle bin till that's emptied.	Kutu boşaltılana kadar geri dönüşüm kutusunda bekler.
+Delete	Sil
+Hold to delete	Silmek için basılı tut
+Back to Cancel	İptal'e dön
+Pick Delete	Sil'i seç
+Checking it's the same as the other copy: %s of %s	Diğer kopyayla aynı olduğu denetleniyor: %s / %s
+Stopping...	Durduruluyor...
+Stop	Durdur
+%s of %s files  ·  %s	%s / %s dosya  ·  %s
+%s went from %lld to %lld since %s.	%s: %lld değerinden %lld değerine (%s tarihinden beri).
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	Günlük USRDIR'e yazılamadı, bu yüzden sürücüye sorulmadı.
+lv2 wouldn't open the drive (0x%08x).	lv2 sürücüyü açamadı (0x%08x).
+The drive didn't answer IDENTIFY (0x%08x).	Sürücü IDENTIFY'a yanıt vermedi (0x%08x).
+The drive didn't give its SMART data (0x%08x).	Sürücü SMART verilerini vermedi (0x%08x).
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	Sürücü yanıt verdi, ama IDENTIFY olarak okunabilecek bir şeyle değil (bir emülatör böyle yapar).
+No memory for the reading.	Okuma için bellek yok.
+GOOD	İYİ
+CAUTION	DİKKAT
+FAILING	ARIZALANIYOR
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	%s değeri %d, %d eşiğinde ya da altında: disk arızalandığını söylüyor.
+%s is at %d, at or below its threshold of %d.	%s değeri %d, %d eşiğinde ya da altında.
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s: flash bellek aşınıyor. Önemli olanları yedekleyin.
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s: yüzey aşınıyor. Önemli olanları yedekleyin.
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	Kalan ömür: %%%d. Flash bellek neredeyse tükendi. Önemli olanları yedekleyin.
+Running hot (%d °C). Check the console's vents.	Çok sıcak (%d °C). Konsolun havalandırmalarını kontrol edin.
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	Yeniden atanmış, bekleyen ya da düzeltilemeyen sektör yok ve eşiğin altında hiçbir şey yok.
+SSD	SSD
+%d rpm	%d dev/dk
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  yazılım %s  ·  seri no %s
+internal drive	dahili sürücü
+internal HDD	dahili HDD
+  ·  (the data's checksum is off)	  ·  (verinin sağlama toplamı tutmuyor)
+Powered on	Açık kaldı
+Reallocated	Yeniden atanan
+Pending	Bekleyen
+Uncorrectable	Düzeltilemeyen
+%s h	%s sa
+%lld days	%lld gün
+sectors	sektör
+Read on	Okunma tarihi
+No readings kept yet.	Henüz kayıtlı okuma yok.
+Attribute	Özellik
+Value	Değer
+Worst	En kötü
+Thresh.	Eşik
+Threshold	Eşik
+Raw	Ham
+pre-fail	arıza öncesi
+The verdict	Sonuç
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	İyi: aşınmış sektör yok, eşiğinde olan özellik yok ve aşırı ısınma yok. Dikkat: sürücü çalışıyor, ama bazı sektörler aşınmış, bir yaşlanma özelliği eşiğini geçmiş ya da sıcaklık 55 °C'nin üzerinde: önemli olanların yedeğini alın. Arızalanıyor: bir arıza öncesi özelliği eşiğinde ya da altında, yani sürücünün kendisi yakında arızalanmayı bekliyor: saklamak istediklerinizi kopyalayın.
+The six figures	Altı değer
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	Sıcaklık: 50 °C'nin altı rahattır; 55 °C'nin üzerinde konsolun havalandırmasını ve tozunu kontrol edin. Açık kaldı: sürücünün ömrü boyunca çalıştığı saatler. Güç döngüleri: kaç kez açıldığı.
+Bad sectors	Bozuk sektörler
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	Yeniden atanan: bozulup yedek sektörlerle değiştirilen sektörler. Bekleyen: sürücünün okuyamadığı, yeniden yazılmayı ya da değiştirilmeyi bekleyen sektörler. Düzeltilemeyen: hata düzeltmeden sonra bile başarısız olan okumalar, yani içindekiler kaybolmuş olabilir. Sağlıklı bir sürücüde üçü de 0'dır. Birkaç tane ölümcül değildir, ama sürekli artan bir sayı, sürücünün sonunun geldiğinin en kesin işaretidir.
+The table	Tablo
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	Sürücü her özelliğe bir puan verir. Değer şimdiki puandır (yeniyken genellikle 100 ya da 200; düşük olan kötüdür), En kötü şimdiye kadarki en düşük puandır, Eşik ise üreticinin sınırıdır: onda ya da altında o özellik başarısız olmuştur. Ham, puanın arkasındaki sürücünün kendi sayımıdır (saat, sektör, derece). Anlamı üreticiden üreticiye değişir, bu yüzden bir sürücüyü başka bir sürücüyle değil, kendi önceki okumalarıyla karşılaştırın.
+Pre-fail and old-age	Arıza öncesi ve yaşlanma
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	Sürücü her özelliği ikisinden biri olarak işaretler. Arıza öncesi özellikler (tabloda arıza öncesi olarak işaretli) bir arızadan önce gelen sorunları izler: bozuk sektörler, yavaş dönmeye başlama, konumlama hataları. Biri eşiğinde ya da altındaysa sürücü yakında arızalanmayı bekliyor demektir. Geri kalanlar yaşlanma özellikleridir: saatler ve güç döngüleri gibi yıllar içindeki olağan aşınmayı izler. Biri eşiğini geçtiyse sürücü yıpranmıştır, ama hemen duracağı anlamına gelmez.
+SSDs	SSD'ler
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	SSD, güç döngüleri yerine kalan ömrünü gösterir: flash belleğinin öngörülen aşınmasından ne kadarının kaldığına dair kendi tahmini, yeniyken %100. %10 veya altında sonuç Dikkat olur. SSD'de yeniden atanmış sektörler, yedekleriyle değiştirilen aşınmış flash bloklarıdır ve SSD'ler daha sıcak çalıştığından sonuç 70 °C'yi bekler. Arızalanan bir SSD hata bildirmek yerine yanıt vermeyi bırakabilir: bir tarama her seferinde aynı yerde donuyorsa, SMART iyi görünse bile sürücüden şüphelenin.
+History	Geçmiş
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	Her okuma saklanır: Kare onları gösterir, en yenisi önce. Önceki okumadan beri artan bir yeniden atanan, bekleyen ya da düzeltilemeyen sayısı sarı görünür. Karşılaştıracak bir şey olsun diye sürücüyü arada bir okuyun (Üçgen).
+It only reads	Yalnızca okur
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART sürücünün kendi kaydıdır: HDD Atlas yalnızca onu ister ve sürücüde hiçbir şey değişmez. Aşınmış bir sürücüyü onaramaz: arızalanıyorsa çözüm bir yedek ve yeni bir sürücüdür.
+1. Copy what matters first	1. Önce önemli olanları kopyalayın
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	Kayıtlarınız /dev_hdd0/home içinde: webMAN'in FTP'si veya multiMAN ile bir USB sürücüye ya da PC'ye kopyalayın. Apollo Save Tool ile lisanslarınızı (RAP), act.dat dosyanızı ve kupalarınızı da dışa aktarın. Hepsini konsolun dışında saklayın.
+2. Delete what you don't need	2. Gerekmeyenleri silin
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	Eski disk kalıpları, artık paketler, önbellekler: böylece kopyalanacak ve arızalı sürücüden okunacak daha az şey kalır. Bir dosyayı silmek onu neredeyse hiç okumaz.
+3. Don't scan again and again	3. Tekrar tekrar taramayın
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	Tarama, sürücüdeki her klasörü okur. Sürücünün okuyamadığı yerde tarama durabilir (HDD Atlas 5 dakika sonra vazgeçer) ve sürekli yeniden deneyen bir sürücü daha hızlı aşınır.
+4. Replace the drive	4. Sürücüyü değiştirin
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	Aşınmış bir sürücü onarılamaz ve yalnızca kötüleşir. PS3'ün Yedekleme Aracı yalnızca ikinci bir güvenlik ağıdır: kupaları saklamaz, saatler sürer ve hasarlı bir dosyada başarısız olabilir. Sürücüyü PC'de kopyalamak işe yaramaz: bu konsola göre şifrelenmiştir. Değişimin tamamı adım adım: ps3.world/upgrade-storage
+If the drive is wearing out	Sürücü aşınıyorsa
+What it means	Ne anlama geliyor
+SMART, read at %s	SMART, %s saatinde okundu
+Scroll	Kaydır
+Read the internal HDD's health?	Dahili HDD'nin sağlığı okunsun mu?
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	HDD Atlas sürücüden SMART verilerini isteyecek: kendi saat, hata ve aşınmış sektör sayılarını. Yalnızca okur: sürücüde hiçbir şey değişmez.\n\nBunu PS3'ün depolama sistem çağrılarıyla ister; bunlar her konsolda denenmedi. Bu konsol bir gün donarsa HDD Atlas bunu bir sonraki açılışta fark eder ve bir daha sormaz.
+Reading the drive's health...	Sürücü sağlığı okunuyor...
+Asking the drive for its SMART data.	Sürücüden SMART verileri isteniyor.
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	Sürücü sağlığını okumak bu konsolu geçen sefer dondurdu ("%s" sırasında), bu yüzden HDD Atlas bir daha sormayacak.\n\nYine de denemek için /dev_hdd0/game/HDAT00001/USRDIR içindeki smart_journal.txt'yi silin.
+Not read: it froze the console before	Okunmadı: konsol daha önce dondu
+The drive's health couldn't be read	Sürücü sağlığı okunamadı
+Read	Oku
+What to do	Ne yapmalı
+Try again	Tekrar dene
+Read again	Yeniden oku
+Attributes	Özellikler
+version %s	sürüm %s
+Once the scan's done.	Tarama bitince.
+Scan this drive first.	Önce bu sürücüyü tarayın.
+Last scanned %s	Son tarama: %s
+%s used of %s  ·  %s free	%s / %s kullanılıyor  ·  %s boş
+Last time: %u min	Son seferinde: %u dk
+Last time: %u s	Son seferinde: %u sn
+Last scan	Son tarama
+Tools	Araçlar
+Settings	Ayarlar
+Go through every folder on the drive and add up what's there.	Sürücüdeki her klasörü gezer ve içindekileri toplar.
+What the last scan found, straight away.	Son taramanın bulduğu, hemen.
+Free up space, duplicates, the map, drive health and more.	Yer açma, kopyalar, harita, sürücü sağlığı ve daha fazlası.
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	Dil, müzik, sesler, boyutlar, tarama, karartma, silme.
+What's using your PS3's space, drive by drive, down to the last file.	PS3'ünüzün alanını ne kaplıyor, sürücü sürücü, son dosyaya kadar.
+Choose	Seç
+Quit	Çık
+Blue	Mavi
+Teal	Camgöbeği
+Purple	Mor
+Pink	Pembe
+Orange	Turuncu
+Green	Yeşil
+High contrast	Yüksek karşıtlık
+Largest first	Önce en büyükler
+Smallest first	Önce en küçükler
+A-Z	A-Z
+Bookmark removed.	Yer imi kaldırıldı.
+There are 64 bookmarks already: remove one first.	Zaten 64 yer imi var: önce birini kaldırın.
+Bookmarked: it's in the menu's Bookmarks.	Yer imi eklendi: menüdeki Yer imleri'nde.
+It's suggested again.	Yeniden önerilecek.
+There are 512 kept already: unkeep one first.	Zaten 512 tutulan var: önce birini çıkarın.
+Kept: it won't be suggested again (Square here undoes it).	Tutuldu: artık önerilmeyecek (burada Kare geri alır).
+Disc images	Disk görüntüleri
+Disc images and data	Disk görüntüleri ve veriler
+Disc image track lists	Disk görüntüsü parça listeleri
+Licensed game data	Lisanslı oyun verisi
+Programs	Programlar
+Game archives	Oyun arşivleri
+Game data	Oyun verisi
+Music	Müzik
+Video	Video
+Pictures	Resimler
+Licences	Lisanslar
+Save and game info	Kayıt ve oyun bilgisi
+Trophies	Kupalar
+Text and settings	Metin ve ayarlar
+Databases	Veritabanları
+Archives	Arşivler
+ROMs	ROM'lar
+No extension	Uzantısız
+Everything else	Diğer her şey
+Recycle bin	Geri dönüşüm kutusu
+SingStar songs	SingStar şarkıları
+IRISMAN's cache	IRISMAN önbelleği
+Apollo's cache	Apollo önbelleği
+multiMAN's covers	multiMAN kapakları
+Firmware update	Sistem güncellemesi
+(more items)	(diğer öğeler)
+Newest first	Önce en yeniler
+Oldest first	Önce en eskiler
+Where it was wasn't saved: it can't be put back, only deleted for good.	Yeri kaydedilmedi: geri yüklenemez, yalnızca kalıcı olarak silinebilir.
+The recycle bin's being tidied: try again in a moment.	Geri dönüşüm kutusu şu an toparlanıyor: birazdan tekrar deneyin.
+Put back, but not its .cue/.bin: that's still in the recycle bin.	Geri kondu, ama .cue/.bin dosyası değil: o hâlâ geri dönüşüm kutusunda.
+Put back where it was. Its size counts again after the next scan.	Geri yüklendi. Boyutu bir sonraki taramadan sonra yeniden sayılır.
+Something's where it was now: not put back.	Yerinde artık başka bir şey var: geri yüklenmedi.
+It couldn't be put back (see the log).	Geri yüklenemedi (günlüğe bakın).
+It's gone since the scan before.	Önceki taramadan beri yok.
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	Bir taramanın ayrı tuttuğu 50.000 öğenin ötesinde: klasörleri tek tek listelenmez.
+Search by name	Ada göre ara
+It isn't there any more.	Artık orada değil.
+It's the only copy left: it isn't deleted from here.	Kalan tek kopya bu: buradan silinmez.
+Game	Oyun
+Disc game	Disk oyunu
+Save	Kayıt
+App	Uygulama
+PS2 game	PS2 oyunu
+PS1 game	PS1 oyunu
+PSP game	PSP oyunu
+Minis	Minis
+Home	Home
+Network	Ağ
+%s  ·  %s file	%s  ·  %s dosya
+%u couldn't be read	%u okunamadı
+New	Yeni
+Gone	Yok
+%s file	%s dosya
+  ·  %s folder	  ·  %s klasör
+  ·  %s folders	  ·  %s klasör
+New since the scan: rescan for its size	Taramadan beri yeni: boyutu için yeniden tarayın
+Past the folders a scan keeps sizes for	Bir taramanın boyutunu tuttuğu klasörlerin ötesinde
+Installed %s	Yüklü %s
+Backup %s	Yedek %s
+Saves %s	Kayıtlar %s
+Trophies %s	Kupalar %s
+Kept	Tutuldu
+%d copy	%d kopya
+%d copies	%d kopya
+Game data %s	Oyun verisi %s
+Also on %s (%s)	Ayrıca %s üzerinde (%s)
+never	hiç
+today	bugün
+%d days ago	%d gün önce
+%d months ago	%d ay önce
+%d years ago	%d yıl önce
+Last played %s (its newest save)	Son oynanma %s (en yeni kaydı)
+Last changed %s	Son değişiklik %s
+Leftover package (already installed)	Kalan paket (zaten yüklü)
+webMAN's cache (made again when needed)	webMAN önbelleği (gerektiğinde yeniden oluşur)
+Temporary files	Geçici dosyalar
+Extra copy of a game held more than once	Birden fazla kez bulunan bir oyunun fazla kopyası
+Update for a game that isn't here (keep it if you play the disc)	Burada olmayan bir oyunun güncellemesi (diskten oynuyorsanız saklayın)
+Save for a game that isn't here (keep it if you play the disc)	Burada olmayan bir oyunun kaydı (diskten oynuyorsanız saklayın)
+Left by an install or a delete the system didn't finish	Sistemin bitiremediği bir kurulumdan ya da silme işleminden kalan
+No PARAM.SFO: a broken install, or another app's data (check it first)	PARAM.SFO yok: bozuk kurulum veya başka uygulama (önce kontrol edin)
+Downloaded, not installed yet: install or delete it from the XMB	İndirildi, henüz kurulmadı: XMB'den kurun ya da silin
+Waiting to be installed: install or delete it from the XMB	Kurulmayı bekliyor: XMB'den kurun ya da silin
+A package that isn't installed: install it, or delete it if it's not needed	Kurulmamış paket: kurun ya da gerekmiyorsa silin
+An app's cache: clear it in that app (it makes it again)	Bir uygulamanın önbelleği: o uygulamadan temizleyin (yeniden oluşturur)
+A system update: not for HEN or CFW (installing it removes them)	Sistem güncellemesi: HEN ya da CFW için değil (kurmak onları kaldırır)
+Can be deleted	Silinebilir
+From the XMB	XMB'den
+.%s files	.%s dosyaları
+Goes for good tomorrow	Yarın kalıcı olarak silinir
+Goes for good in %d days	%d gün sonra kalıcı olarak silinir
+Till the bin's emptied	Kutu boşaltılana kadar
+Where it was isn't known  ·  deleted %s	Eski yeri bilinmiyor  ·  silindi: %s
+Was in %s  ·  deleted %s	%s içindeydi  ·  silindi: %s
+%s each  ·  in %s	Her biri %s  ·  %s içinde
+What %s is made of	%s nelerden oluşuyor
+The game (with its updates)	Oyun (güncellemeleriyle)
+Updates and game data	Güncellemeler ve oyun verisi
+DLC and add-ons	DLC ve eklentiler
+Disc backups	Disk yedekleri
+All of it: %s	Hepsi: %s
+Adding up its folders... %s so far	Klasörler toplanıyor... şimdilik %s
+%s  ·  %s item	%s  ·  %s öğe
+%s  ·  %s items	%s  ·  %s öğe
+Games, all together	Oyunlar, hepsi bir arada
+%d games	%d oyun
+Duplicates	Kopyalar
+Up to %s could be freed	%s kadar alan boşaltılabilir
+Free up space	Alan aç
+Up to %s	%s kadar
+%s  ·  %d deleted	%s  ·  %d silindi
+Any age	Süre sınırı yok
+Untouched 6 months or more	6 ay ya da daha uzun süredir dokunulmamış
+Untouched a year or more	Bir yıl ya da daha uzun süredir dokunulmamış
+Untouched 2 years or more	2 yıl ya da daha uzun süredir dokunulmamış
+Untouched 3 years or more	3 yıl ya da daha uzun süredir dokunulmamış
+Size filter	Boyut filtresi
+Over %s	%s üzeri
+Any size	Boyut sınırı yok
+In the last week	Son bir haftada
+In the last month	Son bir ayda
+In the last 3 months	Son 3 ayda
+In the last year	Son bir yılda
+Recently added	Son eklenenler
+Identical files	Aynı dosyalar
+Largest folders	En büyük klasörler
+The %d largest, at any depth	Her derinlikte en büyük %d
+Not played lately	Uzun süredir oynanmayanlar
+Bookmarks	Yer imleri
+%d on %s	%d / %s
+File types	Dosya türleri
+%d types	%d tür
+Largest files	En büyük dosyalar
+The largest .%s files	En büyük .%s dosyaları
+The %d largest files on the drive	Sürücüdeki en büyük %d dosya
+Every category	Tüm kategoriler
+Changes since last scan	Son taramadan beri değişenler
+−%s in files since the scan before	Dosyalarda önceki taramadan beri −%s
++%s in files since the scan before	Dosyalarda önceki taramadan beri +%s
+%s  ·  %s entry	%s  ·  %s girdi
+%s  ·  %s entries	%s  ·  %s girdi
+  ·  search: "%s"	  ·  arama: "%s"
+All	Tümü
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	Silinenler burada bekler: X geri yükler, START kalıcı olarak siler, Kare kutuyu boşaltır.
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	Belirli bir boyutun üzerindeki, bir süredir dokunulmamış her şey: L1/R1 boyutu, Kare süreyi değiştirir.
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	Eşyalarınızı tuttuğunuz yerlerde bayt bayt aynı dosyalar (kurulu oyunlar ve kayıtlar hariç): X gösterir.
+The same file in each place: X opens its folder, START deletes one.	Her yerde aynı dosya: X klasörünü açar, START birini siler.
+What was added or changed lately, newest first: Square changes how far back.	Son zamanlarda eklenen ya da değişenler, önce en yeniler: Kare dönemi değiştirir.
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	Silinenler burada bekler: Daire geri yükler, START kalıcı olarak siler, Kare kutuyu boşaltır.
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	Eşyalarınızı tuttuğunuz yerlerde bayt bayt aynı dosyalar (kurulu oyunlar ve kayıtlar hariç): Daire gösterir.
+The same file in each place: Circle opens its folder, START deletes one.	Her yerde aynı dosya: Daire klasörünü açar, START birini siler.
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	1 MB ve üzeri %u dosyaya bakıldı, saat %s, yarıda kesildi (Kare: yeniden)
+%u files of 1 MB or more looked at, at %s (Square: again)	1 MB ve üzeri %u dosyaya bakıldı, saat %s (Kare: yeniden)
+Each game's installed data, backups, saves and trophies, added up.	Her oyunun yüklü verileri, yedekleri, kayıtları ve kupaları, toplanmış.
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	Birden fazla kez bulunan oyunlar: yüklü ve yedekli, iki kez yedekli ya da başka bir sürücüde de var.
+Likely safe to clear: check each one. START deletes those that can go (Settings).	Muhtemelen silinmesi güvenli: her birini kontrol edin. START silinebilenleri siler (Ayarlar).
+Everything of this game's on the drive: X opens one, START deletes one that can go.	Bu oyunun sürücüdeki her şeyi: X birini açar, START silinebilen birini siler.
+Where the space really is: a folder that's nearly all one folder is left for that one.	Alan gerçekte nerede: neredeyse tamamı tek bir klasör olan klasör, o klasöre bırakılır.
+Games here, the longest unplayed first: when their newest save (or file) was written.	Buradaki oyunlar, en uzun süredir oynanmayanlar önce: en yeni kaydı (ya da dosyası) ne zaman yazıldı.
+Square in a folder bookmarks it; here, Square removes one.	Bir klasörde Kare yer imi ekler; burada Kare birini kaldırır.
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	Bu oyunun sürücüdeki her şeyi: Daire birini açar, START silinebilen birini siler.
+The scan of %s against the one of %s; 1 MB or more	%s taraması %s taramasıyla karşılaştırıldı; 1 MB ve üzeri
+Reading the folder...	Klasör okunuyor...
+This folder couldn't be read (0x%08x).	Bu klasör okunamadı (0x%08x).
+Comparing files of the same size: %u of %u...	Aynı boyuttaki dosyalar karşılaştırılıyor: %u / %u...
+Looking for identical files: %u of 1 MB or more so far...	Aynı dosyalar aranıyor: şimdilik 1 MB ve üzeri %u...
+Nothing was added or changed in that time: Square goes further back.	O sürede hiçbir şey eklenmedi ya da değişmedi: Kare daha geriye gider.
+Nothing's that big and that old: L1/R1 or Square widen it.	Bu kadar büyük ve eski bir şey yok: L1/R1 ya da Kare genişletir.
+No identical files found.	Aynı dosya bulunamadı.
+Nothing matches the search. Press Circle to clear it.	Aramayla eşleşen yok. Aramayı temizlemek için Daire'ye basın.
+Nothing matches the search. Press X to clear it.	Aramayla eşleşen yok. Aramayı temizlemek için X'e basın.
+This folder is empty.	Bu klasör boş.
+Nothing changed by 1 MB or more.	1 MB ya da daha fazla değişen bir şey yok.
+No game is here more than once.	Hiçbir oyun birden fazla kez yok.
+Nothing obvious to clear.	Açıkça silinecek bir şey yok.
+No bookmarks on this drive yet: Square in a folder adds one.	Bu sürücüde henüz yer imi yok: bir klasörde Kare ekler.
+Nothing here.	Burada bir şey yok.
+Only the first 100,000 entries are listed.	Yalnızca ilk 100.000 girdi listeleniyor.
+Some of this folder couldn't be read.	Bu klasörün bir kısmı okunamadı.
+Put back	Geri yükle
+Size	Boyut
+Empty the bin	Kutuyu boşalt
+How long	Ne kadar süre
+How far back	Dönem
+Look again	Yeniden ara
+What it's made of	Nelerden oluşuyor
+Items	Öğeler
+Files	Dosyalar
+Rescan this	Yeniden tara
+Unbookmark	Yer imini kaldır
+Bookmark	Yer imi ekle
+Remove	Kaldır
+Unkeep	Tutmayı kaldır
+Keep	Tut
+Search	Ara
+Delete for good	Kalıcı olarak sil
+Clear search	Aramayı temizle
+Up	Yukarı
+Files here	Buradaki dosyalar
+Smaller folders	Küçük klasörler
+Map of the drive	Sürücü haritası
+  ·  %s file	  ·  %s dosya
+  ·  %s files	  ·  %s dosya
+Go in	İçeri gir
+Pick a box	Bir kutu seçin
+Music on: Relaxing music by Piotr Witowski, from Pixabay	Müzik açık: Piotr Witowski'den rahatlatıcı müzik, Pixabay'den
+No memory to write the report.	Raporu yazmak için bellek yok.
+Writing the report...	Rapor yazılıyor...
+Report saved: %s (and .csv)	Rapor kaydedildi: %s (ve .csv)
+The report couldn't be written (see the log).	Rapor yazılamadı (günlüğe bakın).
+%d game	%d oyun
+%d bookmark	%d yer imi
+%d bookmarks	%d yer imi
+%d scan	%d tarama
+%d scans	%d tarama
+%s used	%s dolu
+%s in 30 days	30 günde %s
+Space over time	Zaman içinde alan
+Export a report	Rapor dışa aktar
+Buttons	Tuşlar
+About	Hakkında
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	Muhtemelen silinebilecekler: artık paketler, önbellekler, oyunların fazla kopyaları, yarım kalmış kurulumlar.
+Games held more than once, here or on another drive, and what removing the extra copies would free.	Birden fazla kez bulunan oyunlar, burada ya da başka bir sürücüde, ve fazla kopyaları silmenin açacağı alan.
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	Eşyalarınızı tuttuğunuz yerlerde bayt bayt aynı dosyalar: disk kalıpları, medya, paketler, kendi klasörleriniz.
+Games here, the longest unplayed first: good ones to clear if you're done with them.	Buradaki oyunlar, en uzun süredir oynanmayanlar önce: bitirdiyseniz silmek için iyi adaylar.
+The folders holding the most, at any depth.	Her derinlikte en çok yer kaplayan klasörler.
+Everything over a size, untouched for a while.	Belirli bir boyutun üzerindeki, bir süredir dokunulmamış her şey.
+The drive's files by type: disc images, packages, video, saves...	Sürücüdeki dosyalar türüne göre: disk görüntüleri, paketler, video, kayıtlar...
+The drive as boxes sized by the space they take: X goes into one.	Sürücü, kapladıkları alan büyüklüğünde kutular olarak: X birinin içine girer.
+Folders you've bookmarked (Square in a folder).	Yer imi eklediğiniz klasörler (bir klasörde Kare).
+What grew, shrank, appeared or went since the scan before.	Önceki taramadan beri büyüyen, küçülen, beliren ya da kaybolanlar.
+Used space scan by scan, by category.	Taramadan taramaya kullanılan alan, kategoriye göre.
+What's been added or changed lately, newest first: what's taken your space.	Son zamanlarda eklenen ya da değişenler, önce en yeniler: alanınızı kaplayanlar.
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	Tarama, HDD'de ya da bir USB sürücüde metin dosyası ve tablo (CSV) olarak.
+The internal HDD's own record of its wear (SMART).	Dahili HDD'nin kendi aşınma kaydı (SMART).
+What's been deleted, waiting to go for good: put it back, or empty the bin.	Silinenler, kalıcı olarak silinmeyi bekliyor: geri yükleyin ya da kutuyu boşaltın.
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	Dil, müzik, sesler, boyutlar, renk, tarama, karartma, silme.
+What every button does, screen by screen.	Her tuşun ne yaptığı, ekran ekran.
+Version, credits and licences.	Sürüm, katkıda bulunanlar ve lisanslar.
+Explore	Keşfet
+The drive as boxes sized by the space they take: Circle goes into one.	Sürücü, kapladıkları alan büyüklüğünde kutular olarak: Daire birinin içine girer.
+After the next scan of this drive.	Bu sürücünün bir sonraki taramasından sonra.
+The internal HDD only.	Yalnızca dahili HDD.
+Move	Hareket
+Close	Kapat
+Only one scan so far: the chart grows with each scan.	Şimdilik tek tarama var: grafik her taramayla büyür.
+No scans kept yet.	Henüz kayıtlı tarama yok.
+−%s used since %s	−%s kullanım %s tarihinden beri
++%s used since %s	+%s kullanım %s tarihinden beri
+(%s rescanned)	(%s yeniden tarandı)
+Choose a scan	Bir tarama seçin
+Start screen	Başlangıç ekranı
+Pick Scan, Last scan, Tools or Settings	Tara, Son tarama, Araçlar ya da Ayarlar'ı seçin
+Change drive (when a USB drive is plugged in)	Sürücü değiştirin (bir USB sürücü takılıyken)
+Twice: quit	İki kez: çık
+Pick a category (its part of the ring stands out)	Bir kategori seçin (halkadaki payı öne çıkar)
+Open the category's items	Kategorinin öğelerini açın
+The largest items on the drive	Sürücüdeki en büyük öğeler
+Scan the drive again	Sürücüyü yeniden tarayın
+The menu (not while scanning)	Menü (tarama sırasında değil)
+Stop a scan, or back to the start screen	Taramayı durdur ya da başlangıç ekranına dön
+Lists	Listeler
+A page at a time (or Left and Right)	Sayfa sayfa (ya da Sol ve Sağ)
+Open: a folder, a game's parts, the files of a type	Açın: bir klasör, bir oyunun parçaları, bir türün dosyaları
+Sort: largest, smallest, A-Z	Sırala: en büyük, en küçük, A-Z
+Change tab	Sekme değiştirin
+A category's list: scan just that category again. Largest: items or files	Bir kategorinin listesinde: yalnızca o kategoriyi yeniden tarayın. En büyüklerde: öğeler ya da dosyalar
+Delete the row (when deleting is allowed in Settings)	Satırı silin (Ayarlar'da silmeye izin verildiyse)
+Back (a search is cleared first; in a folder, up one)	Geri (önce arama temizlenir; klasörde bir üst)
+Deleting	Silme
+Pick Delete or Cancel	Sil ya da İptal'i seçin
+Hold on Delete for 2 seconds to delete	Silmek için Sil üzerinde 2 saniye basılı tutun
+Cancel, or stop between files	İptal edin ya da dosyalar arasında durdurun
+Drive health and Settings	Sürücü sağlığı ve Ayarlar
+Read the drive's health again	Sürücü sağlığını yeniden okuyun
+Drive health: its readings over time	Sürücü sağlığı: zaman içindeki okumaları
+Drive health: what it all means	Sürücü sağlığı: hepsi ne anlama geliyor
+Change a setting	Bir ayarı değiştirin
+Keeping, the bin, filters	Tutma, geri dönüşüm kutusu, filtreler
+Free up space, Duplicates: keep a row off them (or back on)	Alan aç, Kopyalar: bir satırı dışarıda tut (ya da geri al)
+A game's screen: what it's made of	Bir oyunun ekranı: nelerden oluştuğu
+Recycle bin: put it back (Square there empties the bin)	Geri dönüşüm kutusu: geri yükle (orada Kare kutuyu boşaltır)
+Size filter: the size (Square there: how long)	Boyut filtresi: boyut (orada Kare: ne kadar süre)
+Recently added: how far back	Son eklenenler: dönem
+Folders, Map, Space over time	Klasörler, Harita, Zaman içinde alan
+In a folder: bookmark it (or remove the bookmark)	Bir klasörde: yer imi ekleyin (ya da kaldırın)
+Map: go into the box picked	Harita: seçilen kutuya girin
+Map: pick a box. Space over time: pick a scan	Harita: bir kutu seçin. Zaman içinde alan: bir tarama seçin
+Anywhere	Her yerde
+Music off or on	Müziği kapatın ya da açın
+When the screen's dimmed: any button wakes it	Ekran karartılmışken: her tuş onu uyandırır
+When HDD Atlas starts	HDD Atlas açılırken
+Held: the 4:3 layout on a widescreen TV	Basılı: geniş ekran TV'de 4:3 düzen
+Held: drawn by the CPU instead of the graphics chip	Basılı: grafik çipi yerine CPU ile çizim
+Save the report where?	Rapor nereye kaydedilsin?
+On the HDD, in HDD Atlas's folder	HDD'de, HDD Atlas'ın klasöründe
+On %s	%s üzerinde
+Language	Dil
+Sound effects	Ses efektleri
+Sizes	Boyutlar
+Accent colour	Vurgu rengi
+Rescan at start	Açılışta tara
+Scan USB drives	USB sürücüleri tara
+Dim the screen	Ekranı karart
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	Otomatik, PS3'ün dilini izler. Çeviriler HDD Atlas'a ait ve henüz ana dili konuşanlarca kontrol edilmedi.
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	Arka plan müziğinin tıklamaların altındaki sesi. R3 her yerde kapatır ya da açar.
+The clicks when you move and press.	Hareket edip bastığınızdaki tıklamalar.
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024, XMB'nin sayma biçimi (1 TB'lık sürücü için 931 GB); 1000, kutuların sayma biçimi (1 TB).
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	Seçilenin rengi. Yüksek karşıtlık onu sarı yapar ve gri yazıyı açar.
+When the free space has moved since the last scan, scan again by itself at start.	Boş alan son taramadan beri değiştiyse açılışta kendiliğinden yeniden tara.
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	Bir USB sürücü takıldığında kendiliğinden tara (başka tarama yoksa).
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	Bu süre boyunca hiçbir tuşa basılmazsa ekran kararır (her tuş uyandırır): plazma ve OLED TV'ler için iyidir.
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	START'ın listelerde bir satırı silmesine izin verir: disk görüntüleri, klasör yedekleri, kalan paketler, ROM'lar ve webMAN önbelleği.
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	Silinenler, geri yüklenebilsin diye sürücüsündeki geri dönüşüm kutusunda (menüdeki Geri dönüşüm kutusu) bu kadar bekler. Kapalı hemen siler.
+Automatic: %s	Otomatik: %s
+Off	Kapalı
+On	Açık
+1 GB = 1000 MB (as on the box)	1 GB = 1000 MB (kutudaki gibi)
+1 GB = 1024 MB (as the XMB)	1 GB = 1024 MB (XMB gibi)
+When free space has moved	Boş alan değiştiyse
+When plugged in	Takıldığında
+After %d minutes	%d dakika sonra
+Keep %d days	%d gün tut
+Until it's emptied	Boşaltılana kadar
+Off: delete at once	Kapalı: hemen sil
+Change	Değiştir
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	Yazı tipleri: Poppins (SIL Open Font License) ve DejaVu Sans.
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	Tuş görselleri: Kenney (CC0). Bayraklar: flag-icons (MIT).
+The hard disk icon: "Internal Clear" by Rick Patrick.	Sabit disk simgesi: Rick Patrick'in "Internal Clear" simgesi.
+Menu icons: Tanah Basah, from Flaticon.	Menü simgeleri: Tanah Basah, Flaticon'dan.
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	Müzik: Piotr Witowski'den "Relaxing Music (Part 1)", Pixabay'den.
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	Görseller, yazı tipleri ve müzik stb_image, stb_truetype ve stb_vorbis ile çözülür (kamu malı).
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	NTFS sürücüler: Estwald'ın libntfs_ext'i, NTFS-3G'den (GPL-2.0).
+Built with PSL1GHT and the ps3toolchain.	PSL1GHT ve ps3toolchain ile yapıldı.
+Made by	Yapanlar
+Thanks to	Teşekkürler
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas, GPL-2.0 altında özgür yazılımdır. Lisanslar USRDIR/data/licenses içinde.

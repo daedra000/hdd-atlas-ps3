@@ -1,0 +1,652 @@
+# HDD Atlas in French: "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	webMAN en a besoin pour monter un jeu depuis un disque NTFS.
+A disc image's decryption key: webMAN needs it to mount it.	La clé de déchiffrement d'une image disque : webMAN en a besoin pour la monter.
+Installed games: delete them from the XMB (it keeps their icons).	Jeux installés : supprimez-les depuis le XMB (il garde leurs icônes).
+Music, video and photos: delete them from the XMB (it keeps a list of them).	Musique, vidéo et photos : supprimez-les depuis le XMB (il en garde la liste).
+Saves, trophies and licences: delete them from the XMB.	Sauvegardes, trophées et licences : supprimez-les depuis le XMB.
+The system's own: never deleted.	Fait partie du système : jamais supprimé.
+TB	To
+GB	Go
+MB	Mo
+KB	Ko
+B	o
+reallocated sectors	secteurs réalloués
+sectors waiting to be reallocated	secteurs en attente de réallocation
+uncorrectable sectors	secteurs irrécupérables
+reported uncorrectable errors	erreurs irrécupérables signalées
+reallocation events	réallocations
+Life left	Vie restante
+Wear levelling count	Usure moyenne
+Used reserve blocks	Blocs de réserve utilisés
+Unused reserve blocks	Blocs de réserve libres
+Media wearout	Usure du support
+Reserved space left	Réserve restante
+Total written	Total écrit
+Read error rate	Taux d'erreurs de lecture
+Throughput performance	Performances de transfert
+Spin-up time	Temps de démarrage
+Start/stop count	Démarrages et arrêts
+Reallocated sectors	Secteurs réalloués
+Seek error rate	Taux d'erreurs de recherche
+Seek time performance	Performances de recherche
+Power-on hours	Heures de fonctionnement
+Spin retry count	Nouvelles tentatives de démarrage
+Calibration retries	Nouvelles tentatives de calibrage
+Power cycles	Cycles d'alimentation
+Program fails	Échecs de programmation
+Erase fails	Échecs d'effacement
+Unexpected power losses	Coupures de courant imprévues
+Wear range delta	Écart d'usure
+Interface downshifts	Baisses de vitesse de l'interface
+End-to-end errors	Erreurs de bout en bout
+Reported uncorrectable	Irrécupérables signalés
+Command timeouts	Délais dépassés
+High fly writes	Écritures trop hautes
+Airflow temperature	Température de l'air
+G-sense errors	Erreurs de chocs
+Power-off retracts	Rétractions à l'arrêt
+Load cycles	Cycles de chargement
+Temperature	Température
+ECC recovered	Corrigés par ECC
+Reallocation events	Réallocations
+Pending sectors	Secteurs en attente
+Uncorrectable sectors	Secteurs irrécupérables
+Interface CRC errors	Erreurs CRC de l'interface
+Write error rate	Taux d'erreurs d'écriture
+Disk shift	Décalage du disque
+Loaded hours	Heures têtes chargées
+Load retries	Nouvelles tentatives de chargement
+Load friction	Friction de chargement
+Load-in time	Durée de chargement
+Head flying hours	Heures de vol des têtes
+Total read	Total lu
+Free fall events	Chutes détectées
+Vendor specific	Spécifique au fabricant
+Games & game data	Jeux et données de jeux
+Disc game backups	Copies de jeux sur disque
+Saves, trophies & licences	Sauvegardes, trophées et licences
+Themes	Thèmes
+Music, video & photos	Musique, vidéo et photos
+Packages, tmp & caches	Paquets, tmp et caches
+System & other folders	Système et autres dossiers
+System partitions	Partitions système
+Unaccounted	Non comptabilisé
+Games	Jeux
+Backups	Copies
+Saves	Sauvegardes
+Media	Médias
+Packages	Paquets
+System	Système
+Partitions	Partitions
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	%s ne répond plus depuis son analyse, et tous les disques NTFS l'attendent : redémarre la console pour les utiliser à nouveau.
+%s stopped answering during its scan: restart the console to use it again.	%s ne répond plus depuis son analyse : redémarre la console pour l'utiliser à nouveau.
+Emptied %d old entries from the recycle bin: %s freed.	%d anciens éléments supprimés de la corbeille : %s libérés.
+No scan can start till the console restarts: %s stopped answering during its scan.	Aucune analyse ne peut démarrer avant le redémarrage de la console : %s ne répond plus depuis son analyse.
+A scan of %s is running: one at a time.	%s est déjà en cours d'analyse : une à la fois.
+Drive health found this drive wearing out: back up what matters first.	Santé du disque le voit s'user : sauvegardez d'abord ce qui compte.
+Scanning: things may be slow until it's done. The menu's back after it.	Analyse en cours : tout peut être lent jusqu'à la fin. Le menu revient ensuite.
+The scan couldn't start (see the log).	L'analyse n'a pas pu démarrer (voir le journal).
+Rescanning %s; the rest stays as it was.	Nouvelle analyse de %s ; le reste ne change pas.
+Internal HDD	Disque dur interne
+Scan of %s finished in %.1f s.	Analyse de %s terminée en %.1f s.
+Scan stopped. The last scan is shown.	Analyse arrêtée. La dernière analyse est affichée.
+The scan didn't finish (see the log).	L'analyse ne s'est pas terminée (voir le journal).
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	Les parties du disque hors de l'unité qu'analyse HDD Atlas : un cache de jeux de 2 Go, la mémoire flash du système sur la plupart des modèles, et les registres du système de fichiers pour chaque fichier (quelques pour cent du disque). Rien de tout cela ne peut être libéré.
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	De l'espace utilisé qu'aucun fichier n'explique. L'essentiel est ce que le système de fichiers garde libre pour lui : 8 pour cent de l'unité d'origine, 1 pour cent après l'unlockhdd de webMAN. Le reste vient des derniers blocs des fichiers, arrondis. Rien de tout cela ne peut être libéré d'ici.
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	Ici, les fichiers totalisent plus que l'espace utilisé : certains sont comptés deux fois. webMAN peut lier les fichiers d'un jeu entre GAMES et game : une seule copie sur le disque, comptée deux fois.
+Press Circle again to quit.	Appuyez encore sur Rond pour quitter.
+Press X again to quit.	Appuyez encore sur X pour quitter.
+The menu opens once the scan's done.	Le menu s'ouvre une fois l'analyse terminée.
+Not scanned yet	Pas encore analysé
+Free space has dropped by %s since this scan	L'espace libre a baissé de %s depuis cette analyse
+Free space has grown by %s since this scan	L'espace libre a augmenté de %s depuis cette analyse
+Scanned %s  ·  1 delete since	Analysé le %s  ·  1 suppression depuis
+Scanned %s  ·  %u deletes since	Analysé le %s  ·  %u suppressions depuis
+Scanned %s  ·  took %.0f s	Analysé le %s  ·  en %.0f s
+%s used of %s	%s utilisés sur %s
+%s used of %s  ·  %s	%s utilisés sur %s  ·  %s
+%s files in %s folders	%s fichiers dans %s dossiers
+  ·  %llu couldn't be read (skipped)	  ·  %llu illisibles (ignorés)
+%s free	%s libres
+%s free  ·  drive size unknown	%s libres  ·  taille du disque inconnue
+%s  ·  %u item	%s  ·  %u élément
+%s  ·  %u items	%s  ·  %u éléments
+No scan of %s yet. Press Triangle to scan it.	Pas encore d'analyse de %s. Appuyez sur Triangle pour l'analyser.
+(%s is being scanned: one at a time.)	(%s est en cours d'analyse : une à la fois.)
+Scanning %s	Analyse de %s
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s sur %s  ·  %s fichiers
+%s  ·  %s files	%s  ·  %s fichiers
+The first scan of a full HDD can take a few minutes.	La première analyse d'un disque plein peut prendre quelques minutes.
+Scanning  %d%%	Analyse  %d%%
+Scanning %s  %d%%  ·  %s files	Analyse de %s  %d%%  ·  %s fichiers
+%s files	%s fichiers
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	%s a renvoyé des erreurs de lecture : l'analyse a sauté ce qu'elle n'a pas pu lire. C'est souvent le signe de secteurs défectueux.
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	%s a renvoyé des erreurs de lecture : l'analyse n'a pas pu se terminer. C'est souvent le signe de secteurs défectueux.
+Drive health shows whether the drive has bad sectors, and what to do if it has.	Santé du disque indique si le disque a des secteurs défectueux, et quoi faire s'il en a.
+Some of the drive couldn't be read	Une partie du disque est illisible
+The scan didn't finish	L'analyse ne s'est pas terminée
+OK	OK
+Drive health	Santé du disque
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	%s n'a pas répondu pendant 5 minutes, l'analyse a donc été abandonnée. C'est en général le disque qui n'arrive pas à lire ici :
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	Envoyez hddatlas_log.txt, dans /dev_hdd0/game/HDAT00001/USRDIR, à ps3.world/contact (hddatlas_log_prev.txt si HDD Atlas a été relancé depuis). Une autre analyse peut ne pas démarrer avant le redémarrage de la console.
+The scan got stuck	L'analyse est bloquée
+Check this drive's health on a PC (its SMART data) before trusting it with more.	Vérifiez la santé de ce disque sur un PC (ses données SMART) avant de lui confier plus.
+Overview	Vue d'ensemble
+Open	Ouvrir
+What's this	Qu'est-ce que c'est
+Largest	Plus gros
+Largest items	Éléments les plus gros
+Rescan	Réanalyser
+Scan	Analyser
+Stop scan	Arrêter l'analyse
+Back	Retour
+Menu	Menu
+Music off	Couper la musique
+Music on	Mettre la musique
+Drive	Disque
+Deleting is off.	La suppression est désactivée.
+Deleting is off: turn it on in Settings (START on the overview).	La suppression est désactivée : activez-la dans Paramètres (START sur la vue d'ensemble).
+This NTFS drive is read-only: Windows didn't close it cleanly.	Ce disque NTFS est en lecture seule : Windows ne l'a pas bien fermé.
+This can't be deleted here.	Ceci ne peut pas être supprimé ici.
+A package is being installed: delete this once that's done.	Un paquet est en cours d'installation : supprimez ceci une fois terminé.
+Wait for the scan to finish, then delete.	Attendez la fin de l'analyse, puis supprimez.
+The recycle bin's empty.	La corbeille est vide.
+The recycle bin	La corbeille
+Not deleted	Non supprimé
+No memory to start.	Pas assez de mémoire pour commencer.
+Deleted	Supprimé
+Stopped part way	Arrêté en cours
+Not deleted: it isn't the same as %s, byte for byte.	Non supprimé : il n'est pas identique à %s, octet par octet.
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	Non supprimé : il change encore, une installation y écrit peut-être. Réessayez plus tard.
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	Non supprimé : une installation y a écrit dans la dernière journée et en a peut-être encore besoin. Réessayez demain.
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	Non supprimé : l'autre copie (%s) n'est plus là, celle-ci est donc la dernière.
+In the recycle bin	Dans la corbeille
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	Déplacé dans la corbeille (%s). L'espace est libéré quand la corbeille est vidée : Corbeille dans le menu.
+Deleted: %s freed.	Supprimé : %s libérés.
+Stopped part way: %s freed, the rest is still there.	Arrêté en cours : %s libérés, le reste est toujours là.
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	Supprimé, mais %u éléments sont restés (liens, ou éléments récalcitrants) : %s libérés.
+Not deleted: error 0x%08x at %s. %s freed.	Non supprimé : erreur 0x%08x sur %s. %s libérés.
+Deleting is on: START on a row that can go.	Suppression activée : START sur une ligne supprimable.
+Allow deleting?	Autoriser la suppression ?
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	HDD Atlas pourra supprimer des images disque (PS3ISO, PS2ISO...), des copies de dossiers dans GAMES, des paquets restants, des ROM et le cache de webMAN : une ligne à la fois, chacune après avoir maintenu X pour confirmer. Ce qui est supprimé ne revient pas.
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	HDD Atlas pourra supprimer des images disque (PS3ISO, PS2ISO...), des copies de dossiers dans GAMES, des paquets restants, des ROM et le cache de webMAN : une ligne à la fois, chacune après avoir maintenu Rond pour confirmer. Ce qui est supprimé ne revient pas.
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	Les jeux installés, sauvegardes, trophées, musiques, vidéos et photos restent gérés par le XMB (il en garde la liste). Les dossiers du système ne sont jamais touchés. Paramètres le désactive à nouveau.
+Allow deleting	Autoriser la suppression
+Cancel	Annuler
+Delete this disc image?	Supprimer cette image disque ?
+Delete this folder backup?	Supprimer cette copie de dossier ?
+Delete this package?	Supprimer ce paquet ?
+Delete this ROM?	Supprimer cette ROM ?
+Delete this webMAN cache file?	Supprimer ce fichier de cache webMAN ?
+Delete this leftover install?	Supprimer cette installation inachevée ?
+Delete it for good?	Le supprimer définitivement ?
+Delete this system update?	Supprimer cette mise à jour système ?
+Empty the recycle bin?	Vider la corbeille ?
+Move it to the recycle bin?	Le mettre à la corbeille ?
+Deleting...	Suppression...
+and %s with it	et %s avec
+Nothing's freed till the recycle bin's emptied.	Rien n'est libéré tant que la corbeille n'est pas vidée.
+Free: %s  →  about %s	Libre : %s  →  environ %s
+If it was a game update, install that update again afterwards.	Si c'était une mise à jour de jeu, réinstallez-la ensuite.
+It can't be undone.	Impossible d'annuler.
+It waits in the recycle bin for %d days first.	Il attend %d jours dans la corbeille d'abord.
+It waits in the recycle bin till that's emptied.	Il attend dans la corbeille jusqu'à ce qu'elle soit vidée.
+Delete	Supprimer
+Hold to delete	Maintenir pour supprimer
+Back to Cancel	Revenir à Annuler
+Pick Delete	Choisir Supprimer
+Checking it's the same as the other copy: %s of %s	Vérification qu'il est identique à l'autre copie : %s sur %s
+Stopping...	Arrêt...
+Stop	Arrêter
+%s of %s files  ·  %s	%s sur %s fichiers  ·  %s
+%s went from %lld to %lld since %s.	%s est passé de %lld à %lld depuis le %s.
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	Le journal n'a pas pu être écrit dans USRDIR, donc le disque n'a pas été interrogé.
+lv2 wouldn't open the drive (0x%08x).	lv2 n'a pas pu ouvrir le disque (0x%08x).
+The drive didn't answer IDENTIFY (0x%08x).	Le disque n'a pas répondu à IDENTIFY (0x%08x).
+The drive didn't give its SMART data (0x%08x).	Le disque n'a pas donné ses données SMART (0x%08x).
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	Le disque a répondu, mais rien qui se lise comme IDENTIFY (un émulateur fait ça).
+No memory for the reading.	Pas assez de mémoire pour la lecture.
+GOOD	BON
+CAUTION	ATTENTION
+FAILING	DÉFAILLANT
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	%s est à %d, au seuil de %d ou en dessous : le disque dit qu'il est défaillant.
+%s is at %d, at or below its threshold of %d.	%s est à %d, au seuil de %d ou en dessous.
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s : la mémoire flash s'use. Gardez une copie de ce qui compte.
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s : la surface s'use. Gardez une copie de ce qui compte.
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	Vie restante : %d%%. La mémoire flash est presque usée. Gardez une copie de ce qui compte.
+Running hot (%d °C). Check the console's vents.	Très chaud (%d °C). Vérifiez les aérations de la console.
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	Aucun secteur réalloué, en attente ou irrécupérable, et rien sous son seuil.
+SSD	SSD
+%d rpm	%d tr/min
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  firmware %s  ·  n° de série %s
+internal drive	disque interne
+internal HDD	disque dur interne
+  ·  (the data's checksum is off)	  ·  (la somme de contrôle des données ne correspond pas)
+Powered on	Allumé
+Reallocated	Réalloués
+Pending	En attente
+Uncorrectable	Irrécupérables
+%s h	%s h
+%lld days	%lld jours
+sectors	secteurs
+Read on	Lu le
+No readings kept yet.	Aucune lecture gardée pour l'instant.
+Attribute	Attribut
+Value	Valeur
+Worst	Pire
+Thresh.	Seuil
+Threshold	Seuil
+Raw	Brut
+pre-fail	pré-panne
+The verdict	Le verdict
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	Bon : aucun secteur usé, aucun attribut à son seuil, et pas de surchauffe. Attention : le disque fonctionne, mais des secteurs se sont usés, un attribut d'usure a dépassé son seuil, ou il dépasse 55 °C : gardez une copie de ce qui compte. Défaillant : un attribut de pré-panne est à son seuil ou en dessous, donc le disque lui-même s'attend à tomber en panne bientôt : copiez ce que vous voulez garder.
+The six figures	Les six chiffres
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	Température : sous 50 °C, tout va bien ; au-delà de 55 °C, vérifiez les aérations et la poussière de la console. Allumé : les heures de fonctionnement du disque sur toute sa vie. Cycles d'alimentation : le nombre de fois qu'il a été allumé.
+Bad sectors	Secteurs défectueux
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	Réalloués : des secteurs devenus défectueux et remplacés par des secteurs de réserve. En attente : des secteurs que le disque n'a pas pu lire, en attente d'être réécrits ou remplacés. Irrécupérables : des lectures qui ont échoué même après la correction d'erreurs, donc leur contenu est peut-être perdu. Sur un disque sain, les trois sont à 0. Quelques-uns ne sont pas graves, mais un nombre qui ne cesse d'augmenter est le signe le plus sûr qu'un disque est en fin de vie.
+The table	Le tableau
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	Le disque note chaque attribut. Valeur est la note actuelle (en général 100 ou 200 à l'état neuf ; plus bas, c'est pire), Pire est la plus basse qu'il ait connue, et Seuil est la limite du fabricant : à ce niveau ou en dessous, l'attribut a échoué. Brut est le compte du disque derrière la note (heures, secteurs, degrés). Sa signification varie d'un fabricant à l'autre : comparez un disque avec ses propres relevés précédents, pas avec un autre disque.
+Pre-fail and old-age	Pré-panne et usure
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	Le disque classe chaque attribut dans l'une ou l'autre catégorie. Les attributs de pré-panne (marqués pré-panne dans le tableau) surveillent les défauts qui précèdent une panne : secteurs défectueux, démarrage lent, erreurs de positionnement. L'un d'eux à son seuil ou en dessous signifie que le disque s'attend à tomber en panne bientôt. Les autres sont des attributs d'usure : ils suivent le vieillissement normal au fil des ans, comme les heures et les cycles d'alimentation. L'un d'eux au-delà de son seuil signifie que le disque est usé, pas qu'il va s'arrêter.
+SSDs	SSD
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	Un SSD affiche sa vie restante à la place des cycles d'alimentation : sa propre estimation de l'usure prévue qu'il reste à sa mémoire flash, 100% à neuf. À 10% ou moins, le verdict indique Attention. Sur un SSD, les secteurs réalloués sont des blocs de flash usés remplacés par des réserves, et le verdict attend 70 °C, car les SSD chauffent davantage. Un SSD défaillant peut cesser de répondre au lieu de signaler des erreurs : si une analyse se fige toujours au même endroit, soupçonnez le disque même si SMART semble bon.
+History	Historique
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	Chaque relevé est conservé : Carré les affiche, du plus récent au plus ancien. Un nombre de réalloués, en attente ou irrécupérables qui a augmenté depuis le relevé précédent s'affiche en jaune. Lisez le disque de temps en temps (Triangle) pour avoir de quoi comparer.
+It only reads	Lecture seule
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART est le propre registre du disque : HDD Atlas ne fait que le demander, et rien ne change sur le disque. Il ne peut pas réparer un disque usé : s'il est défaillant, la solution est une sauvegarde et un disque neuf.
+1. Copy what matters first	1. Copiez d'abord ce qui compte
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	Vos sauvegardes sont dans /dev_hdd0/home : copiez-les sur une clé USB ou un PC avec le FTP de webMAN ou multiMAN. Avec Apollo Save Tool, exportez aussi vos licences (RAP), act.dat et trophées. Gardez tout hors de la console.
+2. Delete what you don't need	2. Supprimez ce qui ne sert pas
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	Vieilles images disque, paquets restants, caches : il y aura moins à copier, et moins à lire sur un disque qui lâche. Supprimer un fichier ne le lit presque pas.
+3. Don't scan again and again	3. Ne lancez pas analyse sur analyse
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	Une analyse lit tous les dossiers du disque. Là où le disque n'arrive pas à lire, elle peut s'arrêter (HDD Atlas abandonne au bout de 5 minutes), et un disque qui réessaie sans cesse s'use plus vite.
+4. Replace the drive	4. Remplacez le disque
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	Un disque usé ne se répare pas, et il ne fait qu'empirer. L'utilitaire de sauvegarde de la PS3 n'est qu'un filet de sécurité en plus : il ne garde pas les trophées, prend des heures et peut échouer sur un fichier abîmé. Copier le disque sur un PC ne marche pas : il est chiffré pour cette console. Le remplacement complet, pas à pas : ps3.world/upgrade-storage
+If the drive is wearing out	Si le disque s'use
+What it means	Ce que cela signifie
+SMART, read at %s	SMART, lu à %s
+Scroll	Défiler
+Read the internal HDD's health?	Lire la santé du disque dur interne ?
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	HDD Atlas va demander au disque ses données SMART : son propre décompte d'heures, d'erreurs et de secteurs usés. Il lit seulement : rien ne change sur le disque.\n\nIl passe par les appels de stockage de la PS3, qui n'ont pas été essayés sur toutes les consoles. Si un jour celle-ci se bloque, HDD Atlas le remarquera au prochain démarrage et ne redemandera plus.
+Reading the drive's health...	Lecture de la santé du disque...
+Asking the drive for its SMART data.	Demande des données SMART au disque.
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	Lire la santé du disque a bloqué cette console la dernière fois (à « %s »), donc HDD Atlas ne redemandera plus au disque.\n\nPour réessayer quand même, supprimez smart_journal.txt dans /dev_hdd0/game/HDAT00001/USRDIR.
+Not read: it froze the console before	Non lu : la console s'est bloquée la dernière fois
+The drive's health couldn't be read	La santé du disque n'a pas pu être lue
+Read	Lire
+What to do	Que faire
+Try again	Réessayer
+Read again	Relire
+Attributes	Attributs
+version %s	version %s
+Once the scan's done.	Une fois l'analyse terminée.
+Scan this drive first.	Analysez d'abord ce disque.
+Last scanned %s	Dernière analyse : %s
+%s used of %s  ·  %s free	%s utilisés sur %s  ·  %s libres
+Last time: %u min	La dernière fois : %u min
+Last time: %u s	La dernière fois : %u s
+Last scan	Dernière analyse
+Tools	Outils
+Settings	Paramètres
+Go through every folder on the drive and add up what's there.	Parcourt chaque dossier du lecteur et additionne ce qu'il contient.
+What the last scan found, straight away.	Ce que la dernière analyse a trouvé, tout de suite.
+Free up space, duplicates, the map, drive health and more.	Libérer de l'espace, doublons, la carte, la santé du disque et plus.
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	Langue, musique, sons, tailles, analyse, mise en veille de l'écran, suppression.
+What's using your PS3's space, drive by drive, down to the last file.	Ce qui occupe l'espace de votre PS3, disque par disque, jusqu'au dernier fichier.
+Choose	Choisir
+Quit	Quitter
+Blue	Bleu
+Teal	Bleu canard
+Purple	Violet
+Pink	Rose
+Orange	Orange
+Green	Vert
+High contrast	Contraste élevé
+Largest first	Les plus gros d'abord
+Smallest first	Les plus petits d'abord
+A-Z	A-Z
+Bookmark removed.	Signet retiré.
+There are 64 bookmarks already: remove one first.	Il y a déjà 64 signets : retirez-en un d'abord.
+Bookmarked: it's in the menu's Bookmarks.	Signet ajouté : il est dans Signets du menu.
+It's suggested again.	Il est de nouveau suggéré.
+There are 512 kept already: unkeep one first.	Il y en a déjà 512 de gardés : retirez-en un d'abord.
+Kept: it won't be suggested again (Square here undoes it).	Gardé : il ne sera plus suggéré (Carré ici annule).
+Disc images	Images disque
+Disc images and data	Images disque et données
+Disc image track lists	Listes de pistes d'images disque
+Licensed game data	Données de jeu sous licence
+Programs	Programmes
+Game archives	Archives de jeu
+Game data	Données de jeu
+Music	Musique
+Video	Vidéo
+Pictures	Images
+Licences	Licences
+Save and game info	Infos de sauvegardes et de jeux
+Trophies	Trophées
+Text and settings	Texte et réglages
+Databases	Bases de données
+Archives	Archives
+ROMs	ROM
+No extension	Sans extension
+Everything else	Tout le reste
+Recycle bin	Corbeille
+SingStar songs	Chansons SingStar
+IRISMAN's cache	Cache d'IRISMAN
+Apollo's cache	Cache d'Apollo
+multiMAN's covers	Jaquettes de multiMAN
+Firmware update	Mise à jour système
+(more items)	(autres éléments)
+Newest first	Les plus récents d'abord
+Oldest first	Les plus anciens d'abord
+Where it was wasn't saved: it can't be put back, only deleted for good.	Emplacement non enregistré : impossible à restaurer, seulement à supprimer.
+The recycle bin's being tidied: try again in a moment.	La corbeille est en cours de rangement : réessayez dans un instant.
+Put back, but not its .cue/.bin: that's still in the recycle bin.	Restauré, mais pas son .cue/.bin : il est encore dans la corbeille.
+Put back where it was. Its size counts again after the next scan.	Restauré à sa place. Sa taille compte de nouveau après la prochaine analyse.
+Something's where it was now: not put back.	Il y a maintenant quelque chose à sa place : pas restauré.
+It couldn't be put back (see the log).	Impossible de le restaurer (voir le journal).
+It's gone since the scan before.	Disparu depuis l'analyse précédente.
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	Au-delà des 50 000 éléments d'une analyse : leurs dossiers ne sont pas listés un par un.
+Search by name	Rechercher par nom
+It isn't there any more.	Il n'est plus là.
+It's the only copy left: it isn't deleted from here.	C'est la dernière copie : elle n'est pas supprimée d'ici.
+Game	Jeu
+Disc game	Jeu sur disque
+Save	Sauvegarde
+App	Appli
+PS2 game	Jeu PS2
+PS1 game	Jeu PS1
+PSP game	Jeu PSP
+Minis	Minis
+Home	Home
+Network	Réseau
+%s  ·  %s file	%s  ·  %s fichier
+%u couldn't be read	%u illisibles
+New	Nouveau
+Gone	Disparu
+%s file	%s fichier
+  ·  %s folder	  ·  %s dossier
+  ·  %s folders	  ·  %s dossiers
+New since the scan: rescan for its size	Nouveau depuis l'analyse : réanalysez pour sa taille
+Past the folders a scan keeps sizes for	Au-delà des dossiers dont une analyse garde la taille
+Installed %s	Installé %s
+Backup %s	Copie %s
+Saves %s	Sauvegardes %s
+Trophies %s	Trophées %s
+Kept	Gardé
+%d copy	%d copie
+%d copies	%d copies
+Game data %s	Données de jeu %s
+Also on %s (%s)	Aussi sur %s (%s)
+never	jamais
+today	aujourd'hui
+%d days ago	il y a %d jours
+%d months ago	il y a %d mois
+%d years ago	il y a %d ans
+Last played %s (its newest save)	Dernière partie le %s (sa sauvegarde la plus récente)
+Last changed %s	Dernier changement le %s
+Leftover package (already installed)	Paquet restant (déjà installé)
+webMAN's cache (made again when needed)	Cache de webMAN (recréé si besoin)
+Temporary files	Fichiers temporaires
+Extra copy of a game held more than once	Copie en trop d'un jeu présent plusieurs fois
+Update for a game that isn't here (keep it if you play the disc)	Mise à jour d'un jeu absent (gardez-la si vous jouez avec le disque)
+Save for a game that isn't here (keep it if you play the disc)	Sauvegarde d'un jeu absent (gardez-la si vous jouez avec le disque)
+Left by an install or a delete the system didn't finish	Laissé par une installation ou suppression inachevée du système
+No PARAM.SFO: a broken install, or another app's data (check it first)	Sans PARAM.SFO : installation cassée ou autre appli (à vérifier)
+Downloaded, not installed yet: install or delete it from the XMB	Téléchargé, pas encore installé : installez-le ou supprimez-le depuis le XMB
+Waiting to be installed: install or delete it from the XMB	En attente d'installation : installez-le ou supprimez-le depuis le XMB
+A package that isn't installed: install it, or delete it if it's not needed	Paquet non installé : installez-le ou supprimez-le si inutile
+An app's cache: clear it in that app (it makes it again)	Cache d'une appli : videz-le dans cette appli (elle le refait)
+A system update: not for HEN or CFW (installing it removes them)	Mise à jour système : pas pour HEN ou CFW (l'installer les retire)
+Can be deleted	Supprimable
+From the XMB	Depuis le XMB
+.%s files	Fichiers .%s
+Goes for good tomorrow	Supprimé définitivement demain
+Goes for good in %d days	Supprimé définitivement dans %d jours
+Till the bin's emptied	Jusqu'à ce que la corbeille soit vidée
+Where it was isn't known  ·  deleted %s	Origine inconnue  ·  supprimé le %s
+Was in %s  ·  deleted %s	Était dans %s  ·  supprimé le %s
+%s each  ·  in %s	%s chacun  ·  dans %s
+What %s is made of	De quoi %s est fait
+The game (with its updates)	Le jeu (avec ses mises à jour)
+Updates and game data	Mises à jour et données de jeu
+DLC and add-ons	DLC et extras
+Disc backups	Copies de disque
+All of it: %s	En tout : %s
+Adding up its folders... %s so far	Addition de ses dossiers... %s pour l'instant
+%s  ·  %s item	%s  ·  %s élément
+%s  ·  %s items	%s  ·  %s éléments
+Games, all together	Jeux, tout compris
+%d games	%d jeux
+Duplicates	Doublons
+Up to %s could be freed	Jusqu'à %s pourraient être libérés
+Free up space	Libérer de l'espace
+Up to %s	Jusqu'à %s
+%s  ·  %d deleted	%s  ·  %d supprimés
+Any age	Tout âge
+Untouched 6 months or more	Inutilisé depuis 6 mois ou plus
+Untouched a year or more	Inutilisé depuis un an ou plus
+Untouched 2 years or more	Inutilisé depuis 2 ans ou plus
+Untouched 3 years or more	Inutilisé depuis 3 ans ou plus
+Size filter	Filtre de taille
+Over %s	Plus de %s
+Any size	Toute taille
+In the last week	Depuis une semaine
+In the last month	Depuis un mois
+In the last 3 months	Depuis 3 mois
+In the last year	Depuis un an
+Recently added	Ajouts récents
+Identical files	Fichiers identiques
+Largest folders	Dossiers les plus gros
+The %d largest, at any depth	Les %d plus gros, à toute profondeur
+Not played lately	Pas joué depuis longtemps
+Bookmarks	Signets
+%d on %s	%d sur %s
+File types	Types de fichiers
+%d types	%d types
+Largest files	Fichiers les plus gros
+The largest .%s files	Les plus gros fichiers .%s
+The %d largest files on the drive	Les %d fichiers les plus gros du disque
+Every category	Toutes les catégories
+Changes since last scan	Changements depuis la dernière analyse
+−%s in files since the scan before	−%s de fichiers depuis l'analyse précédente
++%s in files since the scan before	+%s de fichiers depuis l'analyse précédente
+%s  ·  %s entry	%s  ·  %s entrée
+%s  ·  %s entries	%s  ·  %s entrées
+  ·  search: "%s"	  ·  recherche : « %s »
+All	Tout
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	Supprimé, en attente : X le restaure, START l'efface pour de bon, Carré vide la corbeille.
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	Tout ce qui dépasse une taille, inutilisé depuis un moment : L1/R1 changent la taille, Carré la durée.
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	Fichiers identiques dans vos dossiers (hors jeux installés et sauvegardes) : X les montre.
+The same file in each place: X opens its folder, START deletes one.	Le même fichier à chaque endroit : X ouvre son dossier, START en supprime un.
+What was added or changed lately, newest first: Square changes how far back.	Ce qui a été ajouté ou modifié récemment, le plus récent d'abord : Carré change la période.
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	Supprimé, en attente : Rond le restaure, START l'efface pour de bon, Carré vide la corbeille.
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	Fichiers identiques dans vos dossiers (hors jeux installés et sauvegardes) : Rond les montre.
+The same file in each place: Circle opens its folder, START deletes one.	Le même fichier à chaque endroit : Rond ouvre son dossier, START en supprime un.
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	%u fichiers de 1 Mo ou plus examinés, à %s, interrompu (Carré : encore)
+%u files of 1 MB or more looked at, at %s (Square: again)	%u fichiers de 1 Mo ou plus examinés, à %s (Carré : encore)
+Each game's installed data, backups, saves and trophies, added up.	Les données installées, copies, sauvegardes et trophées de chaque jeu, additionnés.
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	Jeux présents plusieurs fois : installés et copiés, copiés deux fois, ou aussi sur un autre disque.
+Likely safe to clear: check each one. START deletes those that can go (Settings).	Sans doute supprimable : vérifiez chacun. START supprime ceux qui peuvent partir (Paramètres).
+Everything of this game's on the drive: X opens one, START deletes one that can go.	Tout ce qui concerne ce jeu sur le disque : X en ouvre un, START supprime celui qui peut partir.
+Where the space really is: a folder that's nearly all one folder is left for that one.	Où est vraiment l'espace : un dossier presque entièrement fait d'un autre laisse la place à celui-ci.
+Games here, the longest unplayed first: when their newest save (or file) was written.	Jeux d'ici, les plus longtemps délaissés d'abord : selon leur sauvegarde la plus récente.
+Square in a folder bookmarks it; here, Square removes one.	Carré dans un dossier l'ajoute aux signets ; ici, Carré en retire un.
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	Tout ce qui concerne ce jeu sur le disque : Rond en ouvre un, START supprime celui qui peut partir.
+The scan of %s against the one of %s; 1 MB or more	L'analyse du %s comparée à celle du %s ; 1 Mo ou plus
+Reading the folder...	Lecture du dossier...
+This folder couldn't be read (0x%08x).	Ce dossier n'a pas pu être lu (0x%08x).
+Comparing files of the same size: %u of %u...	Comparaison des fichiers de même taille : %u sur %u...
+Looking for identical files: %u of 1 MB or more so far...	Recherche de fichiers identiques : %u de 1 Mo ou plus pour l'instant...
+Nothing was added or changed in that time: Square goes further back.	Rien n'a été ajouté ni modifié pendant cette période : Carré remonte plus loin.
+Nothing's that big and that old: L1/R1 or Square widen it.	Rien d'aussi gros et d'aussi ancien : L1/R1 ou Carré élargissent.
+No identical files found.	Aucun fichier identique trouvé.
+Nothing matches the search. Press Circle to clear it.	Rien ne correspond. Appuyez sur Rond pour effacer la recherche.
+Nothing matches the search. Press X to clear it.	Rien ne correspond. Appuyez sur X pour effacer la recherche.
+This folder is empty.	Ce dossier est vide.
+Nothing changed by 1 MB or more.	Rien n'a changé d'1 Mo ou plus.
+No game is here more than once.	Aucun jeu n'est présent plusieurs fois.
+Nothing obvious to clear.	Rien d'évident à libérer.
+No bookmarks on this drive yet: Square in a folder adds one.	Pas encore de signets sur ce disque : Carré dans un dossier en ajoute un.
+Nothing here.	Rien ici.
+Only the first 100,000 entries are listed.	Seules les 100 000 premières entrées sont listées.
+Some of this folder couldn't be read.	Une partie de ce dossier n'a pas pu être lue.
+Put back	Restaurer
+Size	Taille
+Empty the bin	Vider la corbeille
+How long	Durée
+How far back	Période
+Look again	Chercher encore
+What it's made of	De quoi il est fait
+Items	Éléments
+Files	Fichiers
+Rescan this	Réanalyser
+Unbookmark	Retirer le signet
+Bookmark	Ajouter un signet
+Remove	Retirer
+Unkeep	Ne plus garder
+Keep	Garder
+Search	Rechercher
+Delete for good	Supprimer définitivement
+Clear search	Effacer la recherche
+Up	Remonter
+Files here	Fichiers ici
+Smaller folders	Dossiers plus petits
+Map of the drive	Carte du disque
+  ·  %s file	  ·  %s fichier
+  ·  %s files	  ·  %s fichiers
+Go in	Entrer
+Pick a box	Choisir une case
+Music on: Relaxing music by Piotr Witowski, from Pixabay	Musique activée : musique relaxante de Piotr Witowski, sur Pixabay
+No memory to write the report.	Pas assez de mémoire pour écrire le rapport.
+Writing the report...	Écriture du rapport...
+Report saved: %s (and .csv)	Rapport enregistré : %s (et .csv)
+The report couldn't be written (see the log).	Le rapport n'a pas pu être écrit (voir le journal).
+%d game	%d jeu
+%d bookmark	%d signet
+%d bookmarks	%d signets
+%d scan	%d analyse
+%d scans	%d analyses
+%s used	%s utilisés
+%s in 30 days	%s en 30 jours
+Space over time	L'espace au fil du temps
+Export a report	Exporter un rapport
+Buttons	Boutons
+About	À propos
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	Ce qui peut sans doute partir : paquets restants, caches, copies en trop de jeux, installations inachevées.
+Games held more than once, here or on another drive, and what removing the extra copies would free.	Jeux présents plusieurs fois, ici ou sur un autre disque, et ce que libérerait la suppression des copies en trop.
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	Fichiers identiques, octet par octet, là où vous rangez vos affaires : images disque, médias, paquets, vos dossiers.
+Games here, the longest unplayed first: good ones to clear if you're done with them.	Les jeux d'ici, ceux qui n'ont pas été joués depuis le plus longtemps d'abord : de bons candidats si vous en avez fini.
+The folders holding the most, at any depth.	Les dossiers qui prennent le plus, à toute profondeur.
+Everything over a size, untouched for a while.	Tout ce qui dépasse une taille, inutilisé depuis un moment.
+The drive's files by type: disc images, packages, video, saves...	Les fichiers du disque par type : images disque, paquets, vidéo, sauvegardes...
+The drive as boxes sized by the space they take: X goes into one.	Le disque en cases à la taille de leur place : X entre dans une.
+Folders you've bookmarked (Square in a folder).	Les dossiers mis en signet (Carré dans un dossier).
+What grew, shrank, appeared or went since the scan before.	Ce qui a grossi, diminué, est apparu ou a disparu depuis l'analyse précédente.
+Used space scan by scan, by category.	L'espace utilisé analyse après analyse, par catégorie.
+What's been added or changed lately, newest first: what's taken your space.	Ce qui a été ajouté ou modifié récemment, le plus récent d'abord : ce qui a pris votre espace.
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	L'analyse en fichier texte et en tableur (CSV), sur le disque dur ou une clé USB.
+The internal HDD's own record of its wear (SMART).	Le propre relevé d'usure du disque dur interne (SMART).
+What's been deleted, waiting to go for good: put it back, or empty the bin.	Ce qui a été supprimé, en attente de suppression définitive : restaurez-le, ou videz la corbeille.
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	Langue, musique, sons, tailles, la couleur, analyse, l'assombrissement, la suppression.
+What every button does, screen by screen.	Ce que fait chaque bouton, écran par écran.
+Version, credits and licences.	Version, crédits et licences.
+Explore	Explorer
+The drive as boxes sized by the space they take: Circle goes into one.	Le disque en cases à la taille de leur place : Rond entre dans une.
+After the next scan of this drive.	Après la prochaine analyse de ce disque.
+The internal HDD only.	Le disque dur interne uniquement.
+Move	Se déplacer
+Close	Fermer
+Only one scan so far: the chart grows with each scan.	Une seule analyse pour l'instant : le graphique grandit à chaque analyse.
+No scans kept yet.	Aucune analyse gardée pour l'instant.
+−%s used since %s	−%s utilisés depuis le %s
++%s used since %s	+%s utilisés depuis le %s
+(%s rescanned)	(%s réanalysé)
+Choose a scan	Choisir une analyse
+Start screen	Écran d'accueil
+Pick Scan, Last scan, Tools or Settings	Choisir Analyser, Dernière analyse, Outils ou Paramètres
+Change drive (when a USB drive is plugged in)	Changer de disque (avec un disque USB branché)
+Twice: quit	Deux fois : quitter
+Pick a category (its part of the ring stands out)	Choisir une catégorie (sa part de l'anneau ressort)
+Open the category's items	Ouvrir les éléments de la catégorie
+The largest items on the drive	Les éléments les plus gros du disque
+Scan the drive again	Réanalyser le disque
+The menu (not while scanning)	Le menu (pas pendant une analyse)
+Stop a scan, or back to the start screen	Arrêter une analyse, ou revenir à l'écran d'accueil
+Lists	Listes
+A page at a time (or Left and Right)	Une page à la fois (ou Gauche et Droite)
+Open: a folder, a game's parts, the files of a type	Ouvrir : un dossier, les parties d'un jeu, les fichiers d'un type
+Sort: largest, smallest, A-Z	Trier : plus gros, plus petit, A-Z
+Change tab	Changer d'onglet
+A category's list: scan just that category again. Largest: items or files	Dans la liste d'une catégorie : réanalyser cette catégorie seule. Plus gros : éléments ou fichiers
+Delete the row (when deleting is allowed in Settings)	Supprimer la ligne (si la suppression est autorisée dans Paramètres)
+Back (a search is cleared first; in a folder, up one)	Retour (la recherche est effacée d'abord ; dans un dossier, remonter)
+Deleting	Suppression
+Pick Delete or Cancel	Choisir Supprimer ou Annuler
+Hold on Delete for 2 seconds to delete	Maintenir sur Supprimer 2 secondes pour supprimer
+Cancel, or stop between files	Annuler, ou arrêter entre deux fichiers
+Drive health and Settings	Santé du disque et Paramètres
+Read the drive's health again	Relire la santé du disque
+Drive health: its readings over time	Santé du disque : ses relevés au fil du temps
+Drive health: what it all means	Santé du disque : ce que tout cela signifie
+Change a setting	Changer un paramètre
+Keeping, the bin, filters	Garder, la corbeille, les filtres
+Free up space, Duplicates: keep a row off them (or back on)	Libérer de l'espace, Doublons : garder une ligne à l'écart (ou la remettre)
+A game's screen: what it's made of	Écran d'un jeu : de quoi il est fait
+Recycle bin: put it back (Square there empties the bin)	Corbeille : le restaurer (Carré y vide la corbeille)
+Size filter: the size (Square there: how long)	Filtre de taille : la taille (Carré : la durée)
+Recently added: how far back	Ajouts récents : la période
+Folders, Map, Space over time	Dossiers, Carte, L'espace au fil du temps
+In a folder: bookmark it (or remove the bookmark)	Dans un dossier : l'ajouter aux signets (ou le retirer)
+Map: go into the box picked	Carte : entrer dans la case choisie
+Map: pick a box. Space over time: pick a scan	Carte : choisir une case. L'espace au fil du temps : choisir une analyse
+Anywhere	Partout
+Music off or on	Couper ou remettre la musique
+When the screen's dimmed: any button wakes it	Écran assombri : n'importe quel bouton le réveille
+When HDD Atlas starts	Au démarrage de HDD Atlas
+Held: the 4:3 layout on a widescreen TV	Maintenu : la disposition 4:3 sur une TV large
+Held: drawn by the CPU instead of the graphics chip	Maintenu : affichage par le processeur plutôt que la puce graphique
+Save the report where?	Enregistrer le rapport où ?
+On the HDD, in HDD Atlas's folder	Sur le disque dur, dans le dossier de HDD Atlas
+On %s	Sur %s
+Language	Langue
+Sound effects	Effets sonores
+Sizes	Tailles
+Accent colour	Couleur d'accent
+Rescan at start	Analyser au démarrage
+Scan USB drives	Analyser les clés USB
+Dim the screen	Assombrir l'écran
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	Automatique suit la langue de la PS3. Les traductions sont de HDD Atlas et pas encore relues par des locuteurs natifs.
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	Le volume de la musique de fond sous les clics. R3 la coupe ou la remet partout.
+The clicks when you move and press.	Les clics quand vous vous déplacez et appuyez.
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024, c'est le compte du XMB (931 Go pour un disque de 1 To) ; 1000, celui des boîtes des disques (1 To).
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	La couleur de la sélection. Contraste élevé la met en jaune et éclaircit le texte gris.
+When the free space has moved since the last scan, scan again by itself at start.	Si l'espace libre a changé depuis la dernière analyse, réanalyser tout seul au démarrage.
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	Analyser une clé USB toute seule quand elle est branchée (si aucune autre analyse n'est en cours).
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	Après ce délai sans bouton, l'écran s'assombrit (n'importe quel bouton le réveille) : bon pour les TV plasma et OLED.
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	Permet à START de supprimer une ligne dans les listes : images disque, copies de dossiers, paquets restants, ROM et cache de webMAN.
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	Ce qui est supprimé attend dans la corbeille de son disque (Corbeille dans le menu) ce temps-là, pour pouvoir être restauré. Désactivé supprime aussitôt.
+Automatic: %s	Automatique : %s
+Off	Non
+On	Oui
+1 GB = 1000 MB (as on the box)	1 Go = 1000 Mo (comme sur la boîte)
+1 GB = 1024 MB (as the XMB)	1 Go = 1024 Mo (comme le XMB)
+When free space has moved	Si l'espace libre a changé
+When plugged in	Au branchement
+After %d minutes	Après %d minutes
+Keep %d days	Garder %d jours
+Until it's emptied	Jusqu'à ce qu'on la vide
+Off: delete at once	Désactivée : supprimer aussitôt
+Change	Changer
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	Polices : Poppins (SIL Open Font License) et DejaVu Sans.
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	Images des boutons : Kenney (CC0). Drapeaux : flag-icons (MIT).
+The hard disk icon: "Internal Clear" by Rick Patrick.	L'icône du disque dur : « Internal Clear » de Rick Patrick.
+Menu icons: Tanah Basah, from Flaticon.	Icônes du menu : Tanah Basah, de Flaticon.
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	Musique : « Relaxing Music (Part 1) » de Piotr Witowski, sur Pixabay.
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	Images, polices et musique décodées avec stb_image, stb_truetype et stb_vorbis (domaine public).
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	Disques NTFS : libntfs_ext d'Estwald, issue de NTFS-3G (GPL-2.0).
+Built with PSL1GHT and the ps3toolchain.	Conçu avec PSL1GHT et ps3toolchain.
+Made by	Réalisé par
+Thanks to	Merci à
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas est un logiciel libre sous GPL-2.0. Les licences sont dans USRDIR/data/licenses.

@@ -1,0 +1,652 @@
+# HDD Atlas in Danish: "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	webMAN skal bruge denne for at montere et spil fra et NTFS-drev.
+A disc image's decryption key: webMAN needs it to mount it.	En diskkopis dekrypteringsnøgle: webMAN skal bruge den for at montere den.
+Installed games: delete them from the XMB (it keeps their icons).	Installerede spil: slet dem fra XMB (den gemmer deres ikoner).
+Music, video and photos: delete them from the XMB (it keeps a list of them).	Musik, video og fotos: slet dem fra XMB (den fører en liste over dem).
+Saves, trophies and licences: delete them from the XMB.	Gemte data, trofæer og licenser: slet dem fra XMB.
+The system's own: never deleted.	Hører til systemet: slettes aldrig.
+TB	TB
+GB	GB
+MB	MB
+KB	KB
+B	B
+reallocated sectors	omfordelte sektorer
+sectors waiting to be reallocated	sektorer der venter på omfordeling
+uncorrectable sectors	sektorer der ikke kan rettes
+reported uncorrectable errors	rapporterede fejl der ikke kan rettes
+reallocation events	omfordelinger
+Life left	Resterende levetid
+Wear levelling count	Slidudjævning
+Used reserve blocks	Brugte reserveblokke
+Unused reserve blocks	Ledige reserveblokke
+Media wearout	Medieslid
+Reserved space left	Resterende reserve
+Total written	Skrevet i alt
+Read error rate	Læsefejlrate
+Throughput performance	Overførselsydelse
+Spin-up time	Opstartstid
+Start/stop count	Start/stop-tæller
+Reallocated sectors	Omfordelte sektorer
+Seek error rate	Søgefejlrate
+Seek time performance	Søgeydelse
+Power-on hours	Driftstimer
+Spin retry count	Opstartsforsøg
+Calibration retries	Kalibreringsforsøg
+Power cycles	Tænd-sluk-cyklusser
+Program fails	Programmeringsfejl
+Erase fails	Slettefejl
+Unexpected power losses	Uventede strømsvigt
+Wear range delta	Slidforskel
+Interface downshifts	Nedsættelser af grænsefladens hastighed
+End-to-end errors	End-to-end-fejl
+Reported uncorrectable	Rapporterede der ikke kan rettes
+Command timeouts	Tidsudløb for kommandoer
+High fly writes	For høje skrivninger
+Airflow temperature	Lufttemperatur
+G-sense errors	Stødfejl
+Power-off retracts	Tilbagetrækninger ved slukning
+Load cycles	Indlæsningscyklusser
+Temperature	Temperatur
+ECC recovered	Rettet af ECC
+Reallocation events	Omfordelinger
+Pending sectors	Ventende sektorer
+Uncorrectable sectors	Sektorer der ikke kan rettes
+Interface CRC errors	CRC-fejl i grænsefladen
+Write error rate	Skrivefejlrate
+Disk shift	Pladeforskydning
+Loaded hours	Timer med indlæste hoveder
+Load retries	Indlæsningsforsøg
+Load friction	Indlæsningsfriktion
+Load-in time	Indlæsningstid
+Head flying hours	Hovedernes flyvetimer
+Total read	Læst i alt
+Free fall events	Registrerede fald
+Vendor specific	Producentspecifik
+Games & game data	Spil og spildata
+Disc game backups	Kopier af spildiske
+Saves, trophies & licences	Gemte data, trofæer og licenser
+Themes	Temaer
+Music, video & photos	Musik, video og fotos
+Packages, tmp & caches	Pakker, tmp og cache
+System & other folders	System og andre mapper
+System partitions	Systempartitioner
+Unaccounted	Ikke opgjort
+Games	Spil
+Backups	Kopier
+Saves	Gemte
+Media	Medier
+Packages	Pakker
+System	System
+Partitions	Partitioner
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	%s holdt op med at svare under sin scanning, og alle NTFS-drev venter på det: genstart konsollen for at bruge dem igen.
+%s stopped answering during its scan: restart the console to use it again.	%s holdt op med at svare under sin scanning: genstart konsollen for at bruge det igen.
+Emptied %d old entries from the recycle bin: %s freed.	%d gamle elementer slettet for altid fra papirkurven: %s frigjort.
+No scan can start till the console restarts: %s stopped answering during its scan.	Ingen scanning kan starte, før konsollen genstartes: %s holdt op med at svare under sin scanning.
+A scan of %s is running: one at a time.	%s scannes allerede: én ad gangen.
+Drive health found this drive wearing out: back up what matters first.	Drevets helbred viser, at drevet bliver slidt: tag først en kopi af det vigtige.
+Scanning: things may be slow until it's done. The menu's back after it.	Scanner: det kan være langsomt, til den er færdig. Menuen kommer tilbage bagefter.
+The scan couldn't start (see the log).	Scanningen kunne ikke starte (se loggen).
+Rescanning %s; the rest stays as it was.	%s scannes igen; resten forbliver som før.
+Internal HDD	Intern harddisk
+Scan of %s finished in %.1f s.	Scanning af %s færdig på %.1f s.
+Scan stopped. The last scan is shown.	Scanning stoppet. Den seneste scanning vises.
+The scan didn't finish (see the log).	Scanningen blev ikke færdig (se loggen).
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	Diskens dele uden for det drev, HDD Atlas scanner: en spilcache på 2 GB, systemets flash på de fleste modeller og filsystemets optegnelser om hver fil (et par procent af disken). Intet af det kan frigøres.
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	Brugt plads, som ingen fil forklarer. Det meste er det, filsystemet holder fri til sig selv: 8 procent af drevet fra fabrikken, 1 procent efter webMANs unlockhdd. Resten er filernes sidste blokke, rundet op. Intet af det kan frigøres herfra.
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	Her fylder filerne tilsammen mere end den brugte plads: nogle tælles to gange. webMAN kan linke et spils filer mellem GAMES og game: én kopi på disken talt som to.
+Press Circle again to quit.	Tryk på Cirkel igen for at afslutte.
+Press X again to quit.	Tryk på X igen for at afslutte.
+The menu opens once the scan's done.	Menuen åbner, når scanningen er færdig.
+Not scanned yet	Ikke scannet endnu
+Free space has dropped by %s since this scan	Den ledige plads er faldet med %s siden denne scanning
+Free space has grown by %s since this scan	Den ledige plads er steget med %s siden denne scanning
+Scanned %s  ·  1 delete since	Scannet %s  ·  1 sletning siden
+Scanned %s  ·  %u deletes since	Scannet %s  ·  %u sletninger siden
+Scanned %s  ·  took %.0f s	Scannet %s  ·  tog %.0f s
+%s used of %s	%s brugt af %s
+%s used of %s  ·  %s	%s brugt af %s  ·  %s
+%s files in %s folders	%s filer i %s mapper
+  ·  %llu couldn't be read (skipped)	  ·  %llu kunne ikke læses (sprunget over)
+%s free	%s ledig
+%s free  ·  drive size unknown	%s ledig  ·  drevets størrelse ukendt
+%s  ·  %u item	%s  ·  %u element
+%s  ·  %u items	%s  ·  %u elementer
+No scan of %s yet. Press Triangle to scan it.	Ingen scanning af %s endnu. Tryk på Trekant for at scanne.
+(%s is being scanned: one at a time.)	(%s scannes: én ad gangen.)
+Scanning %s	Scanner %s
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s af %s  ·  %s filer
+%s  ·  %s files	%s  ·  %s filer
+The first scan of a full HDD can take a few minutes.	Den første scanning af en fuld harddisk kan tage et par minutter.
+Scanning  %d%%	Scanner  %d%%
+Scanning %s  %d%%  ·  %s files	Scanner %s  %d%%  ·  %s filer
+%s files	%s filer
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	%s gav læsefejl, så scanningen sprang over det, den ikke kunne læse. Det er som regel et tegn på dårlige sektorer.
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	%s gav læsefejl, så scanningen kunne ikke blive færdig. Det er som regel et tegn på dårlige sektorer.
+Drive health shows whether the drive has bad sectors, and what to do if it has.	Drevets helbred viser, om drevet har dårlige sektorer, og hvad du så skal gøre.
+Some of the drive couldn't be read	Dele af drevet kunne ikke læses
+The scan didn't finish	Scanningen blev ikke færdig
+OK	OK
+Drive health	Drevets helbred
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	%s svarede ikke i 5 minutter, så scanningen blev opgivet. Som regel kan drevet ikke læse her:
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	Send hddatlas_log.txt fra /dev_hdd0/game/HDAT00001/USRDIR til ps3.world/contact (hddatlas_log_prev.txt, hvis HDD Atlas er startet igen siden). En ny scanning starter måske først, når konsollen er genstartet.
+The scan got stuck	Scanningen sad fast
+Check this drive's health on a PC (its SMART data) before trusting it with more.	Tjek drevets helbred på en pc (dets SMART-data), før du betror det mere.
+Overview	Oversigt
+Open	Åbn
+What's this	Hvad er det
+Largest	Største
+Largest items	Største elementer
+Rescan	Scan igen
+Scan	Scan
+Stop scan	Stop scanning
+Back	Tilbage
+Menu	Menu
+Music off	Musik fra
+Music on	Musik til
+Drive	Drev
+Deleting is off.	Sletning er slået fra.
+Deleting is off: turn it on in Settings (START on the overview).	Sletning er slået fra: slå den til i Indstillinger (START i oversigten).
+This NTFS drive is read-only: Windows didn't close it cleanly.	Dette NTFS-drev er skrivebeskyttet: Windows lukkede det ikke korrekt.
+This can't be deleted here.	Dette kan ikke slettes her.
+A package is being installed: delete this once that's done.	En pakke installeres: slet dette, når den er færdig.
+Wait for the scan to finish, then delete.	Vent til scanningen er færdig, og slet så.
+The recycle bin's empty.	Papirkurven er tom.
+The recycle bin	Papirkurven
+Not deleted	Ikke slettet
+No memory to start.	Ingen hukommelse til at starte.
+Deleted	Slettet
+Stopped part way	Stoppet midtvejs
+Not deleted: it isn't the same as %s, byte for byte.	Ikke slettet: den er ikke den samme som %s, byte for byte.
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	Ikke slettet: det ændrer sig stadig, så en installation skriver måske til det. Prøv igen senere.
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	Ikke slettet: en installation skrev til det inden for det seneste døgn og har måske stadig brug for det. Prøv igen i morgen.
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	Ikke slettet: den anden kopi (%s) er her ikke længere, så dette er den sidste.
+In the recycle bin	I papirkurven
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	Flyttet til papirkurven (%s). Det frigøres, når papirkurven tømmes: Papirkurv i menuen.
+Deleted: %s freed.	Slettet: %s frigjort.
+Stopped part way: %s freed, the rest is still there.	Stoppet midtvejs: %s frigjort, resten er der stadig.
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	Slettet, men %u elementer blev tilbage (links eller nogle der ikke ville slettes): %s frigjort.
+Not deleted: error 0x%08x at %s. %s freed.	Ikke slettet: fejl 0x%08x ved %s. %s frigjort.
+Deleting is on: START on a row that can go.	Sletning er slået til: START på en række der kan slettes.
+Allow deleting?	Tillad sletning?
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	HDD Atlas vil kunne slette diskaftryk (PS3ISO, PS2ISO...), mappekopier i GAMES, overskydende pakker, ROM'er og webMANs cache: én række ad gangen, hver først efter du har holdt X nede. Det slettede kommer ikke tilbage.
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	HDD Atlas vil kunne slette diskaftryk (PS3ISO, PS2ISO...), mappekopier i GAMES, overskydende pakker, ROM'er og webMANs cache: én række ad gangen, hver først efter du har holdt Cirkel nede. Det slettede kommer ikke tilbage.
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	Installerede spil, gemte data, trofæer, musik, video og fotos bliver hos XMB (den fører en liste over dem). Systemets mapper røres aldrig. Indstillinger slår det fra igen.
+Allow deleting	Tillad sletning
+Cancel	Annuller
+Delete this disc image?	Slet dette diskaftryk?
+Delete this folder backup?	Slet denne mappekopi?
+Delete this package?	Slet denne pakke?
+Delete this ROM?	Slet denne ROM?
+Delete this webMAN cache file?	Slet denne webMAN-cachefil?
+Delete this leftover install?	Slet denne ufærdige installation?
+Delete it for good?	Slet det for altid?
+Delete this system update?	Slet denne systemopdatering?
+Empty the recycle bin?	Tøm papirkurven?
+Move it to the recycle bin?	Flyt det til papirkurven?
+Deleting...	Sletter...
+and %s with it	og %s med
+Nothing's freed till the recycle bin's emptied.	Intet frigøres, før papirkurven tømmes.
+Free: %s  →  about %s	Ledig: %s  →  cirka %s
+If it was a game update, install that update again afterwards.	Hvis det var en spilopdatering, så installer den igen bagefter.
+It can't be undone.	Det kan ikke fortrydes.
+It waits in the recycle bin for %d days first.	Det venter først %d dage i papirkurven.
+It waits in the recycle bin till that's emptied.	Det venter i papirkurven, til den tømmes.
+Delete	Slet
+Hold to delete	Hold for at slette
+Back to Cancel	Tilbage til Annuller
+Pick Delete	Vælg Slet
+Checking it's the same as the other copy: %s of %s	Tjekker, at den er den samme som den anden kopi: %s af %s
+Stopping...	Stopper...
+Stop	Stop
+%s of %s files  ·  %s	%s af %s filer  ·  %s
+%s went from %lld to %lld since %s.	%s gik fra %lld til %lld siden %s.
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	Journalen kunne ikke skrives i USRDIR, så drevet blev ikke spurgt.
+lv2 wouldn't open the drive (0x%08x).	lv2 kunne ikke åbne drevet (0x%08x).
+The drive didn't answer IDENTIFY (0x%08x).	Drevet svarede ikke på IDENTIFY (0x%08x).
+The drive didn't give its SMART data (0x%08x).	Drevet gav ikke sine SMART-data (0x%08x).
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	Drevet svarede, men med intet, der kan læses som IDENTIFY (en emulator gør dette).
+No memory for the reading.	Ingen hukommelse til aflæsningen.
+GOOD	GOD
+CAUTION	PAS PÅ
+FAILING	FEJLER
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	%s står på %d, på eller under tærsklen på %d: drevet siger, det er ved at gå i stykker.
+%s is at %d, at or below its threshold of %d.	%s står på %d, på eller under tærsklen på %d.
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s: flashhukommelsen bliver slidt. Tag en sikkerhedskopi af det vigtige.
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s: overfladen bliver slidt. Tag en sikkerhedskopi af det vigtige.
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	Resterende levetid: %d%%. Flashhukommelsen er næsten slidt op. Tag en sikkerhedskopi af det vigtige.
+Running hot (%d °C). Check the console's vents.	Meget varm (%d °C). Tjek konsollens ventilationsåbninger.
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	Ingen omfordelte, ventende eller uoprettelige sektorer, og intet under tærsklen.
+SSD	SSD
+%d rpm	%d o/min
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  firmware %s  ·  serienummer %s
+internal drive	internt drev
+internal HDD	intern harddisk
+  ·  (the data's checksum is off)	  ·  (dataenes kontrolsum passer ikke)
+Powered on	Tændt
+Reallocated	Omfordelt
+Pending	Ventende
+Uncorrectable	Kan ikke rettes
+%s h	%s t
+%lld days	%lld dage
+sectors	sektorer
+Read on	Læst
+No readings kept yet.	Ingen målinger gemt endnu.
+Attribute	Egenskab
+Value	Værdi
+Worst	Værste
+Thresh.	Tærskel
+Threshold	Tærskel
+Raw	Rå
+pre-fail	før fejl
+The verdict	Dommen
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	God: ingen slidte sektorer, ingen egenskab ved sin tærskel og ikke for varm. Pas på: drevet virker, men nogle sektorer er slidt, en ældningsegenskab er forbi sin tærskel, eller det er over 55 °C: tag en kopi af det, der betyder noget. Fejler: en før fejl-egenskab er ved eller under sin tærskel, så drevet selv venter at fejle snart: kopiér det, du vil beholde.
+The six figures	De seks tal
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	Temperatur: under 50 °C er fint; over 55 °C, tjek konsollens luftåbninger og støv. Tændt: de timer, drevet har kørt i hele sin levetid. Tænd-sluk-cyklusser: hvor mange gange det er blevet tændt.
+Bad sectors	Dårlige sektorer
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	Omfordelt: sektorer, der gik i stykker og blev skiftet ud med reservesektorer. Ventende: sektorer, drevet ikke kunne læse, og som venter på at blive skrevet igen eller skiftet ud. Kan ikke rettes: læsninger, der mislykkedes selv efter fejlretning, så det, der var der, kan være tabt. På et sundt drev står alle tre på 0. Et par stykker er ikke fatalt, men et tal, der bliver ved med at vokse, er det sikreste tegn på, at et drev er ved at være slut.
+The table	Tabellen
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	Drevet giver hver egenskab en score. Værdi er scoren nu (som regel 100 eller 200, når det er nyt; lavere er værre), Værste er den laveste, den nogensinde har været, og Tærskel er producentens grænse: ved eller under den har egenskaben fejlet. Rå er drevets egen optælling bag scoren (timer, sektorer, grader). Hvad den betyder, varierer fra producent til producent, så sammenlign et drev med dets egne tidligere aflæsninger, ikke med et andet drev.
+Pre-fail and old-age	Før fejl og ældning
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	Drevet mærker hver egenskab som det ene eller det andet. Før fejl-egenskaber (mærket før fejl i tabellen) holder øje med de fejl, der kommer før et nedbrud: dårlige sektorer, langsom opstart, søgefejl. Én ved eller under sin tærskel betyder, at drevet venter at fejle snart. Resten er ældningsegenskaber: de følger almindeligt slid gennem årene, som timer og tænd-sluk-cyklusser. Én forbi sin tærskel betyder, at drevet er slidt, ikke at det er ved at stoppe.
+SSDs	SSD'er
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	En SSD viser sin resterende levetid i stedet for antal opstarter: dens eget skøn over, hvor meget af flashhukommelsens forventede slid der er tilbage, 100% som ny. Ved 10% eller derunder siger vurderingen Forsigtig. På en SSD er omfordelte sektorer udslidte flashblokke byttet ud med reserver, og vurderingen venter til 70 °C, da SSD'er kører varmere. En SSD, der er ved at gå i stykker, kan holde op med at svare i stedet for at melde fejl: fryser en scanning hver gang samme sted, så mistænk drevet, selv om SMART ser fint ud.
+History	Historik
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	Hver aflæsning gemmes: Firkant viser dem, den nyeste først. Et antal omfordelte, ventende eller uoprettelige sektorer, der er vokset siden aflæsningen før, vises med gult. Aflæs drevet en gang imellem (Trekant), så der er noget at sammenligne med.
+It only reads	Læser kun
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART er drevets egen optegnelse: HDD Atlas beder kun om den, og intet på drevet ændres. Det kan ikke reparere et slidt drev: hvis det fejler, er løsningen en sikkerhedskopi og et nyt drev.
+1. Copy what matters first	1. Kopiér det vigtige først
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	Dine gemte spil ligger i /dev_hdd0/home: kopiér dem til et USB-drev eller en pc med webMANs FTP eller multiMAN. Eksportér også dine licenser (RAP'er), act.dat og trofæer med Apollo Save Tool. Opbevar det hele uden for konsollen.
+2. Delete what you don't need	2. Slet det, du ikke har brug for
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	Gamle diskaftryk, overskydende pakker, cacher: så er der mindre at kopiere og mindre at læse fra et drev, der svigter. At slette en fil læser den knap nok.
+3. Don't scan again and again	3. Scan ikke igen og igen
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	En scanning læser hver mappe på drevet. Hvor drevet ikke kan læse, kan en scanning gå i stå (HDD Atlas giver op efter 5 minutter), og et drev, der bliver ved med at prøve igen, slides hurtigere.
+4. Replace the drive	4. Udskift drevet
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	Et slidt drev kan ikke repareres og bliver kun værre. PS3'ens sikkerhedskopiering er kun et ekstra sikkerhedsnet: den gemmer ikke trofæer, tager timer og kan fejle på en beskadiget fil. At kopiere drevet på en pc virker ikke: det er krypteret til denne konsol. Hele udskiftningen trin for trin: ps3.world/upgrade-storage
+If the drive is wearing out	Hvis drevet bliver slidt
+What it means	Hvad det betyder
+SMART, read at %s	SMART, læst kl. %s
+Scroll	Rul
+Read the internal HDD's health?	Læs den interne harddisks helbred?
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	HDD Atlas spørger drevet om dets SMART-data: dets egen optælling af timer, fejl og slidte sektorer. Det læser kun: intet på drevet ændres.\n\nDet spørger via PS3'ens lager-systemkald, som ikke er afprøvet på alle konsoller. Hvis denne nogensinde fryser, opdager HDD Atlas det ved næste start og spørger ikke igen.
+Reading the drive's health...	Læser drevets helbred...
+Asking the drive for its SMART data.	Spørger drevet om dets SMART-data.
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	Læsning af drevets helbred frøs denne konsol sidste gang (ved "%s"), så HDD Atlas spørger ikke drevet igen.\n\nFor at prøve alligevel: slet smart_journal.txt i /dev_hdd0/game/HDAT00001/USRDIR.
+Not read: it froze the console before	Ikke læst: konsollen frøs før
+The drive's health couldn't be read	Drevets helbred kunne ikke læses
+Read	Læs
+What to do	Hvad du kan gøre
+Try again	Prøv igen
+Read again	Læs igen
+Attributes	Egenskaber
+version %s	version %s
+Once the scan's done.	Når scanningen er færdig.
+Scan this drive first.	Scan dette drev først.
+Last scanned %s	Sidst scannet: %s
+%s used of %s  ·  %s free	%s brugt af %s  ·  %s ledig
+Last time: %u min	Sidst: %u min
+Last time: %u s	Sidst: %u s
+Last scan	Seneste scanning
+Tools	Værktøjer
+Settings	Indstillinger
+Go through every folder on the drive and add up what's there.	Går hver mappe på drevet igennem og lægger sammen, hvad der er.
+What the last scan found, straight away.	Det, den seneste scanning fandt, med det samme.
+Free up space, duplicates, the map, drive health and more.	Frigør plads, dubletter, kortet, drevets helbred og mere.
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	Sprog, musik, lyde, størrelser, scanning, dæmpning, sletning.
+What's using your PS3's space, drive by drive, down to the last file.	Hvad der fylder på din PS3, drev for drev, helt ned til den sidste fil.
+Choose	Vælg
+Quit	Afslut
+Blue	Blå
+Teal	Petrol
+Purple	Lilla
+Pink	Lyserød
+Orange	Orange
+Green	Grøn
+High contrast	Høj kontrast
+Largest first	Største først
+Smallest first	Mindste først
+A-Z	A-Z
+Bookmark removed.	Bogmærke fjernet.
+There are 64 bookmarks already: remove one first.	Der er allerede 64 bogmærker: fjern et først.
+Bookmarked: it's in the menu's Bookmarks.	Bogmærke sat: det er under Bogmærker i menuen.
+It's suggested again.	Det foreslås igen.
+There are 512 kept already: unkeep one first.	Der er allerede 512 beholdt: fjern markeringen fra et først.
+Kept: it won't be suggested again (Square here undoes it).	Beholdt: det foreslås ikke igen (Firkant her fortryder).
+Disc images	Diskaftryk
+Disc images and data	Diskaftryk og data
+Disc image track lists	Sporlister til diskaftryk
+Licensed game data	Licenserede spildata
+Programs	Programmer
+Game archives	Spilarkiver
+Game data	Spildata
+Music	Musik
+Video	Video
+Pictures	Billeder
+Licences	Licenser
+Save and game info	Gemte data og spilinfo
+Trophies	Trofæer
+Text and settings	Tekst og indstillinger
+Databases	Databaser
+Archives	Arkiver
+ROMs	ROM'er
+No extension	Uden filtype
+Everything else	Alt det andet
+Recycle bin	Papirkurv
+SingStar songs	SingStar-sange
+IRISMAN's cache	IRISMANs cache
+Apollo's cache	Apollos cache
+multiMAN's covers	multiMANs covers
+Firmware update	Systemopdatering
+(more items)	(flere elementer)
+Newest first	Nyeste først
+Oldest first	Ældste først
+Where it was wasn't saved: it can't be put back, only deleted for good.	Placeringen blev ikke gemt: kan ikke gendannes, kun slettes for altid.
+The recycle bin's being tidied: try again in a moment.	Papirkurven ryddes op lige nu: prøv igen om et øjeblik.
+Put back, but not its .cue/.bin: that's still in the recycle bin.	Lagt tilbage, men ikke dens .cue/.bin: den er stadig i papirkurven.
+Put back where it was. Its size counts again after the next scan.	Gendannet. Dets størrelse tæller igen efter næste scanning.
+Something's where it was now: not put back.	Der er noget andet på pladsen nu: ikke gendannet.
+It couldn't be put back (see the log).	Det kunne ikke gendannes (se loggen).
+It's gone since the scan before.	Væk siden scanningen før.
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	Ud over de 50.000 elementer en scanning holder adskilt: deres mapper vises ikke én for én.
+Search by name	Søg efter navn
+It isn't there any more.	Den er her ikke længere.
+It's the only copy left: it isn't deleted from here.	Det er den sidste kopi: den slettes ikke herfra.
+Game	Spil
+Disc game	Diskspil
+Save	Gemt
+App	App
+PS2 game	PS2-spil
+PS1 game	PS1-spil
+PSP game	PSP-spil
+Minis	Minis
+Home	Home
+Network	Netværk
+%s  ·  %s file	%s  ·  %s fil
+%u couldn't be read	%u kunne ikke læses
+New	Ny
+Gone	Væk
+%s file	%s fil
+  ·  %s folder	  ·  %s mappe
+  ·  %s folders	  ·  %s mapper
+New since the scan: rescan for its size	Ny siden scanningen: scan igen for størrelsen
+Past the folders a scan keeps sizes for	Ud over de mapper en scanning gemmer størrelsen på
+Installed %s	Installeret %s
+Backup %s	Kopi %s
+Saves %s	Gemte %s
+Trophies %s	Trofæer %s
+Kept	Beholdt
+%d copy	%d kopi
+%d copies	%d kopier
+Game data %s	Spildata %s
+Also on %s (%s)	Også på %s (%s)
+never	aldrig
+today	i dag
+%d days ago	for %d dage siden
+%d months ago	for %d måneder siden
+%d years ago	for %d år siden
+Last played %s (its newest save)	Sidst spillet %s (dets nyeste gemte spil)
+Last changed %s	Sidst ændret %s
+Leftover package (already installed)	Overskydende pakke (allerede installeret)
+webMAN's cache (made again when needed)	webMANs cache (laves igen, når det behøves)
+Temporary files	Midlertidige filer
+Extra copy of a game held more than once	Ekstra kopi af et spil, der findes flere gange
+Update for a game that isn't here (keep it if you play the disc)	Opdatering til et spil, der ikke er her (behold den, hvis du spiller fra disk)
+Save for a game that isn't here (keep it if you play the disc)	Gemt spil til et spil, der ikke er her (behold det, hvis du spiller fra disk)
+Left by an install or a delete the system didn't finish	Efterladt af en installation eller sletning, systemet ikke gjorde færdig
+No PARAM.SFO: a broken install, or another app's data (check it first)	Ingen PARAM.SFO: ødelagt installation eller anden apps data (tjek først)
+Downloaded, not installed yet: install or delete it from the XMB	Downloadet, ikke installeret endnu: installer eller slet det fra XMB
+Waiting to be installed: install or delete it from the XMB	Venter på installation: installer eller slet det fra XMB
+A package that isn't installed: install it, or delete it if it's not needed	Pakke ikke installeret: installer eller slet den, hvis unødvendig
+An app's cache: clear it in that app (it makes it again)	En apps cache: ryd den i appen (den laver den igen)
+A system update: not for HEN or CFW (installing it removes them)	Systemopdatering: ikke til HEN eller CFW (installation fjerner dem)
+Can be deleted	Kan slettes
+From the XMB	Fra XMB
+.%s files	.%s-filer
+Goes for good tomorrow	Slettes for altid i morgen
+Goes for good in %d days	Slettes for altid om %d dage
+Till the bin's emptied	Til papirkurven tømmes
+Where it was isn't known  ·  deleted %s	Placering ukendt  ·  slettet %s
+Was in %s  ·  deleted %s	Lå i %s  ·  slettet %s
+%s each  ·  in %s	%s hver  ·  i %s
+What %s is made of	Hvad %s består af
+The game (with its updates)	Spillet (med opdateringer)
+Updates and game data	Opdateringer og spildata
+DLC and add-ons	DLC og tilføjelser
+Disc backups	Diskkopier
+All of it: %s	I alt: %s
+Adding up its folders... %s so far	Lægger mapperne sammen... %s indtil videre
+%s  ·  %s item	%s  ·  %s element
+%s  ·  %s items	%s  ·  %s elementer
+Games, all together	Spil, alt samlet
+%d games	%d spil
+Duplicates	Dubletter
+Up to %s could be freed	Op til %s kan frigøres
+Free up space	Frigør plads
+Up to %s	Op til %s
+%s  ·  %d deleted	%s  ·  %d slettet
+Any age	Enhver alder
+Untouched 6 months or more	Urørt i 6 måneder eller mere
+Untouched a year or more	Urørt i et år eller mere
+Untouched 2 years or more	Urørt i 2 år eller mere
+Untouched 3 years or more	Urørt i 3 år eller mere
+Size filter	Størrelsesfilter
+Over %s	Over %s
+Any size	Enhver størrelse
+In the last week	Den seneste uge
+In the last month	Den seneste måned
+In the last 3 months	De seneste 3 måneder
+In the last year	Det seneste år
+Recently added	Tilføjet for nylig
+Identical files	Identiske filer
+Largest folders	Største mapper
+The %d largest, at any depth	De %d største, i enhver dybde
+Not played lately	Ikke spillet længe
+Bookmarks	Bogmærker
+%d on %s	%d på %s
+File types	Filtyper
+%d types	%d typer
+Largest files	Største filer
+The largest .%s files	De største .%s-filer
+The %d largest files on the drive	De %d største filer på drevet
+Every category	Alle kategorier
+Changes since last scan	Ændringer siden seneste scanning
+−%s in files since the scan before	−%s i filer siden scanningen før
++%s in files since the scan before	+%s i filer siden scanningen før
+%s  ·  %s entry	%s  ·  %s post
+%s  ·  %s entries	%s  ·  %s poster
+  ·  search: "%s"	  ·  søgning: "%s"
+All	Alle
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	Det slettede venter her: X gendanner det, START sletter det for altid, Firkant tømmer papirkurven.
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	Alt over en størrelse, urørt et stykke tid: L1/R1 ændrer størrelsen, Firkant hvor længe.
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	Filer, der er ens byte for byte, hvor du gemmer ting (undtagen installerede spil og gemte spil): X viser dem.
+The same file in each place: X opens its folder, START deletes one.	Den samme fil hvert sted: X åbner dens mappe, START sletter en.
+What was added or changed lately, newest first: Square changes how far back.	Det, der er tilføjet eller ændret for nylig, nyeste først: Firkant ændrer hvor langt tilbage.
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	Det slettede venter her: Cirkel gendanner det, START sletter det for altid, Firkant tømmer papirkurven.
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	Filer, der er ens byte for byte, hvor du gemmer ting (undtagen installerede spil og gemte spil): Cirkel viser dem.
+The same file in each place: Circle opens its folder, START deletes one.	Den samme fil hvert sted: Cirkel åbner dens mappe, START sletter en.
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	%u filer på 1 MB eller mere set på, kl. %s, afbrudt (Firkant: igen)
+%u files of 1 MB or more looked at, at %s (Square: again)	%u filer på 1 MB eller mere set på, kl. %s (Firkant: igen)
+Each game's installed data, backups, saves and trophies, added up.	Hvert spils installerede data, kopier, gemte data og trofæer, lagt sammen.
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	Spil, der findes flere gange: installeret og kopieret, kopieret to gange eller også på et andet drev.
+Likely safe to clear: check each one. START deletes those that can go (Settings).	Sandsynligvis sikkert at slette: tjek hver enkelt. START sletter dem, der må slettes (Indstillinger).
+Everything of this game's on the drive: X opens one, START deletes one that can go.	Alt fra dette spil på drevet: X åbner et, START sletter et, der må slettes.
+Where the space really is: a folder that's nearly all one folder is left for that one.	Hvor pladsen virkelig er: en mappe, der næsten kun består af én mappe, viger for den.
+Games here, the longest unplayed first: when their newest save (or file) was written.	Spil her, de længst ikke spillede først: hvornår deres nyeste gemte spil (eller fil) blev skrevet.
+Square in a folder bookmarks it; here, Square removes one.	Firkant i en mappe sætter et bogmærke; her fjerner Firkant et.
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	Alt fra dette spil på drevet: Cirkel åbner et, START sletter et, der må slettes.
+The scan of %s against the one of %s; 1 MB or more	Scanningen fra %s sammenlignet med den fra %s; 1 MB eller mere
+Reading the folder...	Læser mappen...
+This folder couldn't be read (0x%08x).	Denne mappe kunne ikke læses (0x%08x).
+Comparing files of the same size: %u of %u...	Sammenligner filer af samme størrelse: %u af %u...
+Looking for identical files: %u of 1 MB or more so far...	Leder efter identiske filer: %u på 1 MB eller mere indtil videre...
+Nothing was added or changed in that time: Square goes further back.	Intet blev tilføjet eller ændret i den tid: Firkant går længere tilbage.
+Nothing's that big and that old: L1/R1 or Square widen it.	Intet er så stort og så gammelt: L1/R1 eller Firkant udvider det.
+No identical files found.	Ingen identiske filer fundet.
+Nothing matches the search. Press Circle to clear it.	Intet passer til søgningen. Tryk på Cirkel for at rydde den.
+Nothing matches the search. Press X to clear it.	Intet passer til søgningen. Tryk på X for at rydde den.
+This folder is empty.	Denne mappe er tom.
+Nothing changed by 1 MB or more.	Intet har ændret sig med 1 MB eller mere.
+No game is here more than once.	Intet spil findes flere gange.
+Nothing obvious to clear.	Intet oplagt at rydde.
+No bookmarks on this drive yet: Square in a folder adds one.	Ingen bogmærker på dette drev endnu: Firkant i en mappe sætter et.
+Nothing here.	Her er intet.
+Only the first 100,000 entries are listed.	Kun de første 100.000 poster vises.
+Some of this folder couldn't be read.	Dele af denne mappe kunne ikke læses.
+Put back	Gendan
+Size	Størrelse
+Empty the bin	Tøm papirkurven
+How long	Hvor længe
+How far back	Hvor langt tilbage
+Look again	Søg igen
+What it's made of	Hvad det består af
+Items	Elementer
+Files	Filer
+Rescan this	Scan igen
+Unbookmark	Fjern bogmærke
+Bookmark	Bogmærke
+Remove	Fjern
+Unkeep	Behold ikke
+Keep	Behold
+Search	Søg
+Delete for good	Slet for altid
+Clear search	Ryd søgning
+Up	Op
+Files here	Filer her
+Smaller folders	Mindre mapper
+Map of the drive	Kort over drevet
+  ·  %s file	  ·  %s fil
+  ·  %s files	  ·  %s filer
+Go in	Gå ind
+Pick a box	Vælg et felt
+Music on: Relaxing music by Piotr Witowski, from Pixabay	Musik til: afslappende musik af Piotr Witowski, fra Pixabay
+No memory to write the report.	Ingen hukommelse til at skrive rapporten.
+Writing the report...	Skriver rapporten...
+Report saved: %s (and .csv)	Rapport gemt: %s (og .csv)
+The report couldn't be written (see the log).	Rapporten kunne ikke skrives (se loggen).
+%d game	%d spil
+%d bookmark	%d bogmærke
+%d bookmarks	%d bogmærker
+%d scan	%d scanning
+%d scans	%d scanninger
+%s used	%s brugt
+%s in 30 days	%s på 30 dage
+Space over time	Plads over tid
+Export a report	Eksportér en rapport
+Buttons	Knapper
+About	Om
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	Hvad der sandsynligvis trygt kan ryddes: overskydende pakker, caches, ekstra kopier af spil, ufærdige installationer.
+Games held more than once, here or on another drive, and what removing the extra copies would free.	Spil, der findes flere gange, her eller på et andet drev, og hvad det ville frigøre at fjerne de ekstra kopier.
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	Filer, der er ens byte for byte, hvor du gemmer ting: diskbilleder, medier, pakker, dine egne mapper.
+Games here, the longest unplayed first: good ones to clear if you're done with them.	Spil her, de længst ikke spillede først: gode at slette, hvis du er færdig med dem.
+The folders holding the most, at any depth.	Mapperne, der fylder mest, i enhver dybde.
+Everything over a size, untouched for a while.	Alt over en størrelse, urørt et stykke tid.
+The drive's files by type: disc images, packages, video, saves...	Drevets filer efter type: diskaftryk, pakker, video, gemte data...
+The drive as boxes sized by the space they take: X goes into one.	Drevet som felter i størrelse efter den plads, de fylder: X går ind i et.
+Folders you've bookmarked (Square in a folder).	Mapper med bogmærke (Firkant i en mappe).
+What grew, shrank, appeared or went since the scan before.	Hvad der er vokset, skrumpet, kommet til eller forsvundet siden scanningen før.
+Used space scan by scan, by category.	Brugt plads scanning for scanning, efter kategori.
+What's been added or changed lately, newest first: what's taken your space.	Det, der er tilføjet eller ændret for nylig, nyeste først: det, der har taget din plads.
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	Scanningen som tekstfil og regneark (CSV) på harddisken eller et USB-drev.
+The internal HDD's own record of its wear (SMART).	Den interne harddisks egen optegnelse over sit slid (SMART).
+What's been deleted, waiting to go for good: put it back, or empty the bin.	Det slettede, der venter på at blive slettet for altid: gendan det, eller tøm papirkurven.
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	Sprog, musik, lyde, størrelser, farven, scanning, dæmpning, sletning.
+What every button does, screen by screen.	Hvad hver knap gør, skærm for skærm.
+Version, credits and licences.	Version, tak og licenser.
+Explore	Udforsk
+The drive as boxes sized by the space they take: Circle goes into one.	Drevet som felter i størrelse efter den plads, de fylder: Cirkel går ind i et.
+After the next scan of this drive.	Efter næste scanning af dette drev.
+The internal HDD only.	Kun den interne harddisk.
+Move	Flyt
+Close	Luk
+Only one scan so far: the chart grows with each scan.	Kun én scanning indtil videre: grafen vokser med hver scanning.
+No scans kept yet.	Ingen scanninger gemt endnu.
+−%s used since %s	−%s brugt siden %s
++%s used since %s	+%s brugt siden %s
+(%s rescanned)	(%s scannet igen)
+Choose a scan	Vælg en scanning
+Start screen	Startskærm
+Pick Scan, Last scan, Tools or Settings	Vælg Scan, Seneste scanning, Værktøjer eller Indstillinger
+Change drive (when a USB drive is plugged in)	Skift drev (når et USB-drev er sat i)
+Twice: quit	To gange: afslut
+Pick a category (its part of the ring stands out)	Vælg en kategori (dens del af ringen træder frem)
+Open the category's items	Åbn kategoriens elementer
+The largest items on the drive	De største elementer på drevet
+Scan the drive again	Scan drevet igen
+The menu (not while scanning)	Menuen (ikke under en scanning)
+Stop a scan, or back to the start screen	Stop en scanning, eller tilbage til startskærmen
+Lists	Lister
+A page at a time (or Left and Right)	En side ad gangen (eller Venstre og Højre)
+Open: a folder, a game's parts, the files of a type	Åbn: en mappe, et spils dele, en types filer
+Sort: largest, smallest, A-Z	Sortér: største, mindste, A-Z
+Change tab	Skift fane
+A category's list: scan just that category again. Largest: items or files	På en kategoris liste: scan kun den kategori igen. Ved Største: elementer eller filer
+Delete the row (when deleting is allowed in Settings)	Slet rækken (når sletning er tilladt i Indstillinger)
+Back (a search is cleared first; in a folder, up one)	Tilbage (en søgning ryddes først; i en mappe en op)
+Deleting	Sletning
+Pick Delete or Cancel	Vælg Slet eller Annuller
+Hold on Delete for 2 seconds to delete	Hold på Slet i 2 sekunder for at slette
+Cancel, or stop between files	Annuller, eller stop mellem filer
+Drive health and Settings	Drevets helbred og Indstillinger
+Read the drive's health again	Læs drevets helbred igen
+Drive health: its readings over time	Drevets helbred: aflæsningerne over tid
+Drive health: what it all means	Drevets helbred: hvad det hele betyder
+Change a setting	Skift en indstilling
+Keeping, the bin, filters	Behold, papirkurv, filtre
+Free up space, Duplicates: keep a row off them (or back on)	Frigør plads, Dubletter: hold en række udenfor (eller tilbage)
+A game's screen: what it's made of	Et spils skærm: hvad det består af
+Recycle bin: put it back (Square there empties the bin)	Papirkurv: gendan (Firkant der tømmer den)
+Size filter: the size (Square there: how long)	Størrelsesfilter: størrelsen (Firkant der: hvor længe)
+Recently added: how far back	Tilføjet for nylig: hvor langt tilbage
+Folders, Map, Space over time	Mapper, Kort, Plads over tid
+In a folder: bookmark it (or remove the bookmark)	I en mappe: sæt et bogmærke (eller fjern det)
+Map: go into the box picked	Kort: gå ind i det valgte felt
+Map: pick a box. Space over time: pick a scan	Kort: vælg et felt. Plads over tid: vælg en scanning
+Anywhere	Overalt
+Music off or on	Musik fra eller til
+When the screen's dimmed: any button wakes it	Når skærmen er dæmpet: enhver knap vækker den
+When HDD Atlas starts	Når HDD Atlas starter
+Held: the 4:3 layout on a widescreen TV	Holdt nede: 4:3-layoutet på et widescreen-tv
+Held: drawn by the CPU instead of the graphics chip	Holdt nede: tegnet af CPU'en i stedet for grafikchippen
+Save the report where?	Hvor skal rapporten gemmes?
+On the HDD, in HDD Atlas's folder	På harddisken, i HDD Atlas' mappe
+On %s	På %s
+Language	Sprog
+Sound effects	Lydeffekter
+Sizes	Størrelser
+Accent colour	Accentfarve
+Rescan at start	Scan ved start
+Scan USB drives	Scan USB-drev
+Dim the screen	Dæmp skærmen
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	Automatisk følger PS3'ens sprog. Oversættelserne er fra HDD Atlas og endnu ikke tjekket af modersmålstalere.
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	Hvor højt baggrundsmusikken spiller under klikkene. R3 slår den fra eller til overalt.
+The clicks when you move and press.	Klikkene når du bevæger dig og trykker.
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024 er sådan XMB tæller (931 GB på et 1 TB-drev); 1000 er sådan æskerne tæller (1 TB).
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	Farven på det valgte. Høj kontrast gør den gul og den grå tekst lysere.
+When the free space has moved since the last scan, scan again by itself at start.	Hvis den ledige plads har ændret sig siden seneste scanning, scan selv igen ved start.
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	Scan selv et USB-drev, når det sættes i (når ingen anden scanning kører).
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	Efter så lang tid uden en knap bliver skærmen mørk (enhver knap vækker den): skånsomt for plasma- og OLED-tv.
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	Lader START slette en række i listerne: diskaftryk, mappekopier, overskydende pakker, ROM'er og webMANs cache.
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	Det slettede venter så længe i papirkurven på sit drev (Papirkurv i menuen), så det kan gendannes. Fra sletter med det samme.
+Automatic: %s	Automatisk: %s
+Off	Fra
+On	Til
+1 GB = 1000 MB (as on the box)	1 GB = 1000 MB (som på æsken)
+1 GB = 1024 MB (as the XMB)	1 GB = 1024 MB (som XMB)
+When free space has moved	Når den ledige plads har ændret sig
+When plugged in	Når det sættes i
+After %d minutes	Efter %d minutter
+Keep %d days	Behold %d dage
+Until it's emptied	Til den tømmes
+Off: delete at once	Fra: slet med det samme
+Change	Skift
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	Skrifttyper: Poppins (SIL Open Font License) og DejaVu Sans.
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	Knapbilleder: Kenney (CC0). Flag: flag-icons (MIT).
+The hard disk icon: "Internal Clear" by Rick Patrick.	Harddiskikonet: "Internal Clear" af Rick Patrick.
+Menu icons: Tanah Basah, from Flaticon.	Menuikoner: Tanah Basah, fra Flaticon.
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	Musik: "Relaxing Music (Part 1)" af Piotr Witowski, fra Pixabay.
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	Billeder, skrifttyper og musik afkodet med stb_image, stb_truetype og stb_vorbis (public domain).
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	NTFS-drev: libntfs_ext af Estwald, fra NTFS-3G (GPL-2.0).
+Built with PSL1GHT and the ps3toolchain.	Lavet med PSL1GHT og ps3toolchain.
+Made by	Lavet af
+Thanks to	Tak til
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas er fri software under GPL-2.0. Licenserne ligger i USRDIR/data/licenses.

@@ -1,0 +1,652 @@
+# HDD Atlas in Dutch: "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	webMAN heeft dit nodig om een game van een NTFS-schijf te koppelen.
+A disc image's decryption key: webMAN needs it to mount it.	De ontsleutelingssleutel van een schijfkopie: webMAN heeft die nodig om te koppelen.
+Installed games: delete them from the XMB (it keeps their icons).	Geïnstalleerde games: verwijder ze via het XMB (dat bewaart hun pictogrammen).
+Music, video and photos: delete them from the XMB (it keeps a list of them).	Muziek, video en foto's: verwijder ze via het XMB (dat houdt er een lijst van bij).
+Saves, trophies and licences: delete them from the XMB.	Opgeslagen data, trofeeën en licenties: verwijder ze via het XMB.
+The system's own: never deleted.	Van het systeem: wordt nooit verwijderd.
+TB	TB
+GB	GB
+MB	MB
+KB	KB
+B	B
+reallocated sectors	verplaatste sectoren
+sectors waiting to be reallocated	sectoren die wachten op verplaatsing
+uncorrectable sectors	onherstelbare sectoren
+reported uncorrectable errors	gemelde onherstelbare fouten
+reallocation events	verplaatsingen
+Life left	Resterende levensduur
+Wear levelling count	Slijtageverdeling
+Used reserve blocks	Gebruikte reserveblokken
+Unused reserve blocks	Vrije reserveblokken
+Media wearout	Slijtage van het medium
+Reserved space left	Resterende reserve
+Total written	Totaal geschreven
+Read error rate	Leesfoutpercentage
+Throughput performance	Doorvoerprestaties
+Spin-up time	Opstarttijd
+Start/stop count	Starts en stops
+Reallocated sectors	Verplaatste sectoren
+Seek error rate	Zoekfoutpercentage
+Seek time performance	Zoekprestaties
+Power-on hours	Branduren
+Spin retry count	Opstartpogingen
+Calibration retries	Kalibratiepogingen
+Power cycles	Inschakelingen
+Program fails	Programmeerfouten
+Erase fails	Wisfouten
+Unexpected power losses	Onverwachte stroomonderbrekingen
+Wear range delta	Slijtageverschil
+Interface downshifts	Snelheidsverlagingen van de interface
+End-to-end errors	End-to-end-fouten
+Reported uncorrectable	Gemelde onherstelbare
+Command timeouts	Time-outs van opdrachten
+High fly writes	Te hoge schrijfacties
+Airflow temperature	Luchttemperatuur
+G-sense errors	Schokfouten
+Power-off retracts	Terugtrekkingen bij uitschakelen
+Load cycles	Laadcycli
+Temperature	Temperatuur
+ECC recovered	Hersteld door ECC
+Reallocation events	Verplaatsingen
+Pending sectors	Wachtende sectoren
+Uncorrectable sectors	Onherstelbare sectoren
+Interface CRC errors	CRC-fouten van de interface
+Write error rate	Schrijffoutpercentage
+Disk shift	Schijfverschuiving
+Loaded hours	Uren met geladen koppen
+Load retries	Laadpogingen
+Load friction	Laadwrijving
+Load-in time	Laadtijd
+Head flying hours	Vlieguren van de koppen
+Total read	Totaal gelezen
+Free fall events	Gedetecteerde vallen
+Vendor specific	Fabrikantspecifiek
+Games & game data	Games en gamedata
+Disc game backups	Kopieën van gamediscs
+Saves, trophies & licences	Opgeslagen data, trofeeën en licenties
+Themes	Thema's
+Music, video & photos	Muziek, video en foto's
+Packages, tmp & caches	Pakketten, tmp en caches
+System & other folders	Systeem en andere mappen
+System partitions	Systeempartities
+Unaccounted	Onverklaard
+Games	Games
+Backups	Kopieën
+Saves	Opgeslagen
+Media	Media
+Packages	Pakketten
+System	Systeem
+Partitions	Partities
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	%s reageerde niet meer tijdens de scan, en alle NTFS-schijven wachten erop: start de console opnieuw op om ze weer te gebruiken.
+%s stopped answering during its scan: restart the console to use it again.	%s reageerde niet meer tijdens de scan: start de console opnieuw op om hem weer te gebruiken.
+Emptied %d old entries from the recycle bin: %s freed.	%d oude items definitief uit de prullenbak verwijderd: %s vrijgemaakt.
+No scan can start till the console restarts: %s stopped answering during its scan.	Er kan geen scan starten tot de console opnieuw is opgestart: %s reageerde niet meer tijdens de scan.
+A scan of %s is running: one at a time.	%s wordt al gescand: één tegelijk.
+Drive health found this drive wearing out: back up what matters first.	Schijfgezondheid ziet deze schijf slijten: maak eerst een back-up van wat belangrijk is.
+Scanning: things may be slow until it's done. The menu's back after it.	Bezig met scannen: het kan traag zijn tot het klaar is. Het menu komt daarna terug.
+The scan couldn't start (see the log).	De scan kon niet starten (zie het logboek).
+Rescanning %s; the rest stays as it was.	%s wordt opnieuw gescand; de rest blijft zoals het was.
+Internal HDD	Interne harde schijf
+Scan of %s finished in %.1f s.	Scan van %s klaar in %.1f s.
+Scan stopped. The last scan is shown.	Scan gestopt. De laatste scan wordt getoond.
+The scan didn't finish (see the log).	De scan is niet afgerond (zie het logboek).
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	De delen van de schijf buiten het station dat HDD Atlas scant: een gamecache van 2 GB, het systeemflash op de meeste modellen en de gegevens van het bestandssysteem over elk bestand (een paar procent van de schijf). Niets daarvan kan worden vrijgemaakt.
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	Gebruikte ruimte die geen bestand verklaart. Het meeste houdt het bestandssysteem voor zichzelf vrij: 8 procent van het station af fabriek, 1 procent na webMANs unlockhdd. De rest zijn de laatste blokken van bestanden, naar boven afgerond. Niets daarvan kan hier worden vrijgemaakt.
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	Hier tellen de bestanden op tot meer dan de gebruikte ruimte: sommige worden dubbel geteld. webMAN kan de bestanden van een game koppelen tussen GAMES en game: één kopie op de schijf, dubbel geteld.
+Press Circle again to quit.	Druk nogmaals op Cirkel om af te sluiten.
+Press X again to quit.	Druk nogmaals op X om af te sluiten.
+The menu opens once the scan's done.	Het menu opent zodra de scan klaar is.
+Not scanned yet	Nog niet gescand
+Free space has dropped by %s since this scan	De vrije ruimte is sinds deze scan %s gedaald
+Free space has grown by %s since this scan	De vrije ruimte is sinds deze scan %s gestegen
+Scanned %s  ·  1 delete since	Gescand op %s  ·  sindsdien 1 verwijdering
+Scanned %s  ·  %u deletes since	Gescand op %s  ·  sindsdien %u verwijderingen
+Scanned %s  ·  took %.0f s	Gescand op %s  ·  duurde %.0f s
+%s used of %s	%s van %s gebruikt
+%s used of %s  ·  %s	%s van %s gebruikt  ·  %s
+%s files in %s folders	%s bestanden in %s mappen
+  ·  %llu couldn't be read (skipped)	  ·  %llu niet leesbaar (overgeslagen)
+%s free	%s vrij
+%s free  ·  drive size unknown	%s vrij  ·  schijfgrootte onbekend
+%s  ·  %u item	%s  ·  %u item
+%s  ·  %u items	%s  ·  %u items
+No scan of %s yet. Press Triangle to scan it.	Nog geen scan van %s. Druk op Driehoek om te scannen.
+(%s is being scanned: one at a time.)	(%s wordt gescand: één tegelijk.)
+Scanning %s	%s scannen
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s van %s  ·  %s bestanden
+%s  ·  %s files	%s  ·  %s bestanden
+The first scan of a full HDD can take a few minutes.	De eerste scan van een volle schijf kan een paar minuten duren.
+Scanning  %d%%	Scannen  %d%%
+Scanning %s  %d%%  ·  %s files	%s scannen  %d%%  ·  %s bestanden
+%s files	%s bestanden
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	%s gaf leesfouten, dus de scan heeft overgeslagen wat hij niet kon lezen. Dat wijst meestal op slechte sectoren.
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	%s gaf leesfouten, dus de scan kon niet afmaken. Dat wijst meestal op slechte sectoren.
+Drive health shows whether the drive has bad sectors, and what to do if it has.	Schijfgezondheid laat zien of de schijf slechte sectoren heeft, en wat je dan moet doen.
+Some of the drive couldn't be read	Een deel van de schijf was onleesbaar
+The scan didn't finish	De scan is niet afgemaakt
+OK	OK
+Drive health	Schijfgezondheid
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	%s antwoordde 5 minuten niet, dus de scan is opgegeven. Meestal kan de schijf hier niet lezen:
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	Stuur hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, naar ps3.world/contact (hddatlas_log_prev.txt als HDD Atlas sindsdien opnieuw is gestart). Een nieuwe scan start misschien pas als de console opnieuw is opgestart.
+The scan got stuck	De scan liep vast
+Check this drive's health on a PC (its SMART data) before trusting it with more.	Controleer de gezondheid van deze schijf op een pc (de SMART-gegevens) voor je er meer op zet.
+Overview	Overzicht
+Open	Openen
+What's this	Wat is dit
+Largest	Grootste
+Largest items	Grootste items
+Rescan	Opnieuw scannen
+Scan	Scannen
+Stop scan	Scan stoppen
+Back	Terug
+Menu	Menu
+Music off	Muziek uit
+Music on	Muziek aan
+Drive	Schijf
+Deleting is off.	Verwijderen staat uit.
+Deleting is off: turn it on in Settings (START on the overview).	Verwijderen staat uit: zet het aan in Instellingen (START in het overzicht).
+This NTFS drive is read-only: Windows didn't close it cleanly.	Deze NTFS-schijf is alleen-lezen: Windows sloot hem niet netjes af.
+This can't be deleted here.	Dit kan hier niet worden verwijderd.
+A package is being installed: delete this once that's done.	Er wordt een pakket geïnstalleerd: verwijder dit als dat klaar is.
+Wait for the scan to finish, then delete.	Wacht tot de scan klaar is en verwijder dan.
+The recycle bin's empty.	De prullenbak is leeg.
+The recycle bin	De prullenbak
+Not deleted	Niet verwijderd
+No memory to start.	Geen geheugen om te beginnen.
+Deleted	Verwijderd
+Stopped part way	Halverwege gestopt
+Not deleted: it isn't the same as %s, byte for byte.	Niet verwijderd: het is niet byte voor byte gelijk aan %s.
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	Niet verwijderd: het verandert nog, misschien schrijft een installatie erin. Probeer het later.
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	Niet verwijderd: een installatie schreef er het afgelopen etmaal in en heeft het misschien nog nodig. Probeer het morgen.
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	Niet verwijderd: de andere kopie (%s) is er niet meer, dus dit is de laatste.
+In the recycle bin	In de prullenbak
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	Naar de prullenbak verplaatst (%s). De ruimte komt vrij als de prullenbak geleegd wordt: Prullenbak in het menu.
+Deleted: %s freed.	Verwijderd: %s vrijgemaakt.
+Stopped part way: %s freed, the rest is still there.	Halverwege gestopt: %s vrijgemaakt, de rest staat er nog.
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	Verwijderd, maar %u items bleven over (koppelingen, of items die niet weg wilden): %s vrijgemaakt.
+Not deleted: error 0x%08x at %s. %s freed.	Niet verwijderd: fout 0x%08x bij %s. %s vrijgemaakt.
+Deleting is on: START on a row that can go.	Verwijderen staat aan: START op een regel die weg mag.
+Allow deleting?	Verwijderen toestaan?
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	HDD Atlas kan dan schijfkopieën (PS3ISO, PS2ISO...), mapkopieën in GAMES, overgebleven pakketten, ROM's en de webMAN-cache verwijderen: één regel tegelijk, elk pas na het vasthouden van X. Wat verwijderd is, komt niet terug.
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	HDD Atlas kan dan schijfkopieën (PS3ISO, PS2ISO...), mapkopieën in GAMES, overgebleven pakketten, ROM's en de webMAN-cache verwijderen: één regel tegelijk, elk pas na het vasthouden van Cirkel. Wat verwijderd is, komt niet terug.
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	Geïnstalleerde games, opgeslagen data, trofeeën, muziek, video en foto's blijven bij het XMB (dat houdt er een lijst van bij). De systeemmappen worden nooit aangeraakt. Instellingen zet dit weer uit.
+Allow deleting	Verwijderen toestaan
+Cancel	Annuleren
+Delete this disc image?	Deze schijfkopie verwijderen?
+Delete this folder backup?	Deze mapkopie verwijderen?
+Delete this package?	Dit pakket verwijderen?
+Delete this ROM?	Deze ROM verwijderen?
+Delete this webMAN cache file?	Dit webMAN-cachebestand verwijderen?
+Delete this leftover install?	Deze onafgemaakte installatie verwijderen?
+Delete it for good?	Definitief verwijderen?
+Delete this system update?	Deze systeemupdate verwijderen?
+Empty the recycle bin?	Prullenbak legen?
+Move it to the recycle bin?	Naar de prullenbak verplaatsen?
+Deleting...	Verwijderen...
+and %s with it	en %s erbij
+Nothing's freed till the recycle bin's emptied.	Er komt geen ruimte vrij tot de prullenbak geleegd is.
+Free: %s  →  about %s	Vrij: %s  →  ongeveer %s
+If it was a game update, install that update again afterwards.	Was het een game-update, installeer die update daarna opnieuw.
+It can't be undone.	Dit kan niet ongedaan worden gemaakt.
+It waits in the recycle bin for %d days first.	Het wacht eerst %d dagen in de prullenbak.
+It waits in the recycle bin till that's emptied.	Het wacht in de prullenbak tot die geleegd wordt.
+Delete	Verwijderen
+Hold to delete	Vasthouden om te verwijderen
+Back to Cancel	Terug naar Annuleren
+Pick Delete	Verwijderen kiezen
+Checking it's the same as the other copy: %s of %s	Controleren of het gelijk is aan de andere kopie: %s van %s
+Stopping...	Stoppen...
+Stop	Stoppen
+%s of %s files  ·  %s	%s van %s bestanden  ·  %s
+%s went from %lld to %lld since %s.	%s ging van %lld naar %lld sinds %s.
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	Het logboek kon niet in USRDIR worden geschreven, dus de schijf is niets gevraagd.
+lv2 wouldn't open the drive (0x%08x).	lv2 kon de schijf niet openen (0x%08x).
+The drive didn't answer IDENTIFY (0x%08x).	De schijf antwoordde niet op IDENTIFY (0x%08x).
+The drive didn't give its SMART data (0x%08x).	De schijf gaf zijn SMART-gegevens niet (0x%08x).
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	De schijf antwoordde, maar met niets dat als IDENTIFY te lezen is (een emulator doet dit).
+No memory for the reading.	Geen geheugen voor de meting.
+GOOD	GOED
+CAUTION	LET OP
+FAILING	FAALT
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	%s staat op %d, op of onder de drempel van %d: de schijf meldt dat hij het begeeft.
+%s is at %d, at or below its threshold of %d.	%s staat op %d, op of onder de drempel van %d.
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s: het flashgeheugen slijt. Maak een back-up van wat belangrijk is.
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s: het oppervlak slijt. Maak een back-up van wat belangrijk is.
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	Resterende levensduur: %d%%. Het flashgeheugen is bijna versleten. Maak een back-up van wat belangrijk is.
+Running hot (%d °C). Check the console's vents.	Erg warm (%d °C). Controleer de ventilatieopeningen van de console.
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	Geen verplaatste, wachtende of onherstelbare sectoren, en niets onder de drempel.
+SSD	SSD
+%d rpm	%d tpm
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  firmware %s  ·  serienummer %s
+internal drive	interne schijf
+internal HDD	interne harde schijf
+  ·  (the data's checksum is off)	  ·  (de controlesom van de gegevens klopt niet)
+Powered on	Branduren
+Reallocated	Verplaatst
+Pending	Wachtend
+Uncorrectable	Onherstelbaar
+%s h	%s u
+%lld days	%lld dagen
+sectors	sectoren
+Read on	Gelezen op
+No readings kept yet.	Nog geen metingen bewaard.
+Attribute	Attribuut
+Value	Waarde
+Worst	Slechtste
+Thresh.	Drempel
+Threshold	Drempel
+Raw	Ruw
+pre-fail	voor-falen
+The verdict	Het oordeel
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	Goed: geen versleten sectoren, geen attribuut op zijn drempel en niet te warm. Let op: de schijf werkt, maar sommige sectoren zijn versleten, een ouderdomsattribuut is over zijn drempel, of hij is warmer dan 55 °C: bewaar een kopie van wat belangrijk is. Faalt: een voor-falen-attribuut staat op of onder zijn drempel, dus de schijf verwacht zelf binnenkort te falen: kopieer wat je wilt houden.
+The six figures	De zes cijfers
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	Temperatuur: onder 50 °C is prima; boven 55 °C, controleer de ventilatieopeningen en het stof van de console. Aan geweest: de uren die de schijf in zijn leven heeft gedraaid. Inschakelingen: hoe vaak hij is aangezet.
+Bad sectors	Slechte sectoren
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	Verplaatst: sectoren die kapotgingen en zijn vervangen door reservesectoren. Wachtend: sectoren die de schijf niet kon lezen en die opnieuw geschreven of vervangen moeten worden. Onherstelbaar: leesacties die zelfs na foutcorrectie mislukten, dus wat er stond kan verloren zijn. Op een gezonde schijf staan alle drie op 0. Een paar is niet fataal, maar een aantal dat blijft groeien is het zekerste teken dat een schijf op zijn einde loopt.
+The table	De tabel
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	De schijf geeft elk attribuut een score. Waarde is de score nu (meestal 100 of 200 als hij nieuw is; lager is slechter), Slechtste is de laagste ooit, en Drempel is de grens van de fabrikant: daarop of daaronder is dat attribuut gefaald. Ruw is de eigen telling van de schijf achter de score (uren, sectoren, graden). Wat die betekent verschilt per fabrikant, dus vergelijk een schijf met zijn eigen eerdere metingen, niet met een andere schijf.
+Pre-fail and old-age	Voor-falen en ouderdom
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	De schijf markeert elk attribuut als het een of het ander. Voor-falen-attributen (in de tabel gemarkeerd met voor-falen) letten op de fouten die aan een defect voorafgaan: slechte sectoren, traag opstarten, zoekfouten. Staat er een op of onder zijn drempel, dan verwacht de schijf binnenkort te falen. De rest zijn ouderdomsattributen: ze volgen gewone slijtage door de jaren, zoals uren en inschakelingen. Is er een over zijn drempel, dan is de schijf versleten, niet per se bijna stuk.
+SSDs	SSD's
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	Een SSD toont zijn resterende levensduur in plaats van het aantal keren aangezet: zijn eigen schatting van hoeveel van de voorziene slijtage van zijn flashgeheugen nog over is, nieuw 100%. Bij 10% of minder zegt het oordeel Let op. Op een SSD zijn verplaatste sectoren versleten flashblokken die door reserves zijn vervangen, en het oordeel wacht tot 70 °C, omdat SSD's warmer worden. Een kapotte SSD kan stoppen met antwoorden in plaats van fouten te melden: als een scan steeds op dezelfde plek vastloopt, verdenk dan de schijf, ook als SMART er goed uitziet.
+History	Geschiedenis
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	Elke meting wordt bewaard: Vierkant toont ze, de nieuwste eerst. Een aantal verplaatste, wachtende of onherstelbare sectoren dat sinds de vorige meting is gegroeid, staat in het geel. Lees de schijf af en toe uit (Driehoek), zodat er iets te vergelijken is.
+It only reads	Alleen lezen
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART is het eigen logboek van de schijf: HDD Atlas vraagt het alleen op, en er verandert niets op de schijf. Een versleten schijf kan het niet herstellen: als hij faalt, is de oplossing een back-up en een nieuwe schijf.
+1. Copy what matters first	1. Kopieer eerst wat belangrijk is
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	Je saves staan in /dev_hdd0/home: kopieer ze met de FTP van webMAN of met multiMAN naar een USB-schijf of een pc. Exporteer met Apollo Save Tool ook je licenties (RAP's), act.dat en trofeeën. Bewaar alles buiten de console.
+2. Delete what you don't need	2. Verwijder wat je niet nodig hebt
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	Oude schijfkopieën, overgebleven pakketten, caches: dan is er minder te kopiëren en minder te lezen van een falende schijf. Een bestand verwijderen leest het nauwelijks.
+3. Don't scan again and again	3. Scan niet steeds opnieuw
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	Een scan leest elke map op de schijf. Waar de schijf niet kan lezen, kan een scan blijven hangen (HDD Atlas geeft het na 5 minuten op), en een schijf die steeds opnieuw probeert, slijt sneller.
+4. Replace the drive	4. Vervang de schijf
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	Een versleten schijf is niet te repareren en wordt alleen slechter. Het back-upprogramma van de PS3 is alleen een extra vangnet: het bewaart geen trofeeën, duurt uren en kan mislukken op een beschadigd bestand. De schijf op een pc kopiëren werkt niet: hij is versleuteld voor deze console. De hele vervanging, stap voor stap: ps3.world/upgrade-storage
+If the drive is wearing out	Als de schijf slijt
+What it means	Wat het betekent
+SMART, read at %s	SMART, gelezen om %s
+Scroll	Scrollen
+Read the internal HDD's health?	De gezondheid van de interne harde schijf lezen?
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	HDD Atlas vraagt de schijf om zijn SMART-gegevens: zijn eigen telling van uren, fouten en versleten sectoren. Er wordt alleen gelezen: op de schijf verandert niets.\n\nDe vraag gaat via de opslag-systeemaanroepen van de PS3, die niet op elke console zijn getest. Als deze console daarbij ooit vastloopt, merkt HDD Atlas dat bij de volgende start en vraagt het niet meer.
+Reading the drive's health...	Schijfgezondheid lezen...
+Asking the drive for its SMART data.	De schijf om zijn SMART-gegevens vragen.
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	Het lezen van de schijfgezondheid liet deze console de vorige keer vastlopen (bij "%s"), dus HDD Atlas vraagt het niet meer.\n\nWil je het toch proberen, verwijder dan smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.
+Not read: it froze the console before	Niet gelezen: de console liep eerder vast
+The drive's health couldn't be read	De schijfgezondheid kon niet worden gelezen
+Read	Lezen
+What to do	Wat te doen
+Try again	Opnieuw proberen
+Read again	Opnieuw lezen
+Attributes	Attributen
+version %s	versie %s
+Once the scan's done.	Zodra de scan klaar is.
+Scan this drive first.	Scan deze schijf eerst.
+Last scanned %s	Laatst gescand: %s
+%s used of %s  ·  %s free	%s van %s gebruikt  ·  %s vrij
+Last time: %u min	Vorige keer: %u min
+Last time: %u s	Vorige keer: %u s
+Last scan	Laatste scan
+Tools	Hulpmiddelen
+Settings	Instellingen
+Go through every folder on the drive and add up what's there.	Loopt elke map op de schijf door en telt op wat erin staat.
+What the last scan found, straight away.	Wat de laatste scan vond, meteen.
+Free up space, duplicates, the map, drive health and more.	Ruimte vrijmaken, duplicaten, de kaart, schijfgezondheid en meer.
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	Taal, muziek, geluiden, groottes, scannen, dimmen, verwijderen.
+What's using your PS3's space, drive by drive, down to the last file.	Wat de ruimte van je PS3 inneemt, schijf voor schijf, tot het laatste bestand.
+Choose	Kiezen
+Quit	Afsluiten
+Blue	Blauw
+Teal	Petrol
+Purple	Paars
+Pink	Roze
+Orange	Oranje
+Green	Groen
+High contrast	Hoog contrast
+Largest first	Grootste eerst
+Smallest first	Kleinste eerst
+A-Z	A-Z
+Bookmark removed.	Bladwijzer verwijderd.
+There are 64 bookmarks already: remove one first.	Er zijn al 64 bladwijzers: verwijder er eerst een.
+Bookmarked: it's in the menu's Bookmarks.	Bladwijzer gezet: hij staat bij Bladwijzers in het menu.
+It's suggested again.	Het wordt weer voorgesteld.
+There are 512 kept already: unkeep one first.	Er zijn al 512 bewaard: haal er eerst een weg.
+Kept: it won't be suggested again (Square here undoes it).	Bewaard: het wordt niet meer voorgesteld (Vierkant hier maakt het ongedaan).
+Disc images	Schijfkopieën
+Disc images and data	Schijfkopieën en gegevens
+Disc image track lists	Tracklijsten van schijfkopieën
+Licensed game data	Gelicentieerde gamedata
+Programs	Programma's
+Game archives	Gamearchieven
+Game data	Gamedata
+Music	Muziek
+Video	Video
+Pictures	Afbeeldingen
+Licences	Licenties
+Save and game info	Info over opgeslagen data en games
+Trophies	Trofeeën
+Text and settings	Tekst en instellingen
+Databases	Databases
+Archives	Archieven
+ROMs	ROM's
+No extension	Zonder extensie
+Everything else	Al het andere
+Recycle bin	Prullenbak
+SingStar songs	SingStar-nummers
+IRISMAN's cache	IRISMAN-cache
+Apollo's cache	Apollo-cache
+multiMAN's covers	multiMAN-hoesjes
+Firmware update	Systeemupdate
+(more items)	(meer items)
+Newest first	Nieuwste eerst
+Oldest first	Oudste eerst
+Where it was wasn't saved: it can't be put back, only deleted for good.	Plek niet opgeslagen: niet terug te zetten, alleen definitief te verwijderen.
+The recycle bin's being tidied: try again in a moment.	De prullenbak wordt opgeruimd: probeer het zo nog eens.
+Put back, but not its .cue/.bin: that's still in the recycle bin.	Teruggezet, maar niet de .cue/.bin erbij: die zit nog in de prullenbak.
+Put back where it was. Its size counts again after the next scan.	Teruggezet. De grootte telt weer mee na de volgende scan.
+Something's where it was now: not put back.	Er staat nu iets anders op die plek: niet teruggezet.
+It couldn't be put back (see the log).	Het kon niet teruggezet worden (zie het logboek).
+It's gone since the scan before.	Verdwenen sinds de vorige scan.
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	Voorbij de 50.000 items van een scan: hun mappen worden niet één voor één getoond.
+Search by name	Zoeken op naam
+It isn't there any more.	Het is er niet meer.
+It's the only copy left: it isn't deleted from here.	Dit is de laatste kopie: die wordt hier niet verwijderd.
+Game	Game
+Disc game	Discgame
+Save	Opgeslagen data
+App	App
+PS2 game	PS2-game
+PS1 game	PS1-game
+PSP game	PSP-game
+Minis	Minis
+Home	Home
+Network	Netwerk
+%s  ·  %s file	%s  ·  %s bestand
+%u couldn't be read	%u niet leesbaar
+New	Nieuw
+Gone	Weg
+%s file	%s bestand
+  ·  %s folder	  ·  %s map
+  ·  %s folders	  ·  %s mappen
+New since the scan: rescan for its size	Nieuw sinds de scan: scan opnieuw voor de grootte
+Past the folders a scan keeps sizes for	Voorbij de mappen waarvan een scan de grootte bijhoudt
+Installed %s	Geïnstalleerd %s
+Backup %s	Kopie %s
+Saves %s	Opgeslagen data %s
+Trophies %s	Trofeeën %s
+Kept	Bewaard
+%d copy	%d kopie
+%d copies	%d kopieën
+Game data %s	Gamedata %s
+Also on %s (%s)	Ook op %s (%s)
+never	nooit
+today	vandaag
+%d days ago	%d dagen geleden
+%d months ago	%d maanden geleden
+%d years ago	%d jaar geleden
+Last played %s (its newest save)	Laatst gespeeld op %s (de nieuwste opgeslagen data)
+Last changed %s	Laatst gewijzigd op %s
+Leftover package (already installed)	Overgebleven pakket (al geïnstalleerd)
+webMAN's cache (made again when needed)	webMAN-cache (wordt opnieuw gemaakt als dat nodig is)
+Temporary files	Tijdelijke bestanden
+Extra copy of a game held more than once	Extra kopie van een game die er vaker staat
+Update for a game that isn't here (keep it if you play the disc)	Update van een ontbrekende game (bewaar als je de disc speelt)
+Save for a game that isn't here (keep it if you play the disc)	Save van een ontbrekende game (bewaar als je de disc speelt)
+Left by an install or a delete the system didn't finish	Restant van een onafgemaakte installatie of verwijdering
+No PARAM.SFO: a broken install, or another app's data (check it first)	Geen PARAM.SFO: kapotte installatie of andere app (controleer)
+Downloaded, not installed yet: install or delete it from the XMB	Gedownload, niet geïnstalleerd: regel het via het XMB
+Waiting to be installed: install or delete it from the XMB	Wacht op installatie: regel het via het XMB
+A package that isn't installed: install it, or delete it if it's not needed	Pakket niet geïnstalleerd: installeer of verwijder het
+An app's cache: clear it in that app (it makes it again)	Cache van een app: leeg hem in die app (die maakt hem opnieuw)
+A system update: not for HEN or CFW (installing it removes them)	Systeemupdate: niet voor HEN of CFW (installeren verwijdert ze)
+Can be deleted	Kan worden verwijderd
+From the XMB	Via het XMB
+.%s files	.%s-bestanden
+Goes for good tomorrow	Morgen definitief weg
+Goes for good in %d days	Over %d dagen definitief weg
+Till the bin's emptied	Tot de prullenbak geleegd wordt
+Where it was isn't known  ·  deleted %s	Herkomst onbekend  ·  verwijderd %s
+Was in %s  ·  deleted %s	Stond in %s  ·  verwijderd %s
+%s each  ·  in %s	%s per stuk  ·  in %s
+What %s is made of	Waar %s uit bestaat
+The game (with its updates)	De game (met zijn updates)
+Updates and game data	Updates en gamedata
+DLC and add-ons	DLC en extra's
+Disc backups	Schijfkopieën
+All of it: %s	Alles: %s
+Adding up its folders... %s so far	Telt de mappen op... tot nu toe %s
+%s  ·  %s item	%s  ·  %s item
+%s  ·  %s items	%s  ·  %s items
+Games, all together	Games, alles bij elkaar
+%d games	%d games
+Duplicates	Dubbelen
+Up to %s could be freed	Tot %s kan worden vrijgemaakt
+Free up space	Ruimte vrijmaken
+Up to %s	Tot %s
+%s  ·  %d deleted	%s  ·  %d verwijderd
+Any age	Elke leeftijd
+Untouched 6 months or more	6 maanden of langer onaangeroerd
+Untouched a year or more	Een jaar of langer onaangeroerd
+Untouched 2 years or more	2 jaar of langer onaangeroerd
+Untouched 3 years or more	3 jaar of langer onaangeroerd
+Size filter	Groottefilter
+Over %s	Boven %s
+Any size	Elke grootte
+In the last week	In de afgelopen week
+In the last month	In de afgelopen maand
+In the last 3 months	In de afgelopen 3 maanden
+In the last year	In het afgelopen jaar
+Recently added	Onlangs toegevoegd
+Identical files	Identieke bestanden
+Largest folders	Grootste mappen
+The %d largest, at any depth	De %d grootste, op elke diepte
+Not played lately	Lang niet gespeeld
+Bookmarks	Bladwijzers
+%d on %s	%d op %s
+File types	Bestandstypen
+%d types	%d typen
+Largest files	Grootste bestanden
+The largest .%s files	De grootste .%s-bestanden
+The %d largest files on the drive	De %d grootste bestanden op de schijf
+Every category	Alle categorieën
+Changes since last scan	Wijzigingen sinds de laatste scan
+−%s in files since the scan before	−%s aan bestanden sinds de vorige scan
++%s in files since the scan before	+%s aan bestanden sinds de vorige scan
+%s  ·  %s entry	%s  ·  %s item
+%s  ·  %s entries	%s  ·  %s items
+  ·  search: "%s"	  ·  zoeken: "%s"
+All	Alles
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	Wat verwijderd is wacht hier: X zet het terug, START verwijdert het definitief, Vierkant leegt de prullenbak.
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	Alles boven een grootte, een tijd onaangeroerd: L1/R1 wijzigen de grootte, Vierkant hoe lang.
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	Identieke bestanden waar je dingen bewaart (geen geïnstalleerde games of saves): X toont ze.
+The same file in each place: X opens its folder, START deletes one.	Hetzelfde bestand op elke plek: X opent de map, START verwijdert er een.
+What was added or changed lately, newest first: Square changes how far back.	Wat onlangs is toegevoegd of gewijzigd, nieuwste eerst: Vierkant wijzigt hoe ver terug.
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	Wat verwijderd is wacht hier: Cirkel zet het terug, START verwijdert het definitief, Vierkant leegt de prullenbak.
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	Identieke bestanden waar je dingen bewaart (geen geïnstalleerde games of saves): Cirkel toont ze.
+The same file in each place: Circle opens its folder, START deletes one.	Hetzelfde bestand op elke plek: Cirkel opent de map, START verwijdert er een.
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	%u bestanden van 1 MB of meer bekeken, om %s, afgebroken (Vierkant: opnieuw)
+%u files of 1 MB or more looked at, at %s (Square: again)	%u bestanden van 1 MB of meer bekeken, om %s (Vierkant: opnieuw)
+Each game's installed data, backups, saves and trophies, added up.	Geïnstalleerde data, kopieën, opgeslagen data en trofeeën per game, opgeteld.
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	Games die er vaker staan: geïnstalleerd en gekopieerd, twee keer gekopieerd of ook op een andere schijf.
+Likely safe to clear: check each one. START deletes those that can go (Settings).	Waarschijnlijk veilig weg te halen: controleer elk. START verwijdert wat weg mag (Instellingen).
+Everything of this game's on the drive: X opens one, START deletes one that can go.	Alles van deze game op de schijf: X opent er een, START verwijdert er een die weg mag.
+Where the space really is: a folder that's nearly all one folder is left for that one.	Waar de ruimte echt zit: een map die bijna helemaal uit één map bestaat, laat die map zien.
+Games here, the longest unplayed first: when their newest save (or file) was written.	Games hier, langst niet gespeeld eerst: naar hun nieuwste save (of bestand).
+Square in a folder bookmarks it; here, Square removes one.	Vierkant in een map zet een bladwijzer; hier verwijdert Vierkant er een.
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	Alles van deze game op de schijf: Cirkel opent er een, START verwijdert er een die weg mag.
+The scan of %s against the one of %s; 1 MB or more	De scan van %s vergeleken met die van %s; 1 MB of meer
+Reading the folder...	Map lezen...
+This folder couldn't be read (0x%08x).	Deze map kon niet worden gelezen (0x%08x).
+Comparing files of the same size: %u of %u...	Bestanden van dezelfde grootte vergelijken: %u van %u...
+Looking for identical files: %u of 1 MB or more so far...	Zoeken naar identieke bestanden: tot nu toe %u van 1 MB of meer...
+Nothing was added or changed in that time: Square goes further back.	In die tijd is niets toegevoegd of gewijzigd: Vierkant gaat verder terug.
+Nothing's that big and that old: L1/R1 or Square widen it.	Niets is zo groot en zo oud: L1/R1 of Vierkant verruimen het.
+No identical files found.	Geen identieke bestanden gevonden.
+Nothing matches the search. Press Circle to clear it.	Niets komt overeen. Druk op Cirkel om de zoekopdracht te wissen.
+Nothing matches the search. Press X to clear it.	Niets komt overeen. Druk op X om de zoekopdracht te wissen.
+This folder is empty.	Deze map is leeg.
+Nothing changed by 1 MB or more.	Niets is 1 MB of meer veranderd.
+No game is here more than once.	Geen enkele game staat er vaker.
+Nothing obvious to clear.	Niets duidelijks om weg te halen.
+No bookmarks on this drive yet: Square in a folder adds one.	Nog geen bladwijzers op deze schijf: Vierkant in een map zet er een.
+Nothing here.	Hier is niets.
+Only the first 100,000 entries are listed.	Alleen de eerste 100.000 items worden getoond.
+Some of this folder couldn't be read.	Een deel van deze map kon niet worden gelezen.
+Put back	Terugzetten
+Size	Grootte
+Empty the bin	Prullenbak legen
+How long	Hoe lang
+How far back	Hoe ver terug
+Look again	Opnieuw zoeken
+What it's made of	Waar het uit bestaat
+Items	Items
+Files	Bestanden
+Rescan this	Opnieuw scannen
+Unbookmark	Bladwijzer weg
+Bookmark	Bladwijzer
+Remove	Verwijderen
+Unkeep	Niet bewaren
+Keep	Bewaren
+Search	Zoeken
+Delete for good	Definitief verwijderen
+Clear search	Zoekopdracht wissen
+Up	Omhoog
+Files here	Bestanden hier
+Smaller folders	Kleinere mappen
+Map of the drive	Kaart van de schijf
+  ·  %s file	  ·  %s bestand
+  ·  %s files	  ·  %s bestanden
+Go in	Erin
+Pick a box	Een vak kiezen
+Music on: Relaxing music by Piotr Witowski, from Pixabay	Muziek aan: ontspannende muziek van Piotr Witowski, via Pixabay
+No memory to write the report.	Geen geheugen om het rapport te schrijven.
+Writing the report...	Rapport schrijven...
+Report saved: %s (and .csv)	Rapport opgeslagen: %s (en .csv)
+The report couldn't be written (see the log).	Het rapport kon niet worden geschreven (zie het logboek).
+%d game	%d game
+%d bookmark	%d bladwijzer
+%d bookmarks	%d bladwijzers
+%d scan	%d scan
+%d scans	%d scans
+%s used	%s gebruikt
+%s in 30 days	%s in 30 dagen
+Space over time	Ruimte door de tijd
+Export a report	Rapport exporteren
+Buttons	Knoppen
+About	Over
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	Wat waarschijnlijk weg kan: overgebleven pakketten, caches, extra kopieën van games, onafgemaakte installaties.
+Games held more than once, here or on another drive, and what removing the extra copies would free.	Games die er vaker staan, hier of op een andere schijf, en wat het weghalen van de extra kopieën oplevert.
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	Bestanden die byte voor byte gelijk zijn, waar je dingen bewaart: schijfkopieën, media, pakketten, je eigen mappen.
+Games here, the longest unplayed first: good ones to clear if you're done with them.	Games hier, de langst niet gespeelde eerst: goede kandidaten als je er klaar mee bent.
+The folders holding the most, at any depth.	De mappen die het meest innemen, op elke diepte.
+Everything over a size, untouched for a while.	Alles boven een grootte, een tijd onaangeroerd.
+The drive's files by type: disc images, packages, video, saves...	De bestanden op de schijf per type: schijfkopieën, pakketten, video, opgeslagen data...
+The drive as boxes sized by the space they take: X goes into one.	De schijf als vakken zo groot als de ruimte die ze innemen: X gaat erin.
+Folders you've bookmarked (Square in a folder).	Mappen met een bladwijzer (Vierkant in een map).
+What grew, shrank, appeared or went since the scan before.	Wat er sinds de vorige scan is gegroeid, gekrompen, verschenen of verdwenen.
+Used space scan by scan, by category.	De gebruikte ruimte scan na scan, per categorie.
+What's been added or changed lately, newest first: what's taken your space.	Wat onlangs is toegevoegd of gewijzigd, nieuwste eerst: wat je ruimte heeft ingenomen.
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	De scan als tekstbestand en spreadsheet (CSV), op de harde schijf of een USB-schijf.
+The internal HDD's own record of its wear (SMART).	Het eigen slijtagelogboek van de interne harde schijf (SMART).
+What's been deleted, waiting to go for good: put it back, or empty the bin.	Wat verwijderd is en wacht om definitief te verdwijnen: zet het terug of leeg de prullenbak.
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	Taal, muziek, geluiden, groottes, de kleur, scannen, dimmen, verwijderen.
+What every button does, screen by screen.	Wat elke knop doet, scherm voor scherm.
+Version, credits and licences.	Versie, dankwoord en licenties.
+Explore	Verkennen
+The drive as boxes sized by the space they take: Circle goes into one.	De schijf als vakken zo groot als de ruimte die ze innemen: Cirkel gaat erin.
+After the next scan of this drive.	Na de volgende scan van deze schijf.
+The internal HDD only.	Alleen de interne harde schijf.
+Move	Bewegen
+Close	Sluiten
+Only one scan so far: the chart grows with each scan.	Nog maar één scan: de grafiek groeit met elke scan.
+No scans kept yet.	Nog geen scans bewaard.
+−%s used since %s	−%s gebruikt sinds %s
++%s used since %s	+%s gebruikt sinds %s
+(%s rescanned)	(%s opnieuw gescand)
+Choose a scan	Een scan kiezen
+Start screen	Startscherm
+Pick Scan, Last scan, Tools or Settings	Kies Scannen, Laatste scan, Hulpmiddelen of Instellingen
+Change drive (when a USB drive is plugged in)	Andere schijf (als er een USB-schijf is aangesloten)
+Twice: quit	Twee keer: afsluiten
+Pick a category (its part of the ring stands out)	Een categorie kiezen (haar deel van de ring springt eruit)
+Open the category's items	De items van de categorie openen
+The largest items on the drive	De grootste items op de schijf
+Scan the drive again	De schijf opnieuw scannen
+The menu (not while scanning)	Het menu (niet tijdens een scan)
+Stop a scan, or back to the start screen	Een scan stoppen, of terug naar het startscherm
+Lists	Lijsten
+A page at a time (or Left and Right)	Een pagina tegelijk (of Links en Rechts)
+Open: a folder, a game's parts, the files of a type	Openen: een map, de onderdelen van een game, de bestanden van een type
+Sort: largest, smallest, A-Z	Sorteren: grootste, kleinste, A-Z
+Change tab	Ander tabblad
+A category's list: scan just that category again. Largest: items or files	In de lijst van een categorie: alleen die categorie opnieuw scannen. Bij Grootste: items of bestanden
+Delete the row (when deleting is allowed in Settings)	De regel verwijderen (als verwijderen in Instellingen is toegestaan)
+Back (a search is cleared first; in a folder, up one)	Terug (een zoekopdracht wordt eerst gewist; in een map één omhoog)
+Deleting	Verwijderen
+Pick Delete or Cancel	Verwijderen of Annuleren kiezen
+Hold on Delete for 2 seconds to delete	Op Verwijderen 2 seconden vasthouden om te verwijderen
+Cancel, or stop between files	Annuleren, of stoppen tussen bestanden
+Drive health and Settings	Schijfgezondheid en Instellingen
+Read the drive's health again	De schijfgezondheid opnieuw lezen
+Drive health: its readings over time	Schijfgezondheid: de metingen door de tijd
+Drive health: what it all means	Schijfgezondheid: wat alles betekent
+Change a setting	Een instelling wijzigen
+Keeping, the bin, filters	Bewaren, de prullenbak, filters
+Free up space, Duplicates: keep a row off them (or back on)	Ruimte vrijmaken, Dubbelen: een rij erbuiten houden (of terug)
+A game's screen: what it's made of	Scherm van een game: waar het uit bestaat
+Recycle bin: put it back (Square there empties the bin)	Prullenbak: terugzetten (Vierkant daar leegt hem)
+Size filter: the size (Square there: how long)	Groottefilter: de grootte (Vierkant daar: hoe lang)
+Recently added: how far back	Onlangs toegevoegd: hoe ver terug
+Folders, Map, Space over time	Mappen, Kaart, Ruimte door de tijd
+In a folder: bookmark it (or remove the bookmark)	In een map: een bladwijzer zetten (of weghalen)
+Map: go into the box picked	Kaart: het gekozen vak in
+Map: pick a box. Space over time: pick a scan	Kaart: een vak kiezen. Ruimte door de tijd: een scan kiezen
+Anywhere	Overal
+Music off or on	Muziek uit of aan
+When the screen's dimmed: any button wakes it	Met gedimd scherm: elke knop maakt het wakker
+When HDD Atlas starts	Als HDD Atlas start
+Held: the 4:3 layout on a widescreen TV	Vastgehouden: de 4:3-indeling op een breedbeeld-tv
+Held: drawn by the CPU instead of the graphics chip	Vastgehouden: getekend door de CPU in plaats van de grafische chip
+Save the report where?	Waar het rapport opslaan?
+On the HDD, in HDD Atlas's folder	Op de harde schijf, in de map van HDD Atlas
+On %s	Op %s
+Language	Taal
+Sound effects	Geluidseffecten
+Sizes	Groottes
+Accent colour	Accentkleur
+Rescan at start	Scannen bij het starten
+Scan USB drives	USB-schijven scannen
+Dim the screen	Scherm dimmen
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	Automatisch volgt de taal van de PS3. De vertalingen zijn van HDD Atlas en nog niet nagekeken door moedertaalsprekers.
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	Hoe hard de achtergrondmuziek onder de klikjes klinkt. R3 zet hem overal uit of aan.
+The clicks when you move and press.	De klikjes bij het bewegen en drukken.
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024 is hoe het XMB telt (931 GB bij een schijf van 1 TB); 1000 is hoe de verpakkingen tellen (1 TB).
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	De kleur van wat gekozen is. Hoog contrast maakt het geel en de grijze tekst lichter.
+When the free space has moved since the last scan, scan again by itself at start.	Als de vrije ruimte sinds de laatste scan is veranderd, bij het starten vanzelf opnieuw scannen.
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	Een USB-schijf vanzelf scannen als hij wordt aangesloten (als er geen andere scan loopt).
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	Na zo lang zonder knop wordt het scherm donker (elke knop maakt het wakker): goed voor plasma- en OLED-tv's.
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	Laat START een regel in de lijsten verwijderen: schijfkopieën, mapkopieën, overgebleven pakketten, ROM's en de webMAN-cache.
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	Wat verwijderd is wacht zo lang in de prullenbak van zijn schijf (Prullenbak in het menu), zodat het terug kan. Uit verwijdert meteen.
+Automatic: %s	Automatisch: %s
+Off	Uit
+On	Aan
+1 GB = 1000 MB (as on the box)	1 GB = 1000 MB (zoals op de verpakking)
+1 GB = 1024 MB (as the XMB)	1 GB = 1024 MB (zoals het XMB)
+When free space has moved	Als de vrije ruimte is veranderd
+When plugged in	Bij aansluiten
+After %d minutes	Na %d minuten
+Keep %d days	%d dagen bewaren
+Until it's emptied	Tot hij geleegd wordt
+Off: delete at once	Uit: meteen verwijderen
+Change	Wijzigen
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	Lettertypen: Poppins (SIL Open Font License) en DejaVu Sans.
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	Knopafbeeldingen: Kenney (CC0). Vlaggen: flag-icons (MIT).
+The hard disk icon: "Internal Clear" by Rick Patrick.	Het harde-schijfpictogram: "Internal Clear" van Rick Patrick.
+Menu icons: Tanah Basah, from Flaticon.	Menupictogrammen: Tanah Basah, van Flaticon.
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	Muziek: "Relaxing Music (Part 1)" van Piotr Witowski, via Pixabay.
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	Afbeeldingen, lettertypen en muziek gedecodeerd met stb_image, stb_truetype en stb_vorbis (publiek domein).
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	NTFS-schijven: libntfs_ext van Estwald, uit NTFS-3G (GPL-2.0).
+Built with PSL1GHT and the ps3toolchain.	Gemaakt met PSL1GHT en de ps3toolchain.
+Made by	Gemaakt door
+Thanks to	Met dank aan
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas is vrije software onder de GPL-2.0. De licenties staan in USRDIR/data/licenses.

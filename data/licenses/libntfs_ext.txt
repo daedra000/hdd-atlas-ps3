@@ -1,0 +1,5 @@
+libntfs_ext, by Estwald: NTFS drives on USB (src/thirdparty/libntfs_ext, unchanged).
+From https://github.com/Estwald/libntfs_ext (commit 841e03d, 2013). A port to PSL1GHT of
+libntfs for the Wii, which is NTFS-3G (Szabolcs Szakacsits, Jean-Pierre Andre and others),
+with libext2fs. GPL-2.0, as HDD Atlas: the licence is GPL-2.0.txt in this folder, and the
+library's authors and credits are with its source.

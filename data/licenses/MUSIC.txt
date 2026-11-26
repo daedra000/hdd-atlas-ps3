@@ -1,0 +1,10 @@
+Background music (data/music.ogg)
+
+"Relaxing Music (Part 1)" by Piotr Witowski (relaxingtime)
+https://pixabay.com/users/relaxingtime-17430502/
+from Pixabay: https://pixabay.com/
+
+Used under the Pixabay Content License (https://pixabay.com/service/license-summary/).
+Re-encoded for HDD Atlas: 48 kHz Ogg Vorbis, loudness-normalised.
+
+Decoded with stb_vorbis by Sean Barrett (public domain; see stb.txt).

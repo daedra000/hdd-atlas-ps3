@@ -1,0 +1,652 @@
+# HDD Atlas in Chinese (Simplified): "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	webMAN 需要它来挂载 NTFS 驱动器上的游戏。
+A disc image's decryption key: webMAN needs it to mount it.	光盘镜像的解密密钥：webMAN 挂载时需要它。
+Installed games: delete them from the XMB (it keeps their icons).	已安装的游戏：请从 XMB 删除（XMB 保存着它们的图标）。
+Music, video and photos: delete them from the XMB (it keeps a list of them).	音乐、视频和照片：请从 XMB 删除（XMB 保存着它们的列表）。
+Saves, trophies and licences: delete them from the XMB.	存档、奖杯和许可证：请从 XMB 删除。
+The system's own: never deleted.	属于系统：从不删除。
+TB	TB
+GB	GB
+MB	MB
+KB	KB
+B	B
+reallocated sectors	个重新分配的扇区
+sectors waiting to be reallocated	个等待重新分配的扇区
+uncorrectable sectors	个无法纠正的扇区
+reported uncorrectable errors	个已报告的无法纠正错误
+reallocation events	次重新分配
+Life left	剩余寿命
+Wear levelling count	磨损均衡计数
+Used reserve blocks	已用备用块
+Unused reserve blocks	剩余备用块
+Media wearout	介质磨损
+Reserved space left	剩余保留空间
+Total written	总写入量
+Read error rate	读取错误率
+Throughput performance	传输性能
+Spin-up time	起转时间
+Start/stop count	启停次数
+Reallocated sectors	重新分配的扇区
+Seek error rate	寻道错误率
+Seek time performance	寻道性能
+Power-on hours	通电时间
+Spin retry count	起转重试次数
+Calibration retries	校准重试次数
+Power cycles	通电次数
+Program fails	编程失败
+Erase fails	擦除失败
+Unexpected power losses	意外断电
+Wear range delta	磨损差值
+Interface downshifts	接口降速
+End-to-end errors	端到端错误
+Reported uncorrectable	已报告无法纠正
+Command timeouts	命令超时
+High fly writes	高飞写入
+Airflow temperature	气流温度
+G-sense errors	震动错误
+Power-off retracts	断电收回
+Load cycles	加载次数
+Temperature	温度
+ECC recovered	ECC 已纠正
+Reallocation events	重新分配次数
+Pending sectors	待处理扇区
+Uncorrectable sectors	无法纠正的扇区
+Interface CRC errors	接口 CRC 错误
+Write error rate	写入错误率
+Disk shift	盘片偏移
+Loaded hours	磁头加载时间
+Load retries	加载重试
+Load friction	加载摩擦
+Load-in time	加载时间
+Head flying hours	磁头飞行时间
+Total read	总读取量
+Free fall events	跌落检测
+Vendor specific	厂商自定义
+Games & game data	游戏和游戏数据
+Disc game backups	游戏光盘备份
+Saves, trophies & licences	存档、奖杯和许可证
+Themes	主题
+Music, video & photos	音乐、视频和照片
+Packages, tmp & caches	安装包、tmp 和缓存
+System & other folders	系统和其他文件夹
+System partitions	系统分区
+Unaccounted	未统计
+Games	游戏
+Backups	备份
+Saves	存档
+Media	媒体
+Packages	安装包
+System	系统
+Partitions	分区
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	%s 在扫描时停止响应，所有 NTFS 驱动器都在等待它：请重启主机后再使用它们。
+%s stopped answering during its scan: restart the console to use it again.	%s 在扫描时停止响应：请重启主机后再使用它。
+Emptied %d old entries from the recycle bin: %s freed.	已从回收站永久删除 %d 个旧项目：释放了 %s。
+No scan can start till the console restarts: %s stopped answering during its scan.	重启主机前无法开始扫描：%s 在扫描时停止响应。
+A scan of %s is running: one at a time.	正在扫描 %s：一次只能扫描一个。
+Drive health found this drive wearing out: back up what matters first.	硬盘健康发现此硬盘正在磨损：请先备份重要内容。
+Scanning: things may be slow until it's done. The menu's back after it.	正在扫描：完成前可能会较慢。扫描完成后可使用菜单。
+The scan couldn't start (see the log).	无法开始扫描（请查看日志）。
+Rescanning %s; the rest stays as it was.	正在重新扫描%s；其余保持不变。
+Internal HDD	内置硬盘
+Scan of %s finished in %.1f s.	%s 扫描完成，用时 %.1f 秒。
+Scan stopped. The last scan is shown.	扫描已停止。显示上次的扫描。
+The scan didn't finish (see the log).	扫描未完成（请查看日志）。
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	HDD Atlas 扫描的驱动器之外的磁盘部分：2 GB 的游戏缓存、多数型号上的系统闪存，以及文件系统为每个文件保存的记录（占磁盘的百分之几）。这些都无法释放。
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	没有任何文件对应的已用空间。大部分是文件系统为自己保留的空闲空间：出厂时为驱动器的百分之 8，使用 webMAN 的 unlockhdd 后为百分之 1。其余是文件最后一块向上取整的部分。这些都无法在这里释放。
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	这里文件总和超过已用空间：有些被计算了两次。webMAN 可以在 GAMES 和 game 之间链接游戏文件：磁盘上的一份被算作两份。
+Press Circle again to quit.	再按一次返回键退出。
+Press X again to quit.	再按一次返回键退出。
+The menu opens once the scan's done.	扫描完成后才能打开菜单。
+Not scanned yet	尚未扫描
+Free space has dropped by %s since this scan	自本次扫描以来，可用空间减少了 %s
+Free space has grown by %s since this scan	自本次扫描以来，可用空间增加了 %s
+Scanned %s  ·  1 delete since	扫描于 %s  ·  此后删除 1 次
+Scanned %s  ·  %u deletes since	扫描于 %s  ·  此后删除 %u 次
+Scanned %s  ·  took %.0f s	扫描于 %s  ·  用时 %.0f 秒
+%s used of %s	已用 %s，共 %s
+%s used of %s  ·  %s	已用 %s，共 %s  ·  %s
+%s files in %s folders	%s 个文件，%s 个文件夹
+  ·  %llu couldn't be read (skipped)	  ·  %llu 个无法读取（已跳过）
+%s free	可用 %s
+%s free  ·  drive size unknown	可用 %s  ·  驱动器大小未知
+%s  ·  %u item	%s  ·  %u 项
+%s  ·  %u items	%s  ·  %u 项
+No scan of %s yet. Press Triangle to scan it.	尚未扫描 %s。按三角键开始扫描。
+(%s is being scanned: one at a time.)	（正在扫描 %s：一次只能扫描一个。）
+Scanning %s	正在扫描 %s
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s / %s  ·  %s 个文件
+%s  ·  %s files	%s  ·  %s 个文件
+The first scan of a full HDD can take a few minutes.	首次扫描已满的硬盘可能需要几分钟。
+Scanning  %d%%	正在扫描  %d%%
+Scanning %s  %d%%  ·  %s files	正在扫描 %s  %d%%  ·  %s 个文件
+%s files	%s 个文件
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	%s 出现读取错误，扫描跳过了无法读取的部分。这通常是坏扇区的迹象。
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	%s 出现读取错误，扫描无法完成。这通常是坏扇区的迹象。
+Drive health shows whether the drive has bad sectors, and what to do if it has.	硬盘健康会显示硬盘是否有坏扇区，以及有坏扇区时该怎么办。
+Some of the drive couldn't be read	硬盘的部分内容无法读取
+The scan didn't finish	扫描没有完成
+OK	确定
+Drive health	硬盘健康
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	%s 5 分钟没有响应，因此已放弃扫描。通常是驱动器读不了这里：
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	请把 /dev_hdd0/game/HDAT00001/USRDIR 中的 hddatlas_log.txt 发送到 ps3.world/contact（如果之后又打开过 HDD Atlas，请发送 hddatlas_log_prev.txt）。在重启主机之前，可能无法开始新的扫描。
+The scan got stuck	扫描卡住了
+Check this drive's health on a PC (its SMART data) before trusting it with more.	在继续使用之前，请先在电脑上检查此驱动器的健康状况（SMART 数据）。
+Overview	概览
+Open	打开
+What's this	这是什么
+Largest	最大
+Largest items	最大的项目
+Rescan	重新扫描
+Scan	扫描
+Stop scan	停止扫描
+Back	返回
+Menu	菜单
+Music off	关闭音乐
+Music on	打开音乐
+Drive	驱动器
+Deleting is off.	删除功能已关闭。
+Deleting is off: turn it on in Settings (START on the overview).	删除功能已关闭：请在设置中开启（在概览中按 START）。
+This NTFS drive is read-only: Windows didn't close it cleanly.	此 NTFS 驱动器为只读：Windows 未正常关闭它。
+This can't be deleted here.	此项无法在这里删除。
+A package is being installed: delete this once that's done.	正在安装一个安装包：请等它完成后再删除。
+Wait for the scan to finish, then delete.	请等扫描完成后再删除。
+The recycle bin's empty.	回收站是空的。
+The recycle bin	回收站
+Not deleted	未删除
+No memory to start.	内存不足，无法开始。
+Deleted	已删除
+Stopped part way	中途停止
+Not deleted: it isn't the same as %s, byte for byte.	未删除：它与 %s 并非逐字节相同。
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	未删除：它仍在变化，可能有安装正在写入。请稍后再试。
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	未删除：过去一天内有安装写入过它，可能仍需要它。请明天再试。
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	未删除：另一份副本（%s）已不存在，所以这是最后一份。
+In the recycle bin	在回收站中
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	已移到回收站（%s）。清空回收站后才会释放空间：菜单中的“回收站”。
+Deleted: %s freed.	已删除：释放了 %s。
+Stopped part way: %s freed, the rest is still there.	中途停止：释放了 %s，其余仍在。
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	已删除，但留下了 %u 项（链接或无法删除的项）：释放了 %s。
+Not deleted: error 0x%08x at %s. %s freed.	未删除：错误 0x%08x，位于 %s。释放了 %s。
+Deleting is on: START on a row that can go.	删除功能已开启：在可删除的行上按 START。
+Allow deleting?	允许删除？
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	HDD Atlas 将可以删除光盘镜像（PS3ISO、PS2ISO……）、GAMES 中的文件夹备份、残留的安装包、ROM 和 webMAN 的缓存：一次一行，每次都要按住 X 确认。删除的文件无法恢复。
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	HDD Atlas 将可以删除光盘镜像（PS3ISO、PS2ISO……）、GAMES 中的文件夹备份、残留的安装包、ROM 和 webMAN 的缓存：一次一行，每次都要按住圆圈键确认。删除的文件无法恢复。
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	已安装的游戏、存档、奖杯、音乐、视频和照片仍由 XMB 管理（它保存着它们的列表）。系统文件夹从不触碰。可在设置中再次关闭。
+Allow deleting	允许删除
+Cancel	取消
+Delete this disc image?	删除这个光盘镜像？
+Delete this folder backup?	删除这个文件夹备份？
+Delete this package?	删除这个安装包？
+Delete this ROM?	删除这个 ROM？
+Delete this webMAN cache file?	删除这个 webMAN 缓存文件？
+Delete this leftover install?	删除这个未完成的安装吗？
+Delete it for good?	永久删除吗？
+Delete this system update?	删除这个系统更新吗？
+Empty the recycle bin?	清空回收站吗？
+Move it to the recycle bin?	移到回收站吗？
+Deleting...	正在删除……
+and %s with it	以及 %s
+Nothing's freed till the recycle bin's emptied.	清空回收站前不会释放任何空间。
+Free: %s  →  about %s	可用：%s  →  约 %s
+If it was a game update, install that update again afterwards.	如果它是游戏更新，之后请重新安装那个更新。
+It can't be undone.	此操作无法撤销。
+It waits in the recycle bin for %d days first.	会先在回收站中保留 %d 天。
+It waits in the recycle bin till that's emptied.	会一直留在回收站中，直到清空。
+Delete	删除
+Hold to delete	按住以删除
+Back to Cancel	返回取消
+Pick Delete	选择删除
+Checking it's the same as the other copy: %s of %s	正在检查是否与另一份副本相同：%s / %s
+Stopping...	正在停止……
+Stop	停止
+%s of %s files  ·  %s	%s / %s 个文件  ·  %s
+%s went from %lld to %lld since %s.	%s 自 %lld 增至 %lld（自 %s 起）。
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	无法在 USRDIR 中写入日志，因此没有询问硬盘。
+lv2 wouldn't open the drive (0x%08x).	lv2 无法打开硬盘（0x%08x）。
+The drive didn't answer IDENTIFY (0x%08x).	硬盘没有响应 IDENTIFY（0x%08x）。
+The drive didn't give its SMART data (0x%08x).	硬盘没有提供 SMART 数据（0x%08x）。
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	硬盘有响应，但内容无法作为 IDENTIFY 读取（模拟器会这样）。
+No memory for the reading.	内存不足，无法读取。
+GOOD	良好
+CAUTION	注意
+FAILING	即将故障
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	%s 为 %d，已达到或低于阈值 %d：硬盘报告即将故障。
+%s is at %d, at or below its threshold of %d.	%s 为 %d，已达到或低于阈值 %d。
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s：闪存正在磨损。请备份重要内容。
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s：盘面正在磨损。请备份重要内容。
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	剩余寿命 %d%%：闪存即将耗尽。请备份重要内容。
+Running hot (%d °C). Check the console's vents.	温度过高（%d °C）。请检查主机的通风口。
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	没有重新分配、待处理或无法纠正的扇区，也没有低于阈值的项目。
+SSD	SSD
+%d rpm	%d 转/分
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  固件 %s  ·  序列号 %s
+internal drive	内置驱动器
+internal HDD	内置硬盘
+  ·  (the data's checksum is off)	  ·  （数据校验和不符）
+Powered on	通电时间
+Reallocated	重新分配
+Pending	待处理
+Uncorrectable	无法纠正
+%s h	%s 小时
+%lld days	%lld 天
+sectors	个扇区
+Read on	读取于
+No readings kept yet.	尚未保存任何读数。
+Attribute	属性
+Value	当前值
+Worst	最差值
+Thresh.	阈值
+Threshold	阈值
+Raw	原始值
+pre-fail	预故障
+The verdict	结论
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	良好：没有磨损的扇区，没有属性到达阈值，也没有过热。注意：硬盘仍能工作，但有些扇区已磨损、某个老化属性已越过阈值，或温度高于 55 °C：请备份重要内容。即将故障：某个预故障属性已到达或低于阈值，说明硬盘自己预计很快会坏：请把想保留的内容复制出来。
+The six figures	六项数据
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	温度：低于 50 °C 比较舒适；高于 55 °C 时，请检查主机的通风口和灰尘。通电时间：硬盘一生中运行的小时数。通电次数：硬盘被开启的次数。
+Bad sectors	坏扇区
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	重新分配：已损坏并被备用扇区替换的扇区。待处理：硬盘读不出、正等待重写或替换的扇区。无法纠正：即使经过纠错仍然失败的读取，其中的内容可能已经丢失。健康的硬盘三项都是 0。少量不算致命，但一直在增长的数字是硬盘快要报废的最可靠信号。
+The table	表格
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	硬盘会给每个属性打分。当前值是现在的分数（新盘通常为 100 或 200，越低越差），最差值是历来最低的分数，阈值是厂商定的界限：到达或低于它，该属性即已失效。原始值是分数背后硬盘自己的计数（小时、扇区、度数）。其含义因厂商而异，所以请把硬盘和它自己以前的读数比较，而不是和另一块硬盘比较。
+Pre-fail and old-age	预故障与老化
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	硬盘会把每个属性标为两类之一。预故障属性（表格中标有“预故障”）监视故障之前出现的问题：坏扇区、启动转速慢、寻道错误。其中任何一项到达或低于阈值，就表示硬盘预计很快会坏。其余的是老化属性：它们记录多年来的正常磨损，例如通电时间和通电次数。老化属性越过阈值，说明硬盘已经老旧，但不代表它马上会停止工作。
+SSDs	SSD
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	SSD 会显示剩余寿命，代替通电次数：这是它自己估算的闪存额定磨损还剩多少，新盘为 100%。降到 10% 或以下时，结论为“注意”。在 SSD 上，重新分配的扇区是被备用块替换掉的磨损闪存块；由于 SSD 运行温度更高，结论要到 70 °C 才算过热。故障中的 SSD 可能直接停止响应，而不是报告错误：如果扫描每次都卡在同一个位置，即使 SMART 看起来正常，也要怀疑驱动器。
+History	历史
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	每次读数都会保存：按方块键查看，最新的在前。自上次读数以来增长的重新分配、待处理或无法纠正的数字会以黄色显示。请不时读取硬盘（三角键），以便有数据可以比较。
+It only reads	只读
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART 是硬盘自己的记录：HDD Atlas 只是读取它，硬盘上的任何内容都不会改变。它无法修复磨损的硬盘：如果硬盘即将故障，办法是备份并换一块新硬盘。
+1. Copy what matters first	1. 先复制重要内容
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	存档在 /dev_hdd0/home 中：用 webMAN 的 FTP 或 multiMAN 复制到 USB 驱动器或电脑。再用 Apollo Save Tool 导出许可证（RAP）、act.dat 和奖杯。全部保存在主机之外。
+2. Delete what you don't need	2. 删除不需要的内容
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	旧的光盘镜像、残留的安装包、缓存：这样要复制的更少，从故障硬盘读取的也更少。删除文件几乎不会读取它。
+3. Don't scan again and again	3. 不要反复扫描
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	扫描会读取硬盘上的每个文件夹。在硬盘读不了的地方，扫描可能会停住（HDD Atlas 会在 5 分钟后放弃），而不断重试的硬盘磨损更快。
+4. Replace the drive	4. 更换硬盘
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	磨损的硬盘无法修复，只会越来越差。PS3 的备份工具只能当作第二道保险：它不保存奖杯，需要好几个小时，还可能在损坏的文件上失败。在电脑上复制整个硬盘行不通：它是针对这台主机加密的。完整的更换步骤：ps3.world/upgrade-storage
+If the drive is wearing out	如果硬盘正在磨损
+What it means	这是什么意思
+SMART, read at %s	SMART，读取于 %s
+Scroll	滚动
+Read the internal HDD's health?	读取内置硬盘的健康状况？
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	HDD Atlas 将向硬盘请求 SMART 数据：它自己记录的小时数、错误和磨损扇区。只读取：硬盘上的内容不会改变。\n\n请求通过 PS3 的存储系统调用完成，并非在每台主机上都测试过。如果这台主机因此卡死，HDD Atlas 会在下次启动时发现，并不再询问硬盘。
+Reading the drive's health...	正在读取硬盘健康状况……
+Asking the drive for its SMART data.	正在向硬盘请求 SMART 数据。
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	上次读取硬盘健康状况时这台主机卡死了（在“%s”），所以 HDD Atlas 不会再询问硬盘。\n\n如仍想尝试，请删除 /dev_hdd0/game/HDAT00001/USRDIR 中的 smart_journal.txt。
+Not read: it froze the console before	未读取：之前曾导致主机卡死
+The drive's health couldn't be read	无法读取硬盘健康状况
+Read	读取
+What to do	怎么办
+Try again	重试
+Read again	重新读取
+Attributes	属性
+version %s	版本 %s
+Once the scan's done.	扫描完成后。
+Scan this drive first.	请先扫描此驱动器。
+Last scanned %s	上次扫描：%s
+%s used of %s  ·  %s free	已用 %s / %s  ·  可用 %s
+Last time: %u min	上次用时：%u 分钟
+Last time: %u s	上次用时：%u 秒
+Last scan	上次扫描
+Tools	工具
+Settings	设置
+Go through every folder on the drive and add up what's there.	逐个查看驱动器上的每个文件夹，并统计其中的内容。
+What the last scan found, straight away.	立即查看上次扫描的结果。
+Free up space, duplicates, the map, drive health and more.	释放空间、重复项、地图、硬盘健康等。
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	语言、音乐、音效、大小单位、扫描、屏幕变暗、删除。
+What's using your PS3's space, drive by drive, down to the last file.	是什么占用了你的 PS3 空间，一个驱动器接一个，直到最后一个文件。
+Choose	选择
+Quit	退出
+Blue	蓝色
+Teal	青色
+Purple	紫色
+Pink	粉色
+Orange	橙色
+Green	绿色
+High contrast	高对比度
+Largest first	最大的在前
+Smallest first	最小的在前
+A-Z	A-Z
+Bookmark removed.	已移除书签。
+There are 64 bookmarks already: remove one first.	已有 64 个书签：请先移除一个。
+Bookmarked: it's in the menu's Bookmarks.	已加书签：位于菜单的“书签”中。
+It's suggested again.	会再次被建议。
+There are 512 kept already: unkeep one first.	已保留 512 项：请先取消一项。
+Kept: it won't be suggested again (Square here undoes it).	已保留：不会再被建议（在这里按方块键可撤销）。
+Disc images	光盘镜像
+Disc images and data	光盘镜像和数据
+Disc image track lists	光盘镜像音轨列表
+Licensed game data	授权游戏数据
+Programs	程序
+Game archives	游戏档案
+Game data	游戏数据
+Music	音乐
+Video	视频
+Pictures	图片
+Licences	许可证
+Save and game info	存档和游戏信息
+Trophies	奖杯
+Text and settings	文本和设置
+Databases	数据库
+Archives	压缩包
+ROMs	ROM
+No extension	无扩展名
+Everything else	其他所有
+Recycle bin	回收站
+SingStar songs	SingStar 歌曲
+IRISMAN's cache	IRISMAN 缓存
+Apollo's cache	Apollo 缓存
+multiMAN's covers	multiMAN 封面
+Firmware update	系统更新
+(more items)	（更多项目）
+Newest first	最新优先
+Oldest first	最旧优先
+Where it was wasn't saved: it can't be put back, only deleted for good.	未保存原位置：无法还原，只能永久删除。
+The recycle bin's being tidied: try again in a moment.	回收站正在整理：请稍后再试。
+Put back, but not its .cue/.bin: that's still in the recycle bin.	已恢复，但其 .cue/.bin 仍在回收站中。
+Put back where it was. Its size counts again after the next scan.	已还原到原处。下次扫描后会重新计入其大小。
+Something's where it was now: not put back.	原处现在已有其他内容：未还原。
+It couldn't be put back (see the log).	无法还原（请查看日志）。
+It's gone since the scan before.	自上次扫描后已不存在。
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	超出单次扫描单独记录的 50,000 个项目：这些文件夹不会逐一列出。
+Search by name	按名称搜索
+It isn't there any more.	它已不存在。
+It's the only copy left: it isn't deleted from here.	这是仅剩的一份副本：不会从这里删除。
+Game	游戏
+Disc game	光盘游戏
+Save	存档
+App	应用
+PS2 game	PS2 游戏
+PS1 game	PS1 游戏
+PSP game	PSP 游戏
+Minis	Minis
+Home	Home
+Network	网络
+%s  ·  %s file	%s  ·  %s 个文件
+%u couldn't be read	%u 个无法读取
+New	新增
+Gone	已消失
+%s file	%s 个文件
+  ·  %s folder	  ·  %s 个文件夹
+  ·  %s folders	  ·  %s 个文件夹
+New since the scan: rescan for its size	扫描后新增：重新扫描以查看大小
+Past the folders a scan keeps sizes for	超出扫描记录大小的文件夹范围
+Installed %s	已安装 %s
+Backup %s	备份 %s
+Saves %s	存档 %s
+Trophies %s	奖杯 %s
+Kept	已保留
+%d copy	%d 个副本
+%d copies	%d 个副本
+Game data %s	游戏数据 %s
+Also on %s (%s)	另在 %s 上（%s）
+never	从未
+today	今天
+%d days ago	%d 天前
+%d months ago	%d 个月前
+%d years ago	%d 年前
+Last played %s (its newest save)	上次游玩 %s（最新存档）
+Last changed %s	上次更改 %s
+Leftover package (already installed)	残留的安装包（已安装）
+webMAN's cache (made again when needed)	webMAN 的缓存（需要时会重新生成）
+Temporary files	临时文件
+Extra copy of a game held more than once	重复游戏的多余副本
+Update for a game that isn't here (keep it if you play the disc)	不在此处的游戏的更新（如果你用光盘玩，请保留）
+Save for a game that isn't here (keep it if you play the disc)	不在此处的游戏的存档（如果你用光盘玩，请保留）
+Left by an install or a delete the system didn't finish	系统未完成的安装或删除留下的
+No PARAM.SFO: a broken install, or another app's data (check it first)	没有 PARAM.SFO：损坏的安装，或其他应用的数据（请先检查）
+Downloaded, not installed yet: install or delete it from the XMB	已下载、尚未安装：请在 XMB 中安装或删除
+Waiting to be installed: install or delete it from the XMB	等待安装：请在 XMB 中安装或删除
+A package that isn't installed: install it, or delete it if it's not needed	未安装的安装包：安装，或不需要的话删除
+An app's cache: clear it in that app (it makes it again)	应用的缓存：请在该应用中清除（它会重新生成）
+A system update: not for HEN or CFW (installing it removes them)	系统更新：不适用于 HEN 或 CFW（安装会移除它们）
+Can be deleted	可以删除
+From the XMB	从 XMB 删除
+.%s files	.%s 文件
+Goes for good tomorrow	明天永久删除
+Goes for good in %d days	%d 天后永久删除
+Till the bin's emptied	直到清空回收站
+Where it was isn't known  ·  deleted %s	原位置未知  ·  删除于 %s
+Was in %s  ·  deleted %s	原在 %s  ·  删除于 %s
+%s each  ·  in %s	每个 %s  ·  在 %s
+What %s is made of	%s 由什么组成
+The game (with its updates)	游戏（含更新）
+Updates and game data	更新和游戏数据
+DLC and add-ons	DLC 和附加内容
+Disc backups	光盘备份
+All of it: %s	全部：%s
+Adding up its folders... %s so far	正在统计其文件夹……目前 %s
+%s  ·  %s item	%s  ·  %s 项
+%s  ·  %s items	%s  ·  %s 项
+Games, all together	游戏汇总
+%d games	%d 个游戏
+Duplicates	重复项
+Up to %s could be freed	最多可释放 %s
+Free up space	释放空间
+Up to %s	最多 %s
+%s  ·  %d deleted	%s  ·  已删除 %d 项
+Any age	不限时间
+Untouched 6 months or more	6 个月或更久未使用
+Untouched a year or more	一年或更久未使用
+Untouched 2 years or more	2 年或更久未使用
+Untouched 3 years or more	3 年或更久未使用
+Size filter	大小筛选
+Over %s	大于 %s
+Any size	不限大小
+In the last week	最近一周
+In the last month	最近一个月
+In the last 3 months	最近 3 个月
+In the last year	最近一年
+Recently added	最近添加
+Identical files	相同文件
+Largest folders	最大的文件夹
+The %d largest, at any depth	最大的 %d 个，任意层级
+Not played lately	很久没玩
+Bookmarks	书签
+%d on %s	%d 个，位于 %s
+File types	文件类型
+%d types	%d 种类型
+Largest files	最大的文件
+The largest .%s files	最大的 .%s 文件
+The %d largest files on the drive	驱动器上最大的 %d 个文件
+Every category	所有类别
+Changes since last scan	自上次扫描以来的变化
+−%s in files since the scan before	自上次扫描起文件 −%s
++%s in files since the scan before	自上次扫描起文件 +%s
+%s  ·  %s entry	%s  ·  %s 个条目
+%s  ·  %s entries	%s  ·  %s 个条目
+  ·  search: "%s"	  ·  搜索：“%s”
+All	全部
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	已删除的内容在这里等待：X 还原，START 永久删除，方块键清空回收站。
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	超过某个大小且一段时间未使用的所有内容：L1/R1 改变大小，方块键改变时长。
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	在你存放东西的地方逐字节相同的文件（绝不包括已安装的游戏或存档）：X 查看。
+The same file in each place: X opens its folder, START deletes one.	每个位置的同一个文件：X 打开其文件夹，START 删除其中一个。
+What was added or changed lately, newest first: Square changes how far back.	最近添加或更改的内容，最新的在前：方块键改变时间范围。
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	已删除的内容在这里等待：圆圈键还原，START 永久删除，方块键清空回收站。
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	在你存放东西的地方逐字节相同的文件（绝不包括已安装的游戏或存档）：圆圈键查看。
+The same file in each place: Circle opens its folder, START deletes one.	每个位置的同一个文件：圆圈键打开其文件夹，START 删除其中一个。
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	已检查 %u 个 1 MB 以上的文件，于 %s，未完成（方块键：再次查找）
+%u files of 1 MB or more looked at, at %s (Square: again)	已检查 %u 个 1 MB 以上的文件，于 %s（方块键：再次查找）
+Each game's installed data, backups, saves and trophies, added up.	每个游戏的已安装数据、备份、存档和奖杯的总和。
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	存在多份的游戏：已安装又有备份、备份了两次，或另一个驱动器上也有。
+Likely safe to clear: check each one. START deletes those that can go (Settings).	大概可以安全删除：请逐一检查。START 删除可删除的项目（设置）。
+Everything of this game's on the drive: X opens one, START deletes one that can go.	此游戏在驱动器上的所有内容：X 打开，START 删除可删除的项目。
+Where the space really is: a folder that's nearly all one folder is left for that one.	空间真正在哪：几乎全是同一个子文件夹的文件夹，由那个子文件夹代表。
+Games here, the longest unplayed first: when their newest save (or file) was written.	这里的游戏，最久没玩的在前：按其最新存档（或文件）的写入时间。
+Square in a folder bookmarks it; here, Square removes one.	在文件夹中按方块键加书签；在这里，方块键移除书签。
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	此游戏在驱动器上的所有内容：圆圈键打开，START 删除可删除的项目。
+The scan of %s against the one of %s; 1 MB or more	%s 的扫描与 %s 的扫描对比；1 MB 及以上
+Reading the folder...	正在读取文件夹……
+This folder couldn't be read (0x%08x).	无法读取此文件夹（0x%08x）。
+Comparing files of the same size: %u of %u...	正在比较大小相同的文件：%u / %u……
+Looking for identical files: %u of 1 MB or more so far...	正在查找相同文件：目前 %u 个 1 MB 以上的文件……
+Nothing was added or changed in that time: Square goes further back.	这段时间内没有添加或更改任何内容：方块键可往前推。
+Nothing's that big and that old: L1/R1 or Square widen it.	没有这么大又这么久的内容：L1/R1 或方块键可放宽条件。
+No identical files found.	没有找到相同文件。
+Nothing matches the search. Press Circle to clear it.	没有匹配的结果。按返回键清除搜索。
+Nothing matches the search. Press X to clear it.	没有匹配的结果。按返回键清除搜索。
+This folder is empty.	此文件夹为空。
+Nothing changed by 1 MB or more.	没有变化达到 1 MB 或以上。
+No game is here more than once.	没有游戏存在多份。
+Nothing obvious to clear.	没有明显可清理的内容。
+No bookmarks on this drive yet: Square in a folder adds one.	此驱动器上还没有书签：在文件夹中按方块键添加。
+Nothing here.	这里什么都没有。
+Only the first 100,000 entries are listed.	只列出前 100,000 个条目。
+Some of this folder couldn't be read.	此文件夹的部分内容无法读取。
+Put back	还原
+Size	大小
+Empty the bin	清空回收站
+How long	多久
+How far back	时间范围
+Look again	再次查找
+What it's made of	由什么组成
+Items	项目
+Files	文件
+Rescan this	重新扫描
+Unbookmark	移除书签
+Bookmark	加书签
+Remove	移除
+Unkeep	取消保留
+Keep	保留
+Search	搜索
+Delete for good	永久删除
+Clear search	清除搜索
+Up	上一级
+Files here	此处文件
+Smaller folders	较小的文件夹
+Map of the drive	驱动器地图
+  ·  %s file	  ·  %s 个文件
+  ·  %s files	  ·  %s 个文件
+Go in	进入
+Pick a box	选择方框
+Music on: Relaxing music by Piotr Witowski, from Pixabay	音乐已打开：Piotr Witowski 的轻松音乐，来自 Pixabay
+No memory to write the report.	内存不足，无法写入报告。
+Writing the report...	正在写入报告……
+Report saved: %s (and .csv)	报告已保存：%s（及 .csv）
+The report couldn't be written (see the log).	无法写入报告（请查看日志）。
+%d game	%d 个游戏
+%d bookmark	%d 个书签
+%d bookmarks	%d 个书签
+%d scan	%d 次扫描
+%d scans	%d 次扫描
+%s used	已用 %s
+%s in 30 days	30 天内 %s
+Space over time	空间变化
+Export a report	导出报告
+Buttons	按键
+About	关于
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	大概可以安全清理的：剩余的安装包、缓存、游戏的多余副本、未完成的安装。
+Games held more than once, here or on another drive, and what removing the extra copies would free.	存在多份的游戏，在这里或另一个驱动器上，以及删除多余副本能释放多少空间。
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	在你存放东西的地方逐字节相同的文件：光盘映像、媒体、安装包、你自己的文件夹。
+Games here, the longest unplayed first: good ones to clear if you're done with them.	这里的游戏，最久没玩的在前：如果已经玩完，很适合清理。
+The folders holding the most, at any depth.	占用最多的文件夹，任意层级。
+Everything over a size, untouched for a while.	超过某个大小且一段时间未使用的所有内容。
+The drive's files by type: disc images, packages, video, saves...	驱动器上的文件按类型：光盘镜像、安装包、视频、存档……
+The drive as boxes sized by the space they take: X goes into one.	将驱动器显示为按占用空间大小排列的方框：X 进入其中一个。
+Folders you've bookmarked (Square in a folder).	你加了书签的文件夹（在文件夹中按方块键）。
+What grew, shrank, appeared or went since the scan before.	自上次扫描以来增加、减少、出现或消失的内容。
+Used space scan by scan, by category.	每次扫描的已用空间，按类别。
+What's been added or changed lately, newest first: what's taken your space.	最近添加或更改的内容，最新的在前：看看是什么占用了空间。
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	将扫描结果保存为文本文件和表格（CSV），存到硬盘或 USB 驱动器上。
+The internal HDD's own record of its wear (SMART).	内置硬盘自身的磨损记录（SMART）。
+What's been deleted, waiting to go for good: put it back, or empty the bin.	已删除、等待永久删除的内容：还原，或清空回收站。
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	语言、音乐、音效、大小单位、颜色、扫描、屏幕变暗、删除。
+What every button does, screen by screen.	每个按键在每个画面的作用。
+Version, credits and licences.	版本、致谢和许可证。
+Explore	浏览
+The drive as boxes sized by the space they take: Circle goes into one.	将驱动器显示为按占用空间大小排列的方框：圆圈键进入其中一个。
+After the next scan of this drive.	在此驱动器下次扫描之后。
+The internal HDD only.	仅限内置硬盘。
+Move	移动
+Close	关闭
+Only one scan so far: the chart grows with each scan.	目前只有一次扫描：图表会随每次扫描增长。
+No scans kept yet.	尚未保存任何扫描。
+−%s used since %s	已用 −%s（自 %s 起）
++%s used since %s	已用 +%s（自 %s 起）
+(%s rescanned)	（已重新扫描 %s）
+Choose a scan	选择一次扫描
+Start screen	开始画面
+Pick Scan, Last scan, Tools or Settings	选择扫描、上次扫描、工具或设置
+Change drive (when a USB drive is plugged in)	切换驱动器（插入 USB 驱动器时）
+Twice: quit	按两次：退出
+Pick a category (its part of the ring stands out)	选择类别（它在圆环中的部分会突出）
+Open the category's items	打开类别中的项目
+The largest items on the drive	驱动器上最大的项目
+Scan the drive again	重新扫描驱动器
+The menu (not while scanning)	菜单（扫描时不可用）
+Stop a scan, or back to the start screen	停止扫描，或返回开始画面
+Lists	列表
+A page at a time (or Left and Right)	一次翻一页（或左右键）
+Open: a folder, a game's parts, the files of a type	打开：文件夹、游戏的各部分、某类型的文件
+Sort: largest, smallest, A-Z	排序：最大、最小、A-Z
+Change tab	切换标签
+A category's list: scan just that category again. Largest: items or files	在类别列表中：只重新扫描该类别。在最大的项目中：项目或文件
+Delete the row (when deleting is allowed in Settings)	删除该行（在设置中允许删除时）
+Back (a search is cleared first; in a folder, up one)	返回（先清除搜索；在文件夹中则上一级）
+Deleting	删除
+Pick Delete or Cancel	选择删除或取消
+Hold on Delete for 2 seconds to delete	在删除上按住 2 秒即可删除
+Cancel, or stop between files	取消，或在文件之间停止
+Drive health and Settings	硬盘健康和设置
+Read the drive's health again	重新读取硬盘健康状况
+Drive health: its readings over time	硬盘健康：历次读数
+Drive health: what it all means	硬盘健康：这些都是什么意思
+Change a setting	更改设置
+Keeping, the bin, filters	保留、回收站、筛选
+Free up space, Duplicates: keep a row off them (or back on)	释放空间、重复项：将一行排除（或恢复）
+A game's screen: what it's made of	游戏画面：由什么组成
+Recycle bin: put it back (Square there empties the bin)	回收站：还原（在那里按方块键清空）
+Size filter: the size (Square there: how long)	大小筛选：大小（在那里按方块键：多久）
+Recently added: how far back	最近添加：时间范围
+Folders, Map, Space over time	文件夹、地图、空间变化
+In a folder: bookmark it (or remove the bookmark)	在文件夹中：加书签（或移除书签）
+Map: go into the box picked	地图：进入所选方框
+Map: pick a box. Space over time: pick a scan	地图：选择方框。空间变化：选择一次扫描
+Anywhere	任何地方
+Music off or on	关闭或打开音乐
+When the screen's dimmed: any button wakes it	屏幕变暗时：按任意按钮唤醒
+When HDD Atlas starts	HDD Atlas 启动时
+Held: the 4:3 layout on a widescreen TV	按住：在宽屏电视上使用 4:3 布局
+Held: drawn by the CPU instead of the graphics chip	按住：由 CPU 绘制，而不是图形芯片
+Save the report where?	报告保存到哪里？
+On the HDD, in HDD Atlas's folder	硬盘上，HDD Atlas 的文件夹中
+On %s	%s 上
+Language	语言
+Sound effects	音效
+Sizes	大小
+Accent colour	强调色
+Rescan at start	启动时扫描
+Scan USB drives	扫描 USB 驱动器
+Dim the screen	屏幕变暗
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	“自动”跟随 PS3 的系统语言。翻译由 HDD Atlas 完成，尚未经母语人士审校。
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	背景音乐在点击声之下的音量。在任何地方按 R3 都可关闭或打开。
+The clicks when you move and press.	移动和按键时的点击声。
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024 是 XMB 的计算方式（1 TB 硬盘显示 931 GB）；1000 是硬盘包装盒的计算方式（1 TB）。
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	所选项目的颜色。高对比度会变为黄色，并让灰色文字更亮。
+When the free space has moved since the last scan, scan again by itself at start.	如果自上次扫描以来可用空间有变化，启动时自动重新扫描。
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	插入 USB 驱动器时自动扫描（没有其他扫描进行时）。
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	在这么长时间未按按钮后，屏幕会变暗（按任意按钮唤醒）：保护等离子和 OLED 电视。
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	允许在列表中按 START 删除一行：光盘镜像、文件夹备份、残留安装包、ROM 和 webMAN 的缓存。
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	删除的内容会在其所在驱动器的回收站（菜单中的“回收站”）中保留这么久，以便还原。关闭则立即删除。
+Automatic: %s	自动：%s
+Off	关
+On	开
+1 GB = 1000 MB (as on the box)	1 GB = 1000 MB（按包装盒）
+1 GB = 1024 MB (as the XMB)	1 GB = 1024 MB（按 XMB）
+When free space has moved	可用空间有变化时
+When plugged in	插入时
+After %d minutes	%d 分钟后
+Keep %d days	保留 %d 天
+Until it's emptied	直到清空
+Off: delete at once	关闭：立即删除
+Change	更改
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	字体：Poppins（SIL Open Font License）和 DejaVu Sans。
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	按键图片：Kenney（CC0）。旗帜：flag-icons（MIT）。
+The hard disk icon: "Internal Clear" by Rick Patrick.	硬盘图标：Rick Patrick 的“Internal Clear”。
+Menu icons: Tanah Basah, from Flaticon.	菜单图标：Tanah Basah，来自 Flaticon。
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	音乐：Piotr Witowski 的《Relaxing Music (Part 1)》，来自 Pixabay。
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	图片、字体和音乐由 stb_image、stb_truetype 和 stb_vorbis 解码（公有领域）。
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	NTFS 驱动器：Estwald 的 libntfs_ext，源自 NTFS-3G（GPL-2.0）。
+Built with PSL1GHT and the ps3toolchain.	使用 PSL1GHT 和 ps3toolchain 构建。
+Made by	制作
+Thanks to	鸣谢
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas 是基于 GPL-2.0 的自由软件。许可证位于 USRDIR/data/licenses。

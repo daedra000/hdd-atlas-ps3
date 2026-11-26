@@ -1,0 +1,42 @@
+HDD Atlas's icons
+
+The hard disk (the XMB's icon, ICON0.PNG, and the one beside "HDD Atlas" at
+the top of the app's screens) is "Internal Clear" by Rick Patrick, from
+SoftIcons (https://www.softicons.com). It's trimmed and resized for both.
+
+
+The START menu's icons
+
+The START menu's and the start screen's icons are by Tanah Basah, from
+Flaticon (https://www.flaticon.com), used under Flaticon's free licence,
+which asks for this credit. They were made white and resized; the rectangle
+is cut into boxes for "Map of the drive", and Identical files' pages have an "="
+cut into them.
+
+  Menu entry                Flaticon icon (ID)
+  Free up space             trash-bin (5825419)
+  Games, all together       joystick (8410863)
+  Duplicates                paper (6421300)
+  Not played lately         hourglass (7323324)
+  Largest folders           upload (6941334)
+  File types                list (6853371)
+  Map of the drive          rectangle (7005628)
+  Bookmarks                 bookmark (8895878)
+  Changes since last scan   time-management (8664728)
+  Space over time           history (5653738)
+  Export a report           share (6210164)
+  Drive health              first-aid (8775548)
+  Settings                  setting (5825379)
+  About                     information (6231995)
+  Buttons                   controller (7134704)
+  Start screen: Scan        searching (8395577)
+  Start screen: Last scan   pie-chart (8621859)
+  Start screen: Tools       app
+  Identical files           paper (6421300, as Duplicates)
+  Size filter               funnel
+  Recycle bin               recycle-bin
+  Recently added            plus
+
+Every icon in the list is Tanah Basah's. Flaticon's free licence asks for credit to the
+author and to Flaticon, given here and in the app's About. The IDs are for finding an icon
+again; app, funnel, plus and recycle-bin came in a later download that didn't list theirs.

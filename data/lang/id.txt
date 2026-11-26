@@ -1,0 +1,652 @@
+# HDD Atlas in Indonesian: "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	webMAN memerlukan ini untuk memasang game dari drive NTFS.
+A disc image's decryption key: webMAN needs it to mount it.	Kunci dekripsi image disk: webMAN memerlukannya untuk memasangnya.
+Installed games: delete them from the XMB (it keeps their icons).	Game terpasang: hapus dari XMB (XMB menyimpan ikonnya).
+Music, video and photos: delete them from the XMB (it keeps a list of them).	Musik, video, dan foto: hapus dari XMB (XMB menyimpan daftarnya).
+Saves, trophies and licences: delete them from the XMB.	Data simpanan, trofi, dan lisensi: hapus dari XMB.
+The system's own: never deleted.	Milik sistem: tidak pernah dihapus.
+TB	TB
+GB	GB
+MB	MB
+KB	KB
+B	B
+reallocated sectors	sektor yang dialihkan
+sectors waiting to be reallocated	sektor yang menunggu dialihkan
+uncorrectable sectors	sektor yang tak bisa diperbaiki
+reported uncorrectable errors	galat tak terperbaiki yang dilaporkan
+reallocation events	pengalihan
+Life left	Sisa umur
+Wear levelling count	Jumlah perataan keausan
+Used reserve blocks	Blok cadangan terpakai
+Unused reserve blocks	Blok cadangan tersisa
+Media wearout	Keausan media
+Reserved space left	Sisa ruang cadangan
+Total written	Total ditulis
+Read error rate	Laju galat baca
+Throughput performance	Kinerja transfer
+Spin-up time	Waktu putar awal
+Start/stop count	Jumlah mulai/henti
+Reallocated sectors	Sektor yang dialihkan
+Seek error rate	Laju galat pencarian
+Seek time performance	Kinerja pencarian
+Power-on hours	Jam menyala
+Spin retry count	Percobaan ulang putar
+Calibration retries	Percobaan ulang kalibrasi
+Power cycles	Siklus daya
+Program fails	Kegagalan program
+Erase fails	Kegagalan hapus
+Unexpected power losses	Daya putus mendadak
+Wear range delta	Selisih keausan
+Interface downshifts	Penurunan kecepatan antarmuka
+End-to-end errors	Galat ujung ke ujung
+Reported uncorrectable	Tak terperbaiki yang dilaporkan
+Command timeouts	Perintah habis waktu
+High fly writes	Tulis terlalu tinggi
+Airflow temperature	Suhu udara
+G-sense errors	Galat guncangan
+Power-off retracts	Penarikan saat mati
+Load cycles	Siklus muat
+Temperature	Suhu
+ECC recovered	Diperbaiki ECC
+Reallocation events	Pengalihan
+Pending sectors	Sektor tertunda
+Uncorrectable sectors	Sektor tak terperbaiki
+Interface CRC errors	Galat CRC antarmuka
+Write error rate	Laju galat tulis
+Disk shift	Pergeseran piringan
+Loaded hours	Jam kepala termuat
+Load retries	Percobaan ulang muat
+Load friction	Gesekan muat
+Load-in time	Waktu muat
+Head flying hours	Jam terbang kepala
+Total read	Total dibaca
+Free fall events	Jatuh terdeteksi
+Vendor specific	Khusus pabrikan
+Games & game data	Game dan data game
+Disc game backups	Cadangan cakram game
+Saves, trophies & licences	Simpanan, trofi, dan lisensi
+Themes	Tema
+Music, video & photos	Musik, video, dan foto
+Packages, tmp & caches	Paket, tmp, dan cache
+System & other folders	Sistem dan folder lain
+System partitions	Partisi sistem
+Unaccounted	Tak terjelaskan
+Games	Game
+Backups	Cadangan
+Saves	Simpanan
+Media	Media
+Packages	Paket
+System	Sistem
+Partitions	Partisi
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	%s berhenti merespons saat dipindai, dan semua drive NTFS menunggunya: mulai ulang konsol untuk memakainya lagi.
+%s stopped answering during its scan: restart the console to use it again.	%s berhenti merespons saat dipindai: mulai ulang konsol untuk memakainya lagi.
+Emptied %d old entries from the recycle bin: %s freed.	%d entri lama dihapus selamanya dari tempat sampah: %s dibebaskan.
+No scan can start till the console restarts: %s stopped answering during its scan.	Tidak ada pemindaian yang bisa dimulai sampai konsol dimulai ulang: %s berhenti merespons saat dipindai.
+A scan of %s is running: one at a time.	%s sedang dipindai: satu per satu.
+Drive health found this drive wearing out: back up what matters first.	Kesehatan drive melihat drive ini mulai aus: cadangkan yang penting dulu.
+Scanning: things may be slow until it's done. The menu's back after it.	Memindai: mungkin lambat sampai selesai. Menu kembali setelahnya.
+The scan couldn't start (see the log).	Pemindaian tidak bisa dimulai (lihat log).
+Rescanning %s; the rest stays as it was.	Memindai ulang %s; sisanya tetap seperti semula.
+Internal HDD	HDD internal
+Scan of %s finished in %.1f s.	Pemindaian %s selesai dalam %.1f d.
+Scan stopped. The last scan is shown.	Pemindaian dihentikan. Pemindaian terakhir ditampilkan.
+The scan didn't finish (see the log).	Pemindaian tidak selesai (lihat log).
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	Bagian disk di luar drive yang dipindai HDD Atlas: cache game 2 GB, flash sistem pada kebanyakan model, dan catatan sistem file untuk setiap file (beberapa persen disk). Semua itu tidak bisa dikosongkan.
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	Ruang terpakai yang tidak dijelaskan file mana pun. Sebagian besar adalah ruang yang dijaga kosong oleh sistem file untuk dirinya: 8 persen drive dari pabrik, 1 persen setelah unlockhdd webMAN. Sisanya blok terakhir file yang dibulatkan. Semua itu tidak bisa dikosongkan dari sini.
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	Di sini total file melebihi ruang terpakai: beberapa dihitung dua kali. webMAN bisa menautkan file game antara GAMES dan game: satu salinan di disk dihitung dua.
+Press Circle again to quit.	Tekan Lingkaran lagi untuk keluar.
+Press X again to quit.	Tekan X lagi untuk keluar.
+The menu opens once the scan's done.	Menu terbuka setelah pemindaian selesai.
+Not scanned yet	Belum dipindai
+Free space has dropped by %s since this scan	Ruang kosong turun %s sejak pemindaian ini
+Free space has grown by %s since this scan	Ruang kosong naik %s sejak pemindaian ini
+Scanned %s  ·  1 delete since	Dipindai %s  ·  1 penghapusan sejak itu
+Scanned %s  ·  %u deletes since	Dipindai %s  ·  %u penghapusan sejak itu
+Scanned %s  ·  took %.0f s	Dipindai %s  ·  butuh %.0f d
+%s used of %s	%s terpakai dari %s
+%s used of %s  ·  %s	%s terpakai dari %s  ·  %s
+%s files in %s folders	%s file dalam %s folder
+  ·  %llu couldn't be read (skipped)	  ·  %llu tidak terbaca (dilewati)
+%s free	%s kosong
+%s free  ·  drive size unknown	%s kosong  ·  ukuran drive tidak diketahui
+%s  ·  %u item	%s  ·  %u item
+%s  ·  %u items	%s  ·  %u item
+No scan of %s yet. Press Triangle to scan it.	Belum ada pemindaian %s. Tekan Segitiga untuk memindainya.
+(%s is being scanned: one at a time.)	(%s sedang dipindai: satu per satu.)
+Scanning %s	Memindai %s
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s dari %s  ·  %s file
+%s  ·  %s files	%s  ·  %s file
+The first scan of a full HDD can take a few minutes.	Pemindaian pertama HDD yang penuh bisa memakan beberapa menit.
+Scanning  %d%%	Memindai  %d%%
+Scanning %s  %d%%  ·  %s files	Memindai %s  %d%%  ·  %s file
+%s files	%s file
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	%s memberi galat baca, jadi pemindaian melewati yang tidak bisa dibaca. Biasanya itu tanda sektor rusak.
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	%s memberi galat baca, jadi pemindaian tidak bisa selesai. Biasanya itu tanda sektor rusak.
+Drive health shows whether the drive has bad sectors, and what to do if it has.	Kesehatan drive menunjukkan apakah drive punya sektor rusak, dan apa yang harus dilakukan.
+Some of the drive couldn't be read	Sebagian drive tidak bisa dibaca
+The scan didn't finish	Pemindaian tidak selesai
+OK	OK
+Drive health	Kesehatan drive
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	%s tidak menjawab selama 5 menit, jadi pemindaian dihentikan. Biasanya drive gagal membaca di sini:
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	Kirim hddatlas_log.txt di /dev_hdd0/game/HDAT00001/USRDIR ke ps3.world/contact (hddatlas_log_prev.txt jika HDD Atlas sudah dibuka lagi sejak itu). Pemindaian lain mungkin tidak bisa dimulai sampai konsol dinyalakan ulang.
+The scan got stuck	Pemindaian macet
+Check this drive's health on a PC (its SMART data) before trusting it with more.	Periksa kesehatan drive ini di PC (data SMART-nya) sebelum menitipkan lebih banyak data.
+Overview	Ringkasan
+Open	Buka
+What's this	Apa ini
+Largest	Terbesar
+Largest items	Item terbesar
+Rescan	Pindai ulang
+Scan	Pindai
+Stop scan	Hentikan pemindaian
+Back	Kembali
+Menu	Menu
+Music off	Matikan musik
+Music on	Nyalakan musik
+Drive	Drive
+Deleting is off.	Penghapusan mati.
+Deleting is off: turn it on in Settings (START on the overview).	Penghapusan mati: nyalakan di Pengaturan (START di ringkasan).
+This NTFS drive is read-only: Windows didn't close it cleanly.	Drive NTFS ini hanya-baca: Windows tidak menutupnya dengan benar.
+This can't be deleted here.	Ini tidak bisa dihapus di sini.
+A package is being installed: delete this once that's done.	Sebuah paket sedang dipasang: hapus ini setelah selesai.
+Wait for the scan to finish, then delete.	Tunggu pemindaian selesai, lalu hapus.
+The recycle bin's empty.	Tempat sampah kosong.
+The recycle bin	Tempat sampah
+Not deleted	Tidak dihapus
+No memory to start.	Memori tidak cukup untuk mulai.
+Deleted	Dihapus
+Stopped part way	Berhenti di tengah
+Not deleted: it isn't the same as %s, byte for byte.	Tidak dihapus: tidak sama byte demi byte dengan %s.
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	Tidak dihapus: masih berubah, mungkin sedang ditulisi pemasangan. Coba lagi nanti.
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	Tidak dihapus: pemasangan menulisinya dalam sehari terakhir dan mungkin masih memerlukannya. Coba lagi besok.
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	Tidak dihapus: salinan lainnya (%s) sudah tidak ada, jadi ini yang terakhir.
+In the recycle bin	Di tempat sampah
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	Dipindahkan ke tempat sampah (%s). Ruangnya bebas saat tempat sampah dikosongkan: Tempat sampah di menu.
+Deleted: %s freed.	Dihapus: %s dibebaskan.
+Stopped part way: %s freed, the rest is still there.	Berhenti di tengah: %s dibebaskan, sisanya masih ada.
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	Dihapus, tetapi %u entri tersisa (tautan, atau yang tidak mau terhapus): %s dibebaskan.
+Not deleted: error 0x%08x at %s. %s freed.	Tidak dihapus: galat 0x%08x di %s. %s dibebaskan.
+Deleting is on: START on a row that can go.	Penghapusan nyala: START pada baris yang boleh dihapus.
+Allow deleting?	Izinkan penghapusan?
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	HDD Atlas akan bisa menghapus image cakram (PS3ISO, PS2ISO...), cadangan folder di GAMES, paket sisa, ROM, dan cache webMAN: satu baris setiap kali, masing-masing setelah Anda menahan X untuk konfirmasi. File yang dihapus tidak kembali.
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	HDD Atlas akan bisa menghapus image cakram (PS3ISO, PS2ISO...), cadangan folder di GAMES, paket sisa, ROM, dan cache webMAN: satu baris setiap kali, masing-masing setelah Anda menahan Lingkaran untuk konfirmasi. File yang dihapus tidak kembali.
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	Game terpasang, simpanan, trofi, musik, video, dan foto tetap diurus XMB (XMB menyimpan daftarnya). Folder sistem tidak pernah disentuh. Pengaturan mematikannya lagi.
+Allow deleting	Izinkan penghapusan
+Cancel	Batal
+Delete this disc image?	Hapus image cakram ini?
+Delete this folder backup?	Hapus cadangan folder ini?
+Delete this package?	Hapus paket ini?
+Delete this ROM?	Hapus ROM ini?
+Delete this webMAN cache file?	Hapus file cache webMAN ini?
+Delete this leftover install?	Hapus instalasi yang tidak selesai ini?
+Delete it for good?	Hapus selamanya?
+Delete this system update?	Hapus pembaruan sistem ini?
+Empty the recycle bin?	Kosongkan tempat sampah?
+Move it to the recycle bin?	Pindahkan ke tempat sampah?
+Deleting...	Menghapus...
+and %s with it	dan %s bersamanya
+Nothing's freed till the recycle bin's emptied.	Tidak ada yang dibebaskan sampai tempat sampah dikosongkan.
+Free: %s  →  about %s	Kosong: %s  →  sekitar %s
+If it was a game update, install that update again afterwards.	Jika ini pembaruan game, pasang lagi pembaruan itu sesudahnya.
+It can't be undone.	Tidak bisa dibatalkan.
+It waits in the recycle bin for %d days first.	Menunggu di tempat sampah selama %d hari dulu.
+It waits in the recycle bin till that's emptied.	Menunggu di tempat sampah sampai dikosongkan.
+Delete	Hapus
+Hold to delete	Tahan untuk menghapus
+Back to Cancel	Kembali ke Batal
+Pick Delete	Pilih Hapus
+Checking it's the same as the other copy: %s of %s	Memeriksa apakah sama dengan salinan lainnya: %s dari %s
+Stopping...	Menghentikan...
+Stop	Hentikan
+%s of %s files  ·  %s	%s dari %s file  ·  %s
+%s went from %lld to %lld since %s.	%s naik dari %lld ke %lld sejak %s.
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	Jurnal tidak bisa ditulis di USRDIR, jadi drive tidak ditanya.
+lv2 wouldn't open the drive (0x%08x).	lv2 tidak bisa membuka drive (0x%08x).
+The drive didn't answer IDENTIFY (0x%08x).	Drive tidak menjawab IDENTIFY (0x%08x).
+The drive didn't give its SMART data (0x%08x).	Drive tidak memberikan data SMART-nya (0x%08x).
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	Drive menjawab, tetapi tidak dengan sesuatu yang terbaca sebagai IDENTIFY (emulator melakukan ini).
+No memory for the reading.	Memori tidak cukup untuk pembacaan.
+GOOD	BAIK
+CAUTION	WASPADA
+FAILING	GAGAL
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	%s bernilai %d, pada atau di bawah ambang %d: drive mengatakan sedang rusak.
+%s is at %d, at or below its threshold of %d.	%s bernilai %d, pada atau di bawah ambang %d.
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s: memori flash mulai aus. Cadangkan yang penting.
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s: permukaannya mulai aus. Cadangkan yang penting.
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	Sisa umur: %d%%. Memori flash hampir habis. Cadangkan yang penting.
+Running hot (%d °C). Check the console's vents.	Terlalu panas (%d °C). Periksa ventilasi konsol.
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	Tidak ada sektor yang dialihkan, tertunda, atau tak terperbaiki, dan tidak ada yang melewati ambang.
+SSD	SSD
+%d rpm	%d rpm
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  firmware %s  ·  nomor seri %s
+internal drive	drive internal
+internal HDD	HDD internal
+  ·  (the data's checksum is off)	  ·  (checksum datanya tidak cocok)
+Powered on	Menyala
+Reallocated	Dialihkan
+Pending	Tertunda
+Uncorrectable	Tak terperbaiki
+%s h	%s j
+%lld days	%lld hari
+sectors	sektor
+Read on	Dibaca pada
+No readings kept yet.	Belum ada pembacaan yang disimpan.
+Attribute	Atribut
+Value	Nilai
+Worst	Terburuk
+Thresh.	Ambang
+Threshold	Ambang
+Raw	Mentah
+pre-fail	pra-gagal
+The verdict	Penilaian
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	Baik: tidak ada sektor aus, tidak ada atribut di ambangnya, dan tidak terlalu panas. Waspada: drive masih bekerja, tetapi beberapa sektor sudah aus, atribut usia melewati ambangnya, atau suhunya di atas 55 °C: simpan cadangan hal yang penting. Gagal: atribut pra-gagal ada di ambangnya atau di bawahnya, jadi drive itu sendiri memperkirakan akan segera rusak: salin apa yang ingin Anda simpan.
+The six figures	Enam angka
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	Suhu: di bawah 50 °C itu nyaman; di atas 55 °C, periksa ventilasi dan debu konsol. Menyala: jam kerja drive sepanjang umurnya. Siklus daya: berapa kali drive dinyalakan.
+Bad sectors	Sektor rusak
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	Dialihkan: sektor yang rusak dan diganti dengan sektor cadangan. Tertunda: sektor yang tidak bisa dibaca drive, menunggu ditulis ulang atau diganti. Tak terperbaiki: pembacaan yang gagal bahkan setelah koreksi kesalahan, jadi isinya mungkin hilang. Pada drive yang sehat ketiganya 0. Beberapa tidak fatal, tetapi angka yang terus bertambah adalah tanda paling pasti bahwa drive akan segera berakhir.
+The table	Tabel
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	Drive memberi nilai pada setiap atribut. Nilai adalah skor sekarang (biasanya 100 atau 200 saat baru; makin rendah makin buruk), Terburuk adalah yang paling rendah yang pernah dicapai, dan Ambang adalah batas dari pembuat: di batas itu atau di bawahnya, atribut itu sudah gagal. Mentah adalah hitungan drive sendiri di balik skor itu (jam, sektor, derajat). Artinya berbeda antar pembuat, jadi bandingkan drive dengan pembacaannya sendiri sebelumnya, bukan dengan drive lain.
+Pre-fail and old-age	Pra-gagal dan usia
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	Drive menandai setiap atribut sebagai salah satunya. Atribut pra-gagal (bertanda pra-gagal di tabel) mengawasi masalah yang datang sebelum kerusakan: sektor rusak, putaran awal lambat, kesalahan pencarian. Jika salah satunya di ambangnya atau di bawahnya, drive memperkirakan akan segera rusak. Sisanya atribut usia: mengikuti keausan biasa selama bertahun-tahun, seperti jam dan siklus daya. Jika salah satunya melewati ambangnya, drive sudah aus, bukan berarti akan segera berhenti.
+SSDs	SSD
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	SSD menampilkan sisa umurnya sebagai ganti jumlah dinyalakan: perkiraannya sendiri tentang berapa banyak keausan yang masih tersisa untuk memori flash-nya, 100% saat baru. Pada 10% atau kurang, penilaiannya Waspada. Pada SSD, sektor yang dialihkan adalah blok flash yang aus dan diganti cadangan, dan penilaian baru menganggap panas di 70 °C karena SSD memang lebih hangat. SSD yang rusak bisa berhenti menjawab alih-alih melaporkan kesalahan: jika pemindaian selalu macet di tempat yang sama, curigai drive-nya meski SMART tampak baik.
+History	Riwayat
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	Setiap pembacaan disimpan: Kotak menampilkannya, yang terbaru dulu. Jumlah sektor dialihkan, tertunda, atau tak terperbaiki yang bertambah sejak pembacaan sebelumnya tampil kuning. Baca drive sesekali (Segitiga) agar ada yang bisa dibandingkan.
+It only reads	Hanya membaca
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART adalah catatan milik drive itu sendiri: HDD Atlas hanya memintanya, dan tidak ada yang berubah di drive. Ia tidak bisa memperbaiki drive yang aus: jika drive mulai gagal, jawabannya adalah cadangan dan drive baru.
+1. Copy what matters first	1. Salin yang penting dulu
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	Simpanan game Anda ada di /dev_hdd0/home: salin ke drive USB atau PC dengan FTP webMAN atau multiMAN. Dengan Apollo Save Tool, ekspor juga lisensi (RAP), act.dat, dan trofi Anda. Simpan semuanya di luar konsol.
+2. Delete what you don't need	2. Hapus yang tidak diperlukan
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	Image disc lama, paket sisa, cache: jadi lebih sedikit yang perlu disalin dan dibaca dari drive yang rusak. Menghapus file hampir tidak membacanya.
+3. Don't scan again and again	3. Jangan memindai berulang kali
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	Pemindaian membaca setiap folder di drive. Di tempat yang tak bisa dibaca, pemindaian bisa berhenti (HDD Atlas menyerah setelah 5 menit), dan drive yang terus mencoba lagi lebih cepat aus.
+4. Replace the drive	4. Ganti drive-nya
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	Drive yang aus tidak bisa diperbaiki dan hanya makin buruk. Backup Utility PS3 hanya jaring pengaman kedua: tidak menyimpan trofi, butuh berjam-jam, dan bisa gagal pada file yang rusak. Menyalin drive di PC tidak berhasil: drive dienkripsi untuk konsol ini. Cara mengganti selengkapnya: ps3.world/upgrade-storage
+If the drive is wearing out	Jika drive mulai aus
+What it means	Artinya
+SMART, read at %s	SMART, dibaca pukul %s
+Scroll	Gulir
+Read the internal HDD's health?	Baca kesehatan HDD internal?
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	HDD Atlas akan meminta data SMART dari drive: hitungan jam, galat, dan sektor aus miliknya sendiri. Hanya membaca: tidak ada yang berubah di drive.\n\nPermintaan lewat panggilan sistem penyimpanan PS3, yang belum dicoba di setiap konsol. Jika suatu saat konsol ini membeku, HDD Atlas akan tahu di awal berikutnya dan tidak akan bertanya lagi.
+Reading the drive's health...	Membaca kesehatan drive...
+Asking the drive for its SMART data.	Meminta data SMART dari drive.
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	Membaca kesehatan drive membuat konsol ini membeku terakhir kali (di "%s"), jadi HDD Atlas tidak akan bertanya lagi.\n\nUntuk tetap mencoba, hapus smart_journal.txt di /dev_hdd0/game/HDAT00001/USRDIR.
+Not read: it froze the console before	Tidak dibaca: konsol pernah membeku
+The drive's health couldn't be read	Kesehatan drive tidak bisa dibaca
+Read	Baca
+What to do	Yang harus dilakukan
+Try again	Coba lagi
+Read again	Baca ulang
+Attributes	Atribut
+version %s	versi %s
+Once the scan's done.	Setelah pemindaian selesai.
+Scan this drive first.	Pindai drive ini dulu.
+Last scanned %s	Terakhir dipindai %s
+%s used of %s  ·  %s free	%s terpakai dari %s  ·  %s kosong
+Last time: %u min	Terakhir kali: %u menit
+Last time: %u s	Terakhir kali: %u dtk
+Last scan	Pemindaian terakhir
+Tools	Alat
+Settings	Pengaturan
+Go through every folder on the drive and add up what's there.	Menelusuri setiap folder di drive dan menjumlahkan isinya.
+What the last scan found, straight away.	Hasil pemindaian terakhir, langsung.
+Free up space, duplicates, the map, drive health and more.	Kosongkan ruang, duplikat, peta, kesehatan drive, dan lainnya.
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	Bahasa, musik, suara, ukuran, pemindaian, peredupan, penghapusan.
+What's using your PS3's space, drive by drive, down to the last file.	Apa yang memakai ruang PS3 Anda, drive demi drive, sampai file terakhir.
+Choose	Pilih
+Quit	Keluar
+Blue	Biru
+Teal	Hijau toska
+Purple	Ungu
+Pink	Merah muda
+Orange	Oranye
+Green	Hijau
+High contrast	Kontras tinggi
+Largest first	Terbesar dulu
+Smallest first	Terkecil dulu
+A-Z	A-Z
+Bookmark removed.	Penanda dihapus.
+There are 64 bookmarks already: remove one first.	Sudah ada 64 penanda: hapus satu dulu.
+Bookmarked: it's in the menu's Bookmarks.	Ditandai: ada di Penanda pada menu.
+It's suggested again.	Disarankan lagi.
+There are 512 kept already: unkeep one first.	Sudah ada 512 yang dipertahankan: lepas satu dulu.
+Kept: it won't be suggested again (Square here undoes it).	Dipertahankan: tidak akan disarankan lagi (Kotak di sini membatalkan).
+Disc images	Image cakram
+Disc images and data	Image cakram dan data
+Disc image track lists	Daftar trek image cakram
+Licensed game data	Data game berlisensi
+Programs	Program
+Game archives	Arsip game
+Game data	Data game
+Music	Musik
+Video	Video
+Pictures	Gambar
+Licences	Lisensi
+Save and game info	Info simpanan dan game
+Trophies	Trofi
+Text and settings	Teks dan pengaturan
+Databases	Basis data
+Archives	Arsip
+ROMs	ROM
+No extension	Tanpa ekstensi
+Everything else	Semua yang lain
+Recycle bin	Tempat sampah
+SingStar songs	Lagu SingStar
+IRISMAN's cache	Cache IRISMAN
+Apollo's cache	Cache Apollo
+multiMAN's covers	Sampul multiMAN
+Firmware update	Pembaruan sistem
+(more items)	(item lainnya)
+Newest first	Terbaru dulu
+Oldest first	Terlama dulu
+Where it was wasn't saved: it can't be put back, only deleted for good.	Lokasi asal tidak tersimpan: tidak bisa dipulihkan, hanya dihapus selamanya.
+The recycle bin's being tidied: try again in a moment.	Tempat sampah sedang dirapikan: coba lagi sebentar lagi.
+Put back, but not its .cue/.bin: that's still in the recycle bin.	Dikembalikan, tetapi .cue/.bin-nya tidak: itu masih di tempat sampah.
+Put back where it was. Its size counts again after the next scan.	Dipulihkan ke tempatnya. Ukurannya dihitung lagi setelah pemindaian berikutnya.
+Something's where it was now: not put back.	Kini ada sesuatu di tempatnya: tidak dipulihkan.
+It couldn't be put back (see the log).	Tidak bisa dipulihkan (lihat log).
+It's gone since the scan before.	Hilang sejak pemindaian sebelumnya.
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	Melewati 50.000 item yang dipisahkan pemindaian: foldernya tidak didaftar satu per satu.
+Search by name	Cari dengan nama
+It isn't there any more.	Sudah tidak ada.
+It's the only copy left: it isn't deleted from here.	Ini satu-satunya salinan yang tersisa: tidak dihapus dari sini.
+Game	Game
+Disc game	Game cakram
+Save	Simpanan
+App	Aplikasi
+PS2 game	Game PS2
+PS1 game	Game PS1
+PSP game	Game PSP
+Minis	Minis
+Home	Home
+Network	Jaringan
+%s  ·  %s file	%s  ·  %s file
+%u couldn't be read	%u tidak terbaca
+New	Baru
+Gone	Hilang
+%s file	%s file
+  ·  %s folder	  ·  %s folder
+  ·  %s folders	  ·  %s folder
+New since the scan: rescan for its size	Baru sejak pemindaian: pindai ulang untuk ukurannya
+Past the folders a scan keeps sizes for	Melewati folder yang ukurannya disimpan pemindaian
+Installed %s	Terpasang %s
+Backup %s	Cadangan %s
+Saves %s	Simpanan %s
+Trophies %s	Trofi %s
+Kept	Dipertahankan
+%d copy	%d salinan
+%d copies	%d salinan
+Game data %s	Data game %s
+Also on %s (%s)	Juga di %s (%s)
+never	tidak pernah
+today	hari ini
+%d days ago	%d hari lalu
+%d months ago	%d bulan lalu
+%d years ago	%d tahun lalu
+Last played %s (its newest save)	Terakhir dimainkan %s (simpanan terbarunya)
+Last changed %s	Terakhir diubah %s
+Leftover package (already installed)	Paket sisa (sudah terpasang)
+webMAN's cache (made again when needed)	Cache webMAN (dibuat lagi bila perlu)
+Temporary files	File sementara
+Extra copy of a game held more than once	Salinan tambahan dari game yang ada lebih dari sekali
+Update for a game that isn't here (keep it if you play the disc)	Pembaruan game yang tidak ada (simpan jika main dari cakram)
+Save for a game that isn't here (keep it if you play the disc)	Simpanan game yang tidak ada (simpan jika main dari cakram)
+Left by an install or a delete the system didn't finish	Sisa instalasi atau penghapusan yang tidak selesai
+No PARAM.SFO: a broken install, or another app's data (check it first)	Tanpa PARAM.SFO: instalasi rusak, atau data aplikasi lain (periksa dulu)
+Downloaded, not installed yet: install or delete it from the XMB	Sudah diunduh, belum dipasang: pasang atau hapus dari XMB
+Waiting to be installed: install or delete it from the XMB	Menunggu dipasang: pasang atau hapus dari XMB
+A package that isn't installed: install it, or delete it if it's not needed	Paket belum dipasang: pasang atau hapus jika tak perlu
+An app's cache: clear it in that app (it makes it again)	Cache aplikasi: kosongkan dari aplikasinya (akan dibuat lagi)
+A system update: not for HEN or CFW (installing it removes them)	Pembaruan sistem: bukan untuk HEN/CFW (bila dipasang, hilang)
+Can be deleted	Bisa dihapus
+From the XMB	Dari XMB
+.%s files	File .%s
+Goes for good tomorrow	Hilang selamanya besok
+Goes for good in %d days	Hilang selamanya dalam %d hari
+Till the bin's emptied	Sampai tempat sampah dikosongkan
+Where it was isn't known  ·  deleted %s	Asal tidak diketahui  ·  dihapus %s
+Was in %s  ·  deleted %s	Dulu di %s  ·  dihapus %s
+%s each  ·  in %s	Masing-masing %s  ·  di %s
+What %s is made of	Isi dari %s
+The game (with its updates)	Game (dengan pembaruannya)
+Updates and game data	Pembaruan dan data game
+DLC and add-ons	DLC dan tambahan
+Disc backups	Cadangan disk
+All of it: %s	Semuanya: %s
+Adding up its folders... %s so far	Menjumlahkan foldernya... %s sejauh ini
+%s  ·  %s item	%s  ·  %s item
+%s  ·  %s items	%s  ·  %s item
+Games, all together	Game, semuanya
+%d games	%d game
+Duplicates	Duplikat
+Up to %s could be freed	Hingga %s bisa dibebaskan
+Free up space	Kosongkan ruang
+Up to %s	Hingga %s
+%s  ·  %d deleted	%s  ·  %d dihapus
+Any age	Usia apa saja
+Untouched 6 months or more	Tak disentuh 6 bulan atau lebih
+Untouched a year or more	Tak disentuh setahun atau lebih
+Untouched 2 years or more	Tak disentuh 2 tahun atau lebih
+Untouched 3 years or more	Tak disentuh 3 tahun atau lebih
+Size filter	Filter ukuran
+Over %s	Di atas %s
+Any size	Ukuran apa saja
+In the last week	Dalam seminggu terakhir
+In the last month	Dalam sebulan terakhir
+In the last 3 months	Dalam 3 bulan terakhir
+In the last year	Dalam setahun terakhir
+Recently added	Baru ditambahkan
+Identical files	File identik
+Largest folders	Folder terbesar
+The %d largest, at any depth	%d terbesar, di kedalaman mana pun
+Not played lately	Lama tidak dimainkan
+Bookmarks	Penanda
+%d on %s	%d di %s
+File types	Jenis file
+%d types	%d jenis
+Largest files	File terbesar
+The largest .%s files	File .%s terbesar
+The %d largest files on the drive	%d file terbesar di drive
+Every category	Semua kategori
+Changes since last scan	Perubahan sejak pemindaian terakhir
+−%s in files since the scan before	−%s dalam file sejak pemindaian sebelumnya
++%s in files since the scan before	+%s dalam file sejak pemindaian sebelumnya
+%s  ·  %s entry	%s  ·  %s entri
+%s  ·  %s entries	%s  ·  %s entri
+  ·  search: "%s"	  ·  cari: "%s"
+All	Semua
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	Yang dihapus menunggu di sini: X memulihkan, START menghapus selamanya, Kotak mengosongkan semua.
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	Semua di atas suatu ukuran, lama tak disentuh: L1/R1 mengubah ukuran, Kotak lamanya.
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	File identik di folder Anda (tanpa game terpasang dan data simpanan): X menampilkannya.
+The same file in each place: X opens its folder, START deletes one.	File yang sama di setiap tempat: X membuka foldernya, START menghapus satu.
+What was added or changed lately, newest first: Square changes how far back.	Yang baru ditambahkan atau diubah, terbaru dulu: Kotak mengubah rentang waktunya.
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	Yang dihapus ada di sini: Lingkaran memulihkan, START menghapus selamanya, Kotak kosongkan semua.
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	File identik di folder Anda (tanpa game terpasang dan data simpanan): Lingkaran menampilkannya.
+The same file in each place: Circle opens its folder, START deletes one.	File yang sama di setiap tempat: Lingkaran membuka foldernya, START menghapus satu.
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	%u file 1 MB atau lebih diperiksa, pukul %s, terhenti (Kotak: lagi)
+%u files of 1 MB or more looked at, at %s (Square: again)	%u file 1 MB atau lebih diperiksa, pukul %s (Kotak: lagi)
+Each game's installed data, backups, saves and trophies, added up.	Data terpasang, cadangan, simpanan, dan trofi setiap game, dijumlahkan.
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	Game yang ada lebih dari sekali: terpasang dan dicadangkan, dicadangkan dua kali, atau juga di drive lain.
+Likely safe to clear: check each one. START deletes those that can go (Settings).	Kemungkinan aman dihapus: periksa satu per satu. START menghapus yang boleh (Pengaturan).
+Everything of this game's on the drive: X opens one, START deletes one that can go.	Semua milik game ini di drive: X membuka satu, START menghapus yang boleh.
+Where the space really is: a folder that's nearly all one folder is left for that one.	Di mana ruang sebenarnya: folder yang hampir seluruhnya satu folder diwakili folder itu.
+Games here, the longest unplayed first: when their newest save (or file) was written.	Game di sini, yang paling lama tidak dimainkan dulu: kapan simpanan (atau file) terbarunya ditulis.
+Square in a folder bookmarks it; here, Square removes one.	Kotak di folder menandainya; di sini, Kotak menghapus satu.
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	Semua milik game ini di drive: Lingkaran membuka satu, START menghapus yang boleh.
+The scan of %s against the one of %s; 1 MB or more	Pemindaian %s dibanding pemindaian %s; 1 MB atau lebih
+Reading the folder...	Membaca folder...
+This folder couldn't be read (0x%08x).	Folder ini tidak bisa dibaca (0x%08x).
+Comparing files of the same size: %u of %u...	Membandingkan file berukuran sama: %u dari %u...
+Looking for identical files: %u of 1 MB or more so far...	Mencari file identik: %u file 1 MB atau lebih sejauh ini...
+Nothing was added or changed in that time: Square goes further back.	Tidak ada yang ditambahkan atau diubah dalam waktu itu: Kotak mundur lebih jauh.
+Nothing's that big and that old: L1/R1 or Square widen it.	Tidak ada yang sebesar dan setua itu: L1/R1 atau Kotak memperluasnya.
+No identical files found.	Tidak ada file identik.
+Nothing matches the search. Press Circle to clear it.	Tidak ada yang cocok. Tekan Lingkaran untuk menghapus pencarian.
+Nothing matches the search. Press X to clear it.	Tidak ada yang cocok. Tekan X untuk menghapus pencarian.
+This folder is empty.	Folder ini kosong.
+Nothing changed by 1 MB or more.	Tidak ada yang berubah 1 MB atau lebih.
+No game is here more than once.	Tidak ada game yang ada lebih dari sekali.
+Nothing obvious to clear.	Tidak ada yang jelas untuk dibersihkan.
+No bookmarks on this drive yet: Square in a folder adds one.	Belum ada penanda di drive ini: Kotak di folder menambahkannya.
+Nothing here.	Tidak ada apa-apa di sini.
+Only the first 100,000 entries are listed.	Hanya 100.000 entri pertama yang didaftar.
+Some of this folder couldn't be read.	Sebagian folder ini tidak bisa dibaca.
+Put back	Pulihkan
+Size	Ukuran
+Empty the bin	Kosongkan tempat sampah
+How long	Berapa lama
+How far back	Rentang waktu
+Look again	Cari lagi
+What it's made of	Isinya
+Items	Item
+Files	File
+Rescan this	Pindai ulang
+Unbookmark	Hapus penanda
+Bookmark	Tandai
+Remove	Hapus
+Unkeep	Batal pertahankan
+Keep	Pertahankan
+Search	Cari
+Delete for good	Hapus selamanya
+Clear search	Hapus pencarian
+Up	Naik
+Files here	File di sini
+Smaller folders	Folder kecil
+Map of the drive	Peta drive
+  ·  %s file	  ·  %s file
+  ·  %s files	  ·  %s file
+Go in	Masuk
+Pick a box	Pilih kotak
+Music on: Relaxing music by Piotr Witowski, from Pixabay	Musik nyala: musik santai oleh Piotr Witowski, dari Pixabay
+No memory to write the report.	Memori tidak cukup untuk menulis laporan.
+Writing the report...	Menulis laporan...
+Report saved: %s (and .csv)	Laporan disimpan: %s (dan .csv)
+The report couldn't be written (see the log).	Laporan tidak bisa ditulis (lihat log).
+%d game	%d game
+%d bookmark	%d penanda
+%d bookmarks	%d penanda
+%d scan	%d pemindaian
+%d scans	%d pemindaian
+%s used	%s terpakai
+%s in 30 days	%s dalam 30 hari
+Space over time	Ruang dari waktu ke waktu
+Export a report	Ekspor laporan
+Buttons	Tombol
+About	Tentang
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	Yang mungkin aman dihapus: paket sisa, cache, salinan game tambahan, instalasi yang tidak selesai.
+Games held more than once, here or on another drive, and what removing the extra copies would free.	Game yang ada lebih dari sekali, di sini atau di drive lain, dan ruang yang terbebas jika salinan tambahannya dihapus.
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	File yang sama byte demi byte, di tempat Anda menyimpan barang: image disk, media, paket, folder Anda.
+Games here, the longest unplayed first: good ones to clear if you're done with them.	Game di sini, yang paling lama tidak dimainkan dulu: kandidat bagus untuk dihapus jika sudah selesai.
+The folders holding the most, at any depth.	Folder yang paling banyak memakai ruang, di kedalaman mana pun.
+Everything over a size, untouched for a while.	Semua di atas suatu ukuran, lama tak disentuh.
+The drive's files by type: disc images, packages, video, saves...	File di drive menurut jenis: image cakram, paket, video, simpanan...
+The drive as boxes sized by the space they take: X goes into one.	Drive sebagai kotak seukuran ruang yang dipakai: X masuk ke salah satunya.
+Folders you've bookmarked (Square in a folder).	Folder yang Anda tandai (Kotak di folder).
+What grew, shrank, appeared or went since the scan before.	Yang bertambah, berkurang, muncul, atau hilang sejak pemindaian sebelumnya.
+Used space scan by scan, by category.	Ruang terpakai dari pemindaian ke pemindaian, per kategori.
+What's been added or changed lately, newest first: what's taken your space.	Yang baru ditambahkan atau diubah, terbaru dulu: yang memakan ruang Anda.
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	Pemindaian sebagai file teks dan lembar kerja (CSV), di HDD atau drive USB.
+The internal HDD's own record of its wear (SMART).	Catatan keausan milik HDD internal sendiri (SMART).
+What's been deleted, waiting to go for good: put it back, or empty the bin.	Yang sudah dihapus, menunggu hilang selamanya: pulihkan, atau kosongkan tempat sampah.
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	Bahasa, musik, suara, ukuran, warna, pemindaian, peredupan, penghapusan.
+What every button does, screen by screen.	Fungsi setiap tombol, layar demi layar.
+Version, credits and licences.	Versi, kredit, dan lisensi.
+Explore	Jelajahi
+The drive as boxes sized by the space they take: Circle goes into one.	Drive sebagai kotak seukuran ruang yang dipakai: Lingkaran masuk ke salah satunya.
+After the next scan of this drive.	Setelah pemindaian berikutnya pada drive ini.
+The internal HDD only.	Hanya HDD internal.
+Move	Bergerak
+Close	Tutup
+Only one scan so far: the chart grows with each scan.	Baru satu pemindaian: grafik bertambah dengan setiap pemindaian.
+No scans kept yet.	Belum ada pemindaian yang disimpan.
+−%s used since %s	−%s terpakai sejak %s
++%s used since %s	+%s terpakai sejak %s
+(%s rescanned)	(%s dipindai ulang)
+Choose a scan	Pilih pemindaian
+Start screen	Layar awal
+Pick Scan, Last scan, Tools or Settings	Pilih Pindai, Pemindaian terakhir, Alat, atau Pengaturan
+Change drive (when a USB drive is plugged in)	Ganti drive (saat drive USB tercolok)
+Twice: quit	Dua kali: keluar
+Pick a category (its part of the ring stands out)	Pilih kategori (bagiannya di cincin menonjol)
+Open the category's items	Buka item kategori
+The largest items on the drive	Item terbesar di drive
+Scan the drive again	Pindai ulang drive
+The menu (not while scanning)	Menu (tidak saat memindai)
+Stop a scan, or back to the start screen	Hentikan pemindaian, atau kembali ke layar awal
+Lists	Daftar
+A page at a time (or Left and Right)	Satu halaman sekaligus (atau Kiri dan Kanan)
+Open: a folder, a game's parts, the files of a type	Buka: folder, bagian-bagian game, file sebuah jenis
+Sort: largest, smallest, A-Z	Urutkan: terbesar, terkecil, A-Z
+Change tab	Ganti tab
+A category's list: scan just that category again. Largest: items or files	Di daftar kategori: pindai ulang kategori itu saja. Di Terbesar: item atau file
+Delete the row (when deleting is allowed in Settings)	Hapus baris (jika penghapusan diizinkan di Pengaturan)
+Back (a search is cleared first; in a folder, up one)	Kembali (pencarian dihapus dulu; di folder, naik satu)
+Deleting	Penghapusan
+Pick Delete or Cancel	Pilih Hapus atau Batal
+Hold on Delete for 2 seconds to delete	Tahan pada Hapus selama 2 detik untuk menghapus
+Cancel, or stop between files	Batal, atau hentikan di antara file
+Drive health and Settings	Kesehatan drive dan Pengaturan
+Read the drive's health again	Baca ulang kesehatan drive
+Drive health: its readings over time	Kesehatan drive: pembacaannya dari waktu ke waktu
+Drive health: what it all means	Kesehatan drive: apa arti semuanya
+Change a setting	Ubah pengaturan
+Keeping, the bin, filters	Mempertahankan, tempat sampah, filter
+Free up space, Duplicates: keep a row off them (or back on)	Kosongkan ruang, Duplikat: keluarkan satu baris (atau kembalikan)
+A game's screen: what it's made of	Layar sebuah game: isinya
+Recycle bin: put it back (Square there empties the bin)	Tempat sampah: pulihkan (Kotak di sana mengosongkannya)
+Size filter: the size (Square there: how long)	Filter ukuran: ukurannya (Kotak di sana: berapa lama)
+Recently added: how far back	Baru ditambahkan: rentang waktu
+Folders, Map, Space over time	Folder, Peta, Ruang dari waktu ke waktu
+In a folder: bookmark it (or remove the bookmark)	Di folder: tandai (atau hapus penandanya)
+Map: go into the box picked	Peta: masuk ke kotak yang dipilih
+Map: pick a box. Space over time: pick a scan	Peta: pilih kotak. Ruang dari waktu ke waktu: pilih pemindaian
+Anywhere	Di mana saja
+Music off or on	Matikan atau nyalakan musik
+When the screen's dimmed: any button wakes it	Saat layar diredupkan: tombol apa pun membangunkannya
+When HDD Atlas starts	Saat HDD Atlas dimulai
+Held: the 4:3 layout on a widescreen TV	Ditahan: tata letak 4:3 di TV layar lebar
+Held: drawn by the CPU instead of the graphics chip	Ditahan: digambar oleh CPU, bukan chip grafis
+Save the report where?	Simpan laporan di mana?
+On the HDD, in HDD Atlas's folder	Di HDD, di folder HDD Atlas
+On %s	Di %s
+Language	Bahasa
+Sound effects	Efek suara
+Sizes	Ukuran
+Accent colour	Warna aksen
+Rescan at start	Pindai saat mulai
+Scan USB drives	Pindai drive USB
+Dim the screen	Redupkan layar
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	Otomatis mengikuti bahasa PS3. Terjemahannya dari HDD Atlas dan belum diperiksa penutur asli.
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	Seberapa keras musik latar di bawah suara klik. R3 mematikan atau menyalakannya di mana saja.
+The clicks when you move and press.	Suara klik saat Anda bergerak dan menekan.
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024 adalah cara XMB menghitung (931 GB untuk drive 1 TB); 1000 adalah cara kotak drive menghitung (1 TB).
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	Warna yang dipilih. Kontras tinggi membuatnya kuning dan teks abu-abu lebih terang.
+When the free space has moved since the last scan, scan again by itself at start.	Jika ruang kosong berubah sejak pemindaian terakhir, pindai ulang sendiri saat mulai.
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	Pindai sendiri drive USB saat dicolokkan (jika tidak ada pemindaian lain).
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	Setelah selama ini tanpa tombol, layar menjadi gelap (tombol apa pun membangunkannya): baik untuk TV plasma dan OLED.
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	Membolehkan START menghapus baris di daftar: image cakram, cadangan folder, paket sisa, ROM, dan cache webMAN.
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	Yang dihapus menunggu di tempat sampah di drive-nya (Tempat sampah di menu) selama ini, agar bisa dipulihkan. Mati menghapus langsung.
+Automatic: %s	Otomatis: %s
+Off	Mati
+On	Nyala
+1 GB = 1000 MB (as on the box)	1 GB = 1000 MB (seperti di kotak)
+1 GB = 1024 MB (as the XMB)	1 GB = 1024 MB (seperti XMB)
+When free space has moved	Jika ruang kosong berubah
+When plugged in	Saat dicolokkan
+After %d minutes	Setelah %d menit
+Keep %d days	Simpan %d hari
+Until it's emptied	Sampai dikosongkan
+Off: delete at once	Mati: hapus langsung
+Change	Ubah
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	Font: Poppins (SIL Open Font License) dan DejaVu Sans.
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	Gambar tombol: Kenney (CC0). Bendera: flag-icons (MIT).
+The hard disk icon: "Internal Clear" by Rick Patrick.	Ikon hard disk: "Internal Clear" oleh Rick Patrick.
+Menu icons: Tanah Basah, from Flaticon.	Ikon menu: Tanah Basah, dari Flaticon.
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	Musik: "Relaxing Music (Part 1)" oleh Piotr Witowski, dari Pixabay.
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	Gambar, font, dan musik didekode dengan stb_image, stb_truetype, dan stb_vorbis (domain publik).
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	Drive NTFS: libntfs_ext oleh Estwald, dari NTFS-3G (GPL-2.0).
+Built with PSL1GHT and the ps3toolchain.	Dibuat dengan PSL1GHT dan ps3toolchain.
+Made by	Dibuat oleh
+Thanks to	Terima kasih kepada
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas adalah perangkat lunak bebas di bawah GPL-2.0. Lisensinya ada di USRDIR/data/licenses.

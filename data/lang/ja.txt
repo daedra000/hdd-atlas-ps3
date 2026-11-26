@@ -1,0 +1,652 @@
+# HDD Atlas in Japanese: "English<TAB>translation" a line; \n is a new line.
+# Keep every %s, %d... in the same order. Written for HDD Atlas, not yet checked by a native speaker: corrections welcome.
+webMAN needs this to mount a game from an NTFS drive.	webMANがNTFSドライブのゲームをマウントするのに必要です。
+A disc image's decryption key: webMAN needs it to mount it.	ディスクイメージの復号キー：webMANがマウントに使います。
+Installed games: delete them from the XMB (it keeps their icons).	インストール済みのゲームは XMB から削除してください（アイコンの管理のため）。
+Music, video and photos: delete them from the XMB (it keeps a list of them).	ミュージック・ビデオ・フォトは XMB から削除してください（一覧の管理のため）。
+Saves, trophies and licences: delete them from the XMB.	セーブデータ、トロフィー、ライセンス：XMB から削除してください。
+The system's own: never deleted.	システムのもの：削除されることはありません。
+TB	TB
+GB	GB
+MB	MB
+KB	KB
+B	B
+reallocated sectors	個の代替処理済みセクター
+sectors waiting to be reallocated	個の代替処理待ちセクター
+uncorrectable sectors	個の修正不能セクター
+reported uncorrectable errors	件の報告された修正不能エラー
+reallocation events	回の代替処理
+Life left	残り寿命
+Wear levelling count	ウェアレベリング回数
+Used reserve blocks	使用済み予備ブロック
+Unused reserve blocks	未使用予備ブロック
+Media wearout	メディアの摩耗
+Reserved space left	残り予備領域
+Total written	総書き込み量
+Read error rate	読み取りエラー率
+Throughput performance	転送性能
+Spin-up time	スピンアップ時間
+Start/stop count	起動・停止回数
+Reallocated sectors	代替処理済みセクター
+Seek error rate	シークエラー率
+Seek time performance	シーク性能
+Power-on hours	通電時間
+Spin retry count	スピンアップ再試行
+Calibration retries	キャリブレーション再試行
+Power cycles	電源投入回数
+Program fails	書き込み失敗
+Erase fails	消去失敗
+Unexpected power losses	予期しない電源断
+Wear range delta	摩耗の差
+Interface downshifts	インターフェース速度低下
+End-to-end errors	エンドツーエンドエラー
+Reported uncorrectable	報告された修正不能
+Command timeouts	コマンドタイムアウト
+High fly writes	高すぎる書き込み
+Airflow temperature	エアフロー温度
+G-sense errors	衝撃エラー
+Power-off retracts	電源断時の退避
+Load cycles	ロード回数
+Temperature	温度
+ECC recovered	ECC で修正
+Reallocation events	代替処理回数
+Pending sectors	代替処理待ちセクター
+Uncorrectable sectors	修正不能セクター
+Interface CRC errors	インターフェース CRC エラー
+Write error rate	書き込みエラー率
+Disk shift	ディスクのずれ
+Loaded hours	ヘッドロード時間
+Load retries	ロード再試行
+Load friction	ロード摩擦
+Load-in time	ロード時間
+Head flying hours	ヘッド浮上時間
+Total read	総読み取り量
+Free fall events	落下検出
+Vendor specific	ベンダー固有
+Games & game data	ゲームとゲームデータ
+Disc game backups	ゲームディスクのバックアップ
+Saves, trophies & licences	セーブデータ、トロフィー、ライセンス
+Themes	テーマ
+Music, video & photos	ミュージック、ビデオ、フォト
+Packages, tmp & caches	パッケージ、tmp、キャッシュ
+System & other folders	システムとその他のフォルダー
+System partitions	システムパーティション
+Unaccounted	未集計
+Games	ゲーム
+Backups	バックアップ
+Saves	セーブ
+Media	メディア
+Packages	パッケージ
+System	システム
+Partitions	パーティション
+%s stopped answering during its scan, and every NTFS drive waits on it: restart the console to use them again.	%s がスキャン中に応答しなくなり、すべての NTFS ドライブがその完了を待っています。再び使うには本体を再起動してください。
+%s stopped answering during its scan: restart the console to use it again.	%s がスキャン中に応答しなくなりました。再び使うには本体を再起動してください。
+Emptied %d old entries from the recycle bin: %s freed.	ごみ箱から古い項目を %d 件削除しました：%s 空きました。
+No scan can start till the console restarts: %s stopped answering during its scan.	本体を再起動するまでスキャンを開始できません。%s がスキャン中に応答しなくなりました。
+A scan of %s is running: one at a time.	%s をスキャン中です：一度に一つずつです。
+Drive health found this drive wearing out: back up what matters first.	ドライブが摩耗しています。先に大切なものをバックアップしてください。
+Scanning: things may be slow until it's done. The menu's back after it.	スキャン中：終わるまで動作が遅くなることがあります。メニューは終了後に使えます。
+The scan couldn't start (see the log).	スキャンを開始できませんでした（ログを確認してください）。
+Rescanning %s; the rest stays as it was.	%s を再スキャン中。それ以外はそのままです。
+Internal HDD	内蔵 HDD
+Scan of %s finished in %.1f s.	%s のスキャンが %.1f 秒で完了しました。
+Scan stopped. The last scan is shown.	スキャンを中止しました。前回のスキャンを表示しています。
+The scan didn't finish (see the log).	スキャンが完了しませんでした（ログを確認してください）。
+The disk's parts outside the drive HDD Atlas scans: a 2 GB game cache, the system's flash on most models, and the file system's records of every file (a few percent of the disk). None of it can be cleared.	HDD Atlas がスキャンするドライブ以外のディスク領域：2 GB のゲームキャッシュ、多くのモデルでのシステムフラッシュ、ファイルシステムが各ファイルについて持つ記録（ディスクの数パーセント）。どれも空けることはできません。
+Used space no file accounts for. Most of it is what the file system keeps free for itself: 8 percent of the drive as sold, 1 percent after webMAN's unlockhdd. The rest is files' last blocks, rounded up. None of it can be cleared from here.	どのファイルにも当たらない使用領域。ほとんどはファイルシステムが自分用に空けておく領域です：出荷時はドライブの 8 パーセント、webMAN の unlockhdd 後は 1 パーセント。残りはファイルの最後のブロックの切り上げ分です。ここからは空けられません。
+Here the files add up to more than the used space: some are counted twice. webMAN can link a game's files between GAMES and game, one copy on the disk counted as two.	ここではファイルの合計が使用領域を超えています：二重に数えられているものがあります。webMAN はゲームのファイルを GAMES と game の間でリンクできるため、ディスク上の 1 つが 2 つとして数えられます。
+Press Circle again to quit.	もう一度戻るボタンを押すと終了します。
+Press X again to quit.	もう一度戻るボタンを押すと終了します。
+The menu opens once the scan's done.	メニューはスキャンが終わってから開けます。
+Not scanned yet	まだスキャンしていません
+Free space has dropped by %s since this scan	このスキャン以降、空き容量が %s 減りました
+Free space has grown by %s since this scan	このスキャン以降、空き容量が %s 増えました
+Scanned %s  ·  1 delete since	スキャン %s  ·  その後の削除 1 件
+Scanned %s  ·  %u deletes since	スキャン %s  ·  その後の削除 %u 件
+Scanned %s  ·  took %.0f s	%s にスキャン  ·  所要 %.0f 秒
+%s used of %s	%s 使用中 / %s
+%s used of %s  ·  %s	%s 使用中 / %s  ·  %s
+%s files in %s folders	%s 個のファイル、%s 個のフォルダー
+  ·  %llu couldn't be read (skipped)	  ·  %llu 個は読み取れませんでした（スキップ）
+%s free	空き %s
+%s free  ·  drive size unknown	空き %s  ·  ドライブ容量不明
+%s  ·  %u item	%s  ·  %u 項目
+%s  ·  %u items	%s  ·  %u 項目
+No scan of %s yet. Press Triangle to scan it.	%s はまだスキャンしていません。△ を押してスキャンします。
+(%s is being scanned: one at a time.)	（%s をスキャン中：一度に一つずつです。）
+Scanning %s	%s をスキャン中
+%d%%  ·  %s of %s  ·  %s files	%d%%  ·  %s / %s  ·  %s 個のファイル
+%s  ·  %s files	%s  ·  %s 個のファイル
+The first scan of a full HDD can take a few minutes.	いっぱいの HDD の初回スキャンには数分かかることがあります。
+Scanning  %d%%	スキャン中  %d%%
+Scanning %s  %d%%  ·  %s files	%s をスキャン中  %d%%  ·  %s 個のファイル
+%s files	%s ファイル
+%s gave read errors, so the scan skipped what it couldn't read. That's usually a sign of bad sectors.	%s で読み取りエラーが出たため、スキャンは読めなかった部分を飛ばしました。たいていは不良セクタのしるしです。
+%s gave read errors, so the scan couldn't finish. That's usually a sign of bad sectors.	%s で読み取りエラーが出たため、スキャンを最後まで終えられませんでした。たいていは不良セクタのしるしです。
+Drive health shows whether the drive has bad sectors, and what to do if it has.	ドライブの健康状態で、不良セクターの有無と、ある場合の対処がわかります。
+Some of the drive couldn't be read	ドライブの一部が読めませんでした
+The scan didn't finish	スキャンが終わりませんでした
+OK	OK
+Drive health	ドライブの健康状態
+%s didn't answer for 5 minutes, so the scan was given up. That's usually the drive failing to read here:	%s が 5 分間応答しなかったため、スキャンを中止しました。多くの場合、ドライブがここを読み取れていません：
+Please send hddatlas_log.txt, in /dev_hdd0/game/HDAT00001/USRDIR, to ps3.world/contact (hddatlas_log_prev.txt if HDD Atlas has been started again since). Another scan may not start till the console's restarted.	/dev_hdd0/game/HDAT00001/USRDIR の hddatlas_log.txt を ps3.world/contact に送ってください（その後 HDD Atlas を起動し直した場合は hddatlas_log_prev.txt）。本体を再起動するまで、次のスキャンが始まらないことがあります。
+The scan got stuck	スキャンが止まりました
+Check this drive's health on a PC (its SMART data) before trusting it with more.	これ以上データを任せる前に、PC でこのドライブの健康状態（SMART）を確認してください。
+Overview	概要
+Open	開く
+What's this	これは何
+Largest	最大
+Largest items	最大の項目
+Rescan	再スキャン
+Scan	スキャン
+Stop scan	スキャン中止
+Back	戻る
+Menu	メニュー
+Music off	音楽オフ
+Music on	音楽オン
+Drive	ドライブ
+Deleting is off.	削除はオフです。
+Deleting is off: turn it on in Settings (START on the overview).	削除はオフです：設定でオンにしてください（概要で START）。
+This NTFS drive is read-only: Windows didn't close it cleanly.	このNTFSドライブは読み取り専用です：Windowsが正しく閉じていません。
+This can't be deleted here.	これはここでは削除できません。
+A package is being installed: delete this once that's done.	パッケージをインストール中です。終わってから削除してください。
+Wait for the scan to finish, then delete.	スキャンの完了を待ってから削除してください。
+The recycle bin's empty.	ごみ箱は空です。
+The recycle bin	ごみ箱
+Not deleted	削除されませんでした
+No memory to start.	開始するためのメモリが足りません。
+Deleted	削除しました
+Stopped part way	途中で止めました
+Not deleted: it isn't the same as %s, byte for byte.	削除していません：%s と 1 バイト単位まで同じではありません。
+Not deleted: it's still changing, so an install may be writing to it. Try again later.	削除していません：まだ変化しているため、インストールが書き込み中かもしれません。後でもう一度。
+Not deleted: an install wrote to it in the last day and may still need it. Try again tomorrow.	削除していません：直近 1 日以内にインストールが書き込んでおり、まだ必要かもしれません。明日もう一度。
+Not deleted: the other copy (%s) isn't there any more, so this is the last one.	削除していません：もう一方のコピー（%s）がもうないため、これが最後の 1 つです。
+In the recycle bin	ごみ箱にあります
+Moved to the recycle bin (%s). It's freed when the bin's emptied: the menu's Recycle bin.	ごみ箱に移しました（%s）。ごみ箱を空にすると容量が空きます：メニューの「ごみ箱」。
+Deleted: %s freed.	削除しました：%s を解放しました。
+Stopped part way: %s freed, the rest is still there.	途中で止めました：%s を解放、残りはそのままです。
+Deleted, but %u entries were left (links, or ones that wouldn't go): %s freed.	削除しましたが %u 個が残りました（リンク、または削除できなかったもの）：%s を解放しました。
+Not deleted: error 0x%08x at %s. %s freed.	削除されませんでした：エラー 0x%08x（%s）。%s を解放しました。
+Deleting is on: START on a row that can go.	削除はオンです：削除できる行で START を押してください。
+Allow deleting?	削除を許可しますか？
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold X to confirm. Deleted files don't come back.	HDD Atlas はディスクイメージ（PS3ISO、PS2ISO…）、GAMES 内のフォルダーバックアップ、残ったパッケージ、ROM、webMAN のキャッシュを削除できるようになります：一度に一行ずつ、それぞれ X を長押しして確認した後に。削除したファイルは戻りません。
+HDD Atlas will be able to delete disc images (PS3ISO, PS2ISO...), folder backups in GAMES, leftover packages, ROMs and webMAN's cache: one row at a time, each after you hold Circle to confirm. Deleted files don't come back.	HDD Atlas はディスクイメージ（PS3ISO、PS2ISO…）、GAMES 内のフォルダーバックアップ、残ったパッケージ、ROM、webMAN のキャッシュを削除できるようになります：一度に一行ずつ、それぞれ ○ を長押しして確認した後に。削除したファイルは戻りません。
+Installed games, saves, trophies, music, video and photos stay with the XMB (it keeps a list of them). The system's folders are never touched. Settings turns this off again.	インストール済みのゲーム、セーブデータ、トロフィー、ミュージック、ビデオ、フォトは XMB の管理のままです（XMB が一覧を管理しています）。システムのフォルダーには一切触れません。設定でまたオフにできます。
+Allow deleting	削除を許可
+Cancel	キャンセル
+Delete this disc image?	このディスクイメージを削除しますか？
+Delete this folder backup?	このフォルダーバックアップを削除しますか？
+Delete this package?	このパッケージを削除しますか？
+Delete this ROM?	この ROM を削除しますか？
+Delete this webMAN cache file?	この webMAN キャッシュファイルを削除しますか？
+Delete this leftover install?	この未完了のインストールを削除しますか？
+Delete it for good?	完全に削除しますか？
+Delete this system update?	このシステムアップデートを削除しますか？
+Empty the recycle bin?	ごみ箱を空にしますか？
+Move it to the recycle bin?	ごみ箱に移しますか？
+Deleting...	削除中…
+and %s with it	と %s も一緒に
+Nothing's freed till the recycle bin's emptied.	ごみ箱を空にするまで容量は空きません。
+Free: %s  →  about %s	空き：%s  →  約 %s
+If it was a game update, install that update again afterwards.	ゲームのアップデートだった場合は、後でそのアップデートを入れ直してください。
+It can't be undone.	元に戻せません。
+It waits in the recycle bin for %d days first.	まず %d 日間ごみ箱に残ります。
+It waits in the recycle bin till that's emptied.	ごみ箱を空にするまで残ります。
+Delete	削除
+Hold to delete	長押しで削除
+Back to Cancel	キャンセルに戻る
+Pick Delete	削除を選ぶ
+Checking it's the same as the other copy: %s of %s	もう一方のコピーと同じか確認中：%s / %s
+Stopping...	停止中…
+Stop	停止
+%s of %s files  ·  %s	%s / %s 個のファイル  ·  %s
+%s went from %lld to %lld since %s.	%s：%lld から %lld に増加（%s 以降）。
+The journal couldn't be written in USRDIR, so the drive wasn't asked.	USRDIR にジャーナルを書き込めなかったため、ドライブには問い合わせていません。
+lv2 wouldn't open the drive (0x%08x).	lv2 がドライブを開けませんでした（0x%08x）。
+The drive didn't answer IDENTIFY (0x%08x).	ドライブが IDENTIFY に応答しませんでした（0x%08x）。
+The drive didn't give its SMART data (0x%08x).	ドライブが SMART データを返しませんでした（0x%08x）。
+The drive answered, but with nothing that reads as IDENTIFY (an emulator does this).	ドライブは応答しましたが、IDENTIFY として読める内容ではありませんでした（エミュレーターではこうなります）。
+No memory for the reading.	読み取り用のメモリが足りません。
+GOOD	良好
+CAUTION	注意
+FAILING	故障の恐れ
+%s is at %d, at or below its threshold of %d: the drive says it's failing.	%s は %d で、しきい値 %d 以下です：ドライブは故障しかけていると報告しています。
+%s is at %d, at or below its threshold of %d.	%s は %d で、しきい値 %d 以下です。
+%lld %s: the flash is wearing. Keep a backup of what matters.	%lld %s：フラッシュが摩耗しています。大切なものはバックアップしてください。
+%lld %s: the surface is wearing. Keep a backup of what matters.	%lld %s：ディスク面が摩耗しています。大切なものはバックアップしてください。
+Life left is at %d%%: the flash is nearly worn out. Keep a backup of what matters.	残り寿命 %d%%：フラッシュがほぼ寿命です。大切なものはバックアップしてください。
+Running hot (%d °C). Check the console's vents.	高温です（%d °C）。本体の通気口を確認してください。
+No reallocated, pending or uncorrectable sectors, and nothing past its threshold.	代替処理済み・処理待ち・修正不能のセクターはなく、しきい値を下回るものもありません。
+SSD	SSD
+%d rpm	%d rpm
+%s  ·  %s%s%s  ·  firmware %s  ·  serial %s	%s  ·  %s%s%s  ·  ファームウェア %s  ·  シリアル %s
+internal drive	内蔵ドライブ
+internal HDD	内蔵 HDD
+  ·  (the data's checksum is off)	  ·  （データのチェックサムが合いません）
+Powered on	通電時間
+Reallocated	代替処理済み
+Pending	処理待ち
+Uncorrectable	修正不能
+%s h	%s 時間
+%lld days	%lld 日
+sectors	セクター
+Read on	読み取り日時
+No readings kept yet.	保存された読み取りはまだありません。
+Attribute	属性
+Value	現在値
+Worst	最悪値
+Thresh.	しきい値
+Threshold	しきい値
+Raw	生の値
+pre-fail	故障予兆
+The verdict	判定
+Good: no worn sectors, nothing past its threshold, and not running hot. Caution: the drive works, but some sectors have worn out, an old-age attribute is past its threshold, or it's above 55 °C: keep a backup of what matters. Failing: a pre-fail attribute is at or below its threshold, so the drive itself expects to fail soon: copy off what you want to keep.	良好：摩耗したセクターがなく、しきい値に達した属性もなく、熱くなりすぎていません。注意：ドライブは動いていますが、一部のセクターが摩耗した、経年劣化の属性がしきい値を超えた、または 55 °C を超えています：大切なもののバックアップを取ってください。故障の恐れ：故障予兆の属性がしきい値以下になっており、ドライブ自身がまもなく故障すると見ています：残したいものをコピーしてください。
+The six figures	6 つの数値
+Temperature: under 50 °C is comfortable; above 55 °C, check the console's vents and dust. Powered on: the hours the drive has run in its life. Power cycles: how many times it's been switched on.	温度：50 °C 未満なら快適です。55 °C を超えたら、本体の通気口とほこりを確認してください。通電時間：ドライブがこれまでに動いた時間。電源投入回数：電源が入った回数。
+Bad sectors	不良セクター
+Reallocated: sectors that went bad and were swapped for spares. Pending: sectors the drive couldn't read, waiting to be rewritten or swapped. Uncorrectable: reads that failed even after error correction, so what was there may be lost. On a healthy drive all three are 0. A few isn't fatal, but a count that keeps growing is the surest sign a drive is on its way out.	代替処理済み：傷んで予備のセクターに置き換えられたセクター。処理待ち：ドライブが読み取れず、書き直しか置き換えを待っているセクター。修正不能：エラー訂正をしても失敗した読み取りで、中身が失われている可能性があります。健全なドライブでは 3 つとも 0 です。少しなら致命的ではありませんが、増え続ける数値は寿命が近いいちばん確かなサインです。
+The table	表
+The drive scores each attribute. Value is the score now (usually 100 or 200 when new; lower is worse), Worst is the lowest it's ever been, and Threshold is the maker's limit: at or below it, that attribute has failed. Raw is the drive's own count behind the score (hours, sectors, degrees). What it means differs from maker to maker, so compare a drive with its own earlier readings, not with another drive.	ドライブは各属性に点数をつけます。現在値は今の点数（新品では通常 100 か 200、低いほど悪い）、最悪値はこれまでの最低点、しきい値はメーカーが決めた限界で、これ以下になるとその属性は故障とみなされます。生の値は点数の元になるドライブ自身の数値（時間、セクター数、温度）です。意味はメーカーによって違うので、ほかのドライブではなく、同じドライブの以前の読み取りと比べてください。
+Pre-fail and old-age	故障予兆と経年劣化
+The drive marks every attribute as one or the other. Pre-fail attributes (marked pre-fail in the table) watch for the faults that come before a breakdown: bad sectors, slow spin-up, seek errors. One at or below its threshold means the drive expects to fail soon. The rest are old-age attributes: they follow ordinary wear over the years, like hours and power cycles. One past its threshold means the drive is worn, not that it's about to stop.	ドライブは各属性をどちらかに分類しています。故障予兆の属性（表で「故障予兆」と表示）は、故障の前に現れる問題を見張ります：不良セクター、回転開始の遅れ、シークエラーなど。これがしきい値以下になると、ドライブはまもなく故障すると見ています。残りは経年劣化の属性で、通電時間や電源投入回数のように長年のふつうの摩耗を記録します。これがしきい値を超えても、ドライブが古くなったということで、すぐに止まるという意味ではありません。
+SSDs	SSD
+An SSD shows its life left in place of power cycles: its own estimate of how much of its flash's rated wear is left, 100% when new. At 10% or under the verdict says Caution. On an SSD, reallocated counts worn-out blocks of flash swapped for spares, and the verdict waits for 70 °C, as SSDs run warmer. A failing SSD can stop answering instead of reporting errors: if a scan freezes at the same place every time, suspect the drive even when SMART looks good.	SSD では電源投入回数の代わりに残り寿命を表示します。フラッシュの想定摩耗のうち残っている割合をドライブ自身が見積もったもので、新品は 100% です。10% 以下で判定は「注意」になります。SSD の代替処理済みセクターは、予備と交換された摩耗したフラッシュブロックです。SSD は高温になりやすいため、判定は 70 °C まで待ちます。故障しかけた SSD はエラーを報告せずに応答しなくなることがあります。スキャンが毎回同じ場所で止まるなら、SMART が正常に見えてもドライブを疑ってください。
+History	履歴
+Every reading is kept: Square shows them, newest first. A reallocated, pending or uncorrectable count that grew since the reading before shows in yellow. Read the drive now and then (Triangle) so there's something to compare.	読み取りはすべて保存されます：□で新しい順に表示します。前回から増えた代替処理済み・処理待ち・修正不能の数は黄色で表示されます。比べられるよう、ときどきドライブを読み取ってください（△）。
+It only reads	読み取りのみ
+SMART is the drive's own record: HDD Atlas only asks for it, and nothing on the drive changes. It can't mend a worn drive: if it's failing, the answer is a backup and a new drive.	SMART はドライブ自身の記録です。HDD Atlas はそれを読むだけで、ドライブには何も変更を加えません。摩耗したドライブを直すことはできません。故障の恐れがあるなら、バックアップを取って新しいドライブに替えてください。
+1. Copy what matters first	1. まず大切なものをコピー
+Your saves are in /dev_hdd0/home: copy them to a USB drive or a PC with webMAN's FTP or multiMAN. With Apollo Save Tool, export your licences (RAPs), act.dat and trophies too. Keep it all off the console.	セーブデータは /dev_hdd0/home にあります。webMAN の FTP か multiMAN で USB ドライブか PC にコピーしてください。Apollo Save Tool でライセンス（RAP）、act.dat、トロフィーもエクスポートしてください。すべて本体の外に保管しましょう。
+2. Delete what you don't need	2. 不要なものを削除
+Old disc images, leftover packages, caches: then there's less to copy, and less to read from a failing drive. Deleting a file hardly reads it.	古いディスクイメージ、残ったパッケージ、キャッシュなど。コピーする量も、壊れかけたドライブから読む量も減ります。削除ではファイルはほとんど読まれません。
+3. Don't scan again and again	3. 何度もスキャンしない
+A scan reads every folder on the drive. Where the drive can't read, a scan can stop (HDD Atlas gives up after 5 minutes), and a drive that keeps retrying wears faster.	スキャンはドライブのすべてのフォルダを読みます。読めない場所ではスキャンが止まることがあり（HDD Atlas は 5 分で中止します）、再試行を繰り返すドライブは早く傷みます。
+4. Replace the drive	4. ドライブを交換
+A worn drive can't be mended, and it only gets worse. The PS3's Backup Utility is only a second safety net: it keeps no trophies, takes hours, and can fail on a damaged file. Copying the drive on a PC doesn't work: it's encrypted to this console. The whole swap, step by step: ps3.world/upgrade-storage	摩耗したドライブは直らず、悪くなる一方です。PS3 のバックアップユーティリティは予備の保険にすぎません。トロフィーは保存されず、何時間もかかり、壊れたファイルで失敗することがあります。PC でドライブを丸ごとコピーしても使えません。この本体用に暗号化されているためです。交換の手順はこちら：ps3.world/upgrade-storage
+If the drive is wearing out	ドライブが摩耗している場合
+What it means	これはどういう意味か
+SMART, read at %s	SMART、%s に読み取り
+Scroll	スクロール
+Read the internal HDD's health?	内蔵 HDD の健康状態を読み取りますか？
+HDD Atlas will ask the drive for its SMART data: its own count of hours, errors and worn-out sectors. It only reads: nothing on the drive changes.\n\nIt asks through the PS3's storage syscalls, which haven't been tried on every console. If it ever freezes this one, HDD Atlas notices on the next start and won't ask the drive again.	HDD Atlas はドライブに SMART データを問い合わせます：ドライブ自身が数えた通電時間、エラー、摩耗したセクターです。読み取るだけで、ドライブの中身は何も変わりません。\n\n問い合わせには PS3 のストレージ用システムコールを使いますが、すべての本体で試されたわけではありません。万一この本体がフリーズした場合、HDD Atlas は次回の起動時にそれに気づき、二度と問い合わせません。
+Reading the drive's health...	ドライブの健康状態を読み取り中…
+Asking the drive for its SMART data.	ドライブに SMART データを問い合わせています。
+Reading the drive's health froze this console last time (at "%s"), so HDD Atlas won't ask the drive again.\n\nTo try anyway, delete smart_journal.txt in /dev_hdd0/game/HDAT00001/USRDIR.	前回ドライブの健康状態を読み取ったときにこの本体がフリーズしたため（「%s」の途中）、HDD Atlas はもう問い合わせません。\n\nそれでも試す場合は、/dev_hdd0/game/HDAT00001/USRDIR の smart_journal.txt を削除してください。
+Not read: it froze the console before	未読み取り：以前に本体がフリーズしました
+The drive's health couldn't be read	ドライブの健康状態を読み取れませんでした
+Read	読み取る
+What to do	対処方法
+Try again	再試行
+Read again	再読み取り
+Attributes	属性
+version %s	バージョン %s
+Once the scan's done.	スキャンが終わってから。
+Scan this drive first.	先にこのドライブをスキャンしてください。
+Last scanned %s	前回のスキャン：%s
+%s used of %s  ·  %s free	%s 使用 / %s  ·  空き %s
+Last time: %u min	前回の所要時間：%u 分
+Last time: %u s	前回の所要時間：%u 秒
+Last scan	前回のスキャン
+Tools	ツール
+Settings	設定
+Go through every folder on the drive and add up what's there.	ドライブのすべてのフォルダーを調べ、中身を合計します。
+What the last scan found, straight away.	前回のスキャン結果をすぐに表示します。
+Free up space, duplicates, the map, drive health and more.	空き容量を増やす、重複、マップ、ドライブの健康状態など。
+Language, music, sounds, sizes, scanning, the dimmer, deleting.	言語、音楽、効果音、サイズ、スキャン、画面の減光、削除。
+What's using your PS3's space, drive by drive, down to the last file.	PS3 の容量を何が使っているのか、ドライブごとに、最後のファイルまで。
+Choose	選択
+Quit	終了
+Blue	青
+Teal	青緑
+Purple	紫
+Pink	ピンク
+Orange	オレンジ
+Green	緑
+High contrast	ハイコントラスト
+Largest first	大きい順
+Smallest first	小さい順
+A-Z	A-Z
+Bookmark removed.	ブックマークを外しました。
+There are 64 bookmarks already: remove one first.	ブックマークはすでに 64 件あります：先に 1 件外してください。
+Bookmarked: it's in the menu's Bookmarks.	ブックマークしました：メニューの「ブックマーク」にあります。
+It's suggested again.	また提案されるようになります。
+There are 512 kept already: unkeep one first.	すでに 512 件を保持しています：先に 1 件解除してください。
+Kept: it won't be suggested again (Square here undoes it).	保持しました：もう提案されません（ここで□を押すと解除）。
+Disc images	ディスクイメージ
+Disc images and data	ディスクイメージとデータ
+Disc image track lists	ディスクイメージのトラック一覧
+Licensed game data	ライセンス付きゲームデータ
+Programs	プログラム
+Game archives	ゲームアーカイブ
+Game data	ゲームデータ
+Music	音楽
+Video	ビデオ
+Pictures	画像
+Licences	ライセンス
+Save and game info	セーブとゲームの情報
+Trophies	トロフィー
+Text and settings	テキストと設定
+Databases	データベース
+Archives	アーカイブ
+ROMs	ROM
+No extension	拡張子なし
+Everything else	その他すべて
+Recycle bin	ごみ箱
+SingStar songs	SingStar の曲
+IRISMAN's cache	IRISMAN のキャッシュ
+Apollo's cache	Apollo のキャッシュ
+multiMAN's covers	multiMAN のカバー
+Firmware update	システムアップデート
+(more items)	（その他の項目）
+Newest first	新しい順
+Oldest first	古い順
+Where it was wasn't saved: it can't be put back, only deleted for good.	元の場所が記録されていません：元に戻せず、完全に削除のみできます。
+The recycle bin's being tidied: try again in a moment.	ごみ箱を整理中です：少ししてからもう一度お試しください。
+Put back, but not its .cue/.bin: that's still in the recycle bin.	元に戻しましたが、.cue/.bin はまだごみ箱にあります。
+Put back where it was. Its size counts again after the next scan.	元の場所に戻しました。サイズは次のスキャン後に再び数えられます。
+Something's where it was now: not put back.	元の場所に別のものがあります：戻していません。
+It couldn't be put back (see the log).	戻せませんでした（ログを参照）。
+It's gone since the scan before.	前回のスキャン以降、なくなりました。
+These are past the 50,000 items a scan keeps apart: their folders aren't listed one by one.	50,000 項目を超えた分です：フォルダーは一つずつ表示されません。
+Search by name	名前で検索
+It isn't there any more.	もうありません。
+It's the only copy left: it isn't deleted from here.	残っている最後のコピーです：ここからは削除しません。
+Game	ゲーム
+Disc game	ディスクゲーム
+Save	セーブ
+App	アプリ
+PS2 game	PS2 ゲーム
+PS1 game	PS1 ゲーム
+PSP game	PSP ゲーム
+Minis	Minis
+Home	Home
+Network	ネットワーク
+%s  ·  %s file	%s  ·  %s ファイル
+%u couldn't be read	%u 個は読み取れませんでした
+New	新規
+Gone	消失
+%s file	%s ファイル
+  ·  %s folder	  ·  %s フォルダー
+  ·  %s folders	  ·  %s フォルダー
+New since the scan: rescan for its size	スキャン後に追加：再スキャンでサイズがわかります
+Past the folders a scan keeps sizes for	スキャンがサイズを記録するフォルダーの範囲外です
+Installed %s	インストール %s
+Backup %s	バックアップ %s
+Saves %s	セーブ %s
+Trophies %s	トロフィー %s
+Kept	保持中
+%d copy	%d 個のコピー
+%d copies	%d 個のコピー
+Game data %s	ゲームデータ %s
+Also on %s (%s)	%s にもあり（%s）
+never	なし
+today	今日
+%d days ago	%d 日前
+%d months ago	%d か月前
+%d years ago	%d 年前
+Last played %s (its newest save)	最終プレイ %s（最新のセーブ）
+Last changed %s	最終変更 %s
+Leftover package (already installed)	残ったパッケージ（インストール済み）
+webMAN's cache (made again when needed)	webMAN のキャッシュ（必要なときに作り直されます）
+Temporary files	一時ファイル
+Extra copy of a game held more than once	複数あるゲームの余分なコピー
+Update for a game that isn't here (keep it if you play the disc)	ここにないゲームのアップデート（ディスクで遊ぶなら残してください）
+Save for a game that isn't here (keep it if you play the disc)	ここにないゲームのセーブ（ディスクで遊ぶなら残してください）
+Left by an install or a delete the system didn't finish	システムが完了しなかったインストールや削除の残り
+No PARAM.SFO: a broken install, or another app's data (check it first)	PARAM.SFO なし：壊れたインストールか別アプリのデータ（要確認）
+Downloaded, not installed yet: install or delete it from the XMB	未インストールのダウンロード：XMB でインストールか削除を
+Waiting to be installed: install or delete it from the XMB	インストール待ち：XMB でインストールか削除を
+A package that isn't installed: install it, or delete it if it's not needed	未インストールのパッケージ：インストールするか、不要なら削除
+An app's cache: clear it in that app (it makes it again)	アプリのキャッシュ：そのアプリで消去してください（再作成されます）
+A system update: not for HEN or CFW (installing it removes them)	システムアップデート：HEN・CFW には不要（入れると消えます）
+Can be deleted	削除できます
+From the XMB	XMB から
+.%s files	.%s ファイル
+Goes for good tomorrow	明日完全に削除
+Goes for good in %d days	%d 日後に完全に削除
+Till the bin's emptied	ごみ箱を空にするまで
+Where it was isn't known  ·  deleted %s	元の場所は不明  ·  削除 %s
+Was in %s  ·  deleted %s	元の場所 %s  ·  削除 %s
+%s each  ·  in %s	各 %s  ·  場所：%s
+What %s is made of	%s の内訳
+The game (with its updates)	ゲーム（アップデート込み）
+Updates and game data	アップデートとゲームデータ
+DLC and add-ons	DLC と追加コンテンツ
+Disc backups	ディスクのバックアップ
+All of it: %s	合計：%s
+Adding up its folders... %s so far	フォルダーを集計中…… 現在 %s
+%s  ·  %s item	%s  ·  %s 項目
+%s  ·  %s items	%s  ·  %s 項目
+Games, all together	ゲームごとの合計
+%d games	%d 本のゲーム
+Duplicates	重複
+Up to %s could be freed	最大 %s を空けられます
+Free up space	空き容量を増やす
+Up to %s	最大 %s
+%s  ·  %d deleted	%s  ·  %d 件削除
+Any age	期間指定なし
+Untouched 6 months or more	6 か月以上使っていない
+Untouched a year or more	1 年以上使っていない
+Untouched 2 years or more	2 年以上使っていない
+Untouched 3 years or more	3 年以上使っていない
+Size filter	サイズで絞り込み
+Over %s	%s 以上
+Any size	サイズ指定なし
+In the last week	この 1 週間
+In the last month	この 1 か月
+In the last 3 months	この 3 か月
+In the last year	この 1 年
+Recently added	最近追加したもの
+Identical files	同一ファイル
+Largest folders	大きいフォルダー
+The %d largest, at any depth	大きい順に %d 件、階層を問わず
+Not played lately	最近遊んでいない
+Bookmarks	ブックマーク
+%d on %s	%d 件（%s）
+File types	ファイルの種類
+%d types	%d 種類
+Largest files	最大のファイル
+The largest .%s files	大きい .%s ファイル
+The %d largest files on the drive	ドライブ上の最大の %d 個のファイル
+Every category	すべてのカテゴリー
+Changes since last scan	前回のスキャンからの変化
+−%s in files since the scan before	前回のスキャンからファイル −%s
++%s in files since the scan before	前回のスキャンからファイル +%s
+%s  ·  %s entry	%s  ·  %s 件
+%s  ·  %s entries	%s  ·  %s 件
+  ·  search: "%s"	  ·  検索：「%s」
+All	すべて
+What's deleted waits here: X puts it back, START deletes it for good, Square empties the bin.	削除したものはここで待機します：X で戻す、START で完全に削除、□でごみ箱を空にします。
+Everything over a size, untouched for a while: L1/R1 change the size, Square how long.	一定のサイズ以上で、しばらく使っていないもの：L1/R1 でサイズ、□で期間を変えます。
+Files the same, byte for byte, where you keep things (never installed games or saves): X shows them.	保管場所にある 1 バイト単位まで同じファイル（インストール済みゲームとセーブは対象外）：X で表示。
+The same file in each place: X opens its folder, START deletes one.	各場所にある同じファイル：X でフォルダーを開き、START で 1 つ削除します。
+What was added or changed lately, newest first: Square changes how far back.	最近追加・変更されたもの（新しい順）：□で期間を変えます。
+What's deleted waits here: Circle puts it back, START deletes it for good, Square empties the bin.	削除したものはここで待機します：○ で戻す、START で完全に削除、□でごみ箱を空にします。
+Files the same, byte for byte, where you keep things (never installed games or saves): Circle shows them.	保管場所にある 1 バイト単位まで同じファイル（インストール済みゲームとセーブは対象外）：○ で表示。
+The same file in each place: Circle opens its folder, START deletes one.	各場所にある同じファイル：○ でフォルダーを開き、START で 1 つ削除します。
+%u files of 1 MB or more looked at, at %s, cut short (Square: again)	1 MB 以上のファイル %u 個を %s に確認、途中で中断（□：もう一度）
+%u files of 1 MB or more looked at, at %s (Square: again)	1 MB 以上のファイル %u 個を %s に確認（□：もう一度）
+Each game's installed data, backups, saves and trophies, added up.	ゲームごとのインストールデータ、バックアップ、セーブ、トロフィーの合計。
+Games held more than once: installed and backed up, backed up twice, or also on another drive.	複数あるゲーム：インストール済みでバックアップもある、バックアップが 2 つある、または別のドライブにもある。
+Likely safe to clear: check each one. START deletes those that can go (Settings).	おそらく削除して大丈夫なもの：一つずつ確認してください。START で削除できるものを削除します（設定）。
+Everything of this game's on the drive: X opens one, START deletes one that can go.	このゲームのドライブ上のすべて：X で開き、START で削除できるものを削除します。
+Where the space really is: a folder that's nearly all one folder is left for that one.	容量が実際にある場所：ほぼ 1 つのフォルダーだけでできたフォルダーは、そのフォルダーに任せます。
+Games here, the longest unplayed first: when their newest save (or file) was written.	ここのゲーム、長く遊んでいない順：最新のセーブ（またはファイル）が書き込まれた日時。
+Square in a folder bookmarks it; here, Square removes one.	フォルダーで□を押すとブックマーク、ここでは□で外します。
+Everything of this game's on the drive: Circle opens one, START deletes one that can go.	このゲームのドライブ上のすべて：○ で開き、START で削除できるものを削除します。
+The scan of %s against the one of %s; 1 MB or more	%s のスキャンと %s のスキャンの比較；1 MB 以上
+Reading the folder...	フォルダーを読み取り中…
+This folder couldn't be read (0x%08x).	このフォルダーを読み取れませんでした（0x%08x）。
+Comparing files of the same size: %u of %u...	同じサイズのファイルを比較中：%u / %u……
+Looking for identical files: %u of 1 MB or more so far...	同一ファイルを探しています：1 MB 以上のファイル %u 個……
+Nothing was added or changed in that time: Square goes further back.	その期間に追加・変更されたものはありません：□で期間を広げます。
+Nothing's that big and that old: L1/R1 or Square widen it.	そんなに大きくて古いものはありません：L1/R1 か□で条件を広げます。
+No identical files found.	同一ファイルは見つかりませんでした。
+Nothing matches the search. Press Circle to clear it.	一致するものがありません。戻るボタンで検索をクリアします。
+Nothing matches the search. Press X to clear it.	一致するものがありません。戻るボタンで検索をクリアします。
+This folder is empty.	このフォルダーは空です。
+Nothing changed by 1 MB or more.	1 MB 以上変化したものはありません。
+No game is here more than once.	複数あるゲームはありません。
+Nothing obvious to clear.	明らかに消せるものはありません。
+No bookmarks on this drive yet: Square in a folder adds one.	このドライブにはまだブックマークがありません：フォルダーで□を押すと追加できます。
+Nothing here.	ここには何もありません。
+Only the first 100,000 entries are listed.	最初の 100,000 件だけを表示しています。
+Some of this folder couldn't be read.	このフォルダーの一部を読み取れませんでした。
+Put back	元に戻す
+Size	サイズ
+Empty the bin	ごみ箱を空にする
+How long	期間
+How far back	期間
+Look again	もう一度探す
+What it's made of	内訳
+Items	項目
+Files	ファイル
+Rescan this	再スキャン
+Unbookmark	ブックマークを外す
+Bookmark	ブックマーク
+Remove	外す
+Unkeep	保持を解除
+Keep	保持
+Search	検索
+Delete for good	完全に削除
+Clear search	検索をクリア
+Up	上へ
+Files here	ここのファイル
+Smaller folders	小さいフォルダー
+Map of the drive	ドライブのマップ
+  ·  %s file	  ·  %s ファイル
+  ·  %s files	  ·  %s ファイル
+Go in	中へ
+Pick a box	ボックスを選ぶ
+Music on: Relaxing music by Piotr Witowski, from Pixabay	音楽オン：Piotr Witowski のリラックス音楽、Pixabay より
+No memory to write the report.	レポートを書き出すためのメモリが足りません。
+Writing the report...	レポートを書き出し中…
+Report saved: %s (and .csv)	保存しました：%s（.csv も）
+The report couldn't be written (see the log).	レポートを書き出せませんでした（ログを確認してください）。
+%d game	%d 本のゲーム
+%d bookmark	ブックマーク %d 件
+%d bookmarks	ブックマーク %d 件
+%d scan	スキャン %d 回
+%d scans	スキャン %d 回
+%s used	%s 使用
+%s in 30 days	30 日で %s
+Space over time	容量の推移
+Export a report	レポートを書き出す
+Buttons	ボタン
+About	情報
+What's likely safe to clear: leftover packages, caches, extra copies of games, unfinished installs.	おそらく削除できるもの：残ったパッケージ、キャッシュ、ゲームの余分なコピー、未完了のインストール。
+Games held more than once, here or on another drive, and what removing the extra copies would free.	複数あるゲーム（ここまたは別のドライブ）と、余分なコピーを削除すると空く容量。
+Files the same, byte for byte, where you keep things: disc images, media, packages, your own folders.	ものを置いている場所で 1 バイト単位まで同じファイル：ディスクイメージ、メディア、パッケージ、自分のフォルダー。
+Games here, the longest unplayed first: good ones to clear if you're done with them.	ここのゲーム、長く遊んでいない順：遊び終えたなら整理に向いています。
+The folders holding the most, at any depth.	最も容量を使っているフォルダー、階層を問わず。
+Everything over a size, untouched for a while.	一定のサイズ以上で、しばらく使っていないもの。
+The drive's files by type: disc images, packages, video, saves...	ドライブのファイルを種類別に：ディスクイメージ、パッケージ、ビデオ、セーブ…
+The drive as boxes sized by the space they take: X goes into one.	使用容量に応じた大きさのボックスでドライブを表示：X でその中へ。
+Folders you've bookmarked (Square in a folder).	ブックマークしたフォルダー（フォルダーで□）。
+What grew, shrank, appeared or went since the scan before.	前回のスキャンから増えた、減った、現れた、消えたもの。
+Used space scan by scan, by category.	スキャンごとの使用容量、カテゴリー別。
+What's been added or changed lately, newest first: what's taken your space.	最近追加・変更されたもの（新しい順）：容量を使っているものがわかります。
+The scan as a text file and a spreadsheet (CSV), on the HDD or a USB drive.	スキャン結果をテキストファイルと表（CSV）にして、HDD か USB ドライブに保存します。
+The internal HDD's own record of its wear (SMART).	内蔵 HDD 自身の摩耗の記録（SMART）。
+What's been deleted, waiting to go for good: put it back, or empty the bin.	削除され、完全に消えるのを待っているもの：戻すか、ごみ箱を空にします。
+Language, music, sounds, sizes, the colour, scanning, the dimmer, deleting.	言語、音楽、効果音、サイズ、色、スキャン、画面の減光、削除。
+What every button does, screen by screen.	各ボタンの働きを画面ごとに。
+Version, credits and licences.	バージョン、クレジット、ライセンス。
+Explore	探索
+The drive as boxes sized by the space they take: Circle goes into one.	使用容量に応じた大きさのボックスでドライブを表示：○ でその中へ。
+After the next scan of this drive.	このドライブを次にスキャンした後に。
+The internal HDD only.	内蔵 HDD のみ。
+Move	移動
+Close	閉じる
+Only one scan so far: the chart grows with each scan.	スキャンはまだ 1 回だけ：スキャンするたびにグラフが伸びます。
+No scans kept yet.	保存されたスキャンはまだありません。
+−%s used since %s	使用量 −%s（%s 以降）
++%s used since %s	使用量 +%s（%s 以降）
+(%s rescanned)	（%s を再スキャン）
+Choose a scan	スキャンを選ぶ
+Start screen	スタート画面
+Pick Scan, Last scan, Tools or Settings	スキャン・前回のスキャン・ツール・設定を選ぶ
+Change drive (when a USB drive is plugged in)	ドライブを切り替え（USB ドライブ接続時）
+Twice: quit	2 回：終了
+Pick a category (its part of the ring stands out)	カテゴリーを選ぶ（リングのその部分が目立ちます）
+Open the category's items	カテゴリーの項目を開く
+The largest items on the drive	ドライブ上の最大の項目
+Scan the drive again	ドライブを再スキャン
+The menu (not while scanning)	メニュー（スキャン中は不可）
+Stop a scan, or back to the start screen	スキャンを止める、またはスタート画面に戻る
+Lists	リスト
+A page at a time (or Left and Right)	1ページずつ（または左右）
+Open: a folder, a game's parts, the files of a type	開く：フォルダー、ゲームの各部分、ある種類のファイル
+Sort: largest, smallest, A-Z	並べ替え：大きい順、小さい順、A-Z
+Change tab	タブを切り替え
+A category's list: scan just that category again. Largest: items or files	カテゴリーのリスト：そのカテゴリーだけ再スキャン。最大の項目：項目かファイルか
+Delete the row (when deleting is allowed in Settings)	行を削除（設定で削除を許可しているとき）
+Back (a search is cleared first; in a folder, up one)	戻る（検索があれば先に消します；フォルダーでは一つ上へ）
+Deleting	削除
+Pick Delete or Cancel	削除かキャンセルを選ぶ
+Hold on Delete for 2 seconds to delete	削除の上で 2 秒長押しして削除
+Cancel, or stop between files	キャンセル、またはファイルの合間で停止
+Drive health and Settings	ドライブの健康状態と設定
+Read the drive's health again	ドライブの健康状態を読み直す
+Drive health: its readings over time	ドライブの健康状態：読み取りの推移
+Drive health: what it all means	ドライブの健康状態：表示の意味
+Change a setting	設定を変更
+Keeping, the bin, filters	保持・ごみ箱・絞り込み
+Free up space, Duplicates: keep a row off them (or back on)	空き容量を増やす・重複：行を対象外にする（または戻す）
+A game's screen: what it's made of	ゲームの画面：内訳
+Recycle bin: put it back (Square there empties the bin)	ごみ箱：元に戻す（そこで□を押すと空にします）
+Size filter: the size (Square there: how long)	サイズで絞り込み：サイズ（そこで□：期間）
+Recently added: how far back	最近追加したもの：期間
+Folders, Map, Space over time	フォルダー、マップ、容量の推移
+In a folder: bookmark it (or remove the bookmark)	フォルダーで：ブックマーク（または解除）
+Map: go into the box picked	マップ：選んだボックスの中へ
+Map: pick a box. Space over time: pick a scan	マップ：ボックスを選ぶ。容量の推移：スキャンを選ぶ
+Anywhere	どこでも
+Music off or on	音楽のオフ・オン
+When the screen's dimmed: any button wakes it	画面が暗いとき：どのボタンでも戻ります
+When HDD Atlas starts	HDD Atlas の起動時
+Held: the 4:3 layout on a widescreen TV	押したまま：ワイドテレビで 4:3 の配置
+Held: drawn by the CPU instead of the graphics chip	押したまま：グラフィックチップではなく CPU で描画
+Save the report where?	レポートの保存先は？
+On the HDD, in HDD Atlas's folder	HDD 上、HDD Atlas のフォルダー
+On %s	%s に
+Language	言語
+Sound effects	効果音
+Sizes	サイズ
+Accent colour	アクセントカラー
+Rescan at start	起動時にスキャン
+Scan USB drives	USB ドライブをスキャン
+Dim the screen	画面を暗くする
+Automatic follows the PS3's own language. Translations are by HDD Atlas, not checked by native speakers yet.	「自動」は PS3 の言語に従います。翻訳は HDD Atlas によるもので、ネイティブスピーカーの確認はまだです。
+How loud the background music is under the click sounds. R3 turns it off or on anywhere.	クリック音の下で流れる BGM の音量です。R3 でどこでもオン・オフできます。
+The clicks when you move and press.	移動やボタンを押したときのクリック音。
+1024 is how the XMB counts (931 GB for a 1 TB drive); 1000 is how drive boxes count (1 TB).	1024 は XMB の数え方（1 TB のドライブで 931 GB）、1000 はドライブの箱の数え方（1 TB）です。
+The colour of what's picked. High contrast makes it yellow and the grey text brighter.	選択中のものの色。ハイコントラストでは黄色になり、灰色の文字が明るくなります。
+When the free space has moved since the last scan, scan again by itself at start.	前回のスキャンから空き容量が変わっていたら、起動時に自動で再スキャンします。
+Scan a USB drive by itself when it's plugged in (when no other scan is running).	USB ドライブを接続したときに自動でスキャンします（他のスキャン中でなければ）。
+After this long without a button, the screen goes dark (any button wakes it): kind to plasma and OLED TVs.	ボタン操作がこの時間ないと画面が暗くなります（どのボタンでも戻ります）：プラズマや有機 EL テレビにやさしい設定です。
+Lets START delete a row in the lists: disc images, folder backups, leftover packages, ROMs and webMAN's cache.	リスト上で START を押して行を削除できるようにします：ディスクイメージ、フォルダーバックアップ、残ったパッケージ、ROM、webMAN のキャッシュ。
+What's deleted waits in the recycle bin on its drive (the menu's Recycle bin) for this long, so it can be put back. Off deletes at once.	削除したものは、そのドライブのごみ箱（メニューの「ごみ箱」）にこの期間残り、戻すことができます。オフはすぐに削除します。
+Automatic: %s	自動：%s
+Off	オフ
+On	オン
+1 GB = 1000 MB (as on the box)	1 GB = 1000 MB（箱の表記）
+1 GB = 1024 MB (as the XMB)	1 GB = 1024 MB（XMB の表記）
+When free space has moved	空き容量が変わったとき
+When plugged in	接続したとき
+After %d minutes	%d 分後
+Keep %d days	%d 日間残す
+Until it's emptied	空にするまで
+Off: delete at once	オフ：すぐに削除
+Change	変更
+Fonts: Poppins (SIL Open Font License) and DejaVu Sans.	フォント：Poppins（SIL Open Font License）と DejaVu Sans。
+Button pictures: Kenney (CC0). Flags: flag-icons (MIT).	ボタンの画像：Kenney（CC0）。国旗：flag-icons（MIT）。
+The hard disk icon: "Internal Clear" by Rick Patrick.	ハードディスクのアイコン：Rick Patrick による「Internal Clear」。
+Menu icons: Tanah Basah, from Flaticon.	メニューのアイコン：Tanah Basah（Flaticon）。
+Music: "Relaxing Music (Part 1)" by Piotr Witowski, from Pixabay.	音楽：Piotr Witowski「Relaxing Music (Part 1)」、Pixabay より。
+Pictures, fonts and music decoded with stb_image, stb_truetype and stb_vorbis (public domain).	画像、フォント、音楽のデコードに stb_image、stb_truetype、stb_vorbis（パブリックドメイン）を使用。
+NTFS drives: libntfs_ext by Estwald, from NTFS-3G (GPL-2.0).	NTFSドライブ：Estwald氏のlibntfs_ext（NTFS-3G由来、GPL-2.0）。
+Built with PSL1GHT and the ps3toolchain.	PSL1GHT と ps3toolchain で作られています。
+Made by	制作
+Thanks to	謝辞
+HDD Atlas is free software under the GPL-2.0. The licences are in USRDIR/data/licenses.	HDD Atlas は GPL-2.0 のフリーソフトウェアです。ライセンスは USRDIR/data/licenses にあります。
