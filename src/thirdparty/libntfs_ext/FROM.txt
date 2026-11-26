@@ -1,0 +1,5 @@
+libntfs_ext, by Estwald: NTFS (read and write) and ext2/3/4 (read) for PSL1GHT.
+From https://github.com/Estwald/libntfs_ext, commit 841e03db712dd267f777154e2f621b38e1ccbccb (2013-11-11).
+Only its .c and .h files, unchanged, and its licences (GPL-2.0), authors and credits.
+Built by Makefile.ps3, without PS3_STDIO (libc's own file calls are left alone).
+HDD Atlas uses its NTFS calls only.
