@@ -1,0 +1,111 @@
+#---------------------------------------------------------------------------------
+# HDD Atlas -- PS3 (PSL1GHT) build, from PS3 World's Makefile.ps3
+#
+#   tools/build.sh                 the PKG (sets PS3DEV/PSL1GHT, then this)
+#   make -f Makefile.ps3 clean
+#
+# Every path here is relative to the project folder (make is run from it):
+# the folder's path has a space in it, and make can't take one.
+#
+# Flags as PS3 World's (from NZ:P PS3 / thug-ps3 on hardware): -O2, -mcpu=cell,
+# no AltiVec, -mminimal-toc and --no-multi-toc (a split TOC hangs at boot).
+# video_ps3.c at -O1 -fno-inline (PSL1GHT's syscall stubs don't survive
+# aggressive inlining). No network, so no mbedTLS.
+#---------------------------------------------------------------------------------
+.SUFFIXES:
+
+ifeq ($(strip $(PSL1GHT)),)
+$(error "Set PSL1GHT (and PS3DEV) in your environment: tools/build.sh does")
+endif
+
+include $(PSL1GHT)/ppu_rules
+BUILD    := build/ps3
+OBJDIR   := $(BUILD)/obj
+
+export TITLE     := HDD Atlas
+export APPID     := HDAT00001
+export CONTENTID := UP0001-$(APPID)_00-0000000000000000
+export ICON0     := art/ICON0.PNG
+export BUILDDIR  := $(BUILD)/package
+export PKGFILES  := $(BUILD)/pkgfiles
+
+TARGET   := $(BUILD)/hddatlas
+
+ifneq ($(strip $(PS3PY_DIR)),)
+PKG := python3 $(PS3PY_DIR)/pkg.py
+endif
+
+SOURCES := src/app.c src/gfx.c src/font.c src/input.c src/jobs.c src/lang.c \
+	src/ui.c src/ui_list.c src/ui_kit.c src/fmt.c src/ring.c src/scan.c src/sfo.c src/icons.c src/health.c src/ui_health.c src/music.c src/i18n.c src/ui_menu.c src/report.c src/iso.c src/games.c src/history.c src/ui_map.c src/ui_home.c src/bin.c src/finds.c src/settings.c src/del.c src/ui_delete.c \
+	src/ps3/main_ps3.c src/ps3/audio_ps3.c src/ps3/video_ps3.c src/ps3/input_ps3.c src/ps3/osk_ps3.c src/ps3/fsx_ps3.c src/ps3/ata_ps3.c src/ps3/del_ps3.c src/ps3/ntfs_ps3.c
+OBJECTS := $(patsubst %.c,$(OBJDIR)/%.o,$(SOURCES))
+
+# libntfs_ext (src/thirdparty/libntfs_ext/FROM.txt): NTFS drives on USB. Its own flags, as its
+# Makefile's, less PS3_STDIO (libc's file calls stay libc's); its warnings aren't ours.
+# -fgnu89-inline -fcommon: it was written for GCC 4 (its "extern inline"s and shared
+# globals are defined once each, as they were then)
+NTFS_DIR  := src/thirdparty/libntfs_ext
+NTFS_SRC  := $(wildcard $(NTFS_DIR)/source/*.c) $(wildcard $(NTFS_DIR)/source/libext2fs/*.c) src/ps3/ntfs_vol.c
+NTFS_OBJ  := $(patsubst %.c,$(OBJDIR)/%.o,$(NTFS_SRC))
+NTFS_LIB  := $(BUILD)/libntfs_ext.a
+NTFS_CFLAGS := -O2 -mcpu=cell -mminimal-toc $(MACHDEP) -fgnu89-inline -fcommon -DBIGENDIAN -fno-strict-aliasing -DPS3_GEKKO -DHAVE_CONFIG_H -w \
+	-MMD -MP -I$(NTFS_DIR)/include -I$(NTFS_DIR)/source $(LIBPSL1GHT_INC) -I$(PORTLIBS)/include
+
+DEFINES  := -D__PS3__ -DAPP_DIR='"/dev_hdd0/game/$(APPID)/USRDIR"'
+INCLUDES := -Isrc -Isrc/ps3 $(LIBPSL1GHT_INC) -I$(PORTLIBS)/include
+
+OPT      := -O2
+CFLAGS   := $(OPT) -Werror=implicit-function-declaration -mcpu=cell -mtune=cell -mno-altivec -mminimal-toc $(MACHDEP) \
+	-std=gnu99 -fsigned-char -fno-strict-aliasing -fno-common -fwrapv \
+	-Wall -Wno-unused-variable -Wno-unused-but-set-variable -Wno-pointer-sign \
+	-Wno-unused-function -Wno-format-truncation -Wno-stringop-truncation \
+	-MMD -MP $(DEFINES) $(INCLUDES)
+LDFLAGS  := $(MACHDEP) -Wl,--no-multi-toc $(LIBPSL1GHT_LIB) -L$(PORTLIBS)/lib
+LIBS     := -lrsx -lgcm_sys -lio -lsysfs -lsysmodule -lsysutil -laudio -lrt -llv2 -lm
+
+.PHONY: all pkg self clean pkgfiles
+
+all: pkg
+pkg: $(TARGET).pkg
+self: $(TARGET).self
+
+$(OBJDIR)/%.o: %.c
+	@mkdir -p $(@D)
+	@echo $<
+	@$(CC) $(CFLAGS) -c $< -o $@
+
+$(OBJDIR)/src/ps3/video_ps3.o: CFLAGS := $(filter-out $(OPT),$(CFLAGS)) -O1 -fno-inline
+$(OBJDIR)/src/ps3/ntfs_ps3.o: CFLAGS += -I$(NTFS_DIR)/include
+
+$(OBJDIR)/$(NTFS_DIR)/%.o: $(NTFS_DIR)/%.c
+	@mkdir -p $(@D)
+	@echo $<
+	@$(CC) $(NTFS_CFLAGS) -c $< -o $@
+
+# (ntfs_vol.c reads the library's volume: its flags and headers, not the app's)
+$(OBJDIR)/src/ps3/ntfs_vol.o: src/ps3/ntfs_vol.c
+	@mkdir -p $(@D)
+	@echo $<
+	@$(CC) $(filter-out -w,$(NTFS_CFLAGS)) -Wall -c $< -o $@
+
+$(NTFS_LIB): $(NTFS_OBJ)
+	@rm -f $@
+	@$(AR) rcs $@ $(NTFS_OBJ)
+
+$(TARGET).elf: $(OBJECTS) $(NTFS_LIB)
+	@echo linking $(notdir $@)
+	@$(CC) $(LDFLAGS) $(OBJECTS) $(NTFS_LIB) $(LIBS) -o $@
+
+# what ppu_rules' %.pkg rule copies next to EBOOT.BIN
+pkgfiles:
+	@rm -rf $(PKGFILES)
+	@mkdir -p $(PKGFILES)/USRDIR
+	@cp art/PIC1.PNG $(PKGFILES)/PIC1.PNG
+	@cp -r data $(PKGFILES)/USRDIR/data
+
+$(TARGET).pkg: | pkgfiles
+
+clean:
+	rm -rf build/ps3
+
+-include $(OBJECTS:.o=.d) $(NTFS_OBJ:.o=.d)
